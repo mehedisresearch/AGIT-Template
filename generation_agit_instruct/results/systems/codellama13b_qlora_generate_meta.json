@@ -1,0 +1,8 @@
+{
+  "n": 77,
+  "model_name": "/gpuhome/shanto1/models/CodeLlama-13b-Instruct-hf",
+  "checkpoint": "exports/generic_intent_fulltest/codellama13b_lora/outputs/qlora/best",
+  "predictions_json": "exports/generic_intent_fulltest/codellama13b_lora/predictions.json",
+  "predictions_jsonl": "exports/generic_intent_fulltest/codellama13b_lora/predictions.jsonl",
+  "elapsed_sec": 1878.0
+}

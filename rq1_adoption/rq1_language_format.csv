@@ -1,0 +1,11 @@
+language,n,any_pct,AGENTS.md,CLAUDE.md,Cursor rules,Copilot instructions,dominant
+TypeScript,258,65.9,51.9,43.8,6.6,15.1,AGENTS.md
+Python,192,49.5,39.1,32.3,3.6,14.1,AGENTS.md
+C#,88,69.3,40.9,10.2,0.0,53.4,Copilot instructions
+Go,86,53.5,30.2,29.1,4.7,16.3,AGENTS.md
+Rust,55,67.3,47.3,45.5,1.8,12.7,AGENTS.md
+JavaScript,53,39.6,20.8,22.6,1.9,15.1,CLAUDE.md
+C++,48,60.4,27.1,25.0,4.2,39.6,Copilot instructions
+Java,34,70.6,61.8,44.1,2.9,26.5,AGENTS.md
+C,21,61.9,47.6,19.0,0.0,14.3,AGENTS.md
+PHP,17,52.9,47.1,23.5,0.0,35.3,AGENTS.md

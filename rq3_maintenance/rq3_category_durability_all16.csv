@@ -1,0 +1,17 @@
+category,heading_adds,heading_dels,total_edits,survive_rate
+Build / run / install,959,239,1198,0.801
+Do / Don't rules,685,145,830,0.825
+Tooling-specific agent config,383,149,532,0.72
+Architecture / design constraints,329,87,416,0.791
+Repository structure,336,78,414,0.812
+Git / PR / commit conventions,309,51,360,0.858
+Test / CI commands,266,58,324,0.821
+Code style / formatting,215,57,272,0.79
+Project overview / purpose,190,66,256,0.742
+Domain models / key abstractions,156,64,220,0.709
+API / interface contracts,135,33,168,0.804
+Performance,131,34,165,0.794
+Security / secrets,116,18,134,0.866
+Examples / few-shot snippets,73,19,92,0.793
+Maintenance / when to update,7,1,8,0.875
+Ownership / contacts,7,0,7,1.0

@@ -1,0 +1,43 @@
+{
+  "choice": "expanded_stratified_n386",
+  "rationale": "No artifact in agit_model documents a population of exactly 386. Closest category total is Test/CI commands (381). We therefore expand the existing n=150 similarity-stratified LLM consistency check to n=386 using the same low/mid/high bins (<0.5 / 0.5\u20130.85 / \u22650.85), keeping all 150 original pairs and topping up to 128/128/130 (seed=42).",
+  "population": {
+    "n_pairs": 3154,
+    "n_multi_format_repos": 314,
+    "available_low": 1596,
+    "available_mid": 555,
+    "available_high": 1003
+  },
+  "sample": {
+    "n": 386,
+    "seed": 42,
+    "strata": {
+      "low": 128,
+      "mid": 128,
+      "high": 130
+    },
+    "n_from_original_150": 150,
+    "n_new": 236,
+    "text_truncation_chars": 800,
+    "auto_label_counts": {
+      "Divergent": 160,
+      "Equivalent": 129,
+      "Contradictory": 21,
+      "Complementary": 76
+    },
+    "auto_label_rates_pct": {
+      "Divergent": 41.5,
+      "Equivalent": 33.4,
+      "Contradictory": 5.4,
+      "Complementary": 19.7
+    }
+  },
+  "n150_llm_reference": {
+    "Equivalent": 48,
+    "Complementary": 79,
+    "Divergent": 23,
+    "Contradictory": 0
+  },
+  "model": "gpt-4o",
+  "prompt_source": "MRcd.py (editor history) \u2014 identical SYSTEM + user schema"
+}

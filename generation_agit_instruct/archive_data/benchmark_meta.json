@@ -1,0 +1,97 @@
+{
+  "benchmark": "AGIT-Instruct (RQ2 four-format)",
+  "official_splits": {
+    "train": {
+      "n_files": 1432,
+      "n_repos": 404,
+      "n_category_sections": 4178
+    },
+    "val": {
+      "n_files": 321,
+      "n_repos": 66,
+      "n_category_sections": 1006
+    },
+    "test": {
+      "n_files": 75,
+      "n_repos": 64,
+      "n_category_sections": 642
+    },
+    "files": [
+      "train.json",
+      "val.json",
+      "test.json"
+    ],
+    "legacy_aliases": [
+      "generic_instruct_train.json",
+      "generic_instruct_val.json",
+      "generic_instruct_test.json"
+    ]
+  },
+  "reported_eval_subset": {
+    "name": "test_eval_62",
+    "file": "test_eval_62.json",
+    "n_files": 62,
+    "n_repos": 52,
+    "n_category_sections": 556,
+    "n_in_official_test75": 61,
+    "n_extra": 1,
+    "note": "Predictions for all four systems were scored on this subset. Origin: mixed-format fulltest n=77 → drop SKILL/GEMINI → n=62. 61/62 overlap the official test=75; 1 file (fgmacedo_python-statemachine CLAUDE.md) is outside the rebuilt official test.",
+    "recommendation": "Cite train/val/test = 1432/321/75 as the established benchmark split. Cite n=62 only as the reported multi-system evaluation subset until full test=75 preds exist."
+  },
+  "corpus_after_filtration": {
+    "n_files": 2853,
+    "n_repos": 552,
+    "by_format": {
+      "AGENTS": 1565,
+      "CLAUDE": 819,
+      "Copilot": 447,
+      "Cursor": 22
+    },
+    "provenance_dir": "provenance/"
+  },
+  "filtration_funnel": [
+    {
+      "step": 1,
+      "name": "Combined instruct pairs (≥2 sections, pre–format filter)",
+      "n_files": 3889,
+      "n_repos": 557
+    },
+    {
+      "step": 2,
+      "name": "RQ2 four formats only (drop SKILL/GEMINI/README/other)",
+      "n_files": 2853,
+      "n_repos": 552
+    },
+    {
+      "step": 3,
+      "name": "≥2 sections (already satisfied; no extra drop)",
+      "n_files": 2853,
+      "n_repos": 552
+    },
+    {
+      "step": 4,
+      "name": "Generic-intent eligible (n_sections>0 & n_with_intent>0)",
+      "n_files": 2568,
+      "n_repos": 534
+    },
+    {
+      "step": 5,
+      "name": "Repo-holdout + category-stratified test (k=25); drop other files from test repos",
+      "n_files": 1828,
+      "n_repos": 534,
+      "n_dropped_holdout_files": 740
+    },
+    {
+      "step": 6,
+      "name": "Final official splits train/val/test",
+      "n_train": 1432,
+      "n_val": 321,
+      "n_test": 75,
+      "n_train_repos": 404,
+      "n_val_repos": 66,
+      "n_test_repos": 64
+    }
+  ],
+  "seed": 42,
+  "k_per_category": 25
+}

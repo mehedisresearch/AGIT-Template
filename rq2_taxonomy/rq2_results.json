@@ -1,0 +1,1275 @@
+{
+  "n_files": 3387,
+  "files_per_type": {
+    "CLAUDE.md": 1107,
+    "Cursor rules": 65,
+    "Copilot instructions": 538,
+    "AGENTS.md": 1677
+  },
+  "file_stats": [
+    {
+      "type": "AGENTS.md",
+      "n_files": 1677,
+      "median_chars": 5043,
+      "mean_chars": 7496,
+      "median_headings": 9.0,
+      "vocab_heads": 13529,
+      "mean_categories": 9.56
+    },
+    {
+      "type": "CLAUDE.md",
+      "n_files": 1107,
+      "median_chars": 3903,
+      "mean_chars": 6010,
+      "median_headings": 8.0,
+      "vocab_heads": 7669,
+      "mean_categories": 8.59
+    },
+    {
+      "type": "Cursor rules",
+      "n_files": 65,
+      "median_chars": 1677,
+      "mean_chars": 3022,
+      "median_headings": 6.0,
+      "vocab_heads": 591,
+      "mean_categories": 6.46
+    },
+    {
+      "type": "Copilot instructions",
+      "n_files": 538,
+      "median_chars": 3262,
+      "mean_chars": 5986,
+      "median_headings": 8.0,
+      "vocab_heads": 5881,
+      "mean_categories": 8.38
+    }
+  ],
+  "heading_jaccard_vocabulary": [
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "CLAUDE.md",
+      "jaccard_headings": 0.2329,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 4005,
+      "union_headings": 17193,
+      "|A|_heads": 13529,
+      "|B|_heads": 7669
+    },
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "Cursor rules",
+      "jaccard_headings": 0.0071,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 99,
+      "union_headings": 14021,
+      "|A|_heads": 13529,
+      "|B|_heads": 591
+    },
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "Copilot instructions",
+      "jaccard_headings": 0.0539,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 993,
+      "union_headings": 18417,
+      "|A|_heads": 13529,
+      "|B|_heads": 5881
+    },
+    {
+      "type_a": "CLAUDE.md",
+      "type_b": "Cursor rules",
+      "jaccard_headings": 0.0109,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 89,
+      "union_headings": 8171,
+      "|A|_heads": 7669,
+      "|B|_heads": 591
+    },
+    {
+      "type_a": "CLAUDE.md",
+      "type_b": "Copilot instructions",
+      "jaccard_headings": 0.0503,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 649,
+      "union_headings": 12901,
+      "|A|_heads": 7669,
+      "|B|_heads": 5881
+    },
+    {
+      "type_a": "Cursor rules",
+      "type_b": "Copilot instructions",
+      "jaccard_headings": 0.0138,
+      "jaccard_categories": 1.0,
+      "intersect_headings": 88,
+      "union_headings": 6384,
+      "|A|_heads": 591,
+      "|B|_heads": 5881
+    }
+  ],
+  "within_repo_pair_summary": [
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "CLAUDE.md",
+      "n_repos": 185,
+      "mean_jaccard_headings": 0.448,
+      "median_jaccard_headings": 0.273,
+      "mean_jaccard_categories": 0.8,
+      "median_jaccard_categories": 0.929
+    },
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "Copilot instructions",
+      "n_repos": 94,
+      "mean_jaccard_headings": 0.132,
+      "median_jaccard_headings": 0.0,
+      "mean_jaccard_categories": 0.698,
+      "median_jaccard_categories": 0.733
+    },
+    {
+      "type_a": "CLAUDE.md",
+      "type_b": "Copilot instructions",
+      "n_repos": 58,
+      "mean_jaccard_headings": 0.148,
+      "median_jaccard_headings": 0.0,
+      "mean_jaccard_categories": 0.663,
+      "median_jaccard_categories": 0.701
+    },
+    {
+      "type_a": "CLAUDE.md",
+      "type_b": "Cursor rules",
+      "n_repos": 11,
+      "mean_jaccard_headings": 0.004,
+      "median_jaccard_headings": 0.0,
+      "mean_jaccard_categories": 0.521,
+      "median_jaccard_categories": 0.462
+    },
+    {
+      "type_a": "AGENTS.md",
+      "type_b": "Cursor rules",
+      "n_repos": 8,
+      "mean_jaccard_headings": 0.008,
+      "median_jaccard_headings": 0.0,
+      "mean_jaccard_categories": 0.689,
+      "median_jaccard_categories": 0.679
+    },
+    {
+      "type_a": "Cursor rules",
+      "type_b": "Copilot instructions",
+      "n_repos": 2,
+      "mean_jaccard_headings": 0.0,
+      "median_jaccard_headings": 0.0,
+      "mean_jaccard_categories": 0.719,
+      "median_jaccard_categories": 0.719
+    }
+  ],
+  "within_repo_n_pairs": 358,
+  "shared_core_n": 561,
+  "shared_all4_n": 65,
+  "shared_core_top50": [
+    {
+      "heading": "commands",
+      "count": 397,
+      "n_types": 4
+    },
+    {
+      "heading": "agents.md",
+      "count": 312,
+      "n_types": 3
+    },
+    {
+      "heading": "testing",
+      "count": 298,
+      "n_types": 4
+    },
+    {
+      "heading": "architecture",
+      "count": 222,
+      "n_types": 4
+    },
+    {
+      "heading": "project overview",
+      "count": 208,
+      "n_types": 3
+    },
+    {
+      "heading": "purpose",
+      "count": 187,
+      "n_types": 3
+    },
+    {
+      "heading": "verification",
+      "count": 172,
+      "n_types": 3
+    },
+    {
+      "heading": "code style",
+      "count": 137,
+      "n_types": 4
+    },
+    {
+      "heading": "development workflow",
+      "count": 133,
+      "n_types": 4
+    },
+    {
+      "heading": "notes",
+      "count": 131,
+      "n_types": 4
+    },
+    {
+      "heading": "overview",
+      "count": 130,
+      "n_types": 4
+    },
+    {
+      "heading": "python",
+      "count": 115,
+      "n_types": 3
+    },
+    {
+      "heading": "project structure",
+      "count": 106,
+      "n_types": 4
+    },
+    {
+      "heading": "documentation",
+      "count": 87,
+      "n_types": 3
+    },
+    {
+      "heading": "development commands",
+      "count": 86,
+      "n_types": 3
+    },
+    {
+      "heading": "architecture overview",
+      "count": 85,
+      "n_types": 3
+    },
+    {
+      "heading": "best practices",
+      "count": 83,
+      "n_types": 4
+    },
+    {
+      "heading": "running tests",
+      "count": 83,
+      "n_types": 3
+    },
+    {
+      "heading": "error handling",
+      "count": 77,
+      "n_types": 4
+    },
+    {
+      "heading": "prerequisites",
+      "count": 73,
+      "n_types": 4
+    },
+    {
+      "heading": "repository structure",
+      "count": 64,
+      "n_types": 3
+    },
+    {
+      "heading": "environment variables",
+      "count": 63,
+      "n_types": 3
+    },
+    {
+      "heading": "essential commands",
+      "count": 62,
+      "n_types": 3
+    },
+    {
+      "heading": "code quality",
+      "count": 61,
+      "n_types": 4
+    },
+    {
+      "heading": "development",
+      "count": 60,
+      "n_types": 4
+    },
+    {
+      "heading": "dependencies",
+      "count": 57,
+      "n_types": 4
+    },
+    {
+      "heading": "rules",
+      "count": 57,
+      "n_types": 3
+    },
+    {
+      "heading": "configuration",
+      "count": 56,
+      "n_types": 3
+    },
+    {
+      "heading": "directory structure",
+      "count": 55,
+      "n_types": 3
+    },
+    {
+      "heading": "run tests",
+      "count": 55,
+      "n_types": 3
+    },
+    {
+      "heading": "repository overview",
+      "count": 53,
+      "n_types": 3
+    },
+    {
+      "heading": "performance considerations",
+      "count": 52,
+      "n_types": 4
+    },
+    {
+      "heading": "common patterns",
+      "count": 51,
+      "n_types": 3
+    },
+    {
+      "heading": "file organization",
+      "count": 51,
+      "n_types": 4
+    },
+    {
+      "heading": "quick reference",
+      "count": 51,
+      "n_types": 3
+    },
+    {
+      "heading": "structure",
+      "count": 51,
+      "n_types": 3
+    },
+    {
+      "heading": "build",
+      "count": 50,
+      "n_types": 3
+    },
+    {
+      "heading": "key commands",
+      "count": 50,
+      "n_types": 3
+    },
+    {
+      "heading": "validation",
+      "count": 50,
+      "n_types": 3
+    },
+    {
+      "heading": "conventions",
+      "count": 49,
+      "n_types": 3
+    },
+    {
+      "heading": "testing guidelines",
+      "count": 49,
+      "n_types": 3
+    },
+    {
+      "heading": "naming conventions",
+      "count": 48,
+      "n_types": 4
+    },
+    {
+      "heading": "troubleshooting",
+      "count": 48,
+      "n_types": 3
+    },
+    {
+      "heading": "key files",
+      "count": 47,
+      "n_types": 3
+    },
+    {
+      "heading": "key patterns",
+      "count": 47,
+      "n_types": 3
+    },
+    {
+      "heading": "pull request guidelines",
+      "count": 47,
+      "n_types": 3
+    },
+    {
+      "heading": "common commands",
+      "count": 46,
+      "n_types": 3
+    },
+    {
+      "heading": "services",
+      "count": 46,
+      "n_types": 3
+    },
+    {
+      "heading": "key directories",
+      "count": 45,
+      "n_types": 3
+    },
+    {
+      "heading": "tech stack",
+      "count": 44,
+      "n_types": 3
+    }
+  ],
+  "shared_all4_sample": [
+    "accessibility requirements",
+    "api endpoints",
+    "architecture",
+    "authentication",
+    "best practices",
+    "breaking changes",
+    "build and test",
+    "caching",
+    "code quality",
+    "code standards",
+    "code style",
+    "coding conventions",
+    "coding style",
+    "commands",
+    "common issues",
+    "common mistakes to avoid",
+    "common pitfalls to avoid",
+    "content guidelines",
+    "core concepts",
+    "core principles",
+    "cross-references",
+    "debugging",
+    "dependencies",
+    "description",
+    "development",
+    "development workflow",
+    "do",
+    "do not",
+    "documentation structure",
+    "environment configuration",
+    "environment setup",
+    "error handling",
+    "file organization",
+    "file structure",
+    "git operations",
+    "guidelines",
+    "icons",
+    "implementation guidelines",
+    "important notes",
+    "instructions"
+  ],
+  "unique_heading_counts": {
+    "AGENTS.md": 9054,
+    "CLAUDE.md": 3548,
+    "Cursor rules": 465,
+    "Copilot instructions": 4765
+  },
+  "unique_headings_top20": {
+    "AGENTS.md": [
+      "+",
+      "+ fallback",
+      "+ magic mcp",
+      "-",
+      "- attribution.txt",
+      "- component ui/components/feature-name/feature-name.tsx",
+      "- controller read .cursor/rules/mms-controller-guidelines/rule.md",
+      "- define metadata for all state properties",
+      "- define state type",
+      "- export getdefaultyourcontrollerstate function",
+      "- extend basecontroller from metamask/base-controller",
+      "- lavamoat/browserify/ /policy.json",
+      "- lavamoat/build-system/policy.json",
+      "- package.json",
+      "- react component read .cursor/rules/mms-coding-guidelines/rule.md",
+      "- test read .cursor/rules/mms-unit-testing/rule.md",
+      "- test ui/components/feature-name/feature-name.test.tsx",
+      "- types ui/components/feature-name/feature-name.types.ts",
+      "- use messenger for inter-controller communication",
+      "- use selectors for derived state not getter methods"
+    ],
+    "CLAUDE.md": [
+      "----------------------------------------------------------------------------",
+      "... make changes ...",
+      "/docs",
+      "/src/lib.rs",
+      "/src/post_process/",
+      "/src/query/",
+      "/src/solution_space/",
+      "/src/solve/",
+      "1. blockingqueue for async operations",
+      "1. blogpost draft planning",
+      "1. common package types packages/common/src/types/savedcharts.ts",
+      "1. data fetching / rendering separation",
+      "1. environment variables global",
+      "1. evidence-based development",
+      "1. feature flag testing",
+      "1. generate logits with max pipeline",
+      "1. goal",
+      "1. identify target dashboard",
+      "1. install ollama if not already installed",
+      "1. lint format or rely on pre-commit hooks"
+    ],
+    "Cursor rules": [
+      "- chromium behavior changes",
+      "- electron api changes",
+      "- node.js api changes",
+      ".env - required for secret encryption",
+      "/packages/server/package.json",
+      "/packages/types/package.json",
+      "/scripts/binary/binary-integrity-check-source.js",
+      "/src - commands",
+      "/src/components/actions/ - action components",
+      "/src/components/views/ - view components",
+      "/src/hooks/ - custom react hooks",
+      "/src/types/ - typescript definitions",
+      "/src/utils/ - utilities",
+      "1. add token to all theme scss files",
+      "1. decode untrusted data safely",
+      "1. do not allow user input to control target urls",
+      "1. migrate wrangler.toml configuration",
+      "1. view file structure",
+      "10. avoid reflection unsafe and cgo for untrusted data",
+      "11. operational hardening"
+    ],
+    "Copilot instructions": [
+      "- apiresponse with specific schema",
+      "- contains /items/ .ios.cs not items2 ios deprecated prefer items2/",
+      "- contains /items/android/ android only implementation work here",
+      "- contains /items/windows/ or .windows.cs windows only implementation work here",
+      "- contains /items2/ios/ or items2/ .ios.cs ios/maccatalyst current",
+      "- docs/samples/ user examples",
+      "- enables -wall -werror -wextra compiler flags",
+      "- ensures strict code quality standards",
+      "- navigate to test class in dotcms-integration/",
+      "- operation for each method",
+      "- presidio-anonymizer takes analyzer results",
+      "- presidio-cli displays results",
+      "- presidio-structured processes tabular data",
+      "- required for all contributions",
+      "- right-click test method debug",
+      "- set breakpoints",
+      "- tag at class level",
+      "- tests run in 10-30 seconds",
+      "- treats all warnings as errors",
+      "- wsl default - general wsl tracing"
+    ]
+  },
+  "category_prevalence": [
+    {
+      "category": "1. Project overview / purpose",
+      "AGENTS.md": 48.6,
+      "CLAUDE.md": 39.5,
+      "Cursor rules": 23.1,
+      "Copilot instructions": 42.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "2. Repository structure",
+      "AGENTS.md": 77.5,
+      "CLAUDE.md": 68.3,
+      "Cursor rules": 69.2,
+      "Copilot instructions": 67.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "3. Build / run / install",
+      "AGENTS.md": 87.1,
+      "CLAUDE.md": 71.2,
+      "Cursor rules": 55.4,
+      "Copilot instructions": 70.1,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "4. Test / CI commands",
+      "AGENTS.md": 79.5,
+      "CLAUDE.md": 62.1,
+      "Cursor rules": 36.9,
+      "Copilot instructions": 57.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "5. Code style / formatting",
+      "AGENTS.md": 51.9,
+      "CLAUDE.md": 49.0,
+      "Cursor rules": 50.8,
+      "Copilot instructions": 58.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "6. Architecture / design constraints",
+      "AGENTS.md": 60.7,
+      "CLAUDE.md": 58.3,
+      "Cursor rules": 44.6,
+      "Copilot instructions": 55.0,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "7. Domain models / key abstractions",
+      "AGENTS.md": 69.5,
+      "CLAUDE.md": 64.0,
+      "Cursor rules": 50.8,
+      "Copilot instructions": 59.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "8. API / interface contracts",
+      "AGENTS.md": 64.3,
+      "CLAUDE.md": 55.6,
+      "Cursor rules": 52.3,
+      "Copilot instructions": 51.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "9. Do / Don't rules",
+      "AGENTS.md": 80.1,
+      "CLAUDE.md": 69.8,
+      "Cursor rules": 84.6,
+      "Copilot instructions": 90.5,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "10. Security / secrets",
+      "AGENTS.md": 36.3,
+      "CLAUDE.md": 29.9,
+      "Cursor rules": 21.5,
+      "Copilot instructions": 32.0,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "11. Performance",
+      "AGENTS.md": 32.7,
+      "CLAUDE.md": 39.2,
+      "Cursor rules": 26.2,
+      "Copilot instructions": 36.2,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "12. Git / PR / commit conventions",
+      "AGENTS.md": 58.1,
+      "CLAUDE.md": 48.8,
+      "Cursor rules": 15.4,
+      "Copilot instructions": 52.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "13. Tooling-specific agent config",
+      "AGENTS.md": 76.3,
+      "CLAUDE.md": 81.8,
+      "Cursor rules": 36.9,
+      "Copilot instructions": 61.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "14. Examples / few-shot snippets",
+      "AGENTS.md": 71.7,
+      "CLAUDE.md": 64.1,
+      "Cursor rules": 60.0,
+      "Copilot instructions": 57.4,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "15. Ownership / contacts",
+      "AGENTS.md": 25.6,
+      "CLAUDE.md": 17.9,
+      "Cursor rules": 15.4,
+      "Copilot instructions": 16.2,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "16. Maintenance / when to update",
+      "AGENTS.md": 36.6,
+      "CLAUDE.md": 39.7,
+      "Cursor rules": 3.1,
+      "Copilot instructions": 26.8,
+      "n_types_ge5pct": 3
+    }
+  ],
+  "shared_strong_categories": [
+    {
+      "category": "2. Repository structure",
+      "AGENTS.md": 77.5,
+      "CLAUDE.md": 68.3,
+      "Cursor rules": 69.2,
+      "Copilot instructions": 67.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "3. Build / run / install",
+      "AGENTS.md": 87.1,
+      "CLAUDE.md": 71.2,
+      "Cursor rules": 55.4,
+      "Copilot instructions": 70.1,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "4. Test / CI commands",
+      "AGENTS.md": 79.5,
+      "CLAUDE.md": 62.1,
+      "Cursor rules": 36.9,
+      "Copilot instructions": 57.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "5. Code style / formatting",
+      "AGENTS.md": 51.9,
+      "CLAUDE.md": 49.0,
+      "Cursor rules": 50.8,
+      "Copilot instructions": 58.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "6. Architecture / design constraints",
+      "AGENTS.md": 60.7,
+      "CLAUDE.md": 58.3,
+      "Cursor rules": 44.6,
+      "Copilot instructions": 55.0,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "7. Domain models / key abstractions",
+      "AGENTS.md": 69.5,
+      "CLAUDE.md": 64.0,
+      "Cursor rules": 50.8,
+      "Copilot instructions": 59.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "8. API / interface contracts",
+      "AGENTS.md": 64.3,
+      "CLAUDE.md": 55.6,
+      "Cursor rules": 52.3,
+      "Copilot instructions": 51.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "9. Do / Don't rules",
+      "AGENTS.md": 80.1,
+      "CLAUDE.md": 69.8,
+      "Cursor rules": 84.6,
+      "Copilot instructions": 90.5,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "12. Git / PR / commit conventions",
+      "AGENTS.md": 58.1,
+      "CLAUDE.md": 48.8,
+      "Cursor rules": 15.4,
+      "Copilot instructions": 52.8,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "13. Tooling-specific agent config",
+      "AGENTS.md": 76.3,
+      "CLAUDE.md": 81.8,
+      "Cursor rules": 36.9,
+      "Copilot instructions": 61.9,
+      "n_types_ge5pct": 4
+    },
+    {
+      "category": "14. Examples / few-shot snippets",
+      "AGENTS.md": 71.7,
+      "CLAUDE.md": 64.1,
+      "Cursor rules": 60.0,
+      "Copilot instructions": 57.4,
+      "n_types_ge5pct": 4
+    }
+  ],
+  "unique_categories": [],
+  "gap_categories_max_lt_25pct": [],
+  "top_headings_per_type": {
+    "AGENTS.md": [
+      {
+        "heading": "agents.md",
+        "count": 293
+      },
+      {
+        "heading": "non-negotiable evidence trajectories real end-to-end tests",
+        "count": 250
+      },
+      {
+        "heading": "layout",
+        "count": 208
+      },
+      {
+        "heading": "commands",
+        "count": 202
+      },
+      {
+        "heading": "purpose",
+        "count": 164
+      },
+      {
+        "heading": "verification",
+        "count": 158
+      },
+      {
+        "heading": "testing",
+        "count": 153
+      },
+      {
+        "heading": "conventions / gotchas",
+        "count": 147
+      },
+      {
+        "heading": "config / env vars",
+        "count": 133
+      },
+      {
+        "heading": "child dox index",
+        "count": 129
+      },
+      {
+        "heading": "purpose / role",
+        "count": 129
+      },
+      {
+        "heading": "ownership",
+        "count": 128
+      },
+      {
+        "heading": "local contracts",
+        "count": 128
+      },
+      {
+        "heading": "work guidance",
+        "count": 128
+      },
+      {
+        "heading": "how to extend",
+        "count": 127
+      },
+      {
+        "heading": "architecture",
+        "count": 123
+      },
+      {
+        "heading": "python",
+        "count": 110
+      },
+      {
+        "heading": "plugin surface",
+        "count": 106
+      },
+      {
+        "heading": "project overview",
+        "count": 99
+      },
+      {
+        "heading": "development workflow",
+        "count": 72
+      },
+      {
+        "heading": "overview",
+        "count": 70
+      },
+      {
+        "heading": "notes",
+        "count": 70
+      },
+      {
+        "heading": "code style",
+        "count": 67
+      },
+      {
+        "heading": "run",
+        "count": 57
+      },
+      {
+        "heading": "html/css",
+        "count": 56
+      },
+      {
+        "heading": "test the harness",
+        "count": 52
+      },
+      {
+        "heading": "javascript",
+        "count": 50
+      },
+      {
+        "heading": "prerequisites",
+        "count": 44
+      },
+      {
+        "heading": "pr",
+        "count": 42
+      },
+      {
+        "heading": "key commands",
+        "count": 42
+      }
+    ],
+    "CLAUDE.md": [
+      {
+        "heading": "non-negotiable evidence trajectories real end-to-end tests",
+        "count": 250
+      },
+      {
+        "heading": "layout",
+        "count": 209
+      },
+      {
+        "heading": "commands",
+        "count": 191
+      },
+      {
+        "heading": "claude.md",
+        "count": 160
+      },
+      {
+        "heading": "conventions / gotchas",
+        "count": 147
+      },
+      {
+        "heading": "config / env vars",
+        "count": 133
+      },
+      {
+        "heading": "purpose / role",
+        "count": 129
+      },
+      {
+        "heading": "how to extend",
+        "count": 127
+      },
+      {
+        "heading": "plugin surface",
+        "count": 106
+      },
+      {
+        "heading": "testing",
+        "count": 103
+      },
+      {
+        "heading": "architecture",
+        "count": 80
+      },
+      {
+        "heading": "project overview",
+        "count": 78
+      },
+      {
+        "heading": "notes",
+        "count": 57
+      },
+      {
+        "heading": "run",
+        "count": 55
+      },
+      {
+        "heading": "test the harness",
+        "count": 52
+      },
+      {
+        "heading": "development commands",
+        "count": 49
+      },
+      {
+        "heading": "code style",
+        "count": 48
+      },
+      {
+        "heading": "project structure",
+        "count": 43
+      },
+      {
+        "heading": "architecture overview",
+        "count": 42
+      },
+      {
+        "heading": "development workflow",
+        "count": 40
+      },
+      {
+        "heading": "fixture test addition guide",
+        "count": 36
+      },
+      {
+        "heading": "configuration",
+        "count": 29
+      },
+      {
+        "heading": "environment variables",
+        "count": 28
+      },
+      {
+        "heading": "run tests",
+        "count": 28
+      },
+      {
+        "heading": "essential commands",
+        "count": 27
+      },
+      {
+        "heading": "code quality",
+        "count": 27
+      },
+      {
+        "heading": "overview",
+        "count": 26
+      },
+      {
+        "heading": "running tests",
+        "count": 26
+      },
+      {
+        "heading": "development",
+        "count": 25
+      },
+      {
+        "heading": "through the suite orchestrator resolves provider/model stores results",
+        "count": 25
+      }
+    ],
+    "Cursor rules": [
+      {
+        "heading": "workflow",
+        "count": 6
+      },
+      {
+        "heading": "code style",
+        "count": 5
+      },
+      {
+        "heading": "error handling",
+        "count": 5
+      },
+      {
+        "heading": "globs",
+        "count": 4
+      },
+      {
+        "heading": "project structure",
+        "count": 4
+      },
+      {
+        "heading": "best practices",
+        "count": 4
+      },
+      {
+        "heading": "guidelines",
+        "count": 4
+      },
+      {
+        "heading": "file /package.json",
+        "count": 3
+      },
+      {
+        "heading": "common issues",
+        "count": 3
+      },
+      {
+        "heading": "preferences",
+        "count": 3
+      },
+      {
+        "heading": "example templates",
+        "count": 3
+      },
+      {
+        "heading": "canonical example",
+        "count": 2
+      },
+      {
+        "heading": "canonical examples",
+        "count": 2
+      },
+      {
+        "heading": "performance",
+        "count": 2
+      },
+      {
+        "heading": "command titles",
+        "count": 2
+      },
+      {
+        "heading": "command subtitles",
+        "count": 2
+      },
+      {
+        "heading": "ui/ux guidelines",
+        "count": 2
+      },
+      {
+        "heading": "navigation",
+        "count": 2
+      },
+      {
+        "heading": "empty states",
+        "count": 2
+      },
+      {
+        "heading": "placeholders",
+        "count": 2
+      },
+      {
+        "heading": "code quality",
+        "count": 2
+      },
+      {
+        "heading": "changelog format",
+        "count": 2
+      },
+      {
+        "heading": "overview",
+        "count": 2
+      },
+      {
+        "heading": "pagination with usefetch",
+        "count": 2
+      },
+      {
+        "heading": "ai features",
+        "count": 2
+      },
+      {
+        "heading": "naming conventions",
+        "count": 2
+      },
+      {
+        "heading": "dependencies",
+        "count": 2
+      },
+      {
+        "heading": "development",
+        "count": 2
+      },
+      {
+        "heading": "guidelines for maintaining code quality clarity and consistency across imports function usage and documentation",
+        "count": 2
+      },
+      {
+        "heading": "import statements quality",
+        "count": 2
+      }
+    ],
+    "Copilot instructions": [
+      {
+        "heading": "best practices",
+        "count": 43
+      },
+      {
+        "heading": "testing",
+        "count": 41
+      },
+      {
+        "heading": "overview",
+        "count": 32
+      },
+      {
+        "heading": "project overview",
+        "count": 31
+      },
+      {
+        "heading": "documentation",
+        "count": 29
+      },
+      {
+        "heading": "error handling",
+        "count": 27
+      },
+      {
+        "heading": "troubleshooting",
+        "count": 24
+      },
+      {
+        "heading": "project structure",
+        "count": 23
+      },
+      {
+        "heading": "running tests",
+        "count": 20
+      },
+      {
+        "heading": "naming conventions",
+        "count": 20
+      },
+      {
+        "heading": "development workflow",
+        "count": 20
+      },
+      {
+        "heading": "related documentation",
+        "count": 20
+      },
+      {
+        "heading": "validation",
+        "count": 19
+      },
+      {
+        "heading": "repository structure",
+        "count": 19
+      },
+      {
+        "heading": "architecture",
+        "count": 18
+      },
+      {
+        "heading": "performance considerations",
+        "count": 17
+      },
+      {
+        "heading": "code style",
+        "count": 17
+      },
+      {
+        "heading": "working effectively",
+        "count": 16
+      },
+      {
+        "heading": "prerequisites",
+        "count": 16
+      },
+      {
+        "heading": "purpose",
+        "count": 16
+      },
+      {
+        "heading": "key directories",
+        "count": 15
+      },
+      {
+        "heading": "repository overview",
+        "count": 15
+      },
+      {
+        "heading": "coding standards",
+        "count": 13
+      },
+      {
+        "heading": "technology stack",
+        "count": 13
+      },
+      {
+        "heading": "performance",
+        "count": 13
+      },
+      {
+        "heading": "common tasks",
+        "count": 12
+      },
+      {
+        "heading": "summary",
+        "count": 12
+      },
+      {
+        "heading": "architecture overview",
+        "count": 12
+      },
+      {
+        "heading": "do",
+        "count": 12
+      },
+      {
+        "heading": "common issues",
+        "count": 12
+      }
+    ]
+  },
+  "notes": {
+    "category_coding": "Automated keyword pilot (not dual-coder); Cohen \u03ba pending human coding",
+    "heading_jaccard_vocabulary": "Jaccard on union of normalized headings across all files of each type",
+    "within_repo": "Jaccard between formats that coexist in the same repository"
+  }
+}

@@ -1,0 +1,1164 @@
+{
+  "n_instruction_events": 2146,
+  "n_unique_files": 448,
+  "n_repos": 283,
+  "n_prs": 943,
+  "events_by_type": {
+    "AGENTS.md": 1182,
+    "Copilot instructions": 452,
+    "CLAUDE.md": 440,
+    "Cursor rules": 72
+  },
+  "events_by_agent": {
+    "OpenAI_Codex": 1364,
+    "Copilot": 435,
+    "Claude_Code": 167,
+    "Devin": 140,
+    "Cursor": 40
+  },
+  "events_by_status": {
+    "modified": 1375,
+    "added": 674,
+    "removed": 81,
+    "renamed": 16
+  },
+  "lifecycle_summary": [
+    {
+      "file_type": "AGENTS.md",
+      "n_files": 157,
+      "median_touches": 2.0,
+      "mean_touches": 7.53,
+      "median_authors": 1.0,
+      "mean_owner_top_share": 0.962,
+      "median_churn_ratio": 0.0,
+      "median_span_days": 0.0,
+      "pct_abandoned": 38.2,
+      "pct_burst_taper": 14.0,
+      "pct_continuous": 26.1,
+      "pct_sparse": 21.7,
+      "pct_ever_removed": 3.8
+    },
+    {
+      "file_type": "CLAUDE.md",
+      "n_files": 122,
+      "median_touches": 2.0,
+      "mean_touches": 3.61,
+      "median_authors": 1.0,
+      "mean_owner_top_share": 0.91,
+      "median_churn_ratio": 0.014,
+      "median_span_days": 0.0,
+      "pct_abandoned": 34.4,
+      "pct_burst_taper": 16.4,
+      "pct_continuous": 32.0,
+      "pct_sparse": 17.2,
+      "pct_ever_removed": 17.2
+    },
+    {
+      "file_type": "Cursor rules",
+      "n_files": 20,
+      "median_touches": 2.0,
+      "mean_touches": 3.6,
+      "median_authors": 1.0,
+      "mean_owner_top_share": 0.908,
+      "median_churn_ratio": 0.399,
+      "median_span_days": 0.0,
+      "pct_abandoned": 40.0,
+      "pct_burst_taper": 15.0,
+      "pct_continuous": 10.0,
+      "pct_sparse": 35.0,
+      "pct_ever_removed": 20.0
+    },
+    {
+      "file_type": "Copilot instructions",
+      "n_files": 149,
+      "median_touches": 2.0,
+      "mean_touches": 3.03,
+      "median_authors": 1.0,
+      "mean_owner_top_share": 0.885,
+      "median_churn_ratio": 0.0,
+      "median_span_days": 0.0,
+      "pct_abandoned": 47.7,
+      "pct_burst_taper": 8.7,
+      "pct_continuous": 24.2,
+      "pct_sparse": 19.5,
+      "pct_ever_removed": 2.7
+    }
+  ],
+  "pattern_counts": {
+    "AGENTS.md": {
+      "abandoned": 60,
+      "burst-taper": 22,
+      "continuous": 41,
+      "sparse": 34
+    },
+    "CLAUDE.md": {
+      "abandoned": 42,
+      "burst-taper": 20,
+      "continuous": 39,
+      "sparse": 21
+    },
+    "Cursor rules": {
+      "abandoned": 8,
+      "burst-taper": 3,
+      "continuous": 2,
+      "sparse": 7
+    },
+    "Copilot instructions": {
+      "abandoned": 71,
+      "burst-taper": 13,
+      "continuous": 36,
+      "sparse": 29
+    }
+  },
+  "trigger_counts": {
+    "AGENTS.md": {
+      "proactive": 620,
+      "proactive_cochange": 331,
+      "reactive": 195,
+      "unclear": 36
+    },
+    "CLAUDE.md": {
+      "proactive": 33,
+      "proactive_cochange": 287,
+      "reactive": 99,
+      "unclear": 21
+    },
+    "Cursor rules": {
+      "proactive": 21,
+      "proactive_cochange": 39,
+      "reactive": 10,
+      "unclear": 2
+    },
+    "Copilot instructions": {
+      "proactive": 68,
+      "proactive_cochange": 136,
+      "reactive": 218,
+      "unclear": 30
+    }
+  },
+  "trigger_pct": {
+    "AGENTS.md": {
+      "proactive": 52.5,
+      "proactive_cochange": 28.0,
+      "reactive": 16.5,
+      "unclear": 3.0
+    },
+    "CLAUDE.md": {
+      "proactive": 7.5,
+      "proactive_cochange": 65.2,
+      "reactive": 22.5,
+      "unclear": 4.8
+    },
+    "Cursor rules": {
+      "proactive": 29.2,
+      "proactive_cochange": 54.2,
+      "reactive": 13.9,
+      "unclear": 2.8
+    },
+    "Copilot instructions": {
+      "proactive": 15.0,
+      "proactive_cochange": 30.1,
+      "reactive": 48.2,
+      "unclear": 6.6
+    }
+  },
+  "cochange_rate": {
+    "AGENTS.md": 0.342,
+    "CLAUDE.md": 0.845,
+    "Copilot instructions": 0.681,
+    "Cursor rules": 0.667
+  },
+  "kruskal_wallis": [
+    {
+      "metric": "n_touches",
+      "H": 7.468,
+      "p": 0.058396264746555474
+    },
+    {
+      "metric": "n_authors",
+      "H": 11.777,
+      "p": 0.008186218536553054
+    },
+    {
+      "metric": "owner_top_share",
+      "H": 12.48,
+      "p": 0.00590607903197935
+    },
+    {
+      "metric": "churn_ratio",
+      "H": 31.017,
+      "p": 8.429216652502791e-07
+    },
+    {
+      "metric": "span_days",
+      "H": 1.857,
+      "p": 0.6026658217010572
+    },
+    {
+      "metric": "n_modified",
+      "H": 5.483,
+      "p": 0.13965111271515565
+    }
+  ],
+  "cliffs_delta": [
+    {
+      "metric": "n_touches",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": -0.081,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "n_touches",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": 0.098,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "n_touches",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.17,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "n_touches",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": 0.119,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "n_authors",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": -0.086,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "n_authors",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": -0.16,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "n_authors",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": -0.069,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "n_authors",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": -0.082,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "owner_top_share",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": 0.089,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "owner_top_share",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": 0.167,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "owner_top_share",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.069,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "owner_top_share",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": 0.088,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": -0.272,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": -0.087,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.189,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": -0.519,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "span_days",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": 0.032,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "span_days",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": 0.073,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "span_days",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.029,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "span_days",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": 0.125,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "n_modified",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": -0.113,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "n_modified",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": -0.014,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "n_modified",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.105,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "n_modified",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": -0.196,
+      "n_a": 157,
+      "n_b": 20
+    }
+  ],
+  "cliffs_medium_or_larger": [
+    {
+      "metric": "n_touches",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.17,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "n_authors",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": -0.16,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "owner_top_share",
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "delta": 0.167,
+      "n_a": 157,
+      "n_b": 149
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "delta": -0.272,
+      "n_a": 157,
+      "n_b": 122
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "delta": 0.189,
+      "n_a": 122,
+      "n_b": 149
+    },
+    {
+      "metric": "churn_ratio",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": -0.519,
+      "n_a": 157,
+      "n_b": 20
+    },
+    {
+      "metric": "n_modified",
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "delta": -0.196,
+      "n_a": 157,
+      "n_b": 20
+    }
+  ],
+  "durable_headings": [
+    {
+      "heading": "security features",
+      "added": 25,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 25
+    },
+    {
+      "heading": "running tests",
+      "added": 19,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 19
+    },
+    {
+      "heading": "deployment profiles",
+      "added": 18,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 18
+    },
+    {
+      "heading": "code standards",
+      "added": 18,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 18
+    },
+    {
+      "heading": "general guidelines",
+      "added": 18,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 18
+    },
+    {
+      "heading": "build commands",
+      "added": 18,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 18
+    },
+    {
+      "heading": "linting",
+      "added": 17,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 17
+    },
+    {
+      "heading": "setup",
+      "added": 15,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 15
+    },
+    {
+      "heading": "required before each commit",
+      "added": 15,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 15
+    },
+    {
+      "heading": "development setup",
+      "added": 14,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 14
+    },
+    {
+      "heading": "development tools",
+      "added": 13,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 13
+    },
+    {
+      "heading": "mcp",
+      "added": 13,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 13
+    },
+    {
+      "heading": "development features",
+      "added": 12,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 12
+    },
+    {
+      "heading": "essential commands",
+      "added": 12,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 12
+    },
+    {
+      "heading": "testing strategy",
+      "added": 12,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 12
+    },
+    {
+      "heading": "secrets/",
+      "added": 12,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 12
+    },
+    {
+      "heading": "operational procedures",
+      "added": 12,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 12
+    },
+    {
+      "heading": "example",
+      "added": 10,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 10
+    },
+    {
+      "heading": "common issues",
+      "added": 10,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 10
+    },
+    {
+      "heading": "version management",
+      "added": 10,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 10
+    },
+    {
+      "heading": "test organization",
+      "added": 10,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 10
+    },
+    {
+      "heading": "pull request rules",
+      "added": 10,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 10
+    },
+    {
+      "heading": "quick decision matrix",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "pattern 2b typed maps require specific view classes",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "security considerations",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "essential reference",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "dotcms rest api guide for claude ai",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "building and testing",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "pattern 3 generic utility classes when no specific class exists",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "pattern 4 complex dynamic json rare cases",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "adding new environment variables",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "setting up environment variables",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "3. ensure type safety",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "pattern 2 methods returning unwrapped collections/maps",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "notes",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "pattern 1 methods returning responseentity view wrappers",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "forbidden for ai",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "ai description requirements",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "ai-specific schema rules",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    },
+    {
+      "heading": "critical ai verification",
+      "added": 9,
+      "deleted": 0,
+      "survive_rate": 1.0,
+      "net": 9
+    }
+  ],
+  "ephemeral_headings": [
+    {
+      "heading": "users/ and files/",
+      "added": 2,
+      "deleted": 8,
+      "survive_rate": 0.2,
+      "net": -6
+    },
+    {
+      "heading": "build issues",
+      "added": 2,
+      "deleted": 4,
+      "survive_rate": 0.333,
+      "net": -2
+    },
+    {
+      "heading": "copilot instructions",
+      "added": 2,
+      "deleted": 3,
+      "survive_rate": 0.4,
+      "net": -1
+    },
+    {
+      "heading": "9. ward testing framework",
+      "added": 2,
+      "deleted": 3,
+      "survive_rate": 0.4,
+      "net": -1
+    },
+    {
+      "heading": "introduction",
+      "added": 1,
+      "deleted": 3,
+      "survive_rate": 0.25,
+      "net": -2
+    },
+    {
+      "heading": "updating ai instructions",
+      "added": 2,
+      "deleted": 3,
+      "survive_rate": 0.4,
+      "net": -1
+    },
+    {
+      "heading": "run unit tests for the entire monorepo",
+      "added": 1,
+      "deleted": 3,
+      "survive_rate": 0.25,
+      "net": -2
+    },
+    {
+      "heading": "run linting for the entire monorepo",
+      "added": 1,
+      "deleted": 3,
+      "survive_rate": 0.25,
+      "net": -2
+    },
+    {
+      "heading": "typescript test writing guide for copilot",
+      "added": 1,
+      "deleted": 3,
+      "survive_rate": 0.25,
+      "net": -2
+    },
+    {
+      "heading": "complex optional field handling but now that neo4j has a native timestamp type we can just use that instead of converting to int",
+      "added": 0,
+      "deleted": 3,
+      "survive_rate": 0.0,
+      "net": -3
+    },
+    {
+      "heading": "error handling patterns",
+      "added": 1,
+      "deleted": 3,
+      "survive_rate": 0.25,
+      "net": -2
+    },
+    {
+      "heading": "batch operations by type",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "error and warning patterns",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "error codes",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "mandatory agent coordination protocol",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "mandatory rule 1 batch everything",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "store decisions and findings",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "claude code handles",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "pre-operation hooks",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "development coordination example",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "android api management",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "the golden rule of swarms",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "store progress in memory after each file operation",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "visual task tracking format",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "api bindings",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "critical instruction you are the swarm orchestrator",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "git workflow",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "visual swarm status",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "common troubleshooting",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "agent prompt template",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "database architecture",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "check coordination with other agents",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "dependency bumps",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "research coordination example",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "best practices for coordination",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "generate api documentation",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "samples",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "you are the swarm orchestrator. immediately spawn agents in parallel to execute tasks",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "critical every agent must follow this protocol",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    },
+    {
+      "heading": "real example full-stack app development",
+      "added": 1,
+      "deleted": 2,
+      "survive_rate": 0.333,
+      "net": -1
+    }
+  ],
+  "category_durability": [
+    {
+      "category": "Ownership",
+      "heading_adds": 3,
+      "heading_dels": 0,
+      "survive_rate": 1.0,
+      "total_edits": 3
+    },
+    {
+      "category": "Git / PR",
+      "heading_adds": 311,
+      "heading_dels": 56,
+      "survive_rate": 0.847,
+      "total_edits": 367
+    },
+    {
+      "category": "Security",
+      "heading_adds": 161,
+      "heading_dels": 30,
+      "survive_rate": 0.843,
+      "total_edits": 191
+    },
+    {
+      "category": "Build / run / install",
+      "heading_adds": 547,
+      "heading_dels": 108,
+      "survive_rate": 0.835,
+      "total_edits": 655
+    },
+    {
+      "category": "Test / CI",
+      "heading_adds": 1131,
+      "heading_dels": 226,
+      "survive_rate": 0.833,
+      "total_edits": 1357
+    },
+    {
+      "category": "Do / Don't rules",
+      "heading_adds": 596,
+      "heading_dels": 124,
+      "survive_rate": 0.828,
+      "total_edits": 720
+    },
+    {
+      "category": "Code style",
+      "heading_adds": 371,
+      "heading_dels": 81,
+      "survive_rate": 0.821,
+      "total_edits": 452
+    },
+    {
+      "category": "Architecture",
+      "heading_adds": 405,
+      "heading_dels": 93,
+      "survive_rate": 0.813,
+      "total_edits": 498
+    },
+    {
+      "category": "Performance",
+      "heading_adds": 105,
+      "heading_dels": 26,
+      "survive_rate": 0.802,
+      "total_edits": 131
+    },
+    {
+      "category": "Maintenance",
+      "heading_adds": 23,
+      "heading_dels": 6,
+      "survive_rate": 0.793,
+      "total_edits": 29
+    },
+    {
+      "category": "Overview",
+      "heading_adds": 185,
+      "heading_dels": 50,
+      "survive_rate": 0.787,
+      "total_edits": 235
+    },
+    {
+      "category": "Tooling / agent",
+      "heading_adds": 425,
+      "heading_dels": 134,
+      "survive_rate": 0.76,
+      "total_edits": 559
+    }
+  ],
+  "task_type_dist": {
+    "feat": 727,
+    "docs": 473,
+    "fix": 282,
+    "test": 269,
+    "refactor": 183,
+    "chore": 67,
+    "build": 67,
+    "ci": 63,
+    "perf": 10,
+    "other": 3,
+    "style": 2
+  },
+  "human_pr_triangulation": {
+    "n_touches": 482,
+    "n_repos": 3,
+    "by_type": {
+      "Copilot instructions": 411,
+      "CLAUDE.md": 57,
+      "AGENTS.md": 14
+    },
+    "by_status": {
+      "modified": 375,
+      "added": 95,
+      "removed": 7,
+      "renamed": 5
+    },
+    "median_additions": 2.0,
+    "median_deletions": 1.0,
+    "mean_churn_proxy": 0.374
+  },
+  "template_mapping": {
+    "REQUIRED_durable_categories": [
+      "Git / PR",
+      "Security",
+      "Build / run / install",
+      "Test / CI",
+      "Do / Don't rules",
+      "Code style",
+      "Architecture",
+      "Performance"
+    ],
+    "OPTIONAL_lower_durability": [
+      "Maintenance",
+      "Overview",
+      "Tooling / agent"
+    ],
+    "maintenance_guidance_needed": true,
+    "reactive_pct_overall": 24.3,
+    "proactive_pct_overall": 34.6,
+    "proactive_cochange_pct_overall": 37.0,
+    "abandoned_pct_files": 40.4
+  },
+  "notes": {
+    "source": "AIDev-pop pr_commit_details filtered to instruction paths",
+    "timestamps": "PR merged_at (fallback created_at)",
+    "trigger_coding": "Automated heuristic; dual-coder \u03ba pending",
+    "abandoned_def": "Exactly one touch in AIDev-pop window"
+  }
+}

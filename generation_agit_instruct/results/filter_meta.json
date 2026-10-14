@@ -1,0 +1,477 @@
+{
+  "filter": "format_name_bucket (AGENTS/CLAUDE/Copilot/Cursor)",
+  "n_original": 77,
+  "n_kept": 62,
+  "n_removed": 15,
+  "n_intersect_4fmt_test": 61,
+  "removed_formats": {
+    "SKILL.md": 14,
+    "GEMINI.md": 1
+  },
+  "kept_formats": {
+    "CLAUDE.md": 21,
+    "packaging.instructions.md": 1,
+    "AGENTS.md": 23,
+    "copilot-instructions.md": 11,
+    "agents.md": 3,
+    "testing.instructions.md": 1,
+    "sandbox.instructions.md": 1,
+    "agents.instructions.md": 1
+  },
+  "kept_rq2_types": {
+    "CLAUDE": 21,
+    "Copilot": 15,
+    "AGENTS": 26
+  },
+  "removed_files": [
+    {
+      "idx": 2,
+      "repo": "Arize-ai_phoenix",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 9,
+      "repo": "NangoHQ_nango",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 11,
+      "repo": "SolidInvoice_SolidInvoice",
+      "format": "GEMINI.md"
+    },
+    {
+      "idx": 27,
+      "repo": "dotnet_aspire",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 43,
+      "repo": "mfts_papermark",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 46,
+      "repo": "microsoft_fluentui",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 47,
+      "repo": "microsoft_fluentui",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 53,
+      "repo": "netdata_netdata",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 54,
+      "repo": "netdata_netdata",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 59,
+      "repo": "openai_openai-agents-js",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 60,
+      "repo": "openai_openai-agents-python",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 64,
+      "repo": "ruvnet_claude-flow",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 73,
+      "repo": "vercel_next.js",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 74,
+      "repo": "windmill-labs_windmill",
+      "format": "SKILL.md"
+    },
+    {
+      "idx": 75,
+      "repo": "windmill-labs_windmill",
+      "format": "SKILL.md"
+    }
+  ],
+  "kept_files": [
+    {
+      "idx": 0,
+      "repo": "1517005260_graph-rag-agent",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 1,
+      "repo": "567-labs_instructor",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 3,
+      "repo": "Azure_Azure-Sentinel",
+      "format": "packaging.instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 4,
+      "repo": "Azure_azure-sdk-for-net",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 5,
+      "repo": "Azure_data-api-builder",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 6,
+      "repo": "Lumiwealth_lumibot",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 7,
+      "repo": "MervinPraison_PraisonAI",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 8,
+      "repo": "MetaMask_metamask-extension",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 10,
+      "repo": "OrchardCMS_OrchardCore",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 12,
+      "repo": "SolidInvoice_SolidInvoice",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 13,
+      "repo": "SolidInvoice_SolidInvoice",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 14,
+      "repo": "StarRocks_starrocks",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 15,
+      "repo": "StarRocks_starrocks",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 16,
+      "repo": "SuperClaude-Org_SuperClaude_Framework",
+      "format": "agents.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 17,
+      "repo": "actualbudget_actual",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 18,
+      "repo": "browser-use_browser-use",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 19,
+      "repo": "chrxh_alien",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 20,
+      "repo": "cloudposse_atmos",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 21,
+      "repo": "coleam00_context-engineering-intro",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 22,
+      "repo": "crewAIInc_crewAI",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 23,
+      "repo": "dartsim_dart",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 24,
+      "repo": "datahub-project_datahub",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 25,
+      "repo": "dotCMS_core",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 26,
+      "repo": "dotnet_SqlClient",
+      "format": "testing.instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 28,
+      "repo": "dotnet_dotnet",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 29,
+      "repo": "dotnet_maui",
+      "format": "sandbox.instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 30,
+      "repo": "elizaOS_eliza",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 31,
+      "repo": "elizaOS_eliza",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 32,
+      "repo": "eyaltoledano_claude-task-master",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 33,
+      "repo": "fgmacedo_python-statemachine",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 34,
+      "repo": "fgmacedo_python-statemachine",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 35,
+      "repo": "ggml-org_whisper.cpp",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 36,
+      "repo": "gronxb_hot-updater",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 37,
+      "repo": "labring_laf",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 38,
+      "repo": "langchain-ai_langchain",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 39,
+      "repo": "langchain-ai_langchain",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 40,
+      "repo": "mastra-ai_mastra",
+      "format": "agents.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 41,
+      "repo": "maybe-finance_maybe",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 42,
+      "repo": "meshtastic_firmware",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 44,
+      "repo": "microsoft_ApplicationInsights-JS",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 45,
+      "repo": "microsoft_PowerToys",
+      "format": "agents.instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 48,
+      "repo": "microsoft_garnet",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 49,
+      "repo": "microsoft_mcp-for-beginners",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 50,
+      "repo": "microsoft_mcp-for-beginners",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 51,
+      "repo": "microsoft_presidio",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 52,
+      "repo": "modular_modular",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 55,
+      "repo": "nuxeo_nuxeo",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 56,
+      "repo": "open-metadata_OpenMetadata",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 57,
+      "repo": "open-metadata_OpenMetadata",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 58,
+      "repo": "open-telemetry_opentelemetry-cpp",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 61,
+      "repo": "paradigmxyz_reth",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 62,
+      "repo": "robusta-dev_holmesgpt",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 63,
+      "repo": "robusta-dev_holmesgpt",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 65,
+      "repo": "sam-goodwin_alchemy",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 66,
+      "repo": "sam-goodwin_alchemy",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 67,
+      "repo": "scalar_scalar",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 68,
+      "repo": "skypilot-org_skypilot",
+      "format": "AGENTS.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 69,
+      "repo": "skypilot-org_skypilot",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 70,
+      "repo": "syncfusion_maui-toolkit",
+      "format": "copilot-instructions.md",
+      "rq2_type": "Copilot"
+    },
+    {
+      "idx": 71,
+      "repo": "thorsten_phpMyFAQ",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    },
+    {
+      "idx": 72,
+      "repo": "tinyplex_tinybase",
+      "format": "agents.md",
+      "rq2_type": "AGENTS"
+    },
+    {
+      "idx": 76,
+      "repo": "zenml-io_zenml",
+      "format": "CLAUDE.md",
+      "rq2_type": "CLAUDE"
+    }
+  ]
+}

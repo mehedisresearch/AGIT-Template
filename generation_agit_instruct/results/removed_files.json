@@ -1,0 +1,77 @@
+[
+  {
+    "idx": 2,
+    "repo": "Arize-ai_phoenix",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 9,
+    "repo": "NangoHQ_nango",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 11,
+    "repo": "SolidInvoice_SolidInvoice",
+    "format": "GEMINI.md"
+  },
+  {
+    "idx": 27,
+    "repo": "dotnet_aspire",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 43,
+    "repo": "mfts_papermark",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 46,
+    "repo": "microsoft_fluentui",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 47,
+    "repo": "microsoft_fluentui",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 53,
+    "repo": "netdata_netdata",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 54,
+    "repo": "netdata_netdata",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 59,
+    "repo": "openai_openai-agents-js",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 60,
+    "repo": "openai_openai-agents-python",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 64,
+    "repo": "ruvnet_claude-flow",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 73,
+    "repo": "vercel_next.js",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 74,
+    "repo": "windmill-labs_windmill",
+    "format": "SKILL.md"
+  },
+  {
+    "idx": 75,
+    "repo": "windmill-labs_windmill",
+    "format": "SKILL.md"
+  }
+]

@@ -1,0 +1,41 @@
+heading,added,deleted,survive_rate,net
+users/ and files/,2,8,0.2,-6
+build issues,2,4,0.333,-2
+copilot instructions,2,3,0.4,-1
+9. ward testing framework,2,3,0.4,-1
+introduction,1,3,0.25,-2
+updating ai instructions,2,3,0.4,-1
+run unit tests for the entire monorepo,1,3,0.25,-2
+run linting for the entire monorepo,1,3,0.25,-2
+typescript test writing guide for copilot,1,3,0.25,-2
+complex optional field handling but now that neo4j has a native timestamp type we can just use that instead of converting to int,0,3,0.0,-3
+error handling patterns,1,3,0.25,-2
+batch operations by type,1,2,0.333,-1
+error and warning patterns,1,2,0.333,-1
+error codes,1,2,0.333,-1
+mandatory agent coordination protocol,1,2,0.333,-1
+mandatory rule 1 batch everything,1,2,0.333,-1
+store decisions and findings,1,2,0.333,-1
+claude code handles,1,2,0.333,-1
+pre-operation hooks,1,2,0.333,-1
+development coordination example,1,2,0.333,-1
+android api management,1,2,0.333,-1
+the golden rule of swarms,1,2,0.333,-1
+store progress in memory after each file operation,1,2,0.333,-1
+visual task tracking format,1,2,0.333,-1
+api bindings,1,2,0.333,-1
+critical instruction you are the swarm orchestrator,1,2,0.333,-1
+git workflow,1,2,0.333,-1
+visual swarm status,1,2,0.333,-1
+common troubleshooting,1,2,0.333,-1
+agent prompt template,1,2,0.333,-1
+database architecture,1,2,0.333,-1
+check coordination with other agents,1,2,0.333,-1
+dependency bumps,1,2,0.333,-1
+research coordination example,1,2,0.333,-1
+best practices for coordination,1,2,0.333,-1
+generate api documentation,1,2,0.333,-1
+samples,1,2,0.333,-1
+you are the swarm orchestrator. immediately spawn agents in parallel to execute tasks,1,2,0.333,-1
+critical every agent must follow this protocol,1,2,0.333,-1
+real example full-stack app development,1,2,0.333,-1

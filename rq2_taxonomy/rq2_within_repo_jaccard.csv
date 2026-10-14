@@ -1,0 +1,359 @@
+repo,cohort,type_a,type_b,jaccard_headings,jaccard_categories,n_heads_a,n_heads_b
+top_repos/Arize-ai_phoenix,top,AGENTS.md,CLAUDE.md,0.17073170731707318,0.7857142857142857,82,14
+top_repos/Arize-ai_phoenix,top,AGENTS.md,Cursor rules,0.0,0.6428571428571429,82,17
+top_repos/Arize-ai_phoenix,top,CLAUDE.md,Cursor rules,0.0,0.6666666666666666,14,17
+top_repos/AstrBotDevs_AstrBot,top,AGENTS.md,Copilot instructions,0.0,0.6153846153846154,11,12
+top_repos/Azure-Samples_azure-search-openai-demo,top,AGENTS.md,Copilot instructions,0.0,0.26666666666666666,18,9
+top_repos/Azure_azure-sdk-for-net,top,AGENTS.md,Copilot instructions,0.0,0.625,138,11
+top_repos/Azure_azure-sdk-for-python,top,AGENTS.md,Copilot instructions,0.0,0.9285714285714286,26,27
+top_repos/BasedHardware_omi,top,AGENTS.md,CLAUDE.md,0.03,0.3125,98,5
+top_repos/BeehiveInnovations_zen-mcp-server,top,AGENTS.md,CLAUDE.md,0.0,0.8461538461538461,26,59
+top_repos/BerriAI_litellm,top,AGENTS.md,CLAUDE.md,0.024390243902439025,0.875,17,25
+top_repos/BoundaryML_baml,top,CLAUDE.md,Cursor rules,0.0,0.36363636363636365,25,5
+top_repos/CapSoftware_Cap,top,AGENTS.md,CLAUDE.md,0.0,0.09090909090909091,16,1
+top_repos/Chainlit_chainlit,top,AGENTS.md,CLAUDE.md,0.0,0.06666666666666667,22,1
+top_repos/Chainlit_chainlit,top,AGENTS.md,Copilot instructions,0.0,0.6,22,25
+top_repos/Chainlit_chainlit,top,CLAUDE.md,Copilot instructions,0.0,0.1111111111111111,1,25
+top_repos/ComposioHQ_composio,top,AGENTS.md,CLAUDE.md,0.6176470588235294,1.0,33,22
+top_repos/EricLBuehler_mistral.rs,top,AGENTS.md,CLAUDE.md,0.07692307692307693,0.7333333333333333,12,30
+top_repos/Flagsmith_flagsmith,top,AGENTS.md,CLAUDE.md,0.0,0.375,1,6
+top_repos/Floorp-Projects_Floorp,top,AGENTS.md,CLAUDE.md,0.8461538461538461,1.0,24,24
+top_repos/Floorp-Projects_Floorp,top,AGENTS.md,Copilot instructions,0.03225806451612903,0.9166666666666666,24,40
+top_repos/Floorp-Projects_Floorp,top,CLAUDE.md,Copilot instructions,0.03225806451612903,0.9166666666666666,24,40
+top_repos/Freika_dawarich,top,AGENTS.md,CLAUDE.md,0.0,0.8,8,64
+top_repos/Humanizr_Humanizer,top,AGENTS.md,CLAUDE.md,0.25,0.8333333333333334,20,25
+top_repos/JanDeDobbeleer_oh-my-posh,top,AGENTS.md,Copilot instructions,0.15,0.7692307692307693,9,14
+top_repos/NG-ZORRO_ng-zorro-antd,top,AGENTS.md,CLAUDE.md,0.875,1.0,7,8
+top_repos/NG-ZORRO_ng-zorro-antd,top,AGENTS.md,Copilot instructions,1.0,1.0,7,7
+top_repos/NG-ZORRO_ng-zorro-antd,top,CLAUDE.md,Copilot instructions,0.875,1.0,8,7
+top_repos/NangoHQ_nango,top,AGENTS.md,CLAUDE.md,0.125,0.75,47,7
+top_repos/Netflix_metaflow,top,AGENTS.md,CLAUDE.md,1.0,1.0,4,4
+top_repos/NewFuture_DDNS,top,AGENTS.md,Copilot instructions,0.02702702702702703,0.9375,21,55
+top_repos/PX4_PX4-Autopilot,top,CLAUDE.md,Copilot instructions,0.0,0.42857142857142855,1,16
+top_repos/PostHog_posthog,top,AGENTS.md,CLAUDE.md,1.0,1.0,351,351
+top_repos/Significant-Gravitas_AutoGPT,top,AGENTS.md,CLAUDE.md,0.017921146953405017,0.9375,143,141
+top_repos/Significant-Gravitas_AutoGPT,top,AGENTS.md,Copilot instructions,0.011976047904191617,0.9375,143,26
+top_repos/Significant-Gravitas_AutoGPT,top,CLAUDE.md,Copilot instructions,0.006024096385542169,1.0,141,26
+top_repos/Skyvern-AI_skyvern,top,AGENTS.md,CLAUDE.md,0.0,0.7333333333333333,11,39
+top_repos/SoftFever_OrcaSlicer,top,AGENTS.md,CLAUDE.md,0.0,0.6153846153846154,10,87
+top_repos/StarRocks_starrocks,top,AGENTS.md,CLAUDE.md,0.9387755102040817,1.0,245,230
+top_repos/StarRocks_starrocks,top,AGENTS.md,Copilot instructions,0.0,0.9375,245,20
+top_repos/StarRocks_starrocks,top,CLAUDE.md,Copilot instructions,0.0,0.9375,230,20
+top_repos/Stirling-Tools_Stirling-PDF,top,AGENTS.md,CLAUDE.md,1.0,1.0,24,24
+top_repos/SuperClaude-Org_SuperClaude_Framework,top,AGENTS.md,CLAUDE.md,0.005681818181818182,0.875,129,48
+top_repos/abi_screenshot-to-code,top,AGENTS.md,CLAUDE.md,1.0,1.0,5,5
+top_repos/activepieces_activepieces,top,AGENTS.md,CLAUDE.md,0.5833333333333334,1.0,45,50
+top_repos/afadil_wealthfolio,top,AGENTS.md,CLAUDE.md,0.2727272727272727,0.7857142857142857,20,8
+top_repos/ant-design_ant-design,top,AGENTS.md,CLAUDE.md,1.0,1.0,12,12
+top_repos/ant-design_ant-design,top,AGENTS.md,Copilot instructions,0.0,0.6875,12,19
+top_repos/ant-design_ant-design,top,CLAUDE.md,Copilot instructions,0.0,0.6875,12,19
+top_repos/ant-design_ant-design-pro,top,AGENTS.md,CLAUDE.md,1.0,1.0,13,13
+top_repos/antiwork_gumroad,top,AGENTS.md,CLAUDE.md,1.0,1.0,2,2
+top_repos/anyproto_anytype-ts,top,AGENTS.md,CLAUDE.md,0.020833333333333332,0.6428571428571429,12,37
+top_repos/apache_pinot,top,AGENTS.md,CLAUDE.md,0.1111111111111111,0.9230769230769231,13,17
+top_repos/apache_pinot,top,AGENTS.md,Copilot instructions,0.07407407407407407,0.8,13,16
+top_repos/apache_pinot,top,CLAUDE.md,Copilot instructions,0.0,0.7333333333333333,17,16
+top_repos/apache_pulsar,top,AGENTS.md,CLAUDE.md,1.0,1.0,6,6
+top_repos/apache_pulsar,top,AGENTS.md,Copilot instructions,0.6,1.0,6,10
+top_repos/apache_pulsar,top,CLAUDE.md,Copilot instructions,0.6,1.0,6,10
+top_repos/apache_spark,top,AGENTS.md,CLAUDE.md,1.0,1.0,15,15
+top_repos/backstage_backstage,top,AGENTS.md,CLAUDE.md,0.7142857142857143,0.9166666666666666,5,7
+top_repos/backstage_backstage,top,AGENTS.md,Copilot instructions,0.0,0.4166666666666667,5,1
+top_repos/backstage_backstage,top,CLAUDE.md,Copilot instructions,0.0,0.38461538461538464,7,1
+top_repos/better-auth_better-auth,top,AGENTS.md,CLAUDE.md,1.0,1.0,7,7
+top_repos/binarywang_WxJava,top,AGENTS.md,Copilot instructions,0.0,0.7142857142857143,5,11
+top_repos/block_goose,top,AGENTS.md,Copilot instructions,0.0,0.7857142857142857,60,13
+top_repos/browser-use_browser-use,top,AGENTS.md,CLAUDE.md,0.0,0.875,99,16
+top_repos/buefy_buefy,top,CLAUDE.md,Copilot instructions,0.04,0.7692307692307693,15,11
+top_repos/calcom_cal.com,top,AGENTS.md,CLAUDE.md,0.3372093023255814,1.0,85,30
+top_repos/chrxh_alien,top,CLAUDE.md,Copilot instructions,0.022222222222222223,0.6666666666666666,8,38
+top_repos/cline_cline,top,AGENTS.md,Copilot instructions,0.0,0.6923076923076923,15,10
+top_repos/coder_coder,top,AGENTS.md,CLAUDE.md,0.6046511627906976,1.0,86,52
+top_repos/colinhacks_zod,top,AGENTS.md,CLAUDE.md,1.0,1.0,15,15
+top_repos/comet-ml_opik,top,AGENTS.md,Copilot instructions,0.0,0.875,12,180
+top_repos/cypress-io_cypress,top,AGENTS.md,CLAUDE.md,0.06493506493506493,0.5625,180,66
+top_repos/cypress-io_cypress,top,AGENTS.md,Cursor rules,0.00684931506849315,0.625,180,114
+top_repos/cypress-io_cypress,top,CLAUDE.md,Cursor rules,0.0,0.46153846153846156,66,114
+top_repos/dagster-io_dagster,top,CLAUDE.md,Cursor rules,0.0,0.25,62,1
+top_repos/datahub-project_datahub,top,AGENTS.md,CLAUDE.md,0.018867924528301886,0.9375,129,87
+top_repos/diggerhq_digger,top,AGENTS.md,CLAUDE.md,0.0,0.6875,23,24
+top_repos/distribworks_dkron,top,AGENTS.md,CLAUDE.md,1.0,1.0,39,39
+top_repos/docling-project_docling,top,AGENTS.md,CLAUDE.md,0.125,0.18181818181818182,7,2
+top_repos/dotnet_aspire,top,AGENTS.md,Copilot instructions,0.00684931506849315,0.875,61,86
+top_repos/dotnet_aspnetcore,top,AGENTS.md,Copilot instructions,0.0,0.5454545454545454,15,8
+top_repos/dotnet_docs,top,AGENTS.md,Copilot instructions,0.0,0.38461538461538464,8,25
+top_repos/dotnet_efcore,top,AGENTS.md,Copilot instructions,0.0,0.0,1,6
+top_repos/dotnet_msbuild,top,AGENTS.md,Copilot instructions,0.3148148148148148,0.9333333333333333,35,107
+top_repos/dotnet_orleans,top,AGENTS.md,Copilot instructions,0.0,0.3333333333333333,1,3
+top_repos/dotnet_roslyn,top,AGENTS.md,Copilot instructions,0.0,0.7142857142857143,3,46
+top_repos/dotnet_runtime,top,AGENTS.md,Copilot instructions,0.0,0.0,1,123
+top_repos/elizaOS_eliza,top,AGENTS.md,CLAUDE.md,0.9934024505183789,1.0,1061,1054
+top_repos/elsa-workflows_elsa-core,top,AGENTS.md,CLAUDE.md,0.25,0.5384615384615384,12,8
+top_repos/elsa-workflows_elsa-core,top,AGENTS.md,Copilot instructions,0.0,0.8571428571428571,12,45
+top_repos/elsa-workflows_elsa-core,top,CLAUDE.md,Copilot instructions,0.0,0.42857142857142855,8,45
+top_repos/esphome_esphome,top,AGENTS.md,CLAUDE.md,1.0,1.0,10,10
+top_repos/esphome_esphome,top,AGENTS.md,Copilot instructions,1.0,1.0,10,10
+top_repos/esphome_esphome,top,CLAUDE.md,Copilot instructions,1.0,1.0,10,10
+top_repos/ethereum-optimism_optimism,top,AGENTS.md,CLAUDE.md,0.4782608695652174,1.0,11,23
+top_repos/eyaltoledano_claude-task-master,top,AGENTS.md,CLAUDE.md,0.8243243243243243,0.8571428571428571,62,73
+top_repos/formbricks_formbricks,top,AGENTS.md,Cursor rules,0.0,0.7142857142857143,18,69
+top_repos/getsentry_sentry-javascript,top,AGENTS.md,CLAUDE.md,0.7714285714285715,0.9230769230769231,35,27
+top_repos/github_docs,top,AGENTS.md,Copilot instructions,0.0,0.875,25,44
+top_repos/gofiber_fiber,top,AGENTS.md,Copilot instructions,0.0,0.5833333333333334,8,1
+top_repos/halo-dev_halo,top,AGENTS.md,CLAUDE.md,0.42105263157894735,1.0,57,24
+top_repos/hathach_tinyusb,top,AGENTS.md,CLAUDE.md,1.0,1.0,27,27
+top_repos/hcengineering_platform,top,AGENTS.md,Copilot instructions,0.0,0.13333333333333333,1,22
+top_repos/home-assistant_frontend,top,AGENTS.md,CLAUDE.md,0.35294117647058826,0.9166666666666666,17,6
+top_repos/home-assistant_frontend,top,AGENTS.md,Copilot instructions,0.35294117647058826,0.9166666666666666,17,6
+top_repos/home-assistant_frontend,top,CLAUDE.md,Copilot instructions,1.0,1.0,6,6
+top_repos/invoke-ai_InvokeAI,top,AGENTS.md,CLAUDE.md,0.0,0.5,3,4
+top_repos/jdx_mise,top,AGENTS.md,CLAUDE.md,1.0,1.0,30,30
+top_repos/jlowin_fastmcp,top,AGENTS.md,CLAUDE.md,1.0,1.0,16,16
+top_repos/jlowin_fastmcp,top,AGENTS.md,Cursor rules,0.0,0.8125,16,24
+top_repos/jlowin_fastmcp,top,AGENTS.md,Copilot instructions,1.0,1.0,16,16
+top_repos/jlowin_fastmcp,top,CLAUDE.md,Cursor rules,0.0,0.8125,16,24
+top_repos/jlowin_fastmcp,top,CLAUDE.md,Copilot instructions,1.0,1.0,16,16
+top_repos/jlowin_fastmcp,top,Cursor rules,Copilot instructions,0.0,0.8125,24,16
+top_repos/karakeep-app_karakeep,top,AGENTS.md,CLAUDE.md,1.0,1.0,9,9
+top_repos/kyegomez_swarms,top,AGENTS.md,CLAUDE.md,0.0,0.8,28,79
+top_repos/langbot-app_LangBot,top,AGENTS.md,CLAUDE.md,0.75,1.0,16,12
+top_repos/langchain-ai_langchain,top,AGENTS.md,CLAUDE.md,1.0,1.0,28,28
+top_repos/langchain-ai_langgraph,top,AGENTS.md,CLAUDE.md,1.0,1.0,3,3
+top_repos/langflow-ai_langflow,top,AGENTS.md,CLAUDE.md,0.0,0.125,26,1
+top_repos/langfuse_langfuse,top,AGENTS.md,CLAUDE.md,0.06666666666666667,0.8125,119,9
+top_repos/leoafarias_fvm,top,AGENTS.md,Copilot instructions,0.0,0.6666666666666666,8,8
+top_repos/lightdash_lightdash,top,AGENTS.md,CLAUDE.md,0.029304029304029304,0.75,10,271
+top_repos/livekit_agents,top,AGENTS.md,CLAUDE.md,0.0,0.07692307692307693,15,1
+top_repos/logancyang_obsidian-copilot,top,AGENTS.md,CLAUDE.md,0.0,0.06666666666666667,36,1
+top_repos/marimo-team_marimo,top,AGENTS.md,CLAUDE.md,0.023255813953488372,0.5625,35,9
+top_repos/marimo-team_marimo,top,AGENTS.md,Copilot instructions,0.0,0.1875,35,1
+top_repos/marimo-team_marimo,top,CLAUDE.md,Copilot instructions,0.0,0.2,9,1
+top_repos/mastra-ai_mastra,top,AGENTS.md,CLAUDE.md,0.0,0.875,32,19
+top_repos/mautic_mautic,top,AGENTS.md,CLAUDE.md,0.0,0.07692307692307693,23,1
+top_repos/mem0ai_mem0,top,AGENTS.md,CLAUDE.md,1.0,1.0,76,76
+top_repos/meshtastic_firmware,top,AGENTS.md,CLAUDE.md,0.0,0.4166666666666667,15,1
+top_repos/meshtastic_firmware,top,AGENTS.md,Copilot instructions,0.0,0.75,15,78
+top_repos/meshtastic_firmware,top,CLAUDE.md,Copilot instructions,0.0,0.3125,1,78
+top_repos/metabase_metabase,top,CLAUDE.md,Copilot instructions,0.0,0.5714285714285714,20,10
+top_repos/microsoft_FluidFramework,top,CLAUDE.md,Copilot instructions,0.14285714285714285,0.6666666666666666,30,34
+top_repos/microsoft_PowerToys,top,AGENTS.md,CLAUDE.md,0.030303030303030304,0.6923076923076923,26,8
+top_repos/microsoft_PowerToys,top,AGENTS.md,Copilot instructions,0.007782101167315175,0.8125,26,233
+top_repos/microsoft_PowerToys,top,CLAUDE.md,Copilot instructions,0.034334763948497854,0.5625,8,233
+top_repos/microsoft_TypeScript,top,AGENTS.md,Copilot instructions,0.08823529411764706,0.5,3,34
+top_repos/microsoft_fluentui,top,AGENTS.md,CLAUDE.md,1.0,1.0,11,11
+top_repos/microsoft_fluentui,top,AGENTS.md,Copilot instructions,0.0,0.9285714285714286,11,55
+top_repos/microsoft_fluentui,top,CLAUDE.md,Copilot instructions,0.0,0.9285714285714286,11,55
+top_repos/microsoft_onnxruntime,top,AGENTS.md,Copilot instructions,0.0,0.5384615384615384,16,3
+top_repos/microsoft_playwright,top,CLAUDE.md,Copilot instructions,0.0,0.38461538461538464,17,1
+top_repos/microsoft_typespec,top,AGENTS.md,Copilot instructions,0.0,0.14285714285714285,2,36
+top_repos/microsoft_vscode,top,AGENTS.md,Copilot instructions,0.014742014742014743,0.9375,136,277
+top_repos/microsoft_vscode-copilot-chat,top,AGENTS.md,Copilot instructions,0.00847457627118644,0.8666666666666667,56,63
+top_repos/microsoft_vscode-docs,top,AGENTS.md,Copilot instructions,0.0,0.7333333333333333,10,36
+top_repos/midudev_preguntas-entrevista-react,top,AGENTS.md,CLAUDE.md,0.00909090909090909,0.8571428571428571,93,18
+top_repos/miurla_morphic,top,AGENTS.md,CLAUDE.md,1.0,1.0,18,18
+top_repos/mlflow_mlflow,top,AGENTS.md,CLAUDE.md,0.3656716417910448,0.9375,86,97
+top_repos/mlflow_mlflow,top,AGENTS.md,Copilot instructions,0.0,0.5,86,6
+top_repos/mlflow_mlflow,top,CLAUDE.md,Copilot instructions,0.0,0.5333333333333333,97,6
+top_repos/modelcontextprotocol_modelcontextprotocol,top,AGENTS.md,CLAUDE.md,1.0,1.0,16,16
+top_repos/modelcontextprotocol_servers,top,AGENTS.md,CLAUDE.md,0.0,0.5714285714285714,6,18
+top_repos/modular_modular,top,AGENTS.md,CLAUDE.md,0.26785714285714285,0.9285714285714286,45,168
+top_repos/modular_modular,top,AGENTS.md,Cursor rules,0.02,0.46153846153846156,45,6
+top_repos/modular_modular,top,CLAUDE.md,Cursor rules,0.005780346820809248,0.42857142857142855,168,6
+top_repos/netdata_netdata,top,AGENTS.md,CLAUDE.md,1.0,1.0,62,62
+top_repos/nrwl_nx,top,AGENTS.md,CLAUDE.md,0.6808510638297872,0.8571428571428571,33,46
+top_repos/nvm-sh_nvm,top,AGENTS.md,CLAUDE.md,1.0,1.0,45,45
+top_repos/onlook-dev_onlook,top,AGENTS.md,CLAUDE.md,1.0,1.0,16,16
+top_repos/onnx_onnx,top,CLAUDE.md,Copilot instructions,0.0,0.8,11,4
+top_repos/onyx-dot-app_onyx,top,AGENTS.md,CLAUDE.md,0.9444444444444444,1.0,68,72
+top_repos/open-metadata_OpenMetadata,top,AGENTS.md,CLAUDE.md,0.4696969696969697,0.9375,32,65
+top_repos/open-metadata_OpenMetadata,top,AGENTS.md,Copilot instructions,0.03816793893129771,0.9375,32,104
+top_repos/open-metadata_OpenMetadata,top,CLAUDE.md,Copilot instructions,0.03048780487804878,1.0,65,104
+top_repos/openai_openai-agents-python,top,AGENTS.md,CLAUDE.md,0.5,1.0,36,18
+top_repos/oven-sh_bun,top,AGENTS.md,CLAUDE.md,0.7459016393442623,1.0,91,122
+top_repos/owncast_owncast,top,AGENTS.md,CLAUDE.md,0.46153846153846156,0.8461538461538461,13,6
+top_repos/owncast_owncast,top,AGENTS.md,Copilot instructions,0.4,0.7692307692307693,13,8
+top_repos/owncast_owncast,top,CLAUDE.md,Copilot instructions,0.75,0.75,6,8
+top_repos/oxc-project_oxc,top,AGENTS.md,CLAUDE.md,0.0,0.6875,104,19
+top_repos/oxc-project_oxc,top,AGENTS.md,Copilot instructions,0.0,0.375,104,1
+top_repos/oxc-project_oxc,top,CLAUDE.md,Copilot instructions,0.0,0.3076923076923077,19,1
+top_repos/paradigmxyz_reth,top,AGENTS.md,CLAUDE.md,0.6956521739130435,1.0,32,46
+top_repos/pdm-project_pdm,top,AGENTS.md,CLAUDE.md,1.0,1.0,27,27
+top_repos/plantuml_plantuml,top,CLAUDE.md,Copilot instructions,0.0,0.3,8,1
+top_repos/potpie-ai_potpie,top,AGENTS.md,CLAUDE.md,0.3076923076923077,0.8461538461538461,9,8
+top_repos/projectcalico_calico,top,CLAUDE.md,Copilot instructions,0.0390625,1.0,79,54
+top_repos/pterm_pterm,top,AGENTS.md,CLAUDE.md,1.0,1.0,8,8
+top_repos/pulumi_pulumi,top,AGENTS.md,CLAUDE.md,0.5,1.0,18,9
+top_repos/pytorch_pytorch,top,AGENTS.md,CLAUDE.md,0.5,1.0,22,44
+top_repos/pytorch_pytorch,top,AGENTS.md,Copilot instructions,0.05405405405405406,0.8,22,17
+top_repos/pytorch_pytorch,top,CLAUDE.md,Copilot instructions,0.05172413793103448,0.8,44,17
+top_repos/ray-project_ray,top,CLAUDE.md,Cursor rules,0.0,0.3,19,8
+top_repos/raycast_extensions,top,AGENTS.md,CLAUDE.md,0.0975609756097561,0.9375,118,152
+top_repos/raycast_extensions,top,AGENTS.md,Cursor rules,0.033707865168539325,0.875,118,158
+top_repos/raycast_extensions,top,AGENTS.md,Copilot instructions,0.0,0.7333333333333333,118,38
+top_repos/raycast_extensions,top,CLAUDE.md,Cursor rules,0.03678929765886288,0.9375,152,158
+top_repos/raycast_extensions,top,CLAUDE.md,Copilot instructions,0.0,0.6875,152,38
+top_repos/raycast_extensions,top,Cursor rules,Copilot instructions,0.0,0.625,158,38
+top_repos/reflex-dev_reflex,top,AGENTS.md,CLAUDE.md,0.5882352941176471,0.9230769230769231,10,17
+top_repos/remotion-dev_remotion,top,AGENTS.md,CLAUDE.md,0.0,0.25,13,2
+top_repos/remotion-dev_remotion,top,AGENTS.md,Copilot instructions,0.0,0.75,13,4
+top_repos/remotion-dev_remotion,top,CLAUDE.md,Copilot instructions,0.0,0.14285714285714285,2,4
+top_repos/reown-com_appkit,top,AGENTS.md,CLAUDE.md,1.0,1.0,17,17
+top_repos/risingwavelabs_risingwave,top,AGENTS.md,CLAUDE.md,1.0,1.0,11,11
+top_repos/rustfs_rustfs,top,AGENTS.md,CLAUDE.md,0.0,0.6875,85,4
+top_repos/rustfs_rustfs,top,AGENTS.md,Copilot instructions,0.24705882352941178,1.0,85,21
+top_repos/rustfs_rustfs,top,CLAUDE.md,Copilot instructions,0.0,0.6875,4,21
+top_repos/ruvnet_claude-flow,top,AGENTS.md,CLAUDE.md,0.01643835616438356,1.0,115,256
+top_repos/ryoppippi_ccusage,top,AGENTS.md,CLAUDE.md,0.9230769230769231,1.0,12,13
+top_repos/saleor_saleor,top,AGENTS.md,CLAUDE.md,1.0,1.0,26,26
+top_repos/scalar_scalar,top,AGENTS.md,CLAUDE.md,0.6835443037974683,1.0,79,54
+top_repos/skypilot-org_skypilot,top,AGENTS.md,CLAUDE.md,0.7934782608695652,1.0,73,92
+top_repos/stack-auth_stack-auth,top,AGENTS.md,CLAUDE.md,1.0,1.0,13,13
+top_repos/streamlit_streamlit,top,AGENTS.md,Copilot instructions,1.0,1.0,155,155
+top_repos/supabase_supabase,top,AGENTS.md,CLAUDE.md,0.0,0.5,15,5
+top_repos/supabase_supabase,top,AGENTS.md,Copilot instructions,0.0,0.6,15,44
+top_repos/supabase_supabase,top,CLAUDE.md,Copilot instructions,0.0,0.4,5,44
+top_repos/swc-project_swc,top,AGENTS.md,CLAUDE.md,0.1568627450980392,0.9090909090909091,12,47
+top_repos/temporalio_temporal,top,AGENTS.md,Copilot instructions,0.0,0.7142857142857143,11,9
+top_repos/tinacms_tinacms,top,AGENTS.md,CLAUDE.md,1.0,1.0,83,83
+top_repos/triggerdotdev_trigger.dev,top,AGENTS.md,CLAUDE.md,0.041666666666666664,0.8666666666666667,38,62
+top_repos/twentyhq_twenty,top,AGENTS.md,CLAUDE.md,0.07547169811320754,0.8666666666666667,11,46
+top_repos/valkey-io_valkey,top,AGENTS.md,Copilot instructions,0.0,0.5714285714285714,11,20
+top_repos/vercel_next.js,top,AGENTS.md,CLAUDE.md,0.9841269841269841,1.0,63,62
+top_repos/vercel_vercel,top,AGENTS.md,CLAUDE.md,0.3076923076923077,0.8333333333333334,26,8
+top_repos/vllm-project_vllm,top,AGENTS.md,CLAUDE.md,0.0,0.07142857142857142,28,1
+top_repos/volcengine_verl,top,AGENTS.md,CLAUDE.md,1.0,1.0,14,14
+top_repos/wasp-lang_wasp,top,AGENTS.md,CLAUDE.md,0.15384615384615385,0.4,4,26
+top_repos/windmill-labs_windmill,top,AGENTS.md,CLAUDE.md,0.0,0.7142857142857143,11,10
+top_repos/wled_WLED,top,AGENTS.md,Copilot instructions,0.0,0.8666666666666667,28,9
+top_repos/yamadashy_repomix,top,AGENTS.md,CLAUDE.md,0.5625,1.0,9,16
+top_repos/yamadashy_repomix,top,AGENTS.md,Copilot instructions,1.0,1.0,9,9
+top_repos/yamadashy_repomix,top,CLAUDE.md,Copilot instructions,0.5625,1.0,16,9
+top_repos/zauberzeug_nicegui,top,AGENTS.md,CLAUDE.md,0.0,0.3333333333333333,6,6
+top_repos/zauberzeug_nicegui,top,AGENTS.md,Copilot instructions,0.0,0.5714285714285714,6,1
+top_repos/zauberzeug_nicegui,top,CLAUDE.md,Copilot instructions,0.0,0.375,6,1
+top_repos/zed-industries_zed,top,AGENTS.md,CLAUDE.md,0.2441860465116279,0.75,86,21
+top_repos/zenml-io_zenml,top,AGENTS.md,CLAUDE.md,0.1875,1.0,166,100
+top_repos/zuiidea_antd-admin,top,AGENTS.md,Copilot instructions,0.0,0.7333333333333333,12,30
+bottom_repos/1517005260_graph-rag-agent,bottom,AGENTS.md,CLAUDE.md,0.0,0.6428571428571429,7,50
+bottom_repos/Afilmory_afilmory,bottom,AGENTS.md,CLAUDE.md,0.01020408163265306,0.8,88,11
+bottom_repos/Arize-ai_openinference,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,50,50
+bottom_repos/Azure_azure-sdk-for-rust,bottom,AGENTS.md,Copilot instructions,0.039473684210526314,0.6875,66,13
+bottom_repos/Blair2004_NexoPOS,bottom,AGENTS.md,Copilot instructions,0.0,0.6875,31,653
+bottom_repos/CodeWithCJ_SparkyFitness,bottom,AGENTS.md,CLAUDE.md,0.0,0.0625,53,1
+bottom_repos/CodeWithCJ_SparkyFitness,bottom,AGENTS.md,Copilot instructions,0.0,0.6875,53,34
+bottom_repos/CodeWithCJ_SparkyFitness,bottom,CLAUDE.md,Copilot instructions,0.0,0.09090909090909091,1,34
+bottom_repos/CoderGamester_mcp-unity,bottom,AGENTS.md,CLAUDE.md,0.029411764705882353,0.8333333333333334,18,17
+bottom_repos/DataDog_dd-trace-java,bottom,AGENTS.md,CLAUDE.md,0.0,0.3333333333333333,8,1
+bottom_repos/DaveSkender_Stock.Indicators,bottom,AGENTS.md,Copilot instructions,0.0,0.0625,48,1
+bottom_repos/JonasKruckenberg_k23,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,10,10
+bottom_repos/Lumiwealth_lumibot,bottom,AGENTS.md,CLAUDE.md,0.27102803738317754,1.0,50,86
+bottom_repos/Lumiwealth_lumibot,bottom,AGENTS.md,Copilot instructions,0.0,0.3125,50,1
+bottom_repos/Lumiwealth_lumibot,bottom,CLAUDE.md,Copilot instructions,0.0,0.3125,86,1
+bottom_repos/MicrosoftDocs_azure-devops-docs,bottom,AGENTS.md,Copilot instructions,0.0,0.9375,28,25
+bottom_repos/OpenHFT_Chronicle-Wire,bottom,AGENTS.md,CLAUDE.md,0.0,0.75,21,20
+bottom_repos/PostHog_posthog.com,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,14,14
+bottom_repos/SolidInvoice_SolidInvoice,bottom,AGENTS.md,CLAUDE.md,0.06666666666666667,0.875,114,46
+bottom_repos/SolidInvoice_SolidInvoice,bottom,AGENTS.md,Copilot instructions,0.9912280701754386,1.0,114,113
+bottom_repos/SolidInvoice_SolidInvoice,bottom,CLAUDE.md,Copilot instructions,0.06711409395973154,0.875,46,113
+bottom_repos/SparkDevNetwork_Rock,bottom,CLAUDE.md,Copilot instructions,0.08,0.8571428571428571,14,13
+bottom_repos/Voxelum_x-minecraft-launcher,bottom,AGENTS.md,Copilot instructions,0.0,0.7,9,2
+bottom_repos/adaline_gateway,bottom,AGENTS.md,CLAUDE.md,0.0,0.7857142857142857,12,17
+bottom_repos/apache_ozone,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,19,19
+bottom_repos/basementstudio_xmcp,bottom,AGENTS.md,CLAUDE.md,0.0,0.35714285714285715,11,1
+bottom_repos/basetenlabs_truss,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,10,10
+bottom_repos/bitfoundation_bitplatform,bottom,AGENTS.md,Copilot instructions,0.0,0.6923076923076923,7,5
+bottom_repos/bruin-data_bruin,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,44,44
+bottom_repos/btwld_mix,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,18,18
+bottom_repos/btwld_mix,bottom,AGENTS.md,Copilot instructions,0.0,0.7692307692307693,18,9
+bottom_repos/btwld_mix,bottom,CLAUDE.md,Copilot instructions,0.0,0.7692307692307693,18,9
+bottom_repos/catatsuy_private-isu,bottom,AGENTS.md,CLAUDE.md,0.0,0.46153846153846156,7,22
+bottom_repos/celestiaorg_celestia-core,bottom,CLAUDE.md,Copilot instructions,0.0,0.7692307692307693,7,11
+bottom_repos/chainstacklabs_pump-fun-bot,bottom,AGENTS.md,CLAUDE.md,0.0,0.7692307692307693,11,35
+bottom_repos/cloudposse_atmos,bottom,AGENTS.md,CLAUDE.md,0.0,0.9375,5,61
+bottom_repos/dailydotdev_apps,bottom,AGENTS.md,CLAUDE.md,0.23557692307692307,1.0,208,49
+bottom_repos/dartsim_dart,bottom,AGENTS.md,CLAUDE.md,0.0,0.06666666666666667,69,1
+bottom_repos/dotCMS_core,bottom,AGENTS.md,CLAUDE.md,0.021352313167259787,0.625,26,261
+bottom_repos/dotCMS_core,bottom,AGENTS.md,Copilot instructions,0.0,0.6666666666666666,26,150
+bottom_repos/dotCMS_core,bottom,CLAUDE.md,Copilot instructions,0.014814814814814815,0.9375,261,150
+bottom_repos/dotnet_SqlClient,bottom,AGENTS.md,Copilot instructions,0.0031446540880503146,0.9375,18,301
+bottom_repos/dotnet_dotnet,bottom,AGENTS.md,Copilot instructions,0.1412639405204461,1.0,151,156
+bottom_repos/dust-tt_dust,bottom,AGENTS.md,CLAUDE.md,0.017543859649122806,0.6428571428571429,4,54
+bottom_repos/erpc_erpc,bottom,AGENTS.md,CLAUDE.md,0.0,0.16666666666666666,7,1
+bottom_repos/fgmacedo_python-statemachine,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,35,35
+bottom_repos/generaltranslation_gt,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,19,19
+bottom_repos/getAlby_lightning-browser-extension,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,19,19
+bottom_repos/getsentry_sentry-cli,bottom,AGENTS.md,CLAUDE.md,0.9583333333333334,1.0,48,46
+bottom_repos/getsentry_sentry-cocoa,bottom,AGENTS.md,CLAUDE.md,0.25274725274725274,1.0,91,23
+bottom_repos/getsentry_sentry-dart,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,17,17
+bottom_repos/getsentry_sentry-dotnet,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,33,33
+bottom_repos/getsentry_sentry-dotnet,bottom,AGENTS.md,Copilot instructions,1.0,1.0,33,33
+bottom_repos/getsentry_sentry-dotnet,bottom,CLAUDE.md,Copilot instructions,1.0,1.0,33,33
+bottom_repos/gronxb_hot-updater,bottom,AGENTS.md,CLAUDE.md,0.0,0.8,85,88
+bottom_repos/hyperbrowserai_HyperAgent,bottom,AGENTS.md,CLAUDE.md,0.0,0.8571428571428571,58,12
+bottom_repos/igraph_rigraph,bottom,AGENTS.md,Copilot instructions,0.03125,0.4,28,5
+bottom_repos/joamag_boytacean,bottom,AGENTS.md,CLAUDE.md,0.058823529411764705,0.35714285714285715,9,9
+bottom_repos/langchain-ai_agents-from-scratch,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,16,16
+bottom_repos/leonardsellem_n8n-mcp-server,bottom,AGENTS.md,CLAUDE.md,0.0,0.45454545454545453,6,4
+bottom_repos/livingbio_typed-ffmpeg,bottom,CLAUDE.md,Copilot instructions,0.0,0.42857142857142855,4,52
+bottom_repos/luccahuguet_yazelix,bottom,AGENTS.md,CLAUDE.md,0.10256410256410256,0.5,32,11
+bottom_repos/metacraft-labs_codetracer,bottom,AGENTS.md,CLAUDE.md,0.7297297297297297,0.9285714285714286,28,36
+bottom_repos/microsoft_generative-ai-with-javascript,bottom,AGENTS.md,Copilot instructions,0.0,0.2,43,2
+bottom_repos/microsoft_teams-ai,bottom,AGENTS.md,Copilot instructions,0.48148148148148145,0.7692307692307693,22,18
+bottom_repos/microsoft_testfx,bottom,AGENTS.md,Copilot instructions,0.15789473684210525,0.75,4,18
+bottom_repos/microsoft_vstest,bottom,AGENTS.md,Copilot instructions,0.05,0.7333333333333333,15,48
+bottom_repos/mixpanel_mixpanel-android,bottom,AGENTS.md,CLAUDE.md,0.057971014492753624,1.0,67,79
+bottom_repos/mixpanel_mixpanel-android,bottom,AGENTS.md,Copilot instructions,0.06451612903225806,0.8666666666666667,67,32
+bottom_repos/mixpanel_mixpanel-android,bottom,CLAUDE.md,Copilot instructions,0.05714285714285714,0.8666666666666667,79,32
+bottom_repos/mondaycom_vibe,bottom,CLAUDE.md,Cursor rules,0.0,0.7142857142857143,35,26
+bottom_repos/netz98_n98-magerun2,bottom,AGENTS.md,Copilot instructions,0.8064516129032258,0.8461538461538461,31,25
+bottom_repos/ohcnetwork_care_fe,bottom,AGENTS.md,CLAUDE.md,0.07407407407407407,0.6,3,26
+bottom_repos/ohcnetwork_care_fe,bottom,AGENTS.md,Copilot instructions,0.0,0.6,3,156
+bottom_repos/ohcnetwork_care_fe,bottom,CLAUDE.md,Copilot instructions,0.011111111111111112,1.0,26,156
+bottom_repos/openfoodfacts_smooth-app,bottom,AGENTS.md,Copilot instructions,0.0,0.42857142857142855,9,64
+bottom_repos/openmc-dev_openmc,bottom,AGENTS.md,CLAUDE.md,0.0,0.2857142857142857,49,2
+bottom_repos/openops-cloud_openops,bottom,AGENTS.md,CLAUDE.md,0.0,0.125,28,2
+bottom_repos/openops-cloud_openops,bottom,AGENTS.md,Copilot instructions,0.0,0.5625,28,11
+bottom_repos/openops-cloud_openops,bottom,CLAUDE.md,Copilot instructions,0.0,0.2222222222222222,2,11
+bottom_repos/oss-apps_split-pro,bottom,AGENTS.md,Copilot instructions,0.0,0.9375,32,30
+bottom_repos/pixeltable_pixeltable,bottom,AGENTS.md,CLAUDE.md,0.9,0.9285714285714286,48,47
+bottom_repos/pixeltable_pixeltable,bottom,AGENTS.md,Copilot instructions,0.05357142857142857,0.7333333333333333,48,11
+bottom_repos/pixeltable_pixeltable,bottom,CLAUDE.md,Copilot instructions,0.05454545454545454,0.7857142857142857,47,11
+bottom_repos/python-cachier_cachier,bottom,AGENTS.md,CLAUDE.md,0.7297297297297297,1.0,32,32
+bottom_repos/python-cachier_cachier,bottom,AGENTS.md,Copilot instructions,0.06521739130434782,0.8666666666666667,32,17
+bottom_repos/python-cachier_cachier,bottom,CLAUDE.md,Copilot instructions,0.06521739130434782,0.8666666666666667,32,17
+bottom_repos/recallnet_js-recall,bottom,AGENTS.md,CLAUDE.md,0.01098901098901099,0.8666666666666667,73,19
+bottom_repos/recallnet_js-recall,bottom,AGENTS.md,Copilot instructions,0.0,0.26666666666666666,73,1
+bottom_repos/recallnet_js-recall,bottom,CLAUDE.md,Copilot instructions,0.0,0.3076923076923077,19,1
+bottom_repos/robusta-dev_holmesgpt,bottom,AGENTS.md,CLAUDE.md,0.8732394366197183,1.0,62,71
+bottom_repos/rochacbruno_marmite,bottom,AGENTS.md,CLAUDE.md,0.0,0.23076923076923078,39,1
+bottom_repos/safedep_vet,bottom,CLAUDE.md,Cursor rules,0.0,0.0,1,1
+bottom_repos/sam-goodwin_alchemy,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,47,47
+bottom_repos/sam-goodwin_alchemy,bottom,AGENTS.md,Cursor rules,0.0,0.8,47,69
+bottom_repos/sam-goodwin_alchemy,bottom,CLAUDE.md,Cursor rules,0.0,0.8,47,69
+bottom_repos/satmihir_fair,bottom,AGENTS.md,Cursor rules,0.0,0.5833333333333334,9,13
+bottom_repos/secretlint_secretlint,bottom,AGENTS.md,CLAUDE.md,0.0,0.07142857142857142,19,1
+bottom_repos/selfxyz_self,bottom,AGENTS.md,CLAUDE.md,0.061224489795918366,0.8125,96,8
+bottom_repos/steipete_Peekaboo,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,8,8
+bottom_repos/strapi_documentation,bottom,AGENTS.md,Copilot instructions,0.0,0.42857142857142855,27,2
+bottom_repos/stravu_crystal,bottom,AGENTS.md,CLAUDE.md,0.0,0.6,8,50
+bottom_repos/swuecho_chat,bottom,AGENTS.md,CLAUDE.md,0.10144927536231885,0.8461538461538461,33,43
+bottom_repos/syntaxfm_website,bottom,CLAUDE.md,Copilot instructions,0.0,0.6666666666666666,29,1
+bottom_repos/tambo-ai_tambo,bottom,AGENTS.md,CLAUDE.md,0.005494505494505495,0.75,174,9
+bottom_repos/tegnike_aituber-kit,bottom,AGENTS.md,CLAUDE.md,0.7777777777777778,1.0,8,8
+bottom_repos/thorsten_phpMyFAQ,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,27,27
+bottom_repos/tommyxchow_frosty,bottom,AGENTS.md,CLAUDE.md,0.0,0.14285714285714285,16,1
+bottom_repos/trycompai_comp,bottom,AGENTS.md,CLAUDE.md,0.36507936507936506,1.0,40,46
+bottom_repos/uxlfoundation_oneDAL,bottom,AGENTS.md,Copilot instructions,0.023972602739726026,0.9375,197,102
+bottom_repos/valkey-io_valkey-glide,bottom,AGENTS.md,CLAUDE.md,0.0,0.875,115,12
+bottom_repos/valkey-io_valkey-glide,bottom,AGENTS.md,Copilot instructions,0.005555555555555556,0.6666666666666666,115,66
+bottom_repos/valkey-io_valkey-glide,bottom,CLAUDE.md,Copilot instructions,0.012987012987012988,0.6666666666666666,12,66
+bottom_repos/vinceglb_FileKit,bottom,AGENTS.md,CLAUDE.md,0.0,0.5454545454545454,6,14
+bottom_repos/wandb_weave,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,40,40
+bottom_repos/wangkanai_wangkanai,bottom,CLAUDE.md,Copilot instructions,0.0,0.2,11,2
+bottom_repos/wvlet_airframe,bottom,CLAUDE.md,Copilot instructions,0.01694915254237288,0.7142857142857143,49,11
+bottom_repos/zwave-js_zwave-js,bottom,AGENTS.md,CLAUDE.md,1.0,1.0,8,8
+bottom_repos/zwave-js_zwave-js,bottom,AGENTS.md,Copilot instructions,1.0,1.0,8,8
+bottom_repos/zwave-js_zwave-js,bottom,CLAUDE.md,Copilot instructions,1.0,1.0,8,8
+bottom_repos/zwave-js_zwave-js-ui,bottom,AGENTS.md,CLAUDE.md,0.046511627906976744,0.6,36,9
+bottom_repos/zwave-js_zwave-js-ui,bottom,AGENTS.md,Copilot instructions,0.027777777777777776,0.8125,36,38
+bottom_repos/zwave-js_zwave-js-ui,bottom,CLAUDE.md,Copilot instructions,0.0,0.6428571428571429,9,38

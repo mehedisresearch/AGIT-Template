@@ -1,0 +1,286 @@
+{
+  "n_pairs": 3154,
+  "n_multi_file_repos": 290,
+  "label_counts": {
+    "Divergent": 1735,
+    "Complementary": 296,
+    "Equivalent": 998,
+    "Contradictory": 125
+  },
+  "label_rates": {
+    "Complementary": 9.4,
+    "Contradictory": 4.0,
+    "Divergent": 55.0,
+    "Equivalent": 31.6
+  },
+  "similarity": {
+    "mean": 0.5682,
+    "median": 0.4941,
+    "p25": 0.2837,
+    "p75": 1.0
+  },
+  "build_test_pairs": 725,
+  "build_test_command_contradictions": 92,
+  "build_test_contradiction_rate": 12.7,
+  "by_category": {
+    "Test / CI commands": {
+      "Divergent": 185,
+      "Equivalent": 108,
+      "Contradictory": 35,
+      "Complementary": 53,
+      "total": 381,
+      "Equivalent_pct": 28.3,
+      "Complementary_pct": 13.9,
+      "Divergent_pct": 48.6,
+      "Contradictory_pct": 9.2
+    },
+    "Git / PR / commit conventions": {
+      "Divergent": 225,
+      "Equivalent": 110,
+      "Complementary": 24,
+      "Contradictory": 11,
+      "total": 370,
+      "Equivalent_pct": 29.7,
+      "Complementary_pct": 6.5,
+      "Divergent_pct": 60.8,
+      "Contradictory_pct": 3.0
+    },
+    "Tooling-specific agent config": {
+      "Divergent": 247,
+      "Equivalent": 89,
+      "Complementary": 34,
+      "total": 370,
+      "Equivalent_pct": 24.1,
+      "Complementary_pct": 9.2,
+      "Divergent_pct": 66.8,
+      "Contradictory_pct": 0.0
+    },
+    "Build / run / install": {
+      "Divergent": 164,
+      "Complementary": 39,
+      "Equivalent": 84,
+      "Contradictory": 57,
+      "total": 344,
+      "Equivalent_pct": 24.4,
+      "Complementary_pct": 11.3,
+      "Divergent_pct": 47.7,
+      "Contradictory_pct": 16.6
+    },
+    "Code style / formatting": {
+      "Divergent": 160,
+      "Equivalent": 98,
+      "Complementary": 28,
+      "Contradictory": 4,
+      "total": 290,
+      "Equivalent_pct": 33.8,
+      "Complementary_pct": 9.7,
+      "Divergent_pct": 55.2,
+      "Contradictory_pct": 1.4
+    },
+    "Project overview / purpose": {
+      "Divergent": 158,
+      "Equivalent": 76,
+      "Contradictory": 10,
+      "Complementary": 26,
+      "total": 270,
+      "Equivalent_pct": 28.1,
+      "Complementary_pct": 9.6,
+      "Divergent_pct": 58.5,
+      "Contradictory_pct": 3.7
+    },
+    "Do / Don't rules": {
+      "Equivalent": 87,
+      "Divergent": 142,
+      "Contradictory": 4,
+      "Complementary": 15,
+      "total": 248,
+      "Equivalent_pct": 35.1,
+      "Complementary_pct": 6.0,
+      "Divergent_pct": 57.3,
+      "Contradictory_pct": 1.6
+    },
+    "API / interface contracts": {
+      "Divergent": 130,
+      "Equivalent": 65,
+      "Complementary": 17,
+      "Contradictory": 3,
+      "total": 215,
+      "Equivalent_pct": 30.2,
+      "Complementary_pct": 7.9,
+      "Divergent_pct": 60.5,
+      "Contradictory_pct": 1.4
+    },
+    "Architecture / design constraints": {
+      "Complementary": 16,
+      "Divergent": 93,
+      "Equivalent": 71,
+      "total": 180,
+      "Equivalent_pct": 39.4,
+      "Complementary_pct": 8.9,
+      "Divergent_pct": 51.7,
+      "Contradictory_pct": 0.0
+    },
+    "Security / secrets": {
+      "Divergent": 73,
+      "Equivalent": 44,
+      "Complementary": 5,
+      "total": 122,
+      "Equivalent_pct": 36.1,
+      "Complementary_pct": 4.1,
+      "Divergent_pct": 59.8,
+      "Contradictory_pct": 0.0
+    },
+    "Repository structure": {
+      "Equivalent": 57,
+      "Complementary": 19,
+      "Divergent": 35,
+      "total": 111,
+      "Equivalent_pct": 51.4,
+      "Complementary_pct": 17.1,
+      "Divergent_pct": 31.5,
+      "Contradictory_pct": 0.0
+    },
+    "Maintenance / when to update": {
+      "Divergent": 36,
+      "Equivalent": 30,
+      "Complementary": 7,
+      "total": 73,
+      "Equivalent_pct": 41.1,
+      "Complementary_pct": 9.6,
+      "Divergent_pct": 49.3,
+      "Contradictory_pct": 0.0
+    },
+    "Examples / few-shot snippets": {
+      "Complementary": 5,
+      "Equivalent": 27,
+      "Divergent": 30,
+      "total": 62,
+      "Equivalent_pct": 43.5,
+      "Complementary_pct": 8.1,
+      "Divergent_pct": 48.4,
+      "Contradictory_pct": 0.0
+    },
+    "Performance": {
+      "Divergent": 27,
+      "Equivalent": 17,
+      "Complementary": 4,
+      "Contradictory": 1,
+      "total": 49,
+      "Equivalent_pct": 34.7,
+      "Complementary_pct": 8.2,
+      "Divergent_pct": 55.1,
+      "Contradictory_pct": 2.0
+    },
+    "Domain models / key abstractions": {
+      "Complementary": 3,
+      "Equivalent": 23,
+      "Divergent": 15,
+      "total": 41,
+      "Equivalent_pct": 56.1,
+      "Complementary_pct": 7.3,
+      "Divergent_pct": 36.6,
+      "Contradictory_pct": 0.0
+    },
+    "Ownership / contacts": {
+      "Divergent": 15,
+      "Equivalent": 12,
+      "Complementary": 1,
+      "total": 28,
+      "Equivalent_pct": 42.9,
+      "Complementary_pct": 3.6,
+      "Divergent_pct": 53.6,
+      "Contradictory_pct": 0.0
+    }
+  },
+  "by_format_pair": {
+    "AGENTS.md \u00d7 CLAUDE.md": {
+      "Divergent": 396,
+      "Complementary": 114,
+      "Equivalent": 723,
+      "Contradictory": 30,
+      "total": 1263,
+      "contradiction_rate_pct": 2.4
+    },
+    "AGENTS.md \u00d7 SKILL.md": {
+      "Contradictory": 50,
+      "Divergent": 506,
+      "Complementary": 34,
+      "total": 590,
+      "contradiction_rate_pct": 8.5
+    },
+    "AGENTS.md \u00d7 copilot-instructions.md": {
+      "Divergent": 229,
+      "Complementary": 73,
+      "Contradictory": 9,
+      "Equivalent": 92,
+      "total": 403,
+      "contradiction_rate_pct": 2.2
+    },
+    "CLAUDE.md \u00d7 SKILL.md": {
+      "Contradictory": 27,
+      "Divergent": 245,
+      "Complementary": 20,
+      "Equivalent": 1,
+      "total": 293,
+      "contradiction_rate_pct": 9.2
+    },
+    "CLAUDE.md \u00d7 copilot-instructions.md": {
+      "Divergent": 146,
+      "Complementary": 42,
+      "Equivalent": 61,
+      "Contradictory": 7,
+      "total": 256,
+      "contradiction_rate_pct": 2.7
+    },
+    "SKILL.md \u00d7 copilot-instructions.md": {
+      "Divergent": 120,
+      "Contradictory": 2,
+      "total": 122,
+      "contradiction_rate_pct": 1.6
+    },
+    "AGENTS.md \u00d7 GEMINI.md": {
+      "Divergent": 32,
+      "Equivalent": 53,
+      "Complementary": 3,
+      "total": 88,
+      "contradiction_rate_pct": 0.0
+    },
+    "CLAUDE.md \u00d7 GEMINI.md": {
+      "Divergent": 35,
+      "Equivalent": 41,
+      "Complementary": 7,
+      "total": 83,
+      "contradiction_rate_pct": 0.0
+    },
+    "GEMINI.md \u00d7 copilot-instructions.md": {
+      "Complementary": 2,
+      "Divergent": 10,
+      "Equivalent": 27,
+      "total": 39,
+      "contradiction_rate_pct": 0.0
+    },
+    "GEMINI.md \u00d7 SKILL.md": {
+      "Divergent": 16,
+      "Complementary": 1,
+      "total": 17,
+      "contradiction_rate_pct": 0.0
+    }
+  },
+  "thresholds": {
+    "equivalent": "sim >= 0.85 and no command contradiction",
+    "complementary": "0.60 <= sim < 0.85 and no command contradiction",
+    "divergent": "sim < 0.60 and no command contradiction",
+    "contradictory": "package-manager command mismatch"
+  },
+  "manual_validation_note": "Cohen's \u03ba requires two independent human coders on manual_coding_sample.csv. Fill coder1_label/coder2_label, then run --stage kappa.",
+  "manual_sample": {
+    "n_sample": 150,
+    "n_low": 50,
+    "n_mid": 50,
+    "n_high": 50,
+    "available_low": 1596,
+    "available_mid": 555,
+    "available_high": 1003,
+    "seed": 42
+  }
+}

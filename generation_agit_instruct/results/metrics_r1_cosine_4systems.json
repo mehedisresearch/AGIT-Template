@@ -1,0 +1,640 @@
+{
+  "description": "ROUGE-1 F1 + MiniLM embedding cosine for 4 with-template systems on n=62 four-format fulltest.",
+  "n_test": 62,
+  "embed_model": "all-MiniLM-L6-v2",
+  "embed_normalize": true,
+  "ownership_detector_for_content": "legacy (published pipeline)",
+  "systems": [
+    {
+      "key": "gpt4o_mini_zero_shot",
+      "label": "gpt-4o-mini zero_shot"
+    },
+    {
+      "key": "gpt4o_mini_rag",
+      "label": "gpt-4o-mini RAG"
+    },
+    {
+      "key": "codellama13b_base",
+      "label": "CodeLlama-13B base"
+    },
+    {
+      "key": "codellama13b_qlora",
+      "label": "CodeLlama-13B QLoRA"
+    }
+  ],
+  "full_file": {
+    "gpt4o_mini_zero_shot": {
+      "n": 62,
+      "rouge1_f": 0.4225,
+      "rouge1_f_std": 0.0524,
+      "embedding_cosine": 0.6806,
+      "embedding_cosine_std": 0.0834,
+      "source": "metrics_full.json"
+    },
+    "gpt4o_mini_rag": {
+      "n": 62,
+      "rouge1_f": 0.4585,
+      "rouge1_f_std": 0.0577,
+      "embedding_cosine": 0.683,
+      "embedding_cosine_std": 0.1017,
+      "source": "metrics_full.json"
+    },
+    "codellama13b_base": {
+      "n": 62,
+      "rouge1_f": 0.3044,
+      "rouge1_f_std": 0.0798,
+      "rouge1_f_recomputed": 0.3044,
+      "embedding_cosine": 0.3731,
+      "embedding_cosine_std": 0.104,
+      "source": "full_file_4fmt R1 + newly computed MiniLM cosine"
+    },
+    "codellama13b_qlora": {
+      "n": 62,
+      "rouge1_f": 0.2727,
+      "rouge1_f_std": 0.1254,
+      "rouge1_f_recomputed": 0.2727,
+      "embedding_cosine": 0.6075,
+      "embedding_cosine_std": 0.1613,
+      "source": "full_file_4fmt R1 + newly computed MiniLM cosine"
+    }
+  },
+  "overlap_sections": {
+    "gpt4o_mini_zero_shot": {
+      "n_scored": 61,
+      "n_skipped_empty_intersection": 1,
+      "n_total": 62,
+      "rouge1_f": 0.3863,
+      "rouge1_f_std": 0.0518,
+      "embedding_cosine": 0.7097,
+      "embedding_cosine_std": 0.1011,
+      "source": "metrics_overlap.json"
+    },
+    "gpt4o_mini_rag": {
+      "n_scored": 62,
+      "n_skipped_empty_intersection": 0,
+      "n_total": 62,
+      "rouge1_f": 0.4325,
+      "rouge1_f_std": 0.0902,
+      "embedding_cosine": 0.7081,
+      "embedding_cosine_std": 0.0984,
+      "source": "metrics_overlap.json"
+    },
+    "codellama13b_base": {
+      "n_scored": 53,
+      "n_skipped_empty_intersection": 9,
+      "n_total": 62,
+      "rouge1_f": 0.309,
+      "embedding_cosine": 0.4341,
+      "source": "metrics_comparison.json overlap_sections_4fmt"
+    },
+    "codellama13b_qlora": {
+      "n_scored": 57,
+      "n_skipped_empty_intersection": 5,
+      "n_total": 62,
+      "rouge1_f": 0.3465,
+      "embedding_cosine": 0.6468,
+      "source": "metrics_comparison.json overlap_sections_4fmt"
+    }
+  },
+  "per_category": {
+    "gpt4o_mini_zero_shot": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 62,
+        "n_intersection": 43,
+        "n_scored": 43,
+        "rouge1_f": 0.4084,
+        "embedding_cosine": 0.6426
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 34,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.2408,
+        "embedding_cosine": 0.5926
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 56,
+        "n_intersection": 53,
+        "n_scored": 53,
+        "rouge1_f": 0.3303,
+        "embedding_cosine": 0.5861
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 59,
+        "n_intersection": 50,
+        "n_scored": 50,
+        "rouge1_f": 0.2686,
+        "embedding_cosine": 0.5838
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 51,
+        "n_intersection": 45,
+        "n_scored": 45,
+        "rouge1_f": 0.2346,
+        "embedding_cosine": 0.526
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 48,
+        "n_intersection": 37,
+        "n_scored": 37,
+        "rouge1_f": 0.1436,
+        "embedding_cosine": 0.4656
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 19,
+        "n_intersection": 12,
+        "n_scored": 12,
+        "rouge1_f": 0.2477,
+        "embedding_cosine": 0.4927
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 48,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.2289,
+        "embedding_cosine": 0.5203
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 53,
+        "n_intersection": 40,
+        "n_scored": 40,
+        "rouge1_f": 0.1611,
+        "embedding_cosine": 0.4346
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 59,
+        "n_intersection": 31,
+        "n_scored": 31,
+        "rouge1_f": 0.2224,
+        "embedding_cosine": 0.5857
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 52,
+        "n_intersection": 36,
+        "n_scored": 36,
+        "rouge1_f": 0.2406,
+        "embedding_cosine": 0.4836
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 38,
+        "n_intersection": 21,
+        "n_scored": 21,
+        "rouge1_f": 0.2697,
+        "embedding_cosine": 0.5113
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 61,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.2154,
+        "embedding_cosine": 0.5374
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 61,
+        "n_intersection": 24,
+        "n_scored": 24,
+        "rouge1_f": 0.166,
+        "embedding_cosine": 0.5234
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 61,
+        "n_intersection": 18,
+        "n_scored": 18,
+        "rouge1_f": 0.205,
+        "embedding_cosine": 0.414
+      }
+    },
+    "gpt4o_mini_rag": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 60,
+        "n_intersection": 41,
+        "n_scored": 41,
+        "rouge1_f": 0.4675,
+        "embedding_cosine": 0.6487
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 34,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.3372,
+        "embedding_cosine": 0.6474
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 51,
+        "n_intersection": 48,
+        "n_scored": 48,
+        "rouge1_f": 0.3605,
+        "embedding_cosine": 0.5611
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 56,
+        "n_intersection": 47,
+        "n_scored": 47,
+        "rouge1_f": 0.3096,
+        "embedding_cosine": 0.5854
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 49,
+        "n_intersection": 43,
+        "n_scored": 43,
+        "rouge1_f": 0.2842,
+        "embedding_cosine": 0.5449
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 42,
+        "n_intersection": 33,
+        "n_scored": 33,
+        "rouge1_f": 0.1691,
+        "embedding_cosine": 0.4493
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 19,
+        "n_intersection": 12,
+        "n_scored": 12,
+        "rouge1_f": 0.25,
+        "embedding_cosine": 0.4969
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 45,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.262,
+        "embedding_cosine": 0.5224
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 51,
+        "n_intersection": 39,
+        "n_scored": 39,
+        "rouge1_f": 0.168,
+        "embedding_cosine": 0.4301
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 56,
+        "n_intersection": 30,
+        "n_scored": 30,
+        "rouge1_f": 0.2696,
+        "embedding_cosine": 0.5943
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 44,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.274,
+        "embedding_cosine": 0.5425
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 38,
+        "n_intersection": 21,
+        "n_scored": 21,
+        "rouge1_f": 0.328,
+        "embedding_cosine": 0.5115
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 60,
+        "n_intersection": 28,
+        "n_scored": 28,
+        "rouge1_f": 0.2333,
+        "embedding_cosine": 0.5512
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 60,
+        "n_intersection": 23,
+        "n_scored": 23,
+        "rouge1_f": 0.1828,
+        "embedding_cosine": 0.5258
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 53,
+        "n_intersection": 17,
+        "n_scored": 17,
+        "rouge1_f": 0.2412,
+        "embedding_cosine": 0.4458
+      }
+    },
+    "codellama13b_base": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 49,
+        "n_intersection": 31,
+        "n_scored": 31,
+        "rouge1_f": 0.2382,
+        "embedding_cosine": 0.3039
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 28,
+        "n_intersection": 26,
+        "n_scored": 26,
+        "rouge1_f": 0.2215,
+        "embedding_cosine": 0.4788
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 45,
+        "n_intersection": 42,
+        "n_scored": 42,
+        "rouge1_f": 0.2271,
+        "embedding_cosine": 0.3625
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 49,
+        "n_intersection": 42,
+        "n_scored": 42,
+        "rouge1_f": 0.233,
+        "embedding_cosine": 0.4356
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 40,
+        "n_intersection": 35,
+        "n_scored": 35,
+        "rouge1_f": 0.1973,
+        "embedding_cosine": 0.3768
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 34,
+        "n_intersection": 26,
+        "n_scored": 26,
+        "rouge1_f": 0.1776,
+        "embedding_cosine": 0.3373
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 13,
+        "n_intersection": 8,
+        "n_scored": 8,
+        "rouge1_f": 0.1952,
+        "embedding_cosine": 0.3469
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 38,
+        "n_intersection": 25,
+        "n_scored": 25,
+        "rouge1_f": 0.1867,
+        "embedding_cosine": 0.3619
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 40,
+        "n_intersection": 31,
+        "n_scored": 31,
+        "rouge1_f": 0.158,
+        "embedding_cosine": 0.3361
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 52,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.1695,
+        "embedding_cosine": 0.4813
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 44,
+        "n_intersection": 30,
+        "n_scored": 30,
+        "rouge1_f": 0.2041,
+        "embedding_cosine": 0.4624
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 28,
+        "n_intersection": 17,
+        "n_scored": 17,
+        "rouge1_f": 0.2131,
+        "embedding_cosine": 0.3555
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 46,
+        "n_intersection": 20,
+        "n_scored": 20,
+        "rouge1_f": 0.1584,
+        "embedding_cosine": 0.3802
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 45,
+        "n_intersection": 17,
+        "n_scored": 17,
+        "rouge1_f": 0.1578,
+        "embedding_cosine": 0.3757
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 44,
+        "n_intersection": 13,
+        "n_scored": 13,
+        "rouge1_f": 0.1909,
+        "embedding_cosine": 0.2741
+      }
+    },
+    "codellama13b_qlora": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 23,
+        "n_intersection": 16,
+        "n_scored": 16,
+        "rouge1_f": 0.5199,
+        "embedding_cosine": 0.7869
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 10,
+        "n_intersection": 9,
+        "n_scored": 9,
+        "rouge1_f": 0.4348,
+        "embedding_cosine": 0.7134
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 19,
+        "n_intersection": 19,
+        "n_scored": 19,
+        "rouge1_f": 0.4208,
+        "embedding_cosine": 0.6474
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 1,
+        "n_intersection": 1,
+        "n_scored": 1,
+        "rouge1_f": 0.3438,
+        "embedding_cosine": 0.4341
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 19,
+        "n_intersection": 16,
+        "n_scored": 16,
+        "rouge1_f": 0.2449,
+        "embedding_cosine": 0.4987
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 28,
+        "n_intersection": 20,
+        "n_scored": 20,
+        "rouge1_f": 0.2136,
+        "embedding_cosine": 0.5443
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 4,
+        "n_intersection": 3,
+        "n_scored": 3,
+        "rouge1_f": 0.2423,
+        "embedding_cosine": 0.5403
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 8,
+        "n_intersection": 6,
+        "n_scored": 6,
+        "rouge1_f": 0.3343,
+        "embedding_cosine": 0.572
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 15,
+        "n_intersection": 12,
+        "n_scored": 12,
+        "rouge1_f": 0.2237,
+        "embedding_cosine": 0.4724
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 2,
+        "n_intersection": 1,
+        "n_scored": 1,
+        "rouge1_f": 0.1918,
+        "embedding_cosine": 0.2702
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 18,
+        "n_intersection": 15,
+        "n_scored": 15,
+        "rouge1_f": 0.3531,
+        "embedding_cosine": 0.5556
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 3,
+        "n_intersection": 3,
+        "n_scored": 3,
+        "rouge1_f": 0.3748,
+        "embedding_cosine": 0.5805
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 8,
+        "n_intersection": 7,
+        "n_scored": 7,
+        "rouge1_f": 0.1375,
+        "embedding_cosine": 0.5397
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 6,
+        "n_intersection": 4,
+        "n_scored": 4,
+        "rouge1_f": 0.2654,
+        "embedding_cosine": 0.5819
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "embedding_cosine": null
+      }
+    }
+  },
+  "category_order": [
+    "Project overview / purpose",
+    "Repository structure",
+    "Build / run / install",
+    "Test / CI commands",
+    "Code style / formatting",
+    "Architecture / design constraints",
+    "Domain models / key abstractions",
+    "API / interface contracts",
+    "Do / Don't rules",
+    "Git / PR / commit conventions",
+    "Tooling-specific agent config",
+    "Examples / few-shot snippets",
+    "Security / secrets",
+    "Performance",
+    "Ownership / contacts",
+    "Maintenance / when to update"
+  ],
+  "elapsed_sec": 237.2
+}

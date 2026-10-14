@@ -1,0 +1,13 @@
+{
+  "study_root": "/gpuhome/shanto1/Agents Instruction/ai_agent_instruction_files",
+  "n_repos": 1000,
+  "n_top": 500,
+  "n_bottom": 500,
+  "n_adopters_inventory": 582,
+  "n_instruction_paths_in_inventory": 3598,
+  "source_inventories": {
+    "top": "top_500_projects_with_files.csv (full tree ~175MB; slimmed)",
+    "bottom": "bottom_500_projects_with_files.csv (full tree ~53MB; slimmed)"
+  },
+  "note": "Slim CSVs keep analyze_rq1_adoption.py-compatible `files` column with instruction paths only."
+}

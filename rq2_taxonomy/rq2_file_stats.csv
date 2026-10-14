@@ -1,0 +1,5 @@
+type,n_files,median_chars,mean_chars,median_headings,vocab_heads,mean_categories
+AGENTS.md,1677,5043,7496,9.0,13529,9.56
+CLAUDE.md,1107,3903,6010,8.0,7669,8.59
+Cursor rules,65,1677,3022,6.0,591,6.46
+Copilot instructions,538,3262,5986,8.0,5881,8.38

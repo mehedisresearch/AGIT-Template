@@ -1,0 +1,40 @@
+{
+  "full_file": {
+    "gpt-4o-mini_zero_shot": {
+      "rouge1_f": 0.4104,
+      "rougeL_f": 0.1563,
+      "token_f1": 0.3576
+    },
+    "gpt-4o-mini_rag": {
+      "rouge1_f": 0.4407,
+      "rougeL_f": 0.1755,
+      "token_f1": 0.3852
+    },
+    "codellama13b_qlora": {
+      "rouge1_f": 0.2649,
+      "rougeL_f": 0.1348,
+      "token_f1": 0.2404
+    }
+  },
+  "overlap_sections": {
+    "zero_shot": {
+      "rouge1_f": 0.3694,
+      "rougeL_f": 0.1735,
+      "embedding_cosine": 0.6916,
+      "n_scored": 76
+    },
+    "rag": {
+      "rouge1_f": 0.4138,
+      "rougeL_f": 0.1889,
+      "embedding_cosine": 0.6902,
+      "n_scored": 77
+    },
+    "codellama13b_qlora": {
+      "rouge1_f": 0.3383,
+      "rougeL_f": 0.205,
+      "embedding_cosine": 0.6326,
+      "bertscore_f1": 0.2887,
+      "n_scored": 66
+    }
+  }
+}

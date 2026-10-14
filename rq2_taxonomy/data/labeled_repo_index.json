@@ -1,0 +1,8065 @@
+[
+  {
+    "folder_name": "1517005260_graph-rag-agent",
+    "repo_tier": "bottom",
+    "language": "Jupyter Notebook",
+    "stars": 995.0,
+    "forks": 132.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "3rdIteration_btcrecover",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 742.0,
+    "forks": 237.0,
+    "license": "GPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "567-labs_instructor",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11095.0,
+    "forks": 830.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "Afilmory_afilmory",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1175.0,
+    "forks": 135.0,
+    "license": NaN,
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "AgentOps-AI_agentops",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 4722.0,
+    "forks": 452.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "AhmedElywa_prisma-tools",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 693.0,
+    "forks": 57.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "AlaSQL_alasql",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 7161.0,
+    "forks": 681.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "AnswerOverflow_AnswerOverflow",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1195.0,
+    "forks": 64.0,
+    "license": "NOASSERTION",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "App-vNext_Polly",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 13882.0,
+    "forks": 1261.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Arize-ai_openinference",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 522.0,
+    "forks": 117.0,
+    "license": "Apache-2.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Arize-ai_phoenix",
+    "repo_tier": "top",
+    "language": "Jupyter Notebook",
+    "stars": 6498.0,
+    "forks": 506.0,
+    "license": "NOASSERTION",
+    "n_files_all": 45,
+    "n_files_4fmt": 16,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "ArthurSonzogni_FTXUI",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 8551.0,
+    "forks": 490.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "AstrBotDevs_AstrBot",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11041.0,
+    "forks": 781.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "AutoMQ_automq",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 6819.0,
+    "forks": 471.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "AvaloniaUI_Avalonia",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 28297.0,
+    "forks": 2438.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure-Samples_azure-search-openai-demo",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 7182.0,
+    "forks": 4889.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure-Samples_serverless-chat-langchainjs",
+    "repo_tier": "bottom",
+    "language": "Bicep",
+    "stars": 820.0,
+    "forks": 455.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "AzureAD_azure-activedirectory-identitymodel-extensions-for-dotnet",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1113.0,
+    "forks": 431.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "AzureAD_microsoft-identity-web",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 743.0,
+    "forks": 235.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_Azure-Sentinel",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5204.0,
+    "forks": 3282.0,
+    "license": "MIT",
+    "n_files_all": 13,
+    "n_files_4fmt": 13,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azqr",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 644.0,
+    "forks": 115.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-cosmos-dotnet-v3",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 774.0,
+    "forks": 512.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-mcp",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1038.0,
+    "forks": 292.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-sdk-for-net",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 5827.0,
+    "forks": 5008.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-sdk-for-python",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5011.0,
+    "forks": 3062.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-sdk-for-rust",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 834.0,
+    "forks": 297.0,
+    "license": "MIT",
+    "n_files_all": 9,
+    "n_files_4fmt": 9,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-sdk",
+    "repo_tier": "bottom",
+    "language": "PowerShell",
+    "stars": 558.0,
+    "forks": 331.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-service-operator",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 860.0,
+    "forks": 220.0,
+    "license": "MIT",
+    "n_files_all": 8,
+    "n_files_4fmt": 3,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_azure-storage-fuse",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 763.0,
+    "forks": 232.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_bicep-registry-modules",
+    "repo_tier": "bottom",
+    "language": "Bicep",
+    "stars": 634.0,
+    "forks": 473.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Azure_data-api-builder",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1121.0,
+    "forks": 259.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "BasedHardware_omi",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 6087.0,
+    "forks": 891.0,
+    "license": "MIT",
+    "n_files_all": 11,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "BeehiveInnovations_zen-mcp-server",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5465.0,
+    "forks": 487.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "BerriAI_litellm",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 26663.0,
+    "forks": 3685.0,
+    "license": "NOASSERTION",
+    "n_files_all": 16,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Blair2004_NexoPOS",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 1061.0,
+    "forks": 452.0,
+    "license": "GPL-3.0",
+    "n_files_all": 26,
+    "n_files_4fmt": 23,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "BoundaryML_baml",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 4975.0,
+    "forks": 213.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "CapSoftware_Cap",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 10645.0,
+    "forks": 674.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "CarGuo_gsy_github_app_flutter",
+    "repo_tier": "top",
+    "language": "Dart",
+    "stars": 15207.0,
+    "forks": 2589.0,
+    "license": "Apache-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Chainlit_chainlit",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 10291.0,
+    "forks": 1443.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Chia-Network_chia-blockchain",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 10846.0,
+    "forks": 2047.0,
+    "license": "Apache-2.0",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "CodeWithCJ_SparkyFitness",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 548.0,
+    "forks": 13.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "CoderGamester_mcp-unity",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 828.0,
+    "forks": 105.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ColorlibHQ_email-templates",
+    "repo_tier": "bottom",
+    "language": "HTML",
+    "stars": 1193.0,
+    "forks": 2757.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ComposioHQ_composio",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 25592.0,
+    "forks": 4384.0,
+    "license": NaN,
+    "n_files_all": 27,
+    "n_files_4fmt": 12,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "DataDog_dd-trace-go",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 778.0,
+    "forks": 473.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "DataDog_dd-trace-java",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 654.0,
+    "forks": 311.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "DaveSkender_Stock.Indicators",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1096.0,
+    "forks": 259.0,
+    "license": "Apache-2.0",
+    "n_files_all": 17,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "DumbWareio_DumbAssets",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 841.0,
+    "forks": 29.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "EduardoPires_EquinoxProject",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 6699.0,
+    "forks": 1659.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "EricLBuehler_mistral.rs",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 5959.0,
+    "forks": 437.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "EvilBeaver_OneScript",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 508.0,
+    "forks": 111.0,
+    "license": "MPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "FarmBot_Farmbot-Web-App",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 938.0,
+    "forks": 347.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "FastLED_FastLED",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 7005.0,
+    "forks": 1710.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "FidelusAleksander_ghcertified",
+    "repo_tier": "bottom",
+    "language": "HTML",
+    "stars": 750.0,
+    "forks": 266.0,
+    "license": "MIT",
+    "n_files_all": 12,
+    "n_files_4fmt": 4,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Flagsmith_flagsmith",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5817.0,
+    "forks": 451.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Floorp-Projects_Floorp",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 7510.0,
+    "forks": 208.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ForumMagnum_ForumMagnum",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 648.0,
+    "forks": 131.0,
+    "license": "GPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Freika_dawarich",
+    "repo_tier": "top",
+    "language": "Ruby",
+    "stars": 5920.0,
+    "forks": 172.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "GitbookIO_gitbook",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 28156.0,
+    "forks": 3994.0,
+    "license": "GPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "HumanSignal_label-studio",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 23990.0,
+    "forks": 2960.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "Humanizr_Humanizer",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 9024.0,
+    "forks": 981.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Iamshankhadeep_ccseva",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 647.0,
+    "forks": 31.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "JMBeresford_retrom",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1216.0,
+    "forks": 19.0,
+    "license": "GPL-3.0",
+    "n_files_all": 13,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "JanDeDobbeleer_oh-my-posh",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 19691.0,
+    "forks": 2567.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "JonasKruckenberg_k23",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 515.0,
+    "forks": 32.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "JuliaLang_julia",
+    "repo_tier": "top",
+    "language": "Julia",
+    "stars": 47416.0,
+    "forks": 5612.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Kilo-Org_kilocode",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 6078.0,
+    "forks": 521.0,
+    "license": "Apache-2.0",
+    "n_files_all": 12,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "KittyCAD_modeling-app",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 913.0,
+    "forks": 84.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Kotlin-Android-Open-Source_MVI-Coroutines-Flow",
+    "repo_tier": "bottom",
+    "language": "Kotlin",
+    "stars": 1036.0,
+    "forks": 111.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Layr-Labs_eigenlayer-contracts",
+    "repo_tier": "bottom",
+    "language": "Solidity",
+    "stars": 693.0,
+    "forks": 435.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Lumiwealth_lumibot",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1087.0,
+    "forks": 223.0,
+    "license": "GPL-3.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "MCPJam_inspector",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 607.0,
+    "forks": 49.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Mail-0_Zero",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9132.0,
+    "forks": 1049.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "Meesho_BharatMLStack",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 561.0,
+    "forks": 44.0,
+    "license": "NOASSERTION",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "MervinPraison_PraisonAI",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5243.0,
+    "forks": 722.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "MetaMask_metamask-extension",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 12685.0,
+    "forks": 5257.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "MicrosoftDocs_azure-devops-docs",
+    "repo_tier": "bottom",
+    "language": "Shell",
+    "stars": 898.0,
+    "forks": 2559.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "MicrosoftDocs_mcp",
+    "repo_tier": "bottom",
+    "language": NaN,
+    "stars": 772.0,
+    "forks": 80.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "MultiboxLabs_flow-browser",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 543.0,
+    "forks": 29.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "NG-ZORRO_ng-zorro-antd",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9060.0,
+    "forks": 4052.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "NangoHQ_nango",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5463.0,
+    "forks": 507.0,
+    "license": "NOASSERTION",
+    "n_files_all": 14,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Netflix_metaflow",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 9330.0,
+    "forks": 866.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "NewFuture_DDNS",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 4528.0,
+    "forks": 680.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "NikolayS_postgres_dba",
+    "repo_tier": "bottom",
+    "language": "PLpgSQL",
+    "stars": 1188.0,
+    "forks": 134.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "NuGet_NuGet.Client",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 798.0,
+    "forks": 723.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "OWASP_mastg",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 12399.0,
+    "forks": 2472.0,
+    "license": "CC-BY-SA-4.0",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "OpenCut-app_OpenCut",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 28335.0,
+    "forks": 2581.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "OpenHFT_Chronicle-Core",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 609.0,
+    "forks": 134.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "OpenHFT_Chronicle-Wire",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 557.0,
+    "forks": 132.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "OpenHFT_Java-Runtime-Compiler",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 690.0,
+    "forks": 148.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "OpenListTeam_OpenList",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 13498.0,
+    "forks": 930.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "OpenNHP_opennhp",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 13661.0,
+    "forks": 2505.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "OrchardCMS_OrchardCore",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 7777.0,
+    "forks": 2481.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 15,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "PRQL_prql",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 10371.0,
+    "forks": 236.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "PX4_PX4-Autopilot",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 9852.0,
+    "forks": 14265.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 11,
+    "n_files_4fmt": 11,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "PaddlePaddle_Paddle",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 23088.0,
+    "forks": 5775.0,
+    "license": "Apache-2.0",
+    "n_files_all": 9,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "PaloAltoNetworks_docusaurus-openapi-docs",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 937.0,
+    "forks": 283.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Portkey-AI_gateway",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9045.0,
+    "forks": 678.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "PostHog_posthog.com",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 542.0,
+    "forks": 590.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "PostHog_posthog",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 28069.0,
+    "forks": 1823.0,
+    "license": "NOASSERTION",
+    "n_files_all": 129,
+    "n_files_4fmt": 80,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "PowerShell_PowerShellEditorServices",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 695.0,
+    "forks": 237.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "PrefectHQ_marvin",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5832.0,
+    "forks": 378.0,
+    "license": "Apache-2.0",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "PrefectHQ_prefect",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 19894.0,
+    "forks": 1888.0,
+    "license": "Apache-2.0",
+    "n_files_all": 41,
+    "n_files_4fmt": 41,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "PrismarineJS_minecraft-data",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 762.0,
+    "forks": 224.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "PyO3_maturin",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 4749.0,
+    "forks": 333.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "PySpur-Dev_pyspur",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5318.0,
+    "forks": 381.0,
+    "license": "Apache-2.0",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "QL-Win_QuickLook",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 20496.0,
+    "forks": 1167.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "RSSNext_Folo",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 30468.0,
+    "forks": 1374.0,
+    "license": "GPL-3.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "RooCodeInc_Roo-Code",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17756.0,
+    "forks": 1966.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "RustPython_RustPython",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 20338.0,
+    "forks": 1332.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Significant-Gravitas_AutoGPT",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 177379.0,
+    "forks": 45908.0,
+    "license": "NOASSERTION",
+    "n_files_all": 24,
+    "n_files_4fmt": 23,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "SimonHalvdansson_Harmonic-HN",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 746.0,
+    "forks": 52.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "SirVer_ultisnips",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 7632.0,
+    "forks": 686.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Skyvern-AI_skyvern",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 13976.0,
+    "forks": 1158.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "SoftFever_OrcaSlicer",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 10280.0,
+    "forks": 1308.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "SolidInvoice_SolidInvoice",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 695.0,
+    "forks": 196.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "SparkDevNetwork_Rock",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 614.0,
+    "forks": 388.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "StarRocks_starrocks",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 10390.0,
+    "forks": 2065.0,
+    "license": "Apache-2.0",
+    "n_files_all": 25,
+    "n_files_4fmt": 25,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Stirling-Tools_Stirling-PDF",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 63892.0,
+    "forks": 5443.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "SuperClaude-Org_SuperClaude_Framework",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11739.0,
+    "forks": 1038.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Sylius_Sylius",
+    "repo_tier": "top",
+    "language": "PHP",
+    "stars": 8269.0,
+    "forks": 2148.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "TanStack_router",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 10705.0,
+    "forks": 1113.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "The-Art-of-Hacking_h4cker",
+    "repo_tier": "top",
+    "language": "Jupyter Notebook",
+    "stars": 22209.0,
+    "forks": 4163.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ToolJet_ToolJet",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 36227.0,
+    "forks": 4704.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 9,
+    "n_files_4fmt": 7,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Uniswap_interface",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5278.0,
+    "forks": 5308.0,
+    "license": "GPL-3.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Veloera_Veloera",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 929.0,
+    "forks": 88.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "VirtualBox_virtualbox",
+    "repo_tier": "bottom",
+    "language": "C",
+    "stars": 564.0,
+    "forks": 45.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "Voxelum_x-minecraft-launcher",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1070.0,
+    "forks": 132.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "Wei-Shaw_claude-relay-service",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 1000.0,
+    "forks": 172.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "Xinrea_bili-shadowreplay",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 572.0,
+    "forks": 40.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "Z3Prover_z3",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 11228.0,
+    "forks": 1547.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "a16z_halmos",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 917.0,
+    "forks": 88.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "abi_screenshot-to-code",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 70493.0,
+    "forks": 8708.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "actions_runner-images",
+    "repo_tier": "top",
+    "language": "PowerShell",
+    "stars": 11612.0,
+    "forks": 3417.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "activepieces_activepieces",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 16058.0,
+    "forks": 2266.0,
+    "license": "NOASSERTION",
+    "n_files_all": 33,
+    "n_files_4fmt": 18,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "actualbudget_actual",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 20537.0,
+    "forks": 1668.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "adaline_gateway",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 528.0,
+    "forks": 22.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "afadil_wealthfolio",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5304.0,
+    "forks": 282.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "agent0ai_agent-zero",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11357.0,
+    "forks": 2200.0,
+    "license": "NOASSERTION",
+    "n_files_all": 138,
+    "n_files_4fmt": 138,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "aidenybai_bippy",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 928.0,
+    "forks": 24.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "airbytehq_airbyte",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 19011.0,
+    "forks": 4685.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "allenai_reward-bench",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 620.0,
+    "forks": 88.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "andrewlock_NetEscapades.EnumGenerators",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1036.0,
+    "forks": 50.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ant-design_ant-design-pro",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 37356.0,
+    "forks": 8205.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ant-design_ant-design",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 95512.0,
+    "forks": 53132.0,
+    "license": "MIT",
+    "n_files_all": 9,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "antiwork_gumroad",
+    "repo_tier": "top",
+    "language": "Ruby",
+    "stars": 6643.0,
+    "forks": 1109.0,
+    "license": "MIT",
+    "n_files_all": 9,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "anyproto_anytype-ts",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5854.0,
+    "forks": 362.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "apache_ozone",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 951.0,
+    "forks": 553.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "apache_pinot",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 5851.0,
+    "forks": 1401.0,
+    "license": "Apache-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "apache_pulsar",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 14760.0,
+    "forks": 3646.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "apache_spark",
+    "repo_tier": "top",
+    "language": "Scala",
+    "stars": 41575.0,
+    "forks": 28706.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "apolloconfig_apollo",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 29581.0,
+    "forks": 10227.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "appsmithorg_appsmith",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 37596.0,
+    "forks": 4177.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "arc53_DocsGPT",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 16870.0,
+    "forks": 1755.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "arthurhenrique_cookiecutter-fastapi",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 575.0,
+    "forks": 70.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "artsy_force",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 619.0,
+    "forks": 150.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "assistant-ui_assistant-ui",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5475.0,
+    "forks": 626.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ast-grep_ast-grep",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 9397.0,
+    "forks": 249.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "astral-sh_ruff",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 41240.0,
+    "forks": 1464.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "astral-sh_uv",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 63219.0,
+    "forks": 1820.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "awaescher_OllamaSharp",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1060.0,
+    "forks": 150.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "awslabs_mcp",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5107.0,
+    "forks": 668.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "azerothcore_azerothcore-wotlk",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 7292.0,
+    "forks": 2906.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "babalae_better-genshin-impact",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 9893.0,
+    "forks": 651.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "backstage_backstage",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 30835.0,
+    "forks": 6695.0,
+    "license": "Apache-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "badlogic_lemmy",
+    "repo_tier": "bottom",
+    "language": "HTML",
+    "stars": 999.0,
+    "forks": 224.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "basementstudio_xmcp",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 730.0,
+    "forks": 33.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "basetenlabs_truss",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1035.0,
+    "forks": 88.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "benbalter_wordpress-to-jekyll-exporter",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 1053.0,
+    "forks": 131.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "bennycode_trading-signals",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 776.0,
+    "forks": 107.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "better-auth_better-auth",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 18111.0,
+    "forks": 1316.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "binarywang_WxJava",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 31663.0,
+    "forks": 8940.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "bitfoundation_bitplatform",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1213.0,
+    "forks": 245.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "block_goose",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 17680.0,
+    "forks": 1509.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "bmadcode_BMAD-METHOD",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 6484.0,
+    "forks": 1182.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "brenocq_implot3d",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 970.0,
+    "forks": 53.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "browser-use_browser-use",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 66661.0,
+    "forks": 7678.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "browserbase_stagehand",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 14879.0,
+    "forks": 892.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "browserless_browserless",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 10894.0,
+    "forks": 855.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "bruin-data_bruin",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 962.0,
+    "forks": 42.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "btwld_mix",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 703.0,
+    "forks": 43.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "buefy_buefy",
+    "repo_tier": "top",
+    "language": "Vue",
+    "stars": 9573.0,
+    "forks": 1112.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "bugsink_bugsink",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 908.0,
+    "forks": 43.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "busser_tfautomv",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 839.0,
+    "forks": 23.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "calcom_cal.com",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 37399.0,
+    "forks": 10122.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "callstackincubator_react-native-bottom-tabs",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1083.0,
+    "forks": 57.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "catatsuy_private-isu",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 528.0,
+    "forks": 312.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "celestiaorg_celestia-core",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 531.0,
+    "forks": 330.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "celestiaorg_celestia-node",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 976.0,
+    "forks": 1015.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "celo-org_celo-monorepo",
+    "repo_tier": "bottom",
+    "language": "Solidity",
+    "stars": 733.0,
+    "forks": 390.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "chainstacklabs_pump-fun-bot",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 711.0,
+    "forks": 257.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "chrxh_alien",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 5211.0,
+    "forks": 171.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "cline_cline",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 48455.0,
+    "forks": 6467.0,
+    "license": "Apache-2.0",
+    "n_files_all": 22,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "cloudflare_workerd",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 6914.0,
+    "forks": 410.0,
+    "license": "Apache-2.0",
+    "n_files_all": 15,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "cloudposse_atmos",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 1108.0,
+    "forks": 127.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "cockroachdb_cockroach",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 31133.0,
+    "forks": 3940.0,
+    "license": "NOASSERTION",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "codemod-com_codemod",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 767.0,
+    "forks": 53.0,
+    "license": "Apache-2.0",
+    "n_files_all": 16,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "coder_coder",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 10544.0,
+    "forks": 955.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "coleam00_context-engineering-intro",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 7636.0,
+    "forks": 1547.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "colinhacks_zod",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 39304.0,
+    "forks": 1554.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "comet-ml_opik",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11956.0,
+    "forks": 825.0,
+    "license": "Apache-2.0",
+    "n_files_all": 24,
+    "n_files_4fmt": 8,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "compiler-explorer_compiler-explorer",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17818.0,
+    "forks": 1908.0,
+    "license": "BSD-2-Clause",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "continuedev_continue",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 28008.0,
+    "forks": 3240.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "copper-project_copper-rs",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 808.0,
+    "forks": 52.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "coturn_coturn",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 12724.0,
+    "forks": 2145.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "crewAIInc_crewAI",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 35096.0,
+    "forks": 4696.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "cvxpy_cvxpy",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 5857.0,
+    "forks": 1112.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "cypress-io_cypress",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 48796.0,
+    "forks": 3312.0,
+    "license": "MIT",
+    "n_files_all": 117,
+    "n_files_4fmt": 117,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "czlonkowski_n8n-mcp",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4512.0,
+    "forks": 852.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "dagster-io_dagster",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 13669.0,
+    "forks": 1774.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 7,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "dailydotdev_apps",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 926.0,
+    "forks": 266.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "danny-avila_LibreChat",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 28611.0,
+    "forks": 5212.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "daohoangson_flutter_widget_from_html",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 725.0,
+    "forks": 274.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "dartsim_dart",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 985.0,
+    "forks": 289.0,
+    "license": "BSD-2-Clause",
+    "n_files_all": 16,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "datahub-project_datahub",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 10890.0,
+    "forks": 3176.0,
+    "license": "Apache-2.0",
+    "n_files_all": 13,
+    "n_files_4fmt": 13,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "davidmigloz_langchain_dart",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 572.0,
+    "forks": 131.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "deepnoodle-ai_risor",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 815.0,
+    "forks": 35.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "dense-analysis_ale",
+    "repo_tier": "top",
+    "language": "Vim Script",
+    "stars": 13808.0,
+    "forks": 1457.0,
+    "license": "BSD-2-Clause",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "different-ai_note-companion",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 696.0,
+    "forks": 117.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "diggerhq_digger",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 4616.0,
+    "forks": 562.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "distribworks_dkron",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 4536.0,
+    "forks": 398.0,
+    "license": "LGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "docling-project_docling",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 34981.0,
+    "forks": 2359.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "doggy8088_github-copilot-configs",
+    "repo_tier": "bottom",
+    "language": NaN,
+    "stars": 769.0,
+    "forks": 97.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotCMS_core",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 912.0,
+    "forks": 477.0,
+    "license": "NOASSERTION",
+    "n_files_all": 28,
+    "n_files_4fmt": 22,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "dotnet_SqlClient",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 930.0,
+    "forks": 312.0,
+    "license": "MIT",
+    "n_files_all": 15,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_arcade",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 690.0,
+    "forks": 375.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "dotnet_aspire",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 4723.0,
+    "forks": 659.0,
+    "license": "MIT",
+    "n_files_all": 35,
+    "n_files_4fmt": 12,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_aspnetcore",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 36926.0,
+    "forks": 10420.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_core",
+    "repo_tier": "top",
+    "language": "PowerShell",
+    "stars": 21518.0,
+    "forks": 4919.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_dev-proxy",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 687.0,
+    "forks": 75.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_docs",
+    "repo_tier": "top",
+    "language": NaN,
+    "stars": 4500.0,
+    "forks": 6026.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_dotnet-api-docs",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 846.0,
+    "forks": 1618.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_dotnet-docker",
+    "repo_tier": "top",
+    "language": "Dockerfile",
+    "stars": 4705.0,
+    "forks": 1967.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_dotnet",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 676.0,
+    "forks": 180.0,
+    "license": "MIT",
+    "n_files_all": 57,
+    "n_files_4fmt": 40,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_efcore",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 14235.0,
+    "forks": 3284.0,
+    "license": "MIT",
+    "n_files_all": 19,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_machinelearning",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 9231.0,
+    "forks": 1926.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_maui",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 22821.0,
+    "forks": 1865.0,
+    "license": "MIT",
+    "n_files_all": 19,
+    "n_files_4fmt": 19,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_msbuild",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 5418.0,
+    "forks": 1385.0,
+    "license": "MIT",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_orleans",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 10443.0,
+    "forks": 2093.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_performance",
+    "repo_tier": "bottom",
+    "language": "F#",
+    "stars": 737.0,
+    "forks": 280.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "dotnet_roslyn",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 19709.0,
+    "forks": 4146.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_runtime",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 16688.0,
+    "forks": 5098.0,
+    "license": "MIT",
+    "n_files_all": 18,
+    "n_files_4fmt": 18,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "dotnet_winforms",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 4635.0,
+    "forks": 1045.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "dotnet_yarp",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 9144.0,
+    "forks": 884.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "dropseed_plain",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 619.0,
+    "forks": 12.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "dust-tt_dust",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1171.0,
+    "forks": 149.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "elie222_inbox-zero",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 8426.0,
+    "forks": 934.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "elixir-lsp_vscode-elixir-ls",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 571.0,
+    "forks": 110.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "elizaOS_eliza",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 16507.0,
+    "forks": 5289.0,
+    "license": "MIT",
+    "n_files_all": 539,
+    "n_files_4fmt": 539,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "elsa-workflows_elsa-core",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 7225.0,
+    "forks": 1376.0,
+    "license": "MIT",
+    "n_files_all": 21,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "erpc_erpc",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 518.0,
+    "forks": 51.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "eslint_eslint",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 26140.0,
+    "forks": 4767.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "esphome_esphome",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 9659.0,
+    "forks": 4419.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "espressif_esptool",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5980.0,
+    "forks": 1439.0,
+    "license": "GPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ethereum-optimism_optimism",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 6140.0,
+    "forks": 3645.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "eyaltoledano_claude-task-master",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 19766.0,
+    "forks": 1931.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "fatih_dotfiles",
+    "repo_tier": "bottom",
+    "language": "Lua",
+    "stars": 837.0,
+    "forks": 140.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "featureform_enrichmcp",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 583.0,
+    "forks": 25.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "fgmacedo_python-statemachine",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1096.0,
+    "forks": 98.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "firezone_firezone",
+    "repo_tier": "top",
+    "language": "Elixir",
+    "stars": 7441.0,
+    "forks": 326.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "fluent_fluent-bit",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 7110.0,
+    "forks": 1738.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "fonsp_Pluto.jl",
+    "repo_tier": "top",
+    "language": "Julia",
+    "stars": 5170.0,
+    "forks": 300.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "formancehq_ledger",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 997.0,
+    "forks": 120.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "formbricks_formbricks",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 11035.0,
+    "forks": 1946.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "fujiapple852_trippy",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 5815.0,
+    "forks": 162.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "generaltranslation_gt",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 645.0,
+    "forks": 16.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "gensx-inc_gensx",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 504.0,
+    "forks": 23.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getAlby_lightning-browser-extension",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 554.0,
+    "forks": 208.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry-cli",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 946.0,
+    "forks": 231.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry-cocoa",
+    "repo_tier": "bottom",
+    "language": "Swift",
+    "stars": 939.0,
+    "forks": 362.0,
+    "license": "MIT",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry-dart",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 827.0,
+    "forks": 268.0,
+    "license": "MIT",
+    "n_files_all": 12,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry-dotnet",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 705.0,
+    "forks": 221.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry-javascript",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 8353.0,
+    "forks": 1698.0,
+    "license": "MIT",
+    "n_files_all": 21,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "getsentry_sentry",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 41579.0,
+    "forks": 4398.0,
+    "license": "NOASSERTION",
+    "n_files_all": 28,
+    "n_files_4fmt": 8,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ggml-org_llama.cpp",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 83729.0,
+    "forks": 12520.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ggml-org_whisper.cpp",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 41914.0,
+    "forks": 4496.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "git-for-windows_git",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 8812.0,
+    "forks": 2688.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "github-copilot-resources_copilot-metrics-viewer",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 508.0,
+    "forks": 264.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "github_codeql",
+    "repo_tier": "top",
+    "language": "CodeQL",
+    "stars": 8574.0,
+    "forks": 1746.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "github_docs",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17647.0,
+    "forks": 62633.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "github_github-mcp-server",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 19787.0,
+    "forks": 1747.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "gitkraken_vscode-gitlens",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9457.0,
+    "forks": 1494.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "gitpod-io_gitpod",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 13404.0,
+    "forks": 1307.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 47,
+    "n_files_4fmt": 46,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "gitroomhq_postiz-app",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 22784.0,
+    "forks": 3630.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "gofiber_fiber",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 37269.0,
+    "forks": 1828.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "gofr-dev_gofr",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 12662.0,
+    "forks": 1724.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "google-gemini_gemini-cli",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 65937.0,
+    "forks": 6330.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "gradio-app_gradio",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 39262.0,
+    "forks": 3006.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "grafana_loki",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 26100.0,
+    "forks": 3735.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 12,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "grafbase_grafbase",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 1151.0,
+    "forks": 56.0,
+    "license": "MPL-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "gronxb_hot-updater",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 899.0,
+    "forks": 73.0,
+    "license": "MIT",
+    "n_files_all": 16,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "gtg922r_obsidian-numerals",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 520.0,
+    "forks": 14.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "halo-dev_halo",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 36165.0,
+    "forks": 9989.0,
+    "license": "GPL-3.0",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "hathach_tinyusb",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 5759.0,
+    "forks": 1218.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "hcengineering_platform",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 22025.0,
+    "forks": 1484.0,
+    "license": "EPL-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "herbie-fp_herbie",
+    "repo_tier": "bottom",
+    "language": "HTML",
+    "stars": 811.0,
+    "forks": 42.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "heyverse_hey",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 29352.0,
+    "forks": 1755.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "home-assistant_frontend",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4824.0,
+    "forks": 3214.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "hotovo_aider-desk",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 658.0,
+    "forks": 42.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "hpcc-systems_HPCC-Platform",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 594.0,
+    "forks": 306.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "huggingface_smolagents",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 21715.0,
+    "forks": 1908.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "hyperbrowserai_HyperAgent",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 632.0,
+    "forks": 70.0,
+    "license": "NOASSERTION",
+    "n_files_all": 18,
+    "n_files_4fmt": 18,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "igraph_rigraph",
+    "repo_tier": "bottom",
+    "language": "R",
+    "stars": 596.0,
+    "forks": 207.0,
+    "license": NaN,
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ikamensh_flynt",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 718.0,
+    "forks": 38.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "inline-chat_inline",
+    "repo_tier": "bottom",
+    "language": "Swift",
+    "stars": 586.0,
+    "forks": 23.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "instantdb_instant",
+    "repo_tier": "top",
+    "language": "Clojure",
+    "stars": 9095.0,
+    "forks": 282.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "intellij-solidity_intellij-solidity",
+    "repo_tier": "bottom",
+    "language": "Kotlin",
+    "stars": 1092.0,
+    "forks": 97.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "invoke-ai_InvokeAI",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 25600.0,
+    "forks": 2627.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "iovisor_ubpf",
+    "repo_tier": "bottom",
+    "language": "C",
+    "stars": 902.0,
+    "forks": 152.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "irihitech_Ursa.Avalonia",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1124.0,
+    "forks": 101.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "istio_istio",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 37088.0,
+    "forks": 8030.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "jdx_mise",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 17960.0,
+    "forks": 585.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "jina-ai_reader",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9021.0,
+    "forks": 711.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "jlowin_fastmcp",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 15491.0,
+    "forks": 986.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "joamag_boytacean",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 648.0,
+    "forks": 36.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "jonobr1_two.js",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 8504.0,
+    "forks": 462.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "joshuafuller_ATAK-Maps",
+    "repo_tier": "bottom",
+    "language": NaN,
+    "stars": 835.0,
+    "forks": 111.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "julep-ai_julep",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5629.0,
+    "forks": 931.0,
+    "license": NaN,
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "jxxghp_MoviePilot",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 9129.0,
+    "forks": 1118.0,
+    "license": "GPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "kanisterio_kanister",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 831.0,
+    "forks": 167.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "karakeep-app_karakeep",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 18852.0,
+    "forks": 799.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "katspaugh_wavesurfer.js",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9541.0,
+    "forks": 1711.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "keepassxreboot_keepassxc",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 23773.0,
+    "forks": 1599.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "keephq_keep",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 10563.0,
+    "forks": 1029.0,
+    "license": "NOASSERTION",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "kern_filepizza",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 9357.0,
+    "forks": 578.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "kortix-ai_suna",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17116.0,
+    "forks": 2766.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "ktorio_ktor",
+    "repo_tier": "top",
+    "language": "Kotlin",
+    "stars": 13815.0,
+    "forks": 1169.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "kyegomez_swarms",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5073.0,
+    "forks": 598.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "labring_laf",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 7557.0,
+    "forks": 688.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lacymorrow_crossover",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 1053.0,
+    "forks": 115.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langbot-app_LangBot",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 12782.0,
+    "forks": 998.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langchain-ai_agents-from-scratch",
+    "repo_tier": "bottom",
+    "language": "Jupyter Notebook",
+    "stars": 1083.0,
+    "forks": 199.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langchain-ai_langchain",
+    "repo_tier": "top",
+    "language": "Jupyter Notebook",
+    "stars": 112624.0,
+    "forks": 18400.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langchain-ai_langgraph",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 16579.0,
+    "forks": 2842.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langchain-ai_langsmith-sdk",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 606.0,
+    "forks": 132.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "langflow-ai_langflow",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 93294.0,
+    "forks": 7227.0,
+    "license": "MIT",
+    "n_files_all": 8,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "langfuse_langfuse",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 14483.0,
+    "forks": 1330.0,
+    "license": "NOASSERTION",
+    "n_files_all": 37,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "laravel-workflow_laravel-workflow",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 1043.0,
+    "forks": 52.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "leoafarias_fvm",
+    "repo_tier": "top",
+    "language": "Dart",
+    "stars": 5105.0,
+    "forks": 262.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "leonardsellem_n8n-mcp-server",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1041.0,
+    "forks": 164.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lightdash_lightdash",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4935.0,
+    "forks": 584.0,
+    "license": "NOASSERTION",
+    "n_files_all": 62,
+    "n_files_4fmt": 62,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lima-vm_lima",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 17808.0,
+    "forks": 687.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "linux-do_cdk",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 535.0,
+    "forks": 52.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "liuliu_ccv",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 7158.0,
+    "forks": 1709.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "livekit_agents",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 6923.0,
+    "forks": 1122.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "livingbio_typed-ffmpeg",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1050.0,
+    "forks": 20.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "logancyang_obsidian-copilot",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5044.0,
+    "forks": 412.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lollipopkit_flutter_server_box",
+    "repo_tier": "top",
+    "language": "Dart",
+    "stars": 6427.0,
+    "forks": 410.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "luccahuguet_yazelix",
+    "repo_tier": "bottom",
+    "language": "Nushell",
+    "stars": 504.0,
+    "forks": 27.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lumen-notes_lumen",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 525.0,
+    "forks": 31.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "lynx-family_lynx-stack",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 585.0,
+    "forks": 118.0,
+    "license": "Apache-2.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "marimo-team_marimo",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 14933.0,
+    "forks": 617.0,
+    "license": "Apache-2.0",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "mark3labs_mcp-go",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 6650.0,
+    "forks": 672.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "markuplint_markuplint",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 584.0,
+    "forks": 57.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mastra-ai_mastra",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 15412.0,
+    "forks": 970.0,
+    "license": "NOASSERTION",
+    "n_files_all": 27,
+    "n_files_4fmt": 26,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mattermost_mattermost",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 33269.0,
+    "forks": 7889.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "mattiasw_ExifReader",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 892.0,
+    "forks": 96.0,
+    "license": "MPL-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mautic_mautic",
+    "repo_tier": "top",
+    "language": "PHP",
+    "stars": 8383.0,
+    "forks": 2928.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "maybe-finance_maybe",
+    "repo_tier": "top",
+    "language": "Ruby",
+    "stars": 52591.0,
+    "forks": 4080.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mediar-ai_terminator",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 757.0,
+    "forks": 109.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "meilisearch_meilisearch",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 52549.0,
+    "forks": 2115.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "mem0ai_mem0",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 37616.0,
+    "forks": 3886.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mendableai_fire-enrich",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 686.0,
+    "forks": 163.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "mendableai_firecrawl",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 43970.0,
+    "forks": 4157.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "meshtastic_firmware",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 5215.0,
+    "forks": 1376.0,
+    "license": "GPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "metabase_metabase",
+    "repo_tier": "top",
+    "language": "Clojure",
+    "stars": 43043.0,
+    "forks": 5765.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "metacraft-labs_codetracer",
+    "repo_tier": "bottom",
+    "language": "Nim",
+    "stars": 1208.0,
+    "forks": 27.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "metowolf_vCards",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 5923.0,
+    "forks": 290.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mfts_papermark",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 6902.0,
+    "forks": 941.0,
+    "license": "NOASSERTION",
+    "n_files_all": 12,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_ApplicationInsights-JS",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 671.0,
+    "forks": 250.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_FluidFramework",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4847.0,
+    "forks": 553.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_Foundry-Local",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 502.0,
+    "forks": 58.0,
+    "license": "NOASSERTION",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_GSL",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 6462.0,
+    "forks": 752.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_MIEngine",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 834.0,
+    "forks": 222.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_PowerToys",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 121672.0,
+    "forks": 7237.0,
+    "license": "MIT",
+    "n_files_all": 13,
+    "n_files_4fmt": 13,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_RD-Agent",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 6805.0,
+    "forks": 674.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_TypeScript",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 105450.0,
+    "forks": 12938.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_WSL",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 29414.0,
+    "forks": 1432.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_Web-Dev-For-Beginners",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 90829.0,
+    "forks": 13757.0,
+    "license": "MIT",
+    "n_files_all": 56,
+    "n_files_4fmt": 56,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_ai-agents-for-beginners",
+    "repo_tier": "top",
+    "language": "Jupyter Notebook",
+    "stars": 33223.0,
+    "forks": 9876.0,
+    "license": "MIT",
+    "n_files_all": 168,
+    "n_files_4fmt": 56,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_autogen",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 48110.0,
+    "forks": 7347.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_azure-devops-mcp",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 509.0,
+    "forks": 150.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_fluentui",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 19436.0,
+    "forks": 2818.0,
+    "license": "NOASSERTION",
+    "n_files_all": 12,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_garnet",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 11379.0,
+    "forks": 587.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_generative-ai-with-javascript",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 839.0,
+    "forks": 543.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_git",
+    "repo_tier": "bottom",
+    "language": "C",
+    "stars": 852.0,
+    "forks": 101.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_mcp-for-beginners",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5961.0,
+    "forks": 1661.0,
+    "license": "MIT",
+    "n_files_all": 56,
+    "n_files_4fmt": 56,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_onnxruntime-genai",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 772.0,
+    "forks": 201.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_onnxruntime",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 17361.0,
+    "forks": 3370.0,
+    "license": "MIT",
+    "n_files_all": 11,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_playwright-mcp",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 15934.0,
+    "forks": 1170.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "microsoft_playwright",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 75427.0,
+    "forks": 4407.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_presidio",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 5141.0,
+    "forks": 701.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_pxt-arcade",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 511.0,
+    "forks": 234.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_qsharp",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 739.0,
+    "forks": 134.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_react-native-windows-samples",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 511.0,
+    "forks": 207.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_react-native-windows",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 16932.0,
+    "forks": 1165.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_teams-ai",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 607.0,
+    "forks": 243.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_testfx",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 908.0,
+    "forks": 280.0,
+    "license": "MIT",
+    "n_files_all": 47,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_typescript-go",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 21439.0,
+    "forks": 668.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_typespec",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 5285.0,
+    "forks": 297.0,
+    "license": "MIT",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_vs-threading",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1024.0,
+    "forks": 153.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_vscode-copilot-chat",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 8005.0,
+    "forks": 970.0,
+    "license": "MIT",
+    "n_files_all": 9,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_vscode-docs",
+    "repo_tier": "top",
+    "language": "Markdown",
+    "stars": 6103.0,
+    "forks": 5231.0,
+    "license": "NOASSERTION",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_vscode",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 175171.0,
+    "forks": 34064.0,
+    "license": "MIT",
+    "n_files_all": 40,
+    "n_files_4fmt": 36,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_vstest",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 934.0,
+    "forks": 337.0,
+    "license": "MIT",
+    "n_files_all": 11,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "microsoft_windows-rs",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 11487.0,
+    "forks": 575.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "midudev_preguntas-entrevista-react",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 7485.0,
+    "forks": 727.0,
+    "license": "MIT",
+    "n_files_all": 21,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mikepenz_multiplatform-markdown-renderer",
+    "repo_tier": "bottom",
+    "language": "Kotlin",
+    "stars": 657.0,
+    "forks": 49.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "milkshakesoftware_PreMailer.Net",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 671.0,
+    "forks": 119.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "mistralai_mistral-common",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 771.0,
+    "forks": 96.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "miurla_morphic",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 7858.0,
+    "forks": 2145.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mixpanel_mixpanel-android",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 1031.0,
+    "forks": 370.0,
+    "license": "Apache-2.0",
+    "n_files_all": 11,
+    "n_files_4fmt": 11,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "mizchi_similarity",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 576.0,
+    "forks": 11.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mlflow_mlflow",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 21402.0,
+    "forks": 4716.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "modelcontextprotocol_inspector",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5353.0,
+    "forks": 674.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "modelcontextprotocol_modelcontextprotocol",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4928.0,
+    "forks": 824.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "modelcontextprotocol_python-sdk",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 16924.0,
+    "forks": 2190.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "modelcontextprotocol_servers",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 62266.0,
+    "forks": 7227.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "modelcontextprotocol_typescript-sdk",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 8910.0,
+    "forks": 1113.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "modular_modular",
+    "repo_tier": "top",
+    "language": "Mojo",
+    "stars": 24571.0,
+    "forks": 2676.0,
+    "license": "NOASSERTION",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "moinulmoin_chadnext",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1214.0,
+    "forks": 122.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "mondaycom_vibe",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 528.0,
+    "forks": 336.0,
+    "license": NaN,
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mono_SkiaSharp",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 4997.0,
+    "forks": 589.0,
+    "license": "MIT",
+    "n_files_all": 24,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "moonbitlang_core",
+    "repo_tier": "bottom",
+    "language": "MoonBit",
+    "stars": 923.0,
+    "forks": 127.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "mozilla_pdf.js",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 51423.0,
+    "forks": 10384.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "mrwadams_stride-gpt",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 794.0,
+    "forks": 226.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "netdata_netdata",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 75269.0,
+    "forks": 6095.0,
+    "license": "GPL-3.0",
+    "n_files_all": 25,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "netz98_n98-magerun2",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 909.0,
+    "forks": 227.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "nkdAgility_azure-devops-migration-tools",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 554.0,
+    "forks": 362.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "novuhq_novu",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 37349.0,
+    "forks": 4080.0,
+    "license": "NOASSERTION",
+    "n_files_all": 8,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "nrwl_nx",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 26524.0,
+    "forks": 2568.0,
+    "license": "MIT",
+    "n_files_all": 11,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "nuxeo_nuxeo",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 670.0,
+    "forks": 388.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "nvm-sh_nvm",
+    "repo_tier": "top",
+    "language": "Shell",
+    "stars": 86116.0,
+    "forks": 9115.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "oekazuma_svelte-meta-tags",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 596.0,
+    "forks": 27.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ohcnetwork_care_fe",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 540.0,
+    "forks": 845.0,
+    "license": "MIT",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "onflow_flow-go",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 545.0,
+    "forks": 195.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "onlook-dev_onlook",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 21192.0,
+    "forks": 1419.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "onnx_onnx",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 19360.0,
+    "forks": 3778.0,
+    "license": "Apache-2.0",
+    "n_files_all": 7,
+    "n_files_4fmt": 3,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "onyx-dot-app_onyx",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 13231.0,
+    "forks": 1794.0,
+    "license": "NOASSERTION",
+    "n_files_all": 10,
+    "n_files_4fmt": 10,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "opal_opal",
+    "repo_tier": "top",
+    "language": "Ruby",
+    "stars": 4877.0,
+    "forks": 331.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "open-metadata_OpenMetadata",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 7201.0,
+    "forks": 1343.0,
+    "license": "Apache-2.0",
+    "n_files_all": 6,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "open-telemetry_opentelemetry-cpp",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 1100.0,
+    "forks": 493.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "openai_codex",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 31629.0,
+    "forks": 3702.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "openai_openai-agents-js",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 925.0,
+    "forks": 183.0,
+    "license": "MIT",
+    "n_files_all": 14,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "openai_openai-agents-python",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 13119.0,
+    "forks": 2088.0,
+    "license": "MIT",
+    "n_files_all": 16,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "openfoodfacts_smooth-app",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 1096.0,
+    "forks": 381.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "openmc-dev_openmc",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 876.0,
+    "forks": 552.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "openops-cloud_openops",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 908.0,
+    "forks": 148.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "oraios_serena",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 6198.0,
+    "forks": 435.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "oss-apps_split-pro",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 721.0,
+    "forks": 76.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "oven-sh_bun",
+    "repo_tier": "top",
+    "language": "Zig",
+    "stars": 79404.0,
+    "forks": 3222.0,
+    "license": "NOASSERTION",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "owncast_owncast",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 10375.0,
+    "forks": 1097.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "oxc-project_oxc",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 15879.0,
+    "forks": 623.0,
+    "license": "MIT",
+    "n_files_all": 23,
+    "n_files_4fmt": 19,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "paradigmxyz_reth",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 4835.0,
+    "forks": 1746.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "pardeike_Harmony",
+    "repo_tier": "top",
+    "language": "C#",
+    "stars": 5842.0,
+    "forks": 542.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "pathintegral-institute_mcpm.sh",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 687.0,
+    "forks": 71.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "pdm-project_pdm",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 8441.0,
+    "forks": 448.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "pixeltable_pixeltable",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 687.0,
+    "forks": 95.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "plantuml_plantuml",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 11894.0,
+    "forks": 1070.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "pnp_cli-microsoft365",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1005.0,
+    "forks": 347.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "pnp_powershell",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 770.0,
+    "forks": 380.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "potpie-ai_potpie",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 4830.0,
+    "forks": 446.0,
+    "license": "Apache-2.0",
+    "n_files_all": 12,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "primer_view_components",
+    "repo_tier": "bottom",
+    "language": "Ruby",
+    "stars": 537.0,
+    "forks": 127.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "projectcalico_calico",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 6672.0,
+    "forks": 1454.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "projectdiscovery_tlsx",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 999.0,
+    "forks": 94.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "promptfoo_promptfoo",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 7809.0,
+    "forks": 627.0,
+    "license": "MIT",
+    "n_files_all": 48,
+    "n_files_4fmt": 43,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "prosekit_prosekit",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 720.0,
+    "forks": 24.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "pterm_pterm",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 5194.0,
+    "forks": 207.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "pulumi_pulumi",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 23536.0,
+    "forks": 1218.0,
+    "license": "Apache-2.0",
+    "n_files_all": 7,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "pushpalroy_JetLime",
+    "repo_tier": "bottom",
+    "language": "Kotlin",
+    "stars": 531.0,
+    "forks": 29.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "python-cachier_cachier",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 608.0,
+    "forks": 72.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "pytorch_pytorch",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 91911.0,
+    "forks": 24814.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "qmk_qmk_firmware",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 19429.0,
+    "forks": 42192.0,
+    "license": "GPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "quarylabs_sqruff",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 979.0,
+    "forks": 36.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ray-project_ray",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 38259.0,
+    "forks": 6665.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "raycast_extensions",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 6499.0,
+    "forks": 4226.0,
+    "license": "MIT",
+    "n_files_all": 33,
+    "n_files_4fmt": 33,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "reactjs_ko.react.dev",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 793.0,
+    "forks": 484.0,
+    "license": "CC-BY-4.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "reatom_reatom",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1207.0,
+    "forks": 122.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "recallnet_js-recall",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 965.0,
+    "forks": 39.0,
+    "license": NaN,
+    "n_files_all": 29,
+    "n_files_4fmt": 29,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "reflex-dev_reflex",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 23696.0,
+    "forks": 1392.0,
+    "license": "Apache-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "remotion-dev_remotion",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 23319.0,
+    "forks": 1251.0,
+    "license": "NOASSERTION",
+    "n_files_all": 35,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "reown-com_appkit",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5202.0,
+    "forks": 1517.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "risingwavelabs_risingwave",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 8185.0,
+    "forks": 664.0,
+    "license": "Apache-2.0",
+    "n_files_all": 5,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "robusta-dev_holmesgpt",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1142.0,
+    "forks": 132.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "rochacbruno_marmite",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 699.0,
+    "forks": 43.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "rqlite_rqlite",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 16816.0,
+    "forks": 745.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "rustfs_rustfs",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 6499.0,
+    "forks": 291.0,
+    "license": "Apache-2.0",
+    "n_files_all": 27,
+    "n_files_4fmt": 17,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ruvnet_claude-flow",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4630.0,
+    "forks": 617.0,
+    "license": "MIT",
+    "n_files_all": 148,
+    "n_files_4fmt": 10,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "ryokun6_ryos",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 558.0,
+    "forks": 85.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "ryoppippi_ccusage",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5609.0,
+    "forks": 172.0,
+    "license": "MIT",
+    "n_files_all": 26,
+    "n_files_4fmt": 9,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "safedep_vet",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 619.0,
+    "forks": 60.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "sakaiproject_sakai",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 1161.0,
+    "forks": 987.0,
+    "license": "ECL-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "saleor_saleor",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 21862.0,
+    "forks": 5748.0,
+    "license": "BSD-3-Clause",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "sam-goodwin_alchemy",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 750.0,
+    "forks": 57.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "sandrohanea_whisper.net",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 773.0,
+    "forks": 111.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "sanity-io_sanity",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 5742.0,
+    "forks": 483.0,
+    "license": "MIT",
+    "n_files_all": 20,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "satmihir_fair",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 761.0,
+    "forks": 17.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "savoirfairelinux_opendht",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 1073.0,
+    "forks": 173.0,
+    "license": "GPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "scalar_scalar",
+    "repo_tier": "top",
+    "language": "Vue",
+    "stars": 11400.0,
+    "forks": 434.0,
+    "license": "MIT",
+    "n_files_all": 12,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "sccn_eeglab",
+    "repo_tier": "bottom",
+    "language": "MATLAB",
+    "stars": 673.0,
+    "forks": 257.0,
+    "license": "NOASSERTION",
+    "n_files_all": 5,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "schemahero_schemahero",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 1054.0,
+    "forks": 82.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "seasonedcc_remix-forms",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 517.0,
+    "forks": 27.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "secretlint_secretlint",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1182.0,
+    "forks": 45.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "selfxyz_self",
+    "repo_tier": "bottom",
+    "language": "Circom",
+    "stars": 691.0,
+    "forks": 116.0,
+    "license": "NOASSERTION",
+    "n_files_all": 6,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "simonw_llm",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 9178.0,
+    "forks": 563.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "skypilot-org_skypilot",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 8435.0,
+    "forks": 714.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "srbhr_Resume-Matcher",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 21035.0,
+    "forks": 4206.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "sst_opencode",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 15712.0,
+    "forks": 974.0,
+    "license": "MIT",
+    "n_files_all": 15,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "stack-auth_stack-auth",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 6033.0,
+    "forks": 433.0,
+    "license": "NOASSERTION",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "stack-chan_stack-chan",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 939.0,
+    "forks": 107.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "stanford-crfm_levanter",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 628.0,
+    "forks": 104.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "steipete_Peekaboo",
+    "repo_tier": "bottom",
+    "language": "Swift",
+    "stars": 505.0,
+    "forks": 19.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "strapi_documentation",
+    "repo_tier": "bottom",
+    "language": "JavaScript",
+    "stars": 1151.0,
+    "forks": 1224.0,
+    "license": "NOASSERTION",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "strapi_strapi",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 68871.0,
+    "forks": 8814.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "stravu_crystal",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1209.0,
+    "forks": 82.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "streamich_json-joy",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 891.0,
+    "forks": 18.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "streamlit_streamlit",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 40681.0,
+    "forks": 3629.0,
+    "license": "Apache-2.0",
+    "n_files_all": 37,
+    "n_files_4fmt": 36,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "supabase_etl",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 757.0,
+    "forks": 42.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "supabase_supabase",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 86399.0,
+    "forks": 9351.0,
+    "license": "Apache-2.0",
+    "n_files_all": 15,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "superlinear-ai_raglite",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 1041.0,
+    "forks": 95.0,
+    "license": "MPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "surrealdb_surrealdb",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 29748.0,
+    "forks": 1018.0,
+    "license": "NOASSERTION",
+    "n_files_all": 9,
+    "n_files_4fmt": 9,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "swc-project_swc",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 32538.0,
+    "forks": 1326.0,
+    "license": "Apache-2.0",
+    "n_files_all": 21,
+    "n_files_4fmt": 17,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "swuecho_chat",
+    "repo_tier": "bottom",
+    "language": "Vue",
+    "stars": 557.0,
+    "forks": 91.0,
+    "license": NaN,
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "syncfusion_maui-toolkit",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 550.0,
+    "forks": 86.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "syntaxfm_website",
+    "repo_tier": "bottom",
+    "language": "Svelte",
+    "stars": 1135.0,
+    "forks": 504.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "tambo-ai_tambo",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 505.0,
+    "forks": 35.0,
+    "license": "MIT",
+    "n_files_all": 22,
+    "n_files_4fmt": 22,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "tech-systems_panes",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 720.0,
+    "forks": 41.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "tegnike_aituber-kit",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 698.0,
+    "forks": 120.0,
+    "license": "NOASSERTION",
+    "n_files_all": 7,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "teilomillet_gollm",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 536.0,
+    "forks": 53.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "temporalio_sdk-go",
+    "repo_tier": "bottom",
+    "language": "Go",
+    "stars": 687.0,
+    "forks": 251.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "temporalio_temporal",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 15103.0,
+    "forks": 1053.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "tesseract-ocr_tesseract",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 68523.0,
+    "forks": 10083.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "thedevdojo_wave",
+    "repo_tier": "top",
+    "language": "CSS",
+    "stars": 6177.0,
+    "forks": 868.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "thefrontside_effection",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 716.0,
+    "forks": 34.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "thirdweb-dev_js",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 538.0,
+    "forks": 564.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "thorsten_phpMyFAQ",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 600.0,
+    "forks": 255.0,
+    "license": "MPL-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "tinacms_tinacms",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 12663.0,
+    "forks": 655.0,
+    "license": "Apache-2.0",
+    "n_files_all": 14,
+    "n_files_4fmt": 14,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "tinyplex_tinybase",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 4639.0,
+    "forks": 115.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "tldraw_tldraw",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 41090.0,
+    "forks": 2622.0,
+    "license": "NOASSERTION",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "toeverything_AFFiNE",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 53813.0,
+    "forks": 3625.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "tommyxchow_frosty",
+    "repo_tier": "bottom",
+    "language": "Dart",
+    "stars": 842.0,
+    "forks": 48.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "traceloop_openllmetry",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 6150.0,
+    "forks": 768.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "transloadit_uppy",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 29990.0,
+    "forks": 2073.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "triggerdotdev_trigger.dev",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 11857.0,
+    "forks": 770.0,
+    "license": "Apache-2.0",
+    "n_files_all": 13,
+    "n_files_4fmt": 13,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "trinodb_trino",
+    "repo_tier": "top",
+    "language": "Java",
+    "stars": 11658.0,
+    "forks": 3277.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "triton-lang_triton",
+    "repo_tier": "top",
+    "language": "MLIR",
+    "stars": 16350.0,
+    "forks": 2150.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "trycompai_comp",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 950.0,
+    "forks": 130.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 31,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "tszhong0411_nelsonlai.me",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 736.0,
+    "forks": 118.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "twentyhq_twenty",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 34722.0,
+    "forks": 3903.0,
+    "license": "NOASSERTION",
+    "n_files_all": 10,
+    "n_files_4fmt": 10,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "typstyle-rs_typstyle",
+    "repo_tier": "bottom",
+    "language": "Rust",
+    "stars": 595.0,
+    "forks": 20.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "umasteeringgroup_UMA",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 782.0,
+    "forks": 176.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "umijs_qiankun",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 16310.0,
+    "forks": 2062.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "unibeck_solstatus",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 756.0,
+    "forks": 69.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "usememos_memos",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 43252.0,
+    "forks": 3068.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "uxlfoundation_oneDAL",
+    "repo_tier": "bottom",
+    "language": "C++",
+    "stars": 637.0,
+    "forks": 224.0,
+    "license": "Apache-2.0",
+    "n_files_all": 15,
+    "n_files_4fmt": 15,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "vaadin_flow",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 699.0,
+    "forks": 182.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "valkey-io_valkey-glide",
+    "repo_tier": "bottom",
+    "language": "Java",
+    "stars": 538.0,
+    "forks": 100.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 8,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "valkey-io_valkey",
+    "repo_tier": "top",
+    "language": "C",
+    "stars": 22399.0,
+    "forks": 956.0,
+    "license": "NOASSERTION",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "vectordotdev_vector",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 20039.0,
+    "forks": 1813.0,
+    "license": "MPL-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "vercel_ai-chatbot",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17246.0,
+    "forks": 5102.0,
+    "license": "NOASSERTION",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "vercel_next.js",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 133524.0,
+    "forks": 28968.0,
+    "license": "MIT",
+    "n_files_all": 22,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "vercel_turborepo",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 28307.0,
+    "forks": 2051.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "vercel_vercel",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 13899.0,
+    "forks": 2714.0,
+    "license": "Apache-2.0",
+    "n_files_all": 8,
+    "n_files_4fmt": 7,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "vinceglb_FileKit",
+    "repo_tier": "bottom",
+    "language": "Kotlin",
+    "stars": 1064.0,
+    "forks": 39.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "vitejs_vite-plugin-react",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 821.0,
+    "forks": 165.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "vitejs_vite",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 74464.0,
+    "forks": 7009.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "vllm-project_vllm",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 53643.0,
+    "forks": 9047.0,
+    "license": "Apache-2.0",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "voku_portable-utf8",
+    "repo_tier": "bottom",
+    "language": "PHP",
+    "stars": 515.0,
+    "forks": 88.0,
+    "license": "Apache-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "volcengine_verl",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 11675.0,
+    "forks": 1962.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "wailsapp_wails",
+    "repo_tier": "top",
+    "language": "Go",
+    "stars": 29367.0,
+    "forks": 1436.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "wandb_wandb",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 10170.0,
+    "forks": 763.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "wandb_weave",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 950.0,
+    "forks": 116.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "wangkanai_wangkanai",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 589.0,
+    "forks": 86.0,
+    "license": "Apache-2.0",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "wasp-lang_wasp",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 17479.0,
+    "forks": 1376.0,
+    "license": "MIT",
+    "n_files_all": 22,
+    "n_files_4fmt": 22,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "web-infra-dev_rspack",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 11804.0,
+    "forks": 763.0,
+    "license": "MIT",
+    "n_files_all": 9,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "weecology_DeepForest",
+    "repo_tier": "bottom",
+    "language": "Python",
+    "stars": 648.0,
+    "forks": 214.0,
+    "license": "MIT",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "wieslawsoltes_Dock",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 1204.0,
+    "forks": 124.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "wieslawsoltes_Svg.Skia",
+    "repo_tier": "bottom",
+    "language": "C#",
+    "stars": 601.0,
+    "forks": 76.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "windmill-labs_windmill",
+    "repo_tier": "top",
+    "language": "HTML",
+    "stars": 14198.0,
+    "forks": 758.0,
+    "license": "NOASSERTION",
+    "n_files_all": 17,
+    "n_files_4fmt": 6,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "wled_WLED",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 16514.0,
+    "forks": 3673.0,
+    "license": "EUPL-1.2",
+    "n_files_all": 2,
+    "n_files_4fmt": 2,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "wolfSSL_wolfMQTT",
+    "repo_tier": "bottom",
+    "language": "C",
+    "stars": 550.0,
+    "forks": 159.0,
+    "license": "GPL-2.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "wolfi-dev_os",
+    "repo_tier": "bottom",
+    "language": "Shell",
+    "stars": 1009.0,
+    "forks": 371.0,
+    "license": "NOASSERTION",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "wvlet_airframe",
+    "repo_tier": "bottom",
+    "language": "Scala",
+    "stars": 657.0,
+    "forks": 70.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "xtermjs_xterm.js",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 18898.0,
+    "forks": 1727.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "yamadashy_repomix",
+    "repo_tier": "top",
+    "language": "TypeScript",
+    "stars": 18206.0,
+    "forks": 786.0,
+    "license": "MIT",
+    "n_files_all": 7,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "ydb-platform_ydb",
+    "repo_tier": "top",
+    "language": "C++",
+    "stars": 4524.0,
+    "forks": 703.0,
+    "license": "Apache-2.0",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "yoshiko-pg_difit",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1183.0,
+    "forks": 39.0,
+    "license": "MIT",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "AGENTS.md"
+    ]
+  },
+  {
+    "folder_name": "yysun_apprun",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 1177.0,
+    "forks": 57.0,
+    "license": "MIT",
+    "n_files_all": 0,
+    "n_files_4fmt": 0,
+    "formats": []
+  },
+  {
+    "folder_name": "zauberzeug_nicegui",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 12990.0,
+    "forks": 782.0,
+    "license": "MIT",
+    "n_files_all": 5,
+    "n_files_4fmt": 5,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "zed-industries_zed",
+    "repo_tier": "top",
+    "language": "Rust",
+    "stars": 63154.0,
+    "forks": 4801.0,
+    "license": "NOASSERTION",
+    "n_files_all": 8,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "zenml-io_zenml",
+    "repo_tier": "top",
+    "language": "Python",
+    "stars": 4768.0,
+    "forks": 529.0,
+    "license": "Apache-2.0",
+    "n_files_all": 12,
+    "n_files_4fmt": 12,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "zoidsh_meru",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 919.0,
+    "forks": 100.0,
+    "license": "AGPL-3.0",
+    "n_files_all": 1,
+    "n_files_4fmt": 1,
+    "formats": [
+      "CLAUDE.md"
+    ]
+  },
+  {
+    "folder_name": "zuiidea_antd-admin",
+    "repo_tier": "top",
+    "language": "JavaScript",
+    "stars": 9677.0,
+    "forks": 2514.0,
+    "license": "MIT",
+    "n_files_all": 12,
+    "n_files_4fmt": 12,
+    "formats": [
+      "AGENTS.md",
+      "Copilot instructions",
+      "Cursor rules"
+    ]
+  },
+  {
+    "folder_name": "zwave-js_zwave-js-ui",
+    "repo_tier": "bottom",
+    "language": "Vue",
+    "stars": 1094.0,
+    "forks": 221.0,
+    "license": "MIT",
+    "n_files_all": 3,
+    "n_files_4fmt": 3,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  },
+  {
+    "folder_name": "zwave-js_zwave-js",
+    "repo_tier": "bottom",
+    "language": "TypeScript",
+    "stars": 826.0,
+    "forks": 674.0,
+    "license": "MIT",
+    "n_files_all": 4,
+    "n_files_4fmt": 4,
+    "formats": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "Copilot instructions"
+    ]
+  }
+]

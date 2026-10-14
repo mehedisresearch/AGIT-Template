@@ -1,0 +1,7 @@
+type_a,type_b,jaccard_headings,jaccard_categories,intersect_headings,union_headings,|A|_heads,|B|_heads
+AGENTS.md,CLAUDE.md,0.2329,1.0,4005,17193,13529,7669
+AGENTS.md,Cursor rules,0.0071,1.0,99,14021,13529,591
+AGENTS.md,Copilot instructions,0.0539,1.0,993,18417,13529,5881
+CLAUDE.md,Cursor rules,0.0109,1.0,89,8171,7669,591
+CLAUDE.md,Copilot instructions,0.0503,1.0,649,12901,7669,5881
+Cursor rules,Copilot instructions,0.0138,1.0,88,6384,591,5881

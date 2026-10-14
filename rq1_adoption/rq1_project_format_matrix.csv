@@ -1,0 +1,1001 @@
+cohort,full_name,language,license,stars,forks,n_types,has_any,has_AGENTS.md,has_CLAUDE.md,has_Cursor rules,has_Copilot instructions,star_bin
+top,TheAlgorithms/Python,Python,MIT,203424.0,47119.0,0,0,0,0,0,0,Q4 high
+top,Significant-Gravitas/AutoGPT,Python,NOASSERTION,177379.0,45908.0,3,1,1,1,0,1,Q4 high
+top,microsoft/vscode,TypeScript,MIT,175171.0,34064.0,2,1,1,0,0,1,Q4 high
+top,vercel/next.js,JavaScript,MIT,133524.0,28968.0,2,1,1,1,0,0,Q4 high
+top,Genymobile/scrcpy,C,Apache-2.0,125843.0,11785.0,0,0,0,0,0,0,Q4 high
+top,microsoft/PowerToys,C#,MIT,121672.0,7237.0,3,1,1,1,0,1,Q4 high
+top,langchain-ai/langchain,Jupyter Notebook,MIT,112624.0,18400.0,2,1,1,1,0,0,Q4 high
+top,microsoft/TypeScript,TypeScript,Apache-2.0,105450.0,12938.0,3,1,1,1,0,1,Q4 high
+top,open-webui/open-webui,JavaScript,NOASSERTION,104697.0,14070.0,0,0,0,0,0,0,Q4 high
+top,ant-design/ant-design,TypeScript,MIT,95512.0,53132.0,3,1,1,1,0,1,Q4 high
+top,langflow-ai/langflow,Python,MIT,93294.0,7227.0,2,1,1,1,0,0,Q4 high
+top,pytorch/pytorch,Python,NOASSERTION,91911.0,24814.0,3,1,1,1,0,1,Q4 high
+top,microsoft/Web-Dev-For-Beginners,JavaScript,MIT,90829.0,13757.0,1,1,1,0,0,0,Q4 high
+top,supabase/supabase,TypeScript,Apache-2.0,86399.0,9351.0,3,1,1,1,0,1,Q4 high
+top,nvm-sh/nvm,Shell,MIT,86116.0,9115.0,2,1,1,1,0,0,Q4 high
+top,bitcoin/bitcoin,C++,MIT,84827.0,37590.0,0,0,0,0,0,0,Q4 high
+top,ggml-org/llama.cpp,C++,MIT,83729.0,12520.0,2,1,1,1,0,0,Q4 high
+top,opencv/opencv,C++,Apache-2.0,83324.0,56250.0,0,0,0,0,0,0,Q4 high
+top,mermaid-js/mermaid,TypeScript,MIT,81743.0,7848.0,0,0,0,0,0,0,Q4 high
+top,oven-sh/bun,Zig,NOASSERTION,79404.0,3222.0,2,1,1,1,0,0,Q4 high
+top,microsoft/playwright,TypeScript,Apache-2.0,75427.0,4407.0,2,1,0,1,0,1,Q4 high
+top,netdata/netdata,C,GPL-3.0,75269.0,6095.0,2,1,1,1,0,0,Q4 high
+top,vitejs/vite,TypeScript,MIT,74464.0,7009.0,1,1,0,0,0,1,Q4 high
+top,abi/screenshot-to-code,Python,MIT,70493.0,8708.0,2,1,1,1,0,0,Q4 high
+top,strapi/strapi,TypeScript,NOASSERTION,68871.0,8814.0,2,1,1,1,0,0,Q4 high
+top,tesseract-ocr/tesseract,C++,Apache-2.0,68523.0,10083.0,1,1,0,0,0,1,Q4 high
+top,clash-verge-rev/clash-verge-rev,TypeScript,GPL-3.0,68140.0,5179.0,0,0,0,0,0,0,Q4 high
+top,browser-use/browser-use,Python,MIT,66661.0,7678.0,2,1,1,1,0,0,Q4 high
+top,google-gemini/gemini-cli,TypeScript,Apache-2.0,65937.0,6330.0,0,0,0,0,0,0,Q4 high
+top,Stirling-Tools/Stirling-PDF,Java,NOASSERTION,63892.0,5443.0,2,1,1,1,0,0,Q4 high
+top,astral-sh/uv,Rust,Apache-2.0,63219.0,1820.0,2,1,1,1,0,0,Q4 high
+top,zed-industries/zed,Rust,NOASSERTION,63154.0,4801.0,2,1,1,1,0,0,Q4 high
+top,modelcontextprotocol/servers,TypeScript,MIT,62266.0,7227.0,2,1,1,1,0,0,Q4 high
+top,commaai/openpilot,Python,MIT,55616.0,9992.0,0,0,0,0,0,0,Q4 high
+top,toeverything/AFFiNE,TypeScript,NOASSERTION,53813.0,3625.0,1,1,1,0,0,0,Q4 high
+top,vllm-project/vllm,Python,Apache-2.0,53643.0,9047.0,2,1,1,1,0,0,Q4 high
+top,maybe-finance/maybe,Ruby,AGPL-3.0,52591.0,4080.0,1,1,0,1,0,0,Q4 high
+top,meilisearch/meilisearch,Rust,MIT,52549.0,2115.0,1,1,1,0,0,0,Q4 high
+top,mozilla/pdf.js,JavaScript,Apache-2.0,51423.0,10384.0,2,1,1,1,0,0,Q4 high
+top,unclecode/crawl4ai,Python,Apache-2.0,50091.0,4870.0,0,0,0,0,0,0,Q4 high
+top,cypress-io/cypress,TypeScript,MIT,48796.0,3312.0,3,1,1,1,1,0,Q4 high
+top,cline/cline,TypeScript,Apache-2.0,48455.0,6467.0,2,1,1,0,0,1,Q4 high
+top,microsoft/autogen,Python,CC-BY-4.0,48110.0,7347.0,1,1,0,0,0,1,Q4 high
+top,JuliaLang/julia,Julia,MIT,47416.0,5612.0,2,1,1,1,0,0,Q4 high
+top,x64dbg/x64dbg,C++,NOASSERTION,46595.0,2581.0,0,0,0,0,0,0,Q4 high
+top,pixijs/pixijs,TypeScript,MIT,45473.0,4877.0,0,0,0,0,0,0,Q4 high
+top,mendableai/firecrawl,TypeScript,AGPL-3.0,43970.0,4157.0,2,1,1,1,0,0,Q4 high
+top,usememos/memos,Go,MIT,43252.0,3068.0,1,1,1,0,0,0,Q4 high
+top,metabase/metabase,Clojure,NOASSERTION,43043.0,5765.0,2,1,0,1,0,1,Q4 high
+top,FlowiseAI/Flowise,TypeScript,NOASSERTION,42134.0,21610.0,0,0,0,0,0,0,Q4 high
+top,ggml-org/whisper.cpp,C++,MIT,41914.0,4496.0,1,1,1,0,0,0,Q4 high
+top,getsentry/sentry,Python,NOASSERTION,41579.0,4398.0,2,1,1,1,0,0,Q4 high
+top,apache/spark,Scala,Apache-2.0,41575.0,28706.0,2,1,1,1,0,0,Q4 high
+top,astral-sh/ruff,Rust,MIT,41240.0,1464.0,2,1,1,1,0,0,Q4 high
+top,tldraw/tldraw,TypeScript,NOASSERTION,41090.0,2622.0,2,1,1,1,0,0,Q4 high
+top,opendatalab/MinerU,Python,AGPL-3.0,41051.0,3372.0,0,0,0,0,0,0,Q4 high
+top,streamlit/streamlit,Python,Apache-2.0,40681.0,3629.0,3,1,1,1,0,1,Q4 high
+top,colinhacks/zod,TypeScript,MIT,39304.0,1554.0,3,1,1,1,1,0,Q4 high
+top,gradio-app/gradio,Python,Apache-2.0,39262.0,3006.0,1,1,1,0,0,0,Q4 high
+top,virattt/ai-hedge-fund,Python,Unknown,38904.0,6843.0,0,0,0,0,0,0,Q4 high
+top,ray-project/ray,Python,Apache-2.0,38259.0,6665.0,2,1,0,1,1,0,Q4 high
+top,mem0ai/mem0,Python,Apache-2.0,37616.0,3886.0,2,1,1,1,0,0,Q4 high
+top,appsmithorg/appsmith,TypeScript,Apache-2.0,37596.0,4177.0,1,1,1,0,0,0,Q4 high
+top,calcom/cal.com,TypeScript,NOASSERTION,37399.0,10122.0,2,1,1,1,0,0,Q4 high
+top,ant-design/ant-design-pro,TypeScript,MIT,37356.0,8205.0,2,1,1,1,0,0,Q4 high
+top,novuhq/novu,TypeScript,NOASSERTION,37349.0,4080.0,1,1,1,0,0,0,Q4 high
+top,gofiber/fiber,Go,MIT,37269.0,1828.0,2,1,1,0,0,1,Q4 high
+top,istio/istio,Go,Apache-2.0,37088.0,8030.0,1,1,0,0,0,1,Q4 high
+top,dotnet/aspnetcore,C#,MIT,36926.0,10420.0,2,1,1,0,0,1,Q4 high
+top,ToolJet/ToolJet,JavaScript,AGPL-3.0,36227.0,4704.0,1,1,0,0,0,1,Q4 high
+top,halo-dev/halo,Java,GPL-3.0,36165.0,9989.0,2,1,1,1,0,0,Q4 high
+top,crewAIInc/crewAI,Python,MIT,35096.0,4696.0,1,1,1,0,0,0,Q4 high
+top,docling-project/docling,Python,MIT,34981.0,2359.0,2,1,1,1,0,0,Q4 high
+top,twentyhq/twenty,TypeScript,NOASSERTION,34722.0,3903.0,2,1,1,1,0,0,Q4 high
+top,geekan/HowToLiveLonger,Unknown,Unlicense,34104.0,2339.0,0,0,0,0,0,0,Q4 high
+top,mattermost/mattermost,TypeScript,NOASSERTION,33269.0,7889.0,1,1,1,0,0,0,Q4 high
+top,microsoft/ai-agents-for-beginners,Jupyter Notebook,MIT,33223.0,9876.0,1,1,1,0,0,0,Q4 high
+top,ShareX/ShareX,C#,GPL-3.0,33157.0,3425.0,0,0,0,0,0,0,Q4 high
+top,YunaiV/ruoyi-vue-pro,Java,MIT,32556.0,6997.0,0,0,0,0,0,0,Q4 high
+top,swc-project/swc,Rust,Apache-2.0,32538.0,1326.0,2,1,1,1,0,0,Q4 high
+top,binarywang/WxJava,Java,Apache-2.0,31663.0,8940.0,2,1,1,0,0,1,Q4 high
+top,openai/codex,Rust,Apache-2.0,31629.0,3702.0,1,1,1,0,0,0,Q4 high
+top,cockroachdb/cockroach,Go,NOASSERTION,31133.0,3940.0,1,1,0,1,0,0,Q4 high
+top,lutzroeder/netron,JavaScript,MIT,31069.0,2962.0,0,0,0,0,0,0,Q4 high
+top,backstage/backstage,TypeScript,Apache-2.0,30835.0,6695.0,3,1,1,1,0,1,Q4 high
+top,RSSNext/Folo,TypeScript,GPL-3.0,30468.0,1374.0,2,1,1,0,0,1,Q4 high
+top,transloadit/uppy,TypeScript,MIT,29990.0,2073.0,1,1,0,1,0,0,Q4 high
+top,tinygrad/tinygrad,Python,MIT,29760.0,3545.0,0,0,0,0,0,0,Q4 high
+top,surrealdb/surrealdb,Rust,NOASSERTION,29748.0,1018.0,1,1,0,1,0,0,Q4 high
+top,paperless-ngx/paperless-ngx,Python,GPL-3.0,29685.0,1781.0,0,0,0,0,0,0,Q4 high
+top,apolloconfig/apollo,Java,Apache-2.0,29581.0,10227.0,1,1,1,0,0,0,Q4 high
+top,microsoft/WSL,C++,MIT,29414.0,1432.0,1,1,0,0,0,1,Q4 high
+top,wailsapp/wails,Go,MIT,29367.0,1436.0,1,1,1,0,0,0,Q4 high
+top,heyverse/hey,TypeScript,AGPL-3.0,29352.0,1755.0,2,1,1,0,1,0,Q4 high
+top,pmndrs/react-three-fiber,TypeScript,MIT,29311.0,1708.0,0,0,0,0,0,0,Q4 high
+top,danny-avila/LibreChat,TypeScript,MIT,28611.0,5212.0,2,1,1,1,0,0,Q4 high
+top,OpenCut-app/OpenCut,TypeScript,MIT,28335.0,2581.0,1,1,0,0,0,1,Q4 high
+top,vercel/turborepo,Rust,MIT,28307.0,2051.0,2,1,1,1,0,0,Q4 high
+top,AvaloniaUI/Avalonia,C#,MIT,28297.0,2438.0,1,1,0,0,0,1,Q4 high
+top,GitbookIO/gitbook,TypeScript,GPL-3.0,28156.0,3994.0,2,1,1,1,0,0,Q4 high
+top,PostHog/posthog,Python,NOASSERTION,28069.0,1823.0,3,1,1,1,1,0,Q4 high
+top,continuedev/continue,TypeScript,Apache-2.0,28008.0,3240.0,1,1,1,0,0,0,Q4 high
+top,tailwindlabs/headlessui,TypeScript,MIT,27723.0,1156.0,0,0,0,0,0,0,Q4 high
+top,anthropics/claude-code,PowerShell,Unknown,27063.0,1503.0,0,0,0,0,0,0,Q4 high
+top,microsoft/graphrag,Python,MIT,26945.0,2797.0,0,0,0,0,0,0,Q4 high
+top,gabime/spdlog,C++,NOASSERTION,26913.0,4856.0,0,0,0,0,0,0,Q4 high
+top,stanfordnlp/dspy,Python,MIT,26818.0,2071.0,0,0,0,0,0,0,Q4 high
+top,BerriAI/litellm,Python,NOASSERTION,26663.0,3685.0,2,1,1,1,0,0,Q4 high
+top,nrwl/nx,TypeScript,MIT,26524.0,2568.0,2,1,1,1,0,0,Q4 high
+top,voideditor/void,TypeScript,Apache-2.0,26276.0,1854.0,0,0,0,0,0,0,Q4 high
+top,eslint/eslint,JavaScript,MIT,26140.0,4767.0,1,1,0,0,0,1,Q4 high
+top,grafana/loki,Go,AGPL-3.0,26100.0,3735.0,2,1,1,1,0,0,Q4 high
+top,goharbor/harbor,Go,Apache-2.0,26053.0,4921.0,0,0,0,0,0,0,Q4 high
+top,microsoft/semantic-kernel,C#,MIT,25612.0,4094.0,0,0,0,0,0,0,Q4 high
+top,invoke-ai/InvokeAI,TypeScript,Apache-2.0,25600.0,2627.0,2,1,1,1,0,0,Q4 high
+top,ComposioHQ/composio,TypeScript,Unknown,25592.0,4384.0,2,1,1,1,0,0,Q4 high
+top,microsoft/vcpkg,CMake,MIT,25321.0,6984.0,0,0,0,0,0,0,Q4 high
+top,modular/modular,Mojo,NOASSERTION,24571.0,2676.0,3,1,1,1,1,0,Q4 high
+top,HumanSignal/label-studio,JavaScript,Apache-2.0,23990.0,2960.0,0,0,0,0,0,0,Q4 high
+top,keepassxreboot/keepassxc,C++,NOASSERTION,23773.0,1599.0,1,1,0,0,0,1,Q4 high
+top,reflex-dev/reflex,Python,Apache-2.0,23696.0,1392.0,2,1,1,1,0,0,Q4 high
+top,pulumi/pulumi,Go,Apache-2.0,23536.0,1218.0,2,1,1,1,0,0,Q4 high
+top,remotion-dev/remotion,TypeScript,NOASSERTION,23319.0,1251.0,3,1,1,1,0,1,Q4 high
+top,juspay/hyperswitch,Rust,Apache-2.0,23203.0,3913.0,0,0,0,0,0,0,Q4 high
+top,PaddlePaddle/Paddle,C++,Apache-2.0,23088.0,5775.0,0,0,0,0,0,0,Q4 high
+top,dotnet/maui,C#,MIT,22821.0,1865.0,1,1,0,0,0,1,Q4 high
+top,gitroomhq/postiz-app,TypeScript,AGPL-3.0,22784.0,3630.0,2,1,0,1,0,1,Q4 high
+top,fishaudio/fish-speech,Python,Apache-2.0,22527.0,1851.0,0,0,0,0,0,0,Q4 high
+top,valkey-io/valkey,C,NOASSERTION,22399.0,956.0,2,1,1,0,0,1,Q4 high
+top,The-Art-of-Hacking/h4cker,Jupyter Notebook,MIT,22209.0,4163.0,1,1,0,0,0,1,Q4 high
+top,hcengineering/platform,TypeScript,EPL-2.0,22025.0,1484.0,2,1,1,0,0,1,Q4 high
+top,saleor/saleor,Python,BSD-3-Clause,21862.0,5748.0,2,1,1,1,0,0,Q4 high
+top,Tencent/ncnn,C++,NOASSERTION,21846.0,4296.0,0,0,0,0,0,0,Q4 high
+top,wechaty/wechaty,TypeScript,Apache-2.0,21788.0,2722.0,0,0,0,0,0,0,Q4 high
+top,PromtEngineer/localGPT,Python,MIT,21751.0,2405.0,0,0,0,0,0,0,Q4 high
+top,huggingface/smolagents,Python,Apache-2.0,21715.0,1908.0,1,1,1,0,0,0,Q4 high
+top,wandb/openui,TypeScript,Apache-2.0,21620.0,2016.0,0,0,0,0,0,0,Q4 high
+top,dotnet/core,PowerShell,MIT,21518.0,4919.0,1,1,0,0,0,1,Q4 high
+top,microsoft/typescript-go,Go,Apache-2.0,21439.0,668.0,1,1,0,0,0,1,Q4 high
+top,mlflow/mlflow,Python,Apache-2.0,21402.0,4716.0,3,1,1,1,0,1,Q4 high
+top,onlook-dev/onlook,TypeScript,Apache-2.0,21192.0,1419.0,2,1,1,1,0,0,Q4 high
+top,srbhr/Resume-Matcher,Python,Apache-2.0,21035.0,4206.0,1,1,0,1,0,0,Q4 high
+top,copy/v86,JavaScript,BSD-2-Clause,21023.0,1536.0,0,0,0,0,0,0,Q4 high
+top,CarGuo/GSYVideoPlayer,Java,Apache-2.0,21004.0,4291.0,0,0,0,0,0,0,Q4 high
+top,micropython/micropython,C,NOASSERTION,20672.0,8328.0,0,0,0,0,0,0,Q4 high
+top,elastic/kibana,TypeScript,NOASSERTION,20613.0,8404.0,2,1,1,1,0,0,Q4 high
+top,actualbudget/actual,TypeScript,MIT,20537.0,1668.0,2,1,1,1,0,0,Q4 high
+top,QL-Win/QuickLook,C#,GPL-3.0,20496.0,1167.0,1,1,0,0,0,1,Q4 high
+top,RustPython/RustPython,Rust,MIT,20338.0,1332.0,1,1,1,0,0,0,Q4 high
+top,trufflesecurity/trufflehog,Go,AGPL-3.0,20046.0,1927.0,0,0,0,0,0,0,Q4 high
+top,vectordotdev/vector,Rust,MPL-2.0,20039.0,1813.0,2,1,1,1,0,0,Q4 high
+top,PrefectHQ/prefect,Python,Apache-2.0,19894.0,1888.0,1,1,1,0,0,0,Q4 high
+top,github/github-mcp-server,Go,MIT,19787.0,1747.0,1,1,0,0,0,1,Q4 high
+top,eyaltoledano/claude-task-master,JavaScript,NOASSERTION,19766.0,1931.0,2,1,1,1,0,0,Q4 high
+top,dotnet/roslyn,C#,MIT,19709.0,4146.0,2,1,1,0,0,1,Q4 high
+top,JanDeDobbeleer/oh-my-posh,Go,MIT,19691.0,2567.0,2,1,1,0,0,1,Q4 high
+top,qax-os/excelize,Go,BSD-3-Clause,19440.0,1822.0,0,0,0,0,0,0,Q4 high
+top,microsoft/fluentui,TypeScript,NOASSERTION,19436.0,2818.0,3,1,1,1,0,1,Q4 high
+top,qmk/qmk_firmware,C,GPL-2.0,19429.0,42192.0,1,1,0,0,0,1,Q4 high
+top,onnx/onnx,Python,Apache-2.0,19360.0,3778.0,2,1,0,1,0,1,Q4 high
+top,neondatabase/neon,Rust,Apache-2.0,19274.0,728.0,0,0,0,0,0,0,Q4 high
+top,airbytehq/airbyte,Python,NOASSERTION,19011.0,4685.0,0,0,0,0,0,0,Q4 high
+top,xtermjs/xterm.js,TypeScript,MIT,18898.0,1727.0,1,1,1,0,0,0,Q4 high
+top,karakeep-app/karakeep,TypeScript,AGPL-3.0,18852.0,799.0,2,1,1,1,0,0,Q4 high
+top,yamadashy/repomix,TypeScript,MIT,18206.0,786.0,3,1,1,1,0,1,Q4 high
+top,better-auth/better-auth,TypeScript,MIT,18111.0,1316.0,2,1,1,1,0,0,Q4 high
+top,peass-ng/PEASS-ng,C#,NOASSERTION,18020.0,3263.0,0,0,0,0,0,0,Q4 high
+top,jdx/mise,Rust,MIT,17960.0,585.0,2,1,1,1,0,0,Q4 high
+top,compiler-explorer/compiler-explorer,TypeScript,BSD-2-Clause,17818.0,1908.0,2,1,1,0,0,1,Q4 high
+top,lima-vm/lima,Go,Apache-2.0,17808.0,687.0,0,0,0,0,0,0,Q4 high
+top,RooCodeInc/Roo-Code,TypeScript,Apache-2.0,17756.0,1966.0,1,1,1,0,0,0,Q4 high
+top,block/goose,Rust,Apache-2.0,17680.0,1509.0,3,1,1,1,0,1,Q4 high
+top,github/docs,TypeScript,CC-BY-4.0,17647.0,62633.0,2,1,1,0,0,1,Q4 high
+top,YunaiV/yudao-cloud,Java,MIT,17637.0,4388.0,0,0,0,0,0,0,Q4 high
+top,TauricResearch/TradingAgents,Python,Apache-2.0,17598.0,3049.0,0,0,0,0,0,0,Q4 high
+top,wasp-lang/wasp,TypeScript,MIT,17479.0,1376.0,2,1,1,1,0,0,Q4 high
+top,netbirdio/netbird,Go,BSD-3-Clause,17461.0,812.0,0,0,0,0,0,0,Q4 high
+top,microsoft/onnxruntime,C++,MIT,17361.0,3370.0,2,1,1,0,0,1,Q4 high
+top,vercel/ai-chatbot,TypeScript,NOASSERTION,17246.0,5102.0,0,0,0,0,0,0,Q4 high
+top,stackblitz-labs/bolt.diy,TypeScript,MIT,17140.0,9407.0,0,0,0,0,0,0,Q4 high
+top,kortix-ai/suna,TypeScript,Apache-2.0,17116.0,2766.0,2,1,1,0,1,0,Q4 high
+top,microsoft/react-native-windows,C++,NOASSERTION,16932.0,1165.0,1,1,0,0,0,1,Q4 high
+top,modelcontextprotocol/python-sdk,Python,MIT,16924.0,2190.0,2,1,1,1,0,0,Q4 high
+top,arc53/DocsGPT,TypeScript,MIT,16870.0,1755.0,1,1,1,0,0,0,Q4 high
+top,rqlite/rqlite,Go,MIT,16816.0,745.0,2,1,0,1,0,1,Q4 high
+top,dotnet/runtime,C#,MIT,16688.0,5098.0,2,1,1,0,0,1,Q4 high
+top,langchain-ai/langgraph,Python,MIT,16579.0,2842.0,2,1,1,1,0,0,Q4 high
+top,wled/WLED,C++,EUPL-1.2,16514.0,3673.0,2,1,1,0,0,1,Q4 high
+top,elizaOS/eliza,TypeScript,MIT,16507.0,5289.0,3,1,1,1,1,0,Q4 high
+top,triton-lang/triton,MLIR,MIT,16350.0,2150.0,1,1,1,0,0,0,Q4 high
+top,umijs/qiankun,TypeScript,MIT,16310.0,2062.0,1,1,1,0,0,0,Q4 high
+top,activepieces/activepieces,TypeScript,NOASSERTION,16058.0,2266.0,2,1,1,1,0,0,Q4 high
+top,microsoft/playwright-mcp,TypeScript,Apache-2.0,15934.0,1170.0,1,1,0,1,0,0,Q4 high
+top,oxc-project/oxc,Rust,MIT,15879.0,623.0,3,1,1,1,0,1,Q4 high
+top,amplication/amplication,TypeScript,NOASSERTION,15719.0,1543.0,0,0,0,0,0,0,Q4 high
+top,navidrome/navidrome,Go,GPL-3.0,15713.0,1138.0,0,0,0,0,0,0,Q4 high
+top,sst/opencode,Go,MIT,15712.0,974.0,1,1,1,0,0,0,Q4 high
+top,4ian/GDevelop,JavaScript,NOASSERTION,15639.0,1043.0,0,0,0,0,0,0,Q4 high
+top,jlowin/fastmcp,Python,Apache-2.0,15491.0,986.0,4,1,1,1,1,1,Q4 high
+top,mastra-ai/mastra,TypeScript,NOASSERTION,15412.0,970.0,3,1,1,1,1,0,Q4 high
+top,CarGuo/gsy_github_app_flutter,Dart,Apache-2.0,15207.0,2589.0,1,1,1,0,0,0,Q4 high
+top,temporalio/temporal,Go,MIT,15103.0,1053.0,2,1,1,0,0,1,Q4 high
+top,Kanaries/pygwalker,Python,Apache-2.0,15060.0,801.0,0,0,0,0,0,0,Q4 high
+top,marimo-team/marimo,Python,Apache-2.0,14933.0,617.0,3,1,1,1,0,1,Q4 high
+top,browserbase/stagehand,TypeScript,MIT,14879.0,892.0,2,1,0,1,1,0,Q4 high
+top,apache/pulsar,Java,Apache-2.0,14760.0,3646.0,3,1,1,1,0,1,Q4 high
+top,CocoaPods/CocoaPods,Ruby,NOASSERTION,14736.0,2666.0,0,0,0,0,0,0,Q4 high
+top,Azure/azure-quickstart-templates,Bicep,MIT,14499.0,16315.0,0,0,0,0,0,0,Q4 high
+top,langfuse/langfuse,TypeScript,NOASSERTION,14483.0,1330.0,2,1,1,1,0,0,Q4 high
+top,nikitabobko/AeroSpace,Swift,MIT,14414.0,291.0,0,0,0,0,0,0,Q4 high
+top,dotnet/efcore,C#,MIT,14235.0,3284.0,2,1,1,0,0,1,Q4 high
+top,nltk/nltk,Python,Apache-2.0,14209.0,2935.0,0,0,0,0,0,0,Q4 high
+top,windmill-labs/windmill,HTML,NOASSERTION,14198.0,758.0,2,1,1,1,0,0,Q4 high
+top,unbug/codelf,JavaScript,NOASSERTION,14183.0,972.0,0,0,0,0,0,0,Q4 high
+top,Skyvern-AI/skyvern,Python,AGPL-3.0,13976.0,1158.0,2,1,1,1,0,0,Q4 high
+top,vercel/vercel,TypeScript,Apache-2.0,13899.0,2714.0,2,1,1,1,0,0,Q4 high
+top,App-vNext/Polly,C#,BSD-3-Clause,13882.0,1261.0,1,1,1,0,0,0,Q4 high
+top,ktorio/ktor,Kotlin,Apache-2.0,13815.0,1169.0,2,1,1,1,0,0,Q4 high
+top,dense-analysis/ale,Vim Script,BSD-2-Clause,13808.0,1457.0,1,1,1,0,0,0,Q4 high
+top,terkelg/awesome-creative-coding,HTML,Unknown,13783.0,918.0,0,0,0,0,0,0,Q4 high
+top,dagster-io/dagster,Python,Apache-2.0,13669.0,1774.0,2,1,0,1,1,0,Q4 high
+top,OpenNHP/opennhp,Go,Apache-2.0,13661.0,2505.0,1,1,0,1,0,0,Q4 high
+top,shoelace-style/shoelace,TypeScript,MIT,13607.0,907.0,0,0,0,0,0,0,Q4 high
+top,OpenListTeam/OpenList,Go,AGPL-3.0,13498.0,930.0,1,1,1,0,0,0,Q4 high
+top,musescore/MuseScore,C++,NOASSERTION,13439.0,2914.0,0,0,0,0,0,0,Q4 high
+top,Wan-Video/Wan2.1,Python,Apache-2.0,13414.0,1735.0,0,0,0,0,0,0,Q4 high
+top,gitpod-io/gitpod,TypeScript,AGPL-3.0,13404.0,1307.0,1,1,0,1,0,0,Q4 high
+top,konvajs/konva,TypeScript,NOASSERTION,13239.0,992.0,0,0,0,0,0,0,Q4 high
+top,onyx-dot-app/onyx,Python,NOASSERTION,13231.0,1794.0,2,1,1,1,0,0,Q4 high
+top,QuestPDF/QuestPDF,C#,NOASSERTION,13157.0,700.0,0,0,0,0,0,0,Q4 high
+top,openai/openai-agents-python,Python,MIT,13119.0,2088.0,2,1,1,1,0,0,Q4 high
+top,zauberzeug/nicegui,Python,MIT,12990.0,782.0,3,1,1,1,0,1,Q4 high
+top,google/guetzli,C++,Apache-2.0,12948.0,979.0,0,0,0,0,0,0,Q4 high
+top,duplicati/duplicati,C#,MIT,12946.0,979.0,0,0,0,0,0,0,Q4 high
+top,langbot-app/LangBot,Python,AGPL-3.0,12782.0,998.0,2,1,1,1,0,0,Q4 high
+top,coturn/coturn,C,NOASSERTION,12724.0,2145.0,1,1,0,1,0,0,Q4 high
+top,electerm/electerm,JavaScript,MIT,12720.0,1047.0,0,0,0,0,0,0,Q4 high
+top,MetaMask/metamask-extension,TypeScript,NOASSERTION,12685.0,5257.0,1,1,1,0,0,0,Q4 high
+top,tinacms/tinacms,TypeScript,Apache-2.0,12663.0,655.0,2,1,1,1,0,0,Q4 high
+top,gofr-dev/gofr,Go,Apache-2.0,12662.0,1724.0,1,1,1,0,0,0,Q4 high
+top,OWASP/mastg,Python,CC-BY-SA-4.0,12399.0,2472.0,1,1,0,0,0,1,Q4 high
+top,cockpit-project/cockpit,JavaScript,LGPL-2.1,12330.0,1192.0,0,0,0,0,0,0,Q4 high
+top,ritchieng/the-incredible-pytorch,Unknown,MIT,12019.0,2157.0,0,0,0,0,0,0,Q4 high
+top,tradingview/lightweight-charts,TypeScript,Apache-2.0,11976.0,1895.0,0,0,0,0,0,0,Q4 high
+top,comet-ml/opik,Python,Apache-2.0,11956.0,825.0,2,1,1,0,0,1,Q4 high
+top,plantuml/plantuml,Java,NOASSERTION,11894.0,1070.0,2,1,0,1,0,1,Q4 high
+top,srwi/EverythingToolbar,C#,NOASSERTION,11891.0,483.0,0,0,0,0,0,0,Q4 high
+top,ant-design/ant-design-mobile,TypeScript,MIT,11864.0,2474.0,0,0,0,0,0,0,Q4 high
+top,triggerdotdev/trigger.dev,TypeScript,Apache-2.0,11857.0,770.0,3,1,1,1,0,1,Q4 high
+top,web-infra-dev/rspack,Rust,MIT,11804.0,763.0,1,1,1,0,0,0,Q4 high
+top,erlang/otp,Erlang,Apache-2.0,11796.0,3020.0,0,0,0,0,0,0,Q3
+top,SuperClaude-Org/SuperClaude_Framework,Python,MIT,11739.0,1038.0,2,1,1,1,0,0,Q3
+top,volcengine/verl,Python,Apache-2.0,11675.0,1962.0,2,1,1,1,0,0,Q3
+top,trinodb/trino,Java,Apache-2.0,11658.0,3277.0,1,1,0,1,0,0,Q3
+top,actions/runner-images,PowerShell,MIT,11612.0,3417.0,1,1,0,0,0,1,Q3
+top,microsoft/windows-rs,Rust,Apache-2.0,11487.0,575.0,1,1,0,0,0,1,Q3
+top,scalar/scalar,Vue,MIT,11400.0,434.0,2,1,1,1,0,0,Q3
+top,coderamp-labs/gitingest,Python,MIT,11381.0,849.0,0,0,0,0,0,0,Q3
+top,microsoft/garnet,C#,MIT,11379.0,587.0,1,1,0,0,0,1,Q3
+top,agent0ai/agent-zero,Python,NOASSERTION,11357.0,2200.0,2,1,1,0,0,1,Q3
+top,Z3Prover/z3,C++,NOASSERTION,11228.0,1547.0,1,1,0,0,0,1,Q3
+top,567-labs/instructor,Python,MIT,11095.0,830.0,1,1,0,1,0,0,Q3
+top,linkerd/linkerd2,Go,Apache-2.0,11052.0,1301.0,0,0,0,0,0,0,Q3
+top,AstrBotDevs/AstrBot,Python,AGPL-3.0,11041.0,781.0,2,1,1,0,0,1,Q3
+top,formbricks/formbricks,TypeScript,NOASSERTION,11035.0,1946.0,2,1,1,0,1,0,Q3
+top,browserless/browserless,TypeScript,NOASSERTION,10894.0,855.0,1,1,0,1,0,0,Q3
+top,datahub-project/datahub,Java,Apache-2.0,10890.0,3176.0,2,1,1,1,0,0,Q3
+top,Chia-Network/chia-blockchain,Python,Apache-2.0,10846.0,2047.0,0,0,0,0,0,0,Q3
+top,TanStack/router,TypeScript,MIT,10705.0,1113.0,1,1,1,0,0,0,Q3
+top,CapSoftware/Cap,TypeScript,AGPL-3.0,10645.0,674.0,2,1,1,1,0,0,Q3
+top,microsoft/promptflow,Python,MIT,10634.0,999.0,0,0,0,0,0,0,Q3
+top,keephq/keep,Python,NOASSERTION,10563.0,1029.0,0,0,0,0,0,0,Q3
+top,projectdiscovery/nuclei-templates,JavaScript,MIT,10558.0,2938.0,0,0,0,0,0,0,Q3
+top,numba/numba,Python,BSD-2-Clause,10553.0,1174.0,0,0,0,0,0,0,Q3
+top,coder/coder,Go,AGPL-3.0,10544.0,955.0,3,1,1,1,1,0,Q3
+top,nerfstudio-project/nerfstudio,Python,Apache-2.0,10475.0,1460.0,0,0,0,0,0,0,Q3
+top,dotnet/orleans,C#,MIT,10443.0,2093.0,2,1,1,0,0,1,Q3
+top,StarRocks/starrocks,Java,Apache-2.0,10390.0,2065.0,3,1,1,1,0,1,Q3
+top,owncast/owncast,Go,MIT,10375.0,1097.0,3,1,1,1,0,1,Q3
+top,PRQL/prql,Rust,Apache-2.0,10371.0,236.0,1,1,0,1,0,0,Q3
+top,FerretDB/FerretDB,Go,Apache-2.0,10302.0,455.0,0,0,0,0,0,0,Q3
+top,getAsterisk/claudia,TypeScript,AGPL-3.0,10296.0,823.0,0,0,0,0,0,0,Q3
+top,Chainlit/chainlit,TypeScript,Apache-2.0,10291.0,1443.0,3,1,1,1,0,1,Q3
+top,SoftFever/OrcaSlicer,C++,AGPL-3.0,10280.0,1308.0,2,1,1,1,0,0,Q3
+top,zaidmukaddam/scira,TypeScript,Apache-2.0,10235.0,1256.0,0,0,0,0,0,0,Q3
+top,sashabaranov/go-openai,Go,Apache-2.0,10209.0,1639.0,0,0,0,0,0,0,Q3
+top,wandb/wandb,Python,MIT,10170.0,763.0,2,1,1,1,0,0,Q3
+top,bufbuild/buf,Go,Apache-2.0,10115.0,316.0,0,0,0,0,0,0,Q3
+top,TencentARC/PhotoMaker,Jupyter Notebook,NOASSERTION,10050.0,813.0,0,0,0,0,0,0,Q3
+top,huggingface/tokenizers,Rust,Apache-2.0,9949.0,945.0,0,0,0,0,0,0,Q3
+top,babalae/better-genshin-impact,C#,GPL-3.0,9893.0,651.0,1,1,1,0,0,0,Q3
+top,pypa/pip,Python,MIT,9879.0,3116.0,0,0,0,0,0,0,Q3
+top,PX4/PX4-Autopilot,C++,BSD-3-Clause,9852.0,14265.0,2,1,0,1,0,1,Q3
+top,bitnami/charts,Smarty,NOASSERTION,9827.0,9713.0,0,0,0,0,0,0,Q3
+top,hackmdio/codimd,JavaScript,AGPL-3.0,9749.0,1104.0,0,0,0,0,0,0,Q3
+top,zuiidea/antd-admin,JavaScript,MIT,9677.0,2514.0,2,1,1,0,0,1,Q3
+top,esphome/esphome,C++,NOASSERTION,9659.0,4419.0,3,1,1,1,0,1,Q3
+top,buefy/buefy,Vue,MIT,9573.0,1112.0,2,1,0,1,0,1,Q3
+top,katspaugh/wavesurfer.js,TypeScript,BSD-3-Clause,9541.0,1711.0,1,1,1,0,0,0,Q3
+top,gitkraken/vscode-gitlens,TypeScript,NOASSERTION,9457.0,1494.0,2,1,1,1,0,0,Q3
+top,ast-grep/ast-grep,Rust,MIT,9397.0,249.0,1,1,0,0,0,1,Q3
+top,pymumu/smartdns,C,GPL-3.0,9357.0,1149.0,0,0,0,0,0,0,Q3
+top,kern/filepizza,TypeScript,NOASSERTION,9357.0,578.0,2,1,0,1,1,0,Q3
+top,Netflix/metaflow,Python,Apache-2.0,9330.0,866.0,2,1,1,1,0,0,Q3
+top,open-ani/animeko,Kotlin,AGPL-3.0,9267.0,229.0,0,0,0,0,0,0,Q3
+top,dotnet/machinelearning,C#,MIT,9231.0,1926.0,1,1,0,0,0,1,Q3
+top,WEIFENG2333/VideoCaptioner,Python,GPL-3.0,9196.0,705.0,0,0,0,0,0,0,Q3
+top,simonw/llm,Python,Apache-2.0,9178.0,563.0,1,1,1,0,0,0,Q3
+top,containerd/nerdctl,Go,Apache-2.0,9146.0,680.0,0,0,0,0,0,0,Q3
+top,dotnet/yarp,C#,MIT,9144.0,884.0,1,1,1,0,0,0,Q3
+top,Mail-0/Zero,TypeScript,MIT,9132.0,1049.0,0,0,0,0,0,0,Q3
+top,jxxghp/MoviePilot,Python,GPL-3.0,9129.0,1118.0,4,1,1,1,1,1,Q3
+top,instantdb/instant,Clojure,Apache-2.0,9095.0,282.0,1,1,1,0,0,0,Q3
+top,NG-ZORRO/ng-zorro-antd,TypeScript,MIT,9060.0,4052.0,3,1,1,1,0,1,Q3
+top,Portkey-AI/gateway,TypeScript,MIT,9045.0,678.0,1,1,0,1,0,0,Q3
+top,Humanizr/Humanizer,C#,NOASSERTION,9024.0,981.0,2,1,1,1,0,0,Q3
+top,jina-ai/reader,TypeScript,Apache-2.0,9021.0,711.0,1,1,0,1,0,0,Q3
+top,modelcontextprotocol/typescript-sdk,TypeScript,MIT,8910.0,1113.0,1,1,0,1,0,0,Q3
+top,Uberi/speech_recognition,Python,BSD-3-Clause,8814.0,2425.0,0,0,0,0,0,0,Q3
+top,git-for-windows/git,C,NOASSERTION,8812.0,2688.0,1,1,1,0,0,0,Q3
+top,github/codeql,CodeQL,MIT,8574.0,1746.0,1,1,0,0,0,1,Q3
+top,ArthurSonzogni/FTXUI,C++,MIT,8551.0,490.0,1,1,0,0,0,1,Q3
+top,jonobr1/two.js,JavaScript,MIT,8504.0,462.0,1,1,0,1,0,0,Q3
+top,pdm-project/pdm,Python,MIT,8441.0,448.0,2,1,1,1,0,0,Q3
+top,skypilot-org/skypilot,Python,Apache-2.0,8435.0,714.0,2,1,1,1,0,0,Q3
+top,elie222/inbox-zero,TypeScript,NOASSERTION,8426.0,934.0,2,1,1,1,0,0,Q3
+top,mautic/mautic,PHP,NOASSERTION,8383.0,2928.0,2,1,1,1,0,0,Q3
+top,StockSharp/StockSharp,C#,Apache-2.0,8359.0,1947.0,0,0,0,0,0,0,Q3
+top,barryclark/jekyll-now,CSS,MIT,8359.0,35342.0,0,0,0,0,0,0,Q3
+top,getsentry/sentry-javascript,TypeScript,MIT,8353.0,1698.0,2,1,1,1,0,0,Q3
+top,neon-bindings/neon,Rust,Apache-2.0,8298.0,288.0,0,0,0,0,0,0,Q3
+top,Sylius/Sylius,PHP,MIT,8269.0,2148.0,3,1,1,1,0,1,Q3
+top,microsoft/cpprestsdk,C++,NOASSERTION,8194.0,1688.0,0,0,0,0,0,0,Q3
+top,risingwavelabs/risingwave,Rust,Apache-2.0,8185.0,664.0,2,1,1,1,0,0,Q3
+top,asgeirtj/system_prompts_leaks,JavaScript,Unknown,8056.0,1810.0,0,0,0,0,0,0,Q3
+top,microsoft/vscode-copilot-chat,TypeScript,MIT,8005.0,970.0,2,1,1,0,0,1,Q3
+top,bentoml/BentoML,Python,Apache-2.0,7934.0,859.0,0,0,0,0,0,0,Q3
+top,miurla/morphic,TypeScript,Apache-2.0,7858.0,2145.0,2,1,1,1,0,0,Q3
+top,promptfoo/promptfoo,TypeScript,MIT,7809.0,627.0,2,1,1,1,0,0,Q3
+top,OrchardCMS/OrchardCore,C#,BSD-3-Clause,7777.0,2481.0,1,1,1,0,0,0,Q3
+top,microsoft/azuredatastudio,TypeScript,MIT,7693.0,941.0,0,0,0,0,0,0,Q3
+top,ml-explore/mlx-examples,Python,MIT,7687.0,1087.0,0,0,0,0,0,0,Q3
+top,groue/GRDB.swift,Swift,MIT,7665.0,770.0,0,0,0,0,0,0,Q3
+top,coleam00/context-engineering-intro,Python,MIT,7636.0,1547.0,1,1,0,1,0,0,Q3
+top,SirVer/ultisnips,Python,GPL-3.0,7632.0,686.0,1,1,0,1,0,0,Q3
+top,labring/laf,TypeScript,Apache-2.0,7557.0,688.0,1,1,0,1,0,0,Q3
+top,mamba-org/mamba,C++,BSD-3-Clause,7542.0,398.0,0,0,0,0,0,0,Q3
+top,Floorp-Projects/Floorp,C++,NOASSERTION,7510.0,208.0,4,1,1,1,1,1,Q3
+top,midudev/preguntas-entrevista-react,JavaScript,MIT,7485.0,727.0,2,1,1,1,0,0,Q3
+top,operator-framework/operator-sdk,Go,Apache-2.0,7471.0,1769.0,0,0,0,0,0,0,Q3
+top,firezone/firezone,Elixir,Apache-2.0,7441.0,326.0,2,1,0,1,0,1,Q3
+top,oapi-codegen/oapi-codegen,Go,Apache-2.0,7427.0,958.0,0,0,0,0,0,0,Q3
+top,community/community,Ruby,CC-BY-4.0,7399.0,2943.0,0,0,0,0,0,0,Q3
+top,jomjol/AI-on-the-edge-device,C++,NOASSERTION,7364.0,764.0,0,0,0,0,0,0,Q3
+top,PrismLauncher/PrismLauncher,C++,GPL-3.0,7321.0,875.0,0,0,0,0,0,0,Q3
+top,azerothcore/azerothcore-wotlk,C++,AGPL-3.0,7292.0,2906.0,1,1,0,1,0,0,Q3
+top,codexu/note-gen,TypeScript,MIT,7248.0,470.0,0,0,0,0,0,0,Q3
+top,elsa-workflows/elsa-core,C#,MIT,7225.0,1376.0,3,1,1,1,0,1,Q3
+top,open-metadata/OpenMetadata,TypeScript,Apache-2.0,7201.0,1343.0,3,1,1,1,0,1,Q3
+top,vscode-neovim/vscode-neovim,TypeScript,MIT,7197.0,247.0,0,0,0,0,0,0,Q3
+top,Azure-Samples/azure-search-openai-demo,Python,MIT,7182.0,4889.0,2,1,1,0,0,1,Q3
+top,AlaSQL/alasql,JavaScript,MIT,7161.0,681.0,1,1,0,0,0,1,Q3
+top,liuliu/ccv,C,NOASSERTION,7158.0,1709.0,1,1,1,0,0,0,Q3
+top,fluent/fluent-bit,C,Apache-2.0,7110.0,1738.0,1,1,1,0,0,0,Q3
+top,FastLED/FastLED,C++,MIT,7005.0,1710.0,2,1,0,1,1,0,Q3
+top,yeasy/blockchain_guide,Go,Unknown,6985.0,1957.0,0,0,0,0,0,0,Q3
+top,livekit/agents,Python,Apache-2.0,6923.0,1122.0,2,1,1,1,0,0,Q3
+top,cloudflare/workerd,C++,Apache-2.0,6914.0,410.0,1,1,1,0,0,0,Q3
+top,utom/sketch-measure,HTML,MIT,6902.0,590.0,0,0,0,0,0,0,Q3
+top,mfts/papermark,TypeScript,NOASSERTION,6902.0,941.0,1,1,1,0,0,0,Q3
+top,wix/react-native-ui-lib,TypeScript,MIT,6892.0,735.0,0,0,0,0,0,0,Q3
+top,alirezamika/autoscraper,Python,MIT,6867.0,716.0,0,0,0,0,0,0,Q3
+top,AutoMQ/automq,Java,Apache-2.0,6819.0,471.0,1,1,1,0,0,0,Q3
+top,microsoft/RD-Agent,Python,MIT,6805.0,674.0,1,1,1,0,0,0,Q3
+top,tadata-org/fastapi_mcp,Python,MIT,6761.0,559.0,0,0,0,0,0,0,Q3
+top,EduardoPires/EquinoxProject,C#,MIT,6699.0,1659.0,1,1,1,0,0,0,Q3
+top,mahmoud/boltons,Python,NOASSERTION,6685.0,362.0,0,0,0,0,0,0,Q3
+top,microsoft/magentic-ui,Python,MIT,6674.0,680.0,0,0,0,0,0,0,Q3
+top,projectcalico/calico,Go,Apache-2.0,6672.0,1454.0,2,1,0,1,0,1,Q3
+top,mark3labs/mcp-go,Go,MIT,6650.0,672.0,1,1,1,0,0,0,Q3
+top,antiwork/gumroad,Ruby,MIT,6643.0,1109.0,3,1,1,1,0,1,Q3
+top,hyperf/hyperf,PHP,MIT,6555.0,1256.0,0,0,0,0,0,0,Q3
+top,rustfs/rustfs,Rust,Apache-2.0,6499.0,291.0,3,1,1,1,0,1,Q3
+top,raycast/extensions,TypeScript,MIT,6499.0,4226.0,4,1,1,1,1,1,Q3
+top,Arize-ai/phoenix,Jupyter Notebook,NOASSERTION,6498.0,506.0,3,1,1,1,1,0,Q3
+top,bmadcode/BMAD-METHOD,JavaScript,MIT,6484.0,1182.0,1,1,1,0,0,0,Q3
+top,microsoft/GSL,C++,NOASSERTION,6462.0,752.0,1,1,0,0,0,1,Q3
+top,cloudnative-pg/cloudnative-pg,Go,Apache-2.0,6462.0,471.0,0,0,0,0,0,0,Q3
+top,kohya-ss/sd-scripts,Python,Apache-2.0,6459.0,1071.0,0,0,0,0,0,0,Q3
+top,imba/imba,JavaScript,MIT,6451.0,179.0,0,0,0,0,0,0,Q3
+top,hacs/integration,Python,MIT,6439.0,1424.0,0,0,0,0,0,0,Q3
+top,lollipopkit/flutter_server_box,Dart,GPL-3.0,6427.0,410.0,1,1,0,1,0,0,Q3
+top,typehero/typehero,TypeScript,AGPL-3.0,6400.0,455.0,0,0,0,0,0,0,Q3
+top,jnsahaj/tweakcn,TypeScript,Apache-2.0,6266.0,344.0,0,0,0,0,0,0,Q3
+top,oraios/serena,Python,MIT,6198.0,435.0,3,1,1,1,0,1,Q3
+top,aniyomiorg/aniyomi,Kotlin,Apache-2.0,6190.0,419.0,0,0,0,0,0,0,Q3
+top,traccar/traccar,Java,Apache-2.0,6182.0,2867.0,0,0,0,0,0,0,Q3
+top,thedevdojo/wave,CSS,MIT,6177.0,868.0,1,1,0,1,0,0,Q3
+top,traceloop/openllmetry,Python,Apache-2.0,6150.0,768.0,1,1,0,1,0,0,Q3
+top,ethereum-optimism/optimism,Go,MIT,6140.0,3645.0,2,1,1,1,0,0,Q3
+top,unisonweb/unison,Haskell,NOASSERTION,6140.0,279.0,0,0,0,0,0,0,Q3
+top,microsoft/vscode-docs,Markdown,NOASSERTION,6103.0,5231.0,2,1,1,0,0,1,Q3
+top,openai/openai-realtime-agents,TypeScript,MIT,6099.0,844.0,0,0,0,0,0,0,Q3
+top,BasedHardware/omi,C,MIT,6087.0,891.0,2,1,1,1,0,0,Q3
+top,Kilo-Org/kilocode,TypeScript,Apache-2.0,6078.0,521.0,1,1,1,0,0,0,Q3
+top,konvajs/react-konva,TypeScript,MIT,6060.0,279.0,0,0,0,0,0,0,Q3
+top,stack-auth/stack-auth,TypeScript,NOASSERTION,6033.0,433.0,2,1,1,1,0,0,Q3
+top,espressif/esptool,Python,GPL-2.0,5980.0,1439.0,1,1,0,0,0,1,Q3
+top,microsoft/mcp-for-beginners,Python,MIT,5961.0,1661.0,1,1,1,0,0,0,Q3
+top,EricLBuehler/mistral.rs,Rust,MIT,5959.0,437.0,2,1,1,1,0,0,Q3
+top,metowolf/vCards,JavaScript,Unknown,5923.0,290.0,1,1,0,1,0,0,Q3
+top,Freika/dawarich,Ruby,AGPL-3.0,5920.0,172.0,2,1,1,1,0,0,Q3
+top,microsoft/vscode-cpptools,TypeScript,NOASSERTION,5864.0,1629.0,0,0,0,0,0,0,Q3
+top,cvxpy/cvxpy,C++,Apache-2.0,5857.0,1112.0,1,1,0,1,0,0,Q3
+top,anyproto/anytype-ts,TypeScript,NOASSERTION,5854.0,362.0,2,1,1,1,0,0,Q3
+top,apache/pinot,Java,Apache-2.0,5851.0,1401.0,3,1,1,1,0,1,Q3
+top,pardeike/Harmony,C#,MIT,5842.0,542.0,2,1,1,0,0,1,Q3
+top,PrefectHQ/marvin,Python,Apache-2.0,5832.0,378.0,1,1,0,1,0,0,Q3
+top,Azure/azure-sdk-for-net,C#,MIT,5827.0,5008.0,2,1,1,0,0,1,Q3
+top,Flagsmith/flagsmith,Python,BSD-3-Clause,5817.0,451.0,2,1,1,1,0,0,Q3
+top,fujiapple852/trippy,Rust,Apache-2.0,5815.0,162.0,1,1,1,0,0,0,Q3
+top,hathach/tinyusb,C,MIT,5759.0,1218.0,2,1,1,1,0,0,Q3
+top,sanity-io/sanity,TypeScript,MIT,5742.0,483.0,2,1,1,1,0,0,Q3
+top,BLAKE3-team/BLAKE3,Assembly,Apache-2.0,5700.0,396.0,0,0,0,0,0,0,Q3
+top,e2b-dev/fragments,TypeScript,Apache-2.0,5687.0,773.0,0,0,0,0,0,0,Q3
+top,mebjas/html5-qrcode,TypeScript,Apache-2.0,5662.0,1082.0,0,0,0,0,0,0,Q3
+top,folke/snacks.nvim,Lua,Apache-2.0,5634.0,290.0,0,0,0,0,0,0,Q3
+top,julep-ai/julep,Python,Unknown,5629.0,931.0,2,1,1,1,0,0,Q3
+top,ryoppippi/ccusage,TypeScript,MIT,5609.0,172.0,2,1,1,1,0,0,Q3
+top,timber/timber,PHP,MIT,5605.0,512.0,0,0,0,0,0,0,Q3
+top,Zipstack/unstract,Python,AGPL-3.0,5513.0,521.0,0,0,0,0,0,0,Q3
+top,assistant-ui/assistant-ui,TypeScript,MIT,5475.0,626.0,2,1,1,1,0,0,Q3
+top,t3-oss/create-t3-turbo,TypeScript,MIT,5473.0,483.0,0,0,0,0,0,0,Q3
+top,BeehiveInnovations/zen-mcp-server,Python,NOASSERTION,5465.0,487.0,2,1,1,1,0,0,Q3
+top,NangoHQ/nango,TypeScript,NOASSERTION,5463.0,507.0,2,1,1,1,0,0,Q3
+top,dotnet/msbuild,C#,MIT,5418.0,1385.0,2,1,1,0,0,1,Q3
+top,actions/toolkit,TypeScript,MIT,5403.0,1592.0,0,0,0,0,0,0,Q3
+top,microsoft/Windows-classic-samples,Unknown,NOASSERTION,5399.0,3303.0,0,0,0,0,0,0,Q3
+top,thebuilder/react-intersection-observer,TypeScript,MIT,5377.0,191.0,0,0,0,0,0,0,Q3
+top,modelcontextprotocol/inspector,TypeScript,MIT,5353.0,674.0,2,1,1,1,0,0,Q3
+top,epicweb-dev/react-fundamentals,TypeScript,NOASSERTION,5350.0,3198.0,0,0,0,0,0,0,Q3
+top,Keldos-Li/typora-latex-theme,SCSS,GPL-3.0,5344.0,326.0,0,0,0,0,0,0,Q3
+top,PySpur-Dev/pyspur,TypeScript,Apache-2.0,5318.0,381.0,0,0,0,0,0,0,Q3
+top,afadil/wealthfolio,TypeScript,AGPL-3.0,5304.0,282.0,2,1,1,1,0,0,Q3
+top,subzeroid/instagrapi,Python,MIT,5299.0,770.0,0,0,0,0,0,0,Q3
+top,microsoft/typespec,Java,MIT,5285.0,297.0,2,1,1,0,0,1,Q3
+top,Uniswap/interface,TypeScript,GPL-3.0,5278.0,5308.0,1,1,1,0,0,0,Q3
+top,ikarus23/MifareClassicTool,Java,GPL-3.0,5261.0,949.0,0,0,0,0,0,0,Q3
+top,MervinPraison/PraisonAI,Python,MIT,5243.0,722.0,2,1,1,0,1,0,Q3
+top,jedisct1/dsvpn,C,MIT,5235.0,401.0,0,0,0,0,0,0,Q3
+top,meshtastic/firmware,C++,GPL-3.0,5215.0,1376.0,3,1,1,1,0,1,Q3
+top,chrxh/alien,C++,BSD-3-Clause,5211.0,171.0,2,1,0,1,0,1,Q3
+top,Azure/Azure-Sentinel,Python,MIT,5204.0,3282.0,1,1,0,0,0,1,Q3
+top,reown-com/appkit,TypeScript,Apache-2.0,5202.0,1517.0,2,1,1,1,0,0,Q3
+top,pterm/pterm,Go,MIT,5194.0,207.0,2,1,1,1,0,0,Q3
+top,antiwork/shortest,TypeScript,MIT,5179.0,307.0,0,0,0,0,0,0,Q3
+top,fonsp/Pluto.jl,Julia,MIT,5170.0,300.0,1,1,0,1,0,0,Q3
+top,DeepLabCut/DeepLabCut,Python,LGPL-3.0,5169.0,1734.0,0,0,0,0,0,0,Q3
+top,microsoft/presidio,Python,MIT,5141.0,701.0,1,1,0,0,0,1,Q3
+top,awslabs/mcp,Python,Apache-2.0,5107.0,668.0,1,1,1,0,0,0,Q3
+top,leoafarias/fvm,Dart,MIT,5105.0,262.0,2,1,1,0,0,1,Q3
+top,devtron-labs/devtron,Go,Apache-2.0,5074.0,547.0,0,0,0,0,0,0,Q3
+top,kyegomez/swarms,Python,Apache-2.0,5073.0,598.0,2,1,1,1,0,0,Q3
+top,logancyang/obsidian-copilot,TypeScript,AGPL-3.0,5044.0,412.0,2,1,1,1,0,0,Q3
+top,Azure/azure-sdk-for-python,Python,MIT,5011.0,3062.0,2,1,1,0,0,1,Q3
+top,mono/SkiaSharp,C#,MIT,4997.0,589.0,3,1,1,1,0,1,Q3
+top,BoundaryML/baml,Rust,Apache-2.0,4975.0,213.0,2,1,0,1,1,0,Q3
+top,lightdash/lightdash,TypeScript,NOASSERTION,4935.0,584.0,2,1,1,1,0,0,Q3
+top,modelcontextprotocol/modelcontextprotocol,TypeScript,MIT,4928.0,824.0,2,1,1,1,0,0,Q3
+top,developersdigest/llm-answer-engine,TypeScript,MIT,4913.0,766.0,0,0,0,0,0,0,Q3
+top,opal/opal,Ruby,MIT,4877.0,331.0,1,1,1,0,0,0,Q3
+top,microsoft/FluidFramework,TypeScript,MIT,4847.0,553.0,2,1,0,1,0,1,Q3
+top,pingdotgg/uploadthing,TypeScript,MIT,4846.0,387.0,0,0,0,0,0,0,Q3
+top,paradigmxyz/reth,Rust,Apache-2.0,4835.0,1746.0,2,1,1,1,0,0,Q3
+top,potpie-ai/potpie,Python,Apache-2.0,4830.0,446.0,2,1,1,1,0,0,Q3
+top,home-assistant/frontend,TypeScript,NOASSERTION,4824.0,3214.0,3,1,1,1,0,1,Q3
+top,pickle-com/glass,JavaScript,GPL-3.0,4792.0,806.0,0,0,0,0,0,0,Q3
+top,ckan/ckan,Python,NOASSERTION,4775.0,2046.0,0,0,0,0,0,0,Q3
+top,zenml-io/zenml,Python,Apache-2.0,4768.0,529.0,2,1,1,1,0,0,Q3
+top,Azure/autorest,TypeSpec,MIT,4757.0,738.0,0,0,0,0,0,0,Q3
+top,spack/spack,Python,Apache-2.0,4755.0,2408.0,0,0,0,0,0,0,Q3
+top,PyO3/maturin,Rust,Apache-2.0,4749.0,333.0,1,1,1,0,0,0,Q3
+top,beeradmoore/dlss-swapper,C#,GPL-3.0,4741.0,144.0,0,0,0,0,0,0,Q3
+top,facebook/idb,Objective-C,MIT,4729.0,455.0,0,0,0,0,0,0,Q3
+top,dotnet/aspire,C#,MIT,4723.0,659.0,2,1,1,0,0,1,Q3
+top,AgentOps-AI/agentops,Python,MIT,4722.0,452.0,1,1,0,0,1,0,Q3
+top,cordx56/rustowl,Rust,MPL-2.0,4714.0,102.0,0,0,0,0,0,0,Q3
+top,dotnet/dotnet-docker,Dockerfile,MIT,4705.0,1967.0,1,1,0,0,0,1,Q3
+top,jina-ai/node-DeepResearch,TypeScript,Apache-2.0,4693.0,429.0,0,0,0,0,0,0,Q3
+top,tinyplex/tinybase,TypeScript,MIT,4639.0,115.0,1,1,1,0,0,0,Q3
+top,sct/overseerr,TypeScript,MIT,4635.0,529.0,0,0,0,0,0,0,Q3
+top,dotnet/winforms,C#,MIT,4635.0,1045.0,1,1,1,0,0,0,Q3
+top,ruvnet/claude-flow,TypeScript,MIT,4630.0,617.0,2,1,1,1,0,0,Q3
+top,diggerhq/digger,Go,Apache-2.0,4616.0,562.0,2,1,1,1,0,0,Q3
+top,reacherhq/check-if-email-exists,Rust,NOASSERTION,4592.0,378.0,0,0,0,0,0,0,Q3
+top,distribworks/dkron,Go,LGPL-3.0,4536.0,398.0,2,1,1,1,0,0,Q3
+top,NewFuture/DDNS,Python,MIT,4528.0,680.0,2,1,1,0,0,1,Q3
+top,ydb-platform/ydb,C++,Apache-2.0,4524.0,703.0,2,1,1,1,0,0,Q3
+top,czlonkowski/n8n-mcp,TypeScript,MIT,4512.0,852.0,1,1,0,1,0,0,Q3
+top,dotnet/docs,Unknown,CC-BY-4.0,4500.0,6026.0,2,1,1,0,0,1,Q3
+bottom,resonatehq/resonate,Go,Apache-2.0,501.0,39.0,0,0,0,0,0,0,Q1 low
+bottom,microsoft/Foundry-Local,C#,NOASSERTION,502.0,58.0,1,1,0,0,0,1,Q1 low
+bottom,dense-analysis/neural,Vim Script,MIT,503.0,21.0,0,0,0,0,0,0,Q1 low
+bottom,gensx-inc/gensx,TypeScript,Apache-2.0,504.0,23.0,1,1,0,1,0,0,Q1 low
+bottom,luccahuguet/yazelix,Nushell,Apache-2.0,504.0,27.0,2,1,1,1,0,0,Q1 low
+bottom,tambo-ai/tambo,TypeScript,MIT,505.0,35.0,3,1,1,1,1,0,Q1 low
+bottom,steipete/Peekaboo,Swift,MIT,505.0,19.0,2,1,1,1,0,0,Q1 low
+bottom,github-copilot-resources/copilot-metrics-viewer,TypeScript,MIT,508.0,264.0,1,1,0,0,0,1,Q1 low
+bottom,EvilBeaver/OneScript,C#,MPL-2.0,508.0,111.0,1,1,0,0,0,1,Q1 low
+bottom,microsoft/azure-devops-mcp,TypeScript,MIT,509.0,150.0,1,1,0,0,0,1,Q1 low
+bottom,lambdaclass/ethrex,Rust,Apache-2.0,510.0,86.0,0,0,0,0,0,0,Q1 low
+bottom,microsoft/pxt-arcade,TypeScript,MIT,511.0,234.0,1,1,0,0,0,1,Q1 low
+bottom,microsoft/react-native-windows-samples,C#,MIT,511.0,207.0,1,1,0,0,0,1,Q1 low
+bottom,Albeoris/Memoria,C#,MIT,514.0,69.0,0,0,0,0,0,0,Q1 low
+bottom,JonasKruckenberg/k23,Rust,Apache-2.0,515.0,32.0,2,1,1,1,0,0,Q1 low
+bottom,voku/portable-utf8,PHP,Apache-2.0,515.0,88.0,1,1,1,0,0,0,Q1 low
+bottom,seasonedcc/remix-forms,TypeScript,MIT,517.0,27.0,1,1,1,0,0,0,Q1 low
+bottom,erpc/erpc,Go,Apache-2.0,518.0,51.0,2,1,1,1,0,0,Q1 low
+bottom,aorwall/moatless-tools,Python,MIT,519.0,49.0,0,0,0,0,0,0,Q1 low
+bottom,januschung/math-worksheet-generator,Python,GPL-2.0,519.0,92.0,0,0,0,0,0,0,Q1 low
+bottom,gtg922r/obsidian-numerals,TypeScript,NOASSERTION,520.0,14.0,1,1,1,0,0,0,Q1 low
+bottom,Arize-ai/openinference,Python,Apache-2.0,522.0,117.0,2,1,1,1,0,0,Q1 low
+bottom,clemlesne/scrape-it-now,Python,Apache-2.0,524.0,20.0,0,0,0,0,0,0,Q1 low
+bottom,boldsoftware/sketch,Go,NOASSERTION,524.0,28.0,0,0,0,0,0,0,Q1 low
+bottom,lumen-notes/lumen,TypeScript,MIT,525.0,31.0,1,1,0,1,0,0,Q1 low
+bottom,mondaycom/vibe,TypeScript,Unknown,528.0,336.0,2,1,0,1,1,0,Q1 low
+bottom,catatsuy/private-isu,JavaScript,MIT,528.0,312.0,2,1,1,1,0,0,Q1 low
+bottom,vlm-run/vlmrun-hub,Python,Apache-2.0,528.0,23.0,0,0,0,0,0,0,Q1 low
+bottom,adaline/gateway,TypeScript,MIT,528.0,22.0,2,1,1,1,0,0,Q1 low
+bottom,microsoft/vscode-data-wrangler,Unknown,NOASSERTION,529.0,26.0,0,0,0,0,0,0,Q1 low
+bottom,pushpalroy/JetLime,Kotlin,MIT,531.0,29.0,1,1,0,1,0,0,Q1 low
+bottom,celestiaorg/celestia-core,Go,Apache-2.0,531.0,330.0,2,1,0,1,0,1,Q1 low
+bottom,linux-do/cdk,TypeScript,MIT,535.0,52.0,1,1,0,0,0,1,Q1 low
+bottom,noodlehaus/dispatch,PHP,Unknown,535.0,102.0,0,0,0,0,0,0,Q1 low
+bottom,mihneadb/node-directory-tree,JavaScript,MIT,536.0,107.0,0,0,0,0,0,0,Q1 low
+bottom,teilomillet/gollm,Go,Apache-2.0,536.0,53.0,1,1,1,0,0,0,Q1 low
+bottom,antiwork/helper,TypeScript,MIT,537.0,186.0,0,0,0,0,0,0,Q1 low
+bottom,primer/view_components,Ruby,MIT,537.0,127.0,1,1,0,0,0,1,Q1 low
+bottom,thirdweb-dev/js,TypeScript,Apache-2.0,538.0,564.0,2,1,1,1,0,0,Q1 low
+bottom,maxnowack/signaldb,TypeScript,MIT,538.0,34.0,0,0,0,0,0,0,Q1 low
+bottom,valkey-io/valkey-glide,Java,Apache-2.0,538.0,100.0,3,1,1,1,0,1,Q1 low
+bottom,dai-shi/excalidraw-claymate,TypeScript,MIT,538.0,44.0,0,0,0,0,0,0,Q1 low
+bottom,ohcnetwork/care_fe,TypeScript,MIT,540.0,845.0,4,1,1,1,1,1,Q1 low
+bottom,intility/fastapi-azure-auth,Python,MIT,542.0,76.0,0,0,0,0,0,0,Q1 low
+bottom,PostHog/posthog.com,TypeScript,NOASSERTION,542.0,590.0,2,1,1,1,0,0,Q1 low
+bottom,MultiboxLabs/flow-browser,TypeScript,GPL-3.0,543.0,29.0,1,1,1,0,0,0,Q1 low
+bottom,Azure/kubelogin,Go,MIT,543.0,108.0,0,0,0,0,0,0,Q1 low
+bottom,spcl/dace,Python,BSD-3-Clause,544.0,137.0,0,0,0,0,0,0,Q1 low
+bottom,onflow/flow-go,Go,AGPL-3.0,545.0,195.0,2,1,1,1,0,0,Q1 low
+bottom,shabegom/buttons,TypeScript,Unlicense,546.0,52.0,0,0,0,0,0,0,Q1 low
+bottom,box/box-ui-elements,JavaScript,NOASSERTION,546.0,326.0,0,0,0,0,0,0,Q1 low
+bottom,reneschulte/WriteableBitmapEx,C#,MIT,548.0,127.0,0,0,0,0,0,0,Q1 low
+bottom,CodeWithCJ/SparkyFitness,TypeScript,NOASSERTION,548.0,13.0,3,1,1,1,0,1,Q1 low
+bottom,wolfSSL/wolfMQTT,C,GPL-2.0,550.0,159.0,1,1,1,0,0,0,Q1 low
+bottom,syncfusion/maui-toolkit,C#,MIT,550.0,86.0,1,1,0,0,0,1,Q1 low
+bottom,stair-lab/kg-gen,Python,Unknown,550.0,65.0,0,0,0,0,0,0,Q1 low
+bottom,bendichter/brokenaxes,Python,MIT,551.0,48.0,0,0,0,0,0,0,Q1 low
+bottom,maekawatoshiki/rapidus,Rust,MIT,552.0,21.0,0,0,0,0,0,0,Q1 low
+bottom,getAlby/lightning-browser-extension,TypeScript,MIT,554.0,208.0,2,1,1,1,0,0,Q1 low
+bottom,nkdAgility/azure-devops-migration-tools,C#,AGPL-3.0,554.0,362.0,1,1,0,0,0,1,Q1 low
+bottom,am32-firmware/AM32,C,GPL-3.0,554.0,228.0,0,0,0,0,0,0,Q1 low
+bottom,hsuanxyz/ion2-calendar,TypeScript,MIT,555.0,277.0,0,0,0,0,0,0,Q1 low
+bottom,permitio/fastapi_websocket_pubsub,Python,MIT,555.0,49.0,0,0,0,0,0,0,Q1 low
+bottom,PlutoLang/Pluto,C++,MIT,556.0,34.0,0,0,0,0,0,0,Q1 low
+bottom,OpenHFT/Chronicle-Wire,Java,Apache-2.0,557.0,132.0,2,1,1,1,0,0,Q1 low
+bottom,swuecho/chat,Vue,Unknown,557.0,91.0,2,1,1,1,0,0,Q1 low
+bottom,ryokun6/ryos,TypeScript,AGPL-3.0,558.0,85.0,1,1,1,0,0,0,Q1 low
+bottom,Azure/azure-sdk,PowerShell,MIT,558.0,331.0,1,1,0,0,0,1,Q1 low
+bottom,Meesho/BharatMLStack,Go,NOASSERTION,561.0,44.0,1,1,0,0,1,0,Q1 low
+bottom,livepeer/go-livepeer,Go,MIT,561.0,191.0,0,0,0,0,0,0,Q1 low
+bottom,Giorgi/DuckDB.NET,C#,MIT,561.0,85.0,0,0,0,0,0,0,Q1 low
+bottom,Anush008/fastembed-rs,Rust,Apache-2.0,562.0,74.0,0,0,0,0,0,0,Q1 low
+bottom,dotnet/razor,C#,MIT,562.0,209.0,0,0,0,0,0,0,Q1 low
+bottom,Cogmasters/concord,C,MIT,563.0,30.0,0,0,0,0,0,0,Q1 low
+bottom,VirtualBox/virtualbox,C,GPL-3.0,564.0,45.0,1,1,1,0,0,0,Q1 low
+bottom,johnsusek/praeco,Vue,GPL-3.0,564.0,90.0,0,0,0,0,0,0,Q1 low
+bottom,noneback/go-taskflow,Go,Apache-2.0,564.0,26.0,0,0,0,0,0,0,Q1 low
+bottom,0x4D31/galah,Go,Apache-2.0,564.0,52.0,0,0,0,0,0,0,Q1 low
+bottom,GongRzhe/Gmail-MCP-Server,JavaScript,MIT,568.0,152.0,0,0,0,0,0,0,Q1 low
+bottom,disler/just-prompt,Python,Unknown,569.0,109.0,0,0,0,0,0,0,Q1 low
+bottom,minio/sidekick,Go,AGPL-3.0,569.0,87.0,0,0,0,0,0,0,Q1 low
+bottom,trylinky/linky,TypeScript,MIT,569.0,49.0,0,0,0,0,0,0,Q1 low
+bottom,NousResearch/atropos,Python,MIT,570.0,131.0,0,0,0,0,0,0,Q1 low
+bottom,confident-ai/deepteam,Python,Apache-2.0,571.0,81.0,0,0,0,0,0,0,Q1 low
+bottom,StephenDev0/StikDebug,Swift,AGPL-3.0,571.0,81.0,0,0,0,0,0,0,Q1 low
+bottom,marcio/react-skylight,JavaScript,MIT,571.0,95.0,0,0,0,0,0,0,Q1 low
+bottom,elixir-lsp/vscode-elixir-ls,TypeScript,MIT,571.0,110.0,1,1,0,1,0,0,Q1 low
+bottom,davidmigloz/langchain_dart,Dart,MIT,572.0,131.0,1,1,1,0,0,0,Q1 low
+bottom,Xinrea/bili-shadowreplay,JavaScript,MIT,572.0,40.0,1,1,0,1,0,0,Q1 low
+bottom,lucasjinreal/Kokoros,Rust,Unknown,572.0,59.0,0,0,0,0,0,0,Q1 low
+bottom,lordmauve/pgzero,Python,LGPL-3.0,575.0,201.0,0,0,0,0,0,0,Q1 low
+bottom,arthurhenrique/cookiecutter-fastapi,Python,MIT,575.0,70.0,1,1,1,0,0,0,Q1 low
+bottom,mizchi/similarity,Rust,MIT,576.0,11.0,1,1,0,1,0,0,Q1 low
+bottom,codestoryai/sidecar,Rust,AGPL-3.0,579.0,94.0,0,0,0,0,0,0,Q1 low
+bottom,Felix3322/PotPlayer_ChatGPT_Translate,AngelScript,GPL-3.0,582.0,36.0,0,0,0,0,0,0,Q1 low
+bottom,featureform/enrichmcp,Python,Apache-2.0,583.0,25.0,1,1,1,0,0,0,Q1 low
+bottom,markuplint/markuplint,TypeScript,MIT,584.0,57.0,1,1,0,1,0,0,Q1 low
+bottom,lynx-family/lynx-stack,TypeScript,Apache-2.0,585.0,118.0,2,1,1,0,0,1,Q1 low
+bottom,ben-sb/obfuscator-io-deobfuscator,TypeScript,Apache-2.0,585.0,126.0,0,0,0,0,0,0,Q1 low
+bottom,inline-chat/inline,Swift,AGPL-3.0,586.0,23.0,1,1,1,0,0,0,Q1 low
+bottom,patrickrchao/JailbreakingLLMs,Python,MIT,586.0,92.0,0,0,0,0,0,0,Q1 low
+bottom,blorm-network/ZerePy,Python,MIT,587.0,245.0,0,0,0,0,0,0,Q1 low
+bottom,rcourtman/Pulse,JavaScript,MIT,588.0,19.0,0,0,0,0,0,0,Q1 low
+bottom,wangkanai/wangkanai,C#,Apache-2.0,589.0,86.0,2,1,0,1,0,1,Q1 low
+bottom,rezaakb/pinns-torch,Python,BSD-3-Clause,592.0,87.0,0,0,0,0,0,0,Q1 low
+bottom,hpcc-systems/HPCC-Platform,C++,NOASSERTION,594.0,306.0,1,1,0,0,0,1,Q1 low
+bottom,typstyle-rs/typstyle,Rust,Apache-2.0,595.0,20.0,1,1,0,1,0,0,Q1 low
+bottom,oekazuma/svelte-meta-tags,TypeScript,MIT,596.0,27.0,2,1,1,1,0,0,Q1 low
+bottom,igraph/rigraph,R,Unknown,596.0,207.0,2,1,1,0,0,1,Q1 low
+bottom,expressobits/inventory-system,C++,MIT,600.0,47.0,0,0,0,0,0,0,Q1 low
+bottom,thorsten/phpMyFAQ,PHP,MPL-2.0,600.0,255.0,2,1,1,1,0,0,Q1 low
+bottom,wieslawsoltes/Svg.Skia,C#,MIT,601.0,76.0,1,1,1,0,0,0,Q1 low
+bottom,unxsist/jet-pilot,Vue,MIT,602.0,26.0,0,0,0,0,0,0,Q1 low
+bottom,langchain-ai/langsmith-sdk,Python,MIT,606.0,132.0,1,1,1,0,0,0,Q1 low
+bottom,MCPJam/inspector,TypeScript,Unknown,607.0,49.0,1,1,1,0,0,0,Q1 low
+bottom,microsoft/teams-ai,C#,MIT,607.0,243.0,2,1,1,0,0,1,Q1 low
+bottom,python-cachier/cachier,Python,MIT,608.0,72.0,3,1,1,1,0,1,Q1 low
+bottom,tolwi/hassio-ecoflow-cloud,Python,Unknown,608.0,125.0,0,0,0,0,0,0,Q1 low
+bottom,OpenHFT/Chronicle-Core,Java,Apache-2.0,609.0,134.0,1,1,1,0,0,0,Q1 low
+bottom,siteorigin/siteorigin-panels,PHP,GPL-3.0,611.0,182.0,0,0,0,0,0,0,Q1 low
+bottom,devitocodes/devito,Python,MIT,612.0,238.0,0,0,0,0,0,0,Q1 low
+bottom,SparkDevNetwork/Rock,C#,Unknown,614.0,388.0,2,1,0,1,0,1,Q1 low
+bottom,leonteale/pentestpackage,Python,Unknown,615.0,252.0,0,0,0,0,0,0,Q1 low
+bottom,jenkinsci/helm-charts,Mustache,Apache-2.0,616.0,904.0,0,0,0,0,0,0,Q1 low
+bottom,OrkoHunter/keep,Python,MIT,618.0,54.0,0,0,0,0,0,0,Q1 low
+bottom,artsy/force,TypeScript,MIT,619.0,150.0,2,1,1,1,0,0,Q1 low
+bottom,safedep/vet,Go,Apache-2.0,619.0,60.0,2,1,0,1,1,0,Q1 low
+bottom,dropseed/plain,Python,Unknown,619.0,12.0,1,1,0,1,0,0,Q1 low
+bottom,tavily-ai/tavily-mcp,JavaScript,MIT,620.0,113.0,0,0,0,0,0,0,Q1 low
+bottom,netket/netket,Python,Apache-2.0,620.0,202.0,0,0,0,0,0,0,Q1 low
+bottom,RimSort/RimSort,Python,GPL-3.0,620.0,62.0,0,0,0,0,0,0,Q1 low
+bottom,allenai/reward-bench,Python,Apache-2.0,620.0,88.0,1,1,0,1,0,0,Q1 low
+bottom,test-zeus-ai/testzeus-hercules,Python,AGPL-3.0,620.0,96.0,0,0,0,0,0,0,Q1 low
+bottom,jolovicdev/shandu,Python,MIT,621.0,69.0,0,0,0,0,0,0,Q1 low
+bottom,syntasso/kratix,Go,Apache-2.0,623.0,41.0,0,0,0,0,0,0,Q1 low
+bottom,MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions,Unknown,MIT,626.0,1114.0,0,0,0,0,0,0,Q1 low
+bottom,stanford-crfm/levanter,Python,Apache-2.0,628.0,104.0,1,1,1,0,0,0,Q1 low
+bottom,hyperbrowserai/HyperAgent,TypeScript,NOASSERTION,632.0,70.0,2,1,1,1,0,0,Q1 low
+bottom,PDFMathTranslate/PDFMathTranslate-next,Python,AGPL-3.0,632.0,23.0,0,0,0,0,0,0,Q1 low
+bottom,tact-lang/tact,TypeScript,MIT,633.0,195.0,0,0,0,0,0,0,Q1 low
+bottom,Azure/bicep-registry-modules,Bicep,MIT,634.0,473.0,1,1,0,0,0,1,Q1 low
+bottom,igorm84/spotify-astro-transitions,Astro,Unknown,635.0,86.0,0,0,0,0,0,0,Q1 low
+bottom,JuliaLang/Pkg.jl,Julia,NOASSERTION,636.0,275.0,0,0,0,0,0,0,Q1 low
+bottom,gbrayhan/microservices-go,Go,MIT,636.0,74.0,0,0,0,0,0,0,Q1 low
+bottom,uxlfoundation/oneDAL,C++,Apache-2.0,637.0,224.0,2,1,1,0,0,1,Q1 low
+bottom,github/brasil,Ruby,MIT,641.0,87.0,0,0,0,0,0,0,Q1 low
+bottom,Azure/azqr,Go,MIT,644.0,115.0,1,1,0,0,0,1,Q1 low
+bottom,BretFisher/awesome-swarm,Unknown,CC0-1.0,644.0,38.0,0,0,0,0,0,0,Q1 low
+bottom,generaltranslation/gt,TypeScript,NOASSERTION,645.0,16.0,2,1,1,1,0,0,Q1 low
+bottom,chiphuyen/sniffly,Python,Unknown,645.0,53.0,0,0,0,0,0,0,Q1 low
+bottom,Iamshankhadeep/ccseva,TypeScript,MIT,647.0,31.0,1,1,0,1,0,0,Q1 low
+bottom,Azure/azure-storage-azcopy,Go,MIT,647.0,241.0,0,0,0,0,0,0,Q1 low
+bottom,ForumMagnum/ForumMagnum,TypeScript,GPL-3.0,648.0,131.0,1,1,0,1,0,0,Q1 low
+bottom,weecology/DeepForest,Python,MIT,648.0,214.0,1,1,1,0,0,0,Q1 low
+bottom,joamag/boytacean,Rust,Apache-2.0,648.0,36.0,2,1,1,1,0,0,Q1 low
+bottom,github/rubocop-github,Ruby,MIT,649.0,161.0,0,0,0,0,0,0,Q1 low
+bottom,exo-lang/exo,Python,MIT,650.0,46.0,0,0,0,0,0,0,Q1 low
+bottom,possibilities/claude-composer,TypeScript,Unlicense,654.0,22.0,0,0,0,0,0,0,Q1 low
+bottom,DataDog/dd-trace-java,Java,Apache-2.0,654.0,311.0,2,1,1,1,0,0,Q1 low
+bottom,mikepenz/multiplatform-markdown-renderer,Kotlin,Apache-2.0,657.0,49.0,1,1,0,1,0,0,Q1 low
+bottom,pgalko/BambooAI,Python,MIT,657.0,65.0,0,0,0,0,0,0,Q1 low
+bottom,wvlet/airframe,Scala,Apache-2.0,657.0,70.0,2,1,0,1,0,1,Q1 low
+bottom,hotovo/aider-desk,TypeScript,Apache-2.0,658.0,42.0,1,1,1,0,0,0,Q1 low
+bottom,candlefinance/faster-image,Swift,MIT,660.0,32.0,0,0,0,0,0,0,Q1 low
+bottom,antiwork/flexile,Ruby,MIT,665.0,236.0,0,0,0,0,0,0,Q1 low
+bottom,hypothesis/client,Mustache,NOASSERTION,666.0,208.0,0,0,0,0,0,0,Q1 low
+bottom,nuxeo/nuxeo,Java,Apache-2.0,670.0,388.0,1,1,1,0,0,0,Q1 low
+bottom,microsoft/ApplicationInsights-JS,TypeScript,MIT,671.0,250.0,1,1,0,0,0,1,Q1 low
+bottom,buildbuddy-io/buildbuddy,Go,NOASSERTION,671.0,111.0,0,0,0,0,0,0,Q1 low
+bottom,milkshakesoftware/PreMailer.Net,C#,MIT,671.0,119.0,1,1,1,0,0,0,Q1 low
+bottom,sccn/eeglab,MATLAB,NOASSERTION,673.0,257.0,2,1,1,1,0,0,Q1 low
+bottom,LayerZero-Labs/LayerZero-v2,Move,NOASSERTION,675.0,421.0,0,0,0,0,0,0,Q1 low
+bottom,dotnet/dotnet,C#,MIT,676.0,180.0,2,1,1,0,0,1,Q1 low
+bottom,Sanjeet990/Astroluma,JavaScript,GPL-3.0,677.0,20.0,0,0,0,0,0,0,Q1 low
+bottom,trueai-org/midjourney-proxy,C#,GPL-3.0,678.0,109.0,0,0,0,0,0,0,Q1 low
+bottom,JuliaDebug/Cthulhu.jl,Julia,MIT,684.0,42.0,0,0,0,0,0,0,Q1 low
+bottom,microsoft/etl2pcapng,C,MIT,685.0,120.0,0,0,0,0,0,0,Q1 low
+bottom,mendableai/fire-enrich,TypeScript,MIT,686.0,163.0,1,1,0,0,1,0,Q1 low
+bottom,dotnet/dev-proxy,C#,MIT,687.0,75.0,1,1,0,0,0,1,Q1 low
+bottom,temporalio/sdk-go,Go,MIT,687.0,251.0,1,1,1,0,0,0,Q1 low
+bottom,pixeltable/pixeltable,Python,Apache-2.0,687.0,95.0,3,1,1,1,0,1,Q1 low
+bottom,pathintegral-institute/mcpm.sh,Python,MIT,687.0,71.0,1,1,0,1,0,0,Q1 low
+bottom,grafana/jsonnet-libs,Jsonnet,NOASSERTION,689.0,173.0,0,0,0,0,0,0,Q1 low
+bottom,dotnet/arcade,C#,MIT,690.0,375.0,1,1,1,0,0,0,Q1 low
+bottom,OpenHFT/Java-Runtime-Compiler,Java,NOASSERTION,690.0,148.0,1,1,1,0,0,0,Q1 low
+bottom,leighmcculloch/vagrant-docker-compose,Ruby,ISC,690.0,71.0,0,0,0,0,0,0,Q1 low
+bottom,replugged-org/replugged,TypeScript,MIT,691.0,71.0,0,0,0,0,0,0,Q1 low
+bottom,selfxyz/self,Circom,NOASSERTION,691.0,116.0,3,1,1,1,1,0,Q1 low
+bottom,Layr-Labs/eigenlayer-contracts,Solidity,NOASSERTION,693.0,435.0,1,1,0,1,0,0,Q1 low
+bottom,AhmedElywa/prisma-tools,TypeScript,MIT,693.0,57.0,1,1,0,1,0,0,Q1 low
+bottom,cmer/socialization,Ruby,MIT,695.0,129.0,0,0,0,0,0,0,Q1 low
+bottom,PowerShell/PowerShellEditorServices,C#,MIT,695.0,237.0,1,1,0,0,0,1,Q1 low
+bottom,pu2clr/SI4735,HTML,MIT,695.0,196.0,0,0,0,0,0,0,Q1 low
+bottom,SolidInvoice/SolidInvoice,PHP,MIT,695.0,196.0,3,1,1,1,0,1,Q1 low
+bottom,different-ai/note-companion,TypeScript,MIT,696.0,117.0,2,1,1,0,1,0,Q1 low
+bottom,sblom/RegExtract,C#,MIT,697.0,19.0,0,0,0,0,0,0,Q1 low
+bottom,tegnike/aituber-kit,TypeScript,NOASSERTION,698.0,120.0,2,1,1,1,0,0,Q1 low
+bottom,rochacbruno/marmite,Rust,AGPL-3.0,699.0,43.0,2,1,1,1,0,0,Q1 low
+bottom,vaadin/flow,Java,Apache-2.0,699.0,182.0,1,1,0,1,0,0,Q1 low
+bottom,esthor/react-native-swipeable-list,JavaScript,MIT,699.0,32.0,0,0,0,0,0,0,Q1 low
+bottom,btwld/mix,Dart,BSD-3-Clause,703.0,43.0,3,1,1,1,0,1,Q1 low
+bottom,Raival-e/Prism-File-Explorer,Kotlin,GPL-3.0,703.0,46.0,0,0,0,0,0,0,Q1 low
+bottom,getsentry/sentry-dotnet,C#,MIT,705.0,221.0,3,1,1,1,0,1,Q1 low
+bottom,golang-design/clipboard,Go,MIT,708.0,76.0,0,0,0,0,0,0,Q1 low
+bottom,syedazharmbnr1/claude-chatgpt-mcp,JavaScript,Unknown,709.0,81.0,0,0,0,0,0,0,Q1 low
+bottom,ministryofjustice/modernisation-platform,HCL,MIT,709.0,293.0,0,0,0,0,0,0,Q1 low
+bottom,jilleb/mib2-toolbox,Python,MIT,711.0,152.0,0,0,0,0,0,0,Q1 low
+bottom,chainstacklabs/pump-fun-bot,Python,Apache-2.0,711.0,257.0,2,1,1,1,0,0,Q1 low
+bottom,bazel-contrib/rules_foreign_cc,Starlark,Apache-2.0,711.0,256.0,0,0,0,0,0,0,Q1 low
+bottom,Datawalke/Coordino,PHP,MIT,712.0,168.0,0,0,0,0,0,0,Q1 low
+bottom,thefrontside/effection,TypeScript,MIT,716.0,34.0,1,1,1,0,0,0,Q1 low
+bottom,ikamensh/flynt,Python,MIT,718.0,38.0,1,1,1,0,0,0,Q1 low
+bottom,seasonedcc/composable-functions,TypeScript,MIT,718.0,18.0,0,0,0,0,0,0,Q1 low
+bottom,pazz/alot,Python,GPL-3.0,719.0,168.0,0,0,0,0,0,0,Q1 low
+bottom,prosekit/prosekit,TypeScript,MIT,720.0,24.0,1,1,1,0,0,0,Q1 low
+bottom,tech-systems/panes,TypeScript,MIT,720.0,41.0,1,1,0,1,0,0,Q1 low
+bottom,graniet/operative-framework,Rust,Unknown,720.0,170.0,0,0,0,0,0,0,Q1 low
+bottom,wait4x/wait4x,Go,Apache-2.0,720.0,37.0,0,0,0,0,0,0,Q1 low
+bottom,oss-apps/split-pro,TypeScript,MIT,721.0,76.0,2,1,1,0,0,1,Q1 low
+bottom,TTPlanetPig/Comfyui_TTP_Toolset,Python,MIT,724.0,22.0,0,0,0,0,0,0,Q1 low
+bottom,daohoangson/flutter_widget_from_html,Dart,MIT,725.0,274.0,1,1,1,0,0,0,Q1 low
+bottom,basementstudio/xmcp,TypeScript,MIT,730.0,33.0,2,1,1,1,0,0,Q1 low
+bottom,celo-org/celo-monorepo,Solidity,Apache-2.0,733.0,390.0,1,1,0,1,0,0,Q1 low
+bottom,tszhong0411/nelsonlai.me,TypeScript,MIT,736.0,118.0,2,1,1,1,0,0,Q1 low
+bottom,brentyi/tyro,Python,MIT,736.0,33.0,0,0,0,0,0,0,Q1 low
+bottom,dotnet/performance,F#,MIT,737.0,280.0,1,1,1,0,0,0,Q1 low
+bottom,microsoft/qsharp,Rust,MIT,739.0,134.0,1,1,0,0,0,1,Q1 low
+bottom,timkindberg/jest-when,JavaScript,MIT,739.0,37.0,0,0,0,0,0,0,Q1 low
+bottom,midudev/codi.link,JavaScript,NOASSERTION,741.0,176.0,0,0,0,0,0,0,Q1 low
+bottom,liyupi/yu-ai-agent,Java,Unknown,741.0,163.0,0,0,0,0,0,0,Q1 low
+bottom,3rdIteration/btcrecover,Python,GPL-2.0,742.0,237.0,1,1,1,0,0,0,Q1 low
+bottom,AzureAD/microsoft-identity-web,C#,MIT,743.0,235.0,2,1,1,0,0,1,Q1 low
+bottom,thomasxm/BOAZ_beta,C++,GPL-3.0,744.0,121.0,0,0,0,0,0,0,Q1 low
+bottom,apolloconfig/agollo,Go,Apache-2.0,745.0,192.0,0,0,0,0,0,0,Q1 low
+bottom,SimonHalvdansson/Harmonic-HN,Java,Apache-2.0,746.0,52.0,1,1,1,0,0,0,Q1 low
+bottom,silvery107/rl-mpc-locomotion,Python,MIT,748.0,81.0,0,0,0,0,0,0,Q1 low
+bottom,FidelusAleksander/ghcertified,HTML,MIT,750.0,266.0,1,1,0,0,0,1,Q1 low
+bottom,sam-goodwin/alchemy,TypeScript,Apache-2.0,750.0,57.0,3,1,1,1,1,0,Q1 low
+bottom,wcandillon/react-native-webgpu,TypeScript,MIT,751.0,29.0,0,0,0,0,0,0,Q1 low
+bottom,Shopify/roast,Ruby,MIT,754.0,36.0,0,0,0,0,0,0,Q1 low
+bottom,yegor256/cactoos,Java,MIT,755.0,172.0,0,0,0,0,0,0,Q1 low
+bottom,unibeck/solstatus,TypeScript,AGPL-3.0,756.0,69.0,0,0,0,0,0,0,Q1 low
+bottom,mediar-ai/terminator,Rust,NOASSERTION,757.0,109.0,1,1,0,1,0,0,Q1 low
+bottom,supabase/etl,Rust,Apache-2.0,757.0,42.0,1,1,1,0,0,0,Q1 low
+bottom,rinadelph/Agent-MCP,Python,NOASSERTION,759.0,90.0,0,0,0,0,0,0,Q1 low
+bottom,sebastianwessel/quickjs,TypeScript,MIT,760.0,25.0,0,0,0,0,0,0,Q1 low
+bottom,satmihir/fair,Go,MIT,761.0,17.0,2,1,1,0,1,0,Q1 low
+bottom,kavishdevar/librepods,Kotlin,AGPL-3.0,761.0,35.0,0,0,0,0,0,0,Q1 low
+bottom,wundergraph/graphql-go-tools,Go,MIT,761.0,153.0,0,0,0,0,0,0,Q1 low
+bottom,PrismarineJS/minecraft-data,JavaScript,Unknown,762.0,224.0,1,1,0,0,0,1,Q1 low
+bottom,jamubc/gemini-mcp-tool,TypeScript,NOASSERTION,762.0,46.0,0,0,0,0,0,0,Q2
+bottom,Azure/azure-storage-fuse,Go,NOASSERTION,763.0,232.0,1,1,0,0,0,1,Q2
+bottom,ThatOpen/engine_web-ifc,TypeScript,MPL-2.0,765.0,227.0,0,0,0,0,0,0,Q2
+bottom,microsoft/pxt-microbit,TypeScript,NOASSERTION,766.0,664.0,0,0,0,0,0,0,Q2
+bottom,DonDebonair/slack-machine,Python,MIT,766.0,57.0,0,0,0,0,0,0,Q2
+bottom,codemod-com/codemod,TypeScript,Apache-2.0,767.0,53.0,1,1,1,0,0,0,Q2
+bottom,riganti/dotvvm,C#,Apache-2.0,768.0,97.0,0,0,0,0,0,0,Q2
+bottom,doggy8088/github-copilot-configs,Unknown,Unknown,769.0,97.0,1,1,0,0,0,1,Q2
+bottom,pnp/powershell,C#,MIT,770.0,380.0,1,1,0,0,0,1,Q2
+bottom,mistralai/mistral-common,Python,Apache-2.0,771.0,96.0,1,1,1,0,0,0,Q2
+bottom,DhanushNehru/Python-Scripts,Python,MIT,772.0,349.0,0,0,0,0,0,0,Q2
+bottom,microsoft/onnxruntime-genai,C++,MIT,772.0,201.0,1,1,0,0,0,1,Q2
+bottom,MicrosoftDocs/mcp,Unknown,CC-BY-4.0,772.0,80.0,1,1,1,0,0,0,Q2
+bottom,cornerstonejs/cornerstone3D,TypeScript,MIT,773.0,398.0,0,0,0,0,0,0,Q2
+bottom,sandrohanea/whisper.net,C#,MIT,773.0,111.0,1,1,0,0,0,1,Q2
+bottom,Azure/azure-cosmos-dotnet-v3,C#,MIT,774.0,512.0,1,1,0,0,0,1,Q2
+bottom,bennycode/trading-signals,TypeScript,MIT,776.0,107.0,1,1,0,1,0,0,Q2
+bottom,Azure-Samples/azure-search-openai-demo-csharp,C#,MIT,776.0,594.0,0,0,0,0,0,0,Q2
+bottom,iannuttall/claude-sessions,Unknown,MIT,777.0,105.0,0,0,0,0,0,0,Q2
+bottom,aaronpowell/httpstatus,C#,MIT,777.0,83.0,0,0,0,0,0,0,Q2
+bottom,DataDog/dd-trace-go,Go,NOASSERTION,778.0,473.0,2,1,1,1,0,0,Q2
+bottom,microsoft/Nova,Rust,MIT,778.0,217.0,0,0,0,0,0,0,Q2
+bottom,AFASSoftware/maquette,TypeScript,MIT,781.0,63.0,0,0,0,0,0,0,Q2
+bottom,umasteeringgroup/UMA,C#,MIT,782.0,176.0,1,1,0,0,0,1,Q2
+bottom,frenck/spook,Python,MIT,784.0,48.0,0,0,0,0,0,0,Q2
+bottom,mikepenz/release-changelog-builder-action,TypeScript,Apache-2.0,786.0,110.0,0,0,0,0,0,0,Q2
+bottom,Panchovix/stable-diffusion-webui-reForge,Python,AGPL-3.0,788.0,74.0,0,0,0,0,0,0,Q2
+bottom,PrunaAI/pruna,Python,Apache-2.0,793.0,39.0,0,0,0,0,0,0,Q2
+bottom,reactjs/ko.react.dev,TypeScript,CC-BY-4.0,793.0,484.0,1,1,0,1,0,0,Q2
+bottom,mrwadams/stride-gpt,Python,MIT,794.0,226.0,1,1,1,0,0,0,Q2
+bottom,NuGet/NuGet.Client,C#,NOASSERTION,798.0,723.0,1,1,0,0,0,1,Q2
+bottom,goat-sdk/goat,TypeScript,MIT,798.0,255.0,0,0,0,0,0,0,Q2
+bottom,MikePopoloski/slang,C++,MIT,799.0,166.0,0,0,0,0,0,0,Q2
+bottom,HumanSignal/label-studio-ml-backend,Python,Apache-2.0,799.0,359.0,0,0,0,0,0,0,Q2
+bottom,wso2/product-is,Java,Apache-2.0,799.0,820.0,0,0,0,0,0,0,Q2
+bottom,copper-project/copper-rs,Rust,Apache-2.0,808.0,52.0,1,1,1,0,0,0,Q2
+bottom,joshyattridge/smart-money-concepts,Python,MIT,810.0,443.0,0,0,0,0,0,0,Q2
+bottom,djlint/djLint,Python,GPL-3.0,810.0,99.0,0,0,0,0,0,0,Q2
+bottom,herbie-fp/herbie,HTML,NOASSERTION,811.0,42.0,1,1,1,0,0,0,Q2
+bottom,ACEsuit/mace,Python,NOASSERTION,811.0,307.0,0,0,0,0,0,0,Q2
+bottom,deepnoodle-ai/risor,Go,Apache-2.0,815.0,35.0,1,1,0,1,0,0,Q2
+bottom,Azure-Samples/serverless-chat-langchainjs,Bicep,MIT,820.0,455.0,1,1,1,0,0,0,Q2
+bottom,vitejs/vite-plugin-react,TypeScript,MIT,821.0,165.0,1,1,1,0,0,0,Q2
+bottom,rxaviers/async-pool,JavaScript,MIT,822.0,52.0,0,0,0,0,0,0,Q2
+bottom,kohya-ss/musubi-tuner,Python,Unknown,822.0,88.0,0,0,0,0,0,0,Q2
+bottom,OffchainLabs/nitro,Go,NOASSERTION,822.0,595.0,0,0,0,0,0,0,Q2
+bottom,Azure/terraform,HCL,MIT,824.0,879.0,0,0,0,0,0,0,Q2
+bottom,JacobLinCool/LeetCode-Stats-Card,TypeScript,MIT,825.0,115.0,0,0,0,0,0,0,Q2
+bottom,zwave-js/zwave-js,TypeScript,MIT,826.0,674.0,3,1,1,1,0,1,Q2
+bottom,makiisthenes/TiktokAutoUploader,JavaScript,GPL-3.0,826.0,178.0,0,0,0,0,0,0,Q2
+bottom,getsentry/sentry-dart,Dart,MIT,827.0,268.0,2,1,1,1,0,0,Q2
+bottom,CoderGamester/mcp-unity,C#,MIT,828.0,105.0,2,1,1,1,0,0,Q2
+bottom,br-g/openf1,Python,NOASSERTION,829.0,68.0,0,0,0,0,0,0,Q2
+bottom,easyops-cn/docusaurus-search-local,TypeScript,MIT,829.0,102.0,0,0,0,0,0,0,Q2
+bottom,hyperion-mc/hyperion,Rust,Apache-2.0,830.0,30.0,0,0,0,0,0,0,Q2
+bottom,kanisterio/kanister,Go,Apache-2.0,831.0,167.0,1,1,0,0,0,1,Q2
+bottom,PythonNest/PyNest,Python,MIT,831.0,56.0,0,0,0,0,0,0,Q2
+bottom,ismail9k/vue3-carousel,TypeScript,MIT,833.0,209.0,0,0,0,0,0,0,Q2
+bottom,microsoft/MIEngine,C#,MIT,834.0,222.0,1,1,0,0,0,1,Q2
+bottom,Azure/azure-sdk-for-rust,Rust,MIT,834.0,297.0,2,1,1,0,0,1,Q2
+bottom,messense/jieba-rs,Rust,MIT,835.0,54.0,0,0,0,0,0,0,Q2
+bottom,joshuafuller/ATAK-Maps,Unknown,MIT,835.0,111.0,1,1,0,1,0,0,Q2
+bottom,fatih/dotfiles,Lua,Unknown,837.0,140.0,1,1,1,0,0,0,Q2
+bottom,microsoft/generative-ai-with-javascript,JavaScript,MIT,839.0,543.0,2,1,1,0,0,1,Q2
+bottom,busser/tfautomv,Go,Apache-2.0,839.0,23.0,1,1,0,1,0,0,Q2
+bottom,humanlogio/humanlog,Go,Apache-2.0,840.0,54.0,0,0,0,0,0,0,Q2
+bottom,DumbWareio/DumbAssets,JavaScript,GPL-3.0,841.0,29.0,2,1,0,0,1,1,Q2
+bottom,tommyxchow/frosty,Dart,AGPL-3.0,842.0,48.0,2,1,1,1,0,0,Q2
+bottom,fabriziosalmi/certmate,Python,MIT,844.0,41.0,0,0,0,0,0,0,Q2
+bottom,dotnet/dotnet-api-docs,C#,NOASSERTION,846.0,1618.0,1,1,0,0,0,1,Q2
+bottom,licensee/licensee,Ruby,MIT,848.0,299.0,0,0,0,0,0,0,Q2
+bottom,mosecorg/mosec,Python,Apache-2.0,849.0,61.0,0,0,0,0,0,0,Q2
+bottom,MUnique/OpenMU,C#,MIT,851.0,381.0,0,0,0,0,0,0,Q2
+bottom,microsoft/git,C,NOASSERTION,852.0,101.0,1,1,1,0,0,0,Q2
+bottom,Tencent/tdesign-vue-next-starter,Vue,MIT,852.0,219.0,0,0,0,0,0,0,Q2
+bottom,alexpfau/calendar-card-pro,TypeScript,NOASSERTION,855.0,56.0,0,0,0,0,0,0,Q2
+bottom,Azure/azure-service-operator,Go,MIT,860.0,220.0,1,1,0,0,0,1,Q2
+bottom,UIforFreedom/UIF,Vue,MIT,865.0,93.0,0,0,0,0,0,0,Q2
+bottom,mixcore/mix.core,C#,NOASSERTION,866.0,216.0,0,0,0,0,0,0,Q2
+bottom,wuba/react-native-echarts,TypeScript,Apache-2.0,868.0,31.0,0,0,0,0,0,0,Q2
+bottom,nemtsov/json-mask,JavaScript,MIT,869.0,42.0,0,0,0,0,0,0,Q2
+bottom,damien-schneider/cuicui,TypeScript,MIT,869.0,54.0,0,0,0,0,0,0,Q2
+bottom,Pimzino/claude-code-spec-workflow,TypeScript,MIT,869.0,83.0,0,0,0,0,0,0,Q2
+bottom,GodsScion/Auto_job_applier_linkedIn,Python,AGPL-3.0,872.0,243.0,0,0,0,0,0,0,Q2
+bottom,openmc-dev/openmc,Python,NOASSERTION,876.0,552.0,3,1,1,1,0,1,Q2
+bottom,regenrek/deepwiki-mcp,TypeScript,MIT,877.0,48.0,0,0,0,0,0,0,Q2
+bottom,sdorra/content-collections,TypeScript,MIT,877.0,38.0,0,0,0,0,0,0,Q2
+bottom,simonw/tools,HTML,Apache-2.0,880.0,91.0,0,0,0,0,0,0,Q2
+bottom,jonhadfield/awesome-standard-notes,Unknown,CC0-1.0,880.0,38.0,0,0,0,0,0,0,Q2
+bottom,fireproof-storage/fireproof,TypeScript,NOASSERTION,884.0,45.0,0,0,0,0,0,0,Q2
+bottom,fusionpbx/fusionpbx,PHP,Unknown,886.0,702.0,0,0,0,0,0,0,Q2
+bottom,FirelyTeam/firely-net-sdk,C#,NOASSERTION,887.0,352.0,0,0,0,0,0,0,Q2
+bottom,nexus-xyz/nexus-cli,Rust,Apache-2.0,887.0,462.0,0,0,0,0,0,0,Q2
+bottom,superagent-ai/vibekit,TypeScript,MIT,888.0,115.0,0,0,0,0,0,0,Q2
+bottom,streamich/json-joy,TypeScript,Apache-2.0,891.0,18.0,1,1,1,0,0,0,Q2
+bottom,mattiasw/ExifReader,JavaScript,MPL-2.0,892.0,96.0,2,1,1,1,0,0,Q2
+bottom,vinijmoura/Azure-DevOps,PowerShell,MIT,893.0,256.0,0,0,0,0,0,0,Q2
+bottom,Kuingsmile/word-GPT-Plus,TypeScript,MIT,898.0,159.0,0,0,0,0,0,0,Q2
+bottom,MicrosoftDocs/azure-devops-docs,Shell,CC-BY-4.0,898.0,2559.0,2,1,1,0,0,1,Q2
+bottom,Igalia/wolvic,Java,MPL-2.0,898.0,118.0,0,0,0,0,0,0,Q2
+bottom,gronxb/hot-updater,TypeScript,MIT,899.0,73.0,2,1,1,1,0,0,Q2
+bottom,iovisor/ubpf,C,Apache-2.0,902.0,152.0,1,1,0,0,0,1,Q2
+bottom,tonybaloney/CSnakes,C#,MIT,904.0,53.0,0,0,0,0,0,0,Q2
+bottom,microsoft/testfx,C#,MIT,908.0,280.0,2,1,1,0,0,1,Q2
+bottom,openops-cloud/openops,TypeScript,NOASSERTION,908.0,148.0,3,1,1,1,0,1,Q2
+bottom,bugsink/bugsink,Python,NOASSERTION,908.0,43.0,1,1,1,0,0,0,Q2
+bottom,microsoft/vscode-vsce,TypeScript,NOASSERTION,909.0,223.0,0,0,0,0,0,0,Q2
+bottom,netz98/n98-magerun2,PHP,NOASSERTION,909.0,227.0,2,1,1,0,0,1,Q2
+bottom,dotCMS/core,Java,NOASSERTION,912.0,477.0,4,1,1,1,1,1,Q2
+bottom,KittyCAD/modeling-app,TypeScript,MIT,913.0,84.0,2,1,1,1,0,0,Q2
+bottom,neutronX/django-markdownx,Python,NOASSERTION,914.0,157.0,0,0,0,0,0,0,Q2
+bottom,a16z/halmos,Python,AGPL-3.0,917.0,88.0,1,1,0,0,0,1,Q2
+bottom,zoidsh/meru,TypeScript,AGPL-3.0,919.0,100.0,1,1,0,1,0,0,Q2
+bottom,moonbitlang/core,MoonBit,Apache-2.0,923.0,127.0,1,1,1,0,0,0,Q2
+bottom,openai/openai-agents-js,TypeScript,MIT,925.0,183.0,1,1,1,0,0,0,Q2
+bottom,mayswind/ezbookkeeping,Go,MIT,926.0,108.0,0,0,0,0,0,0,Q2
+bottom,dailydotdev/apps,TypeScript,AGPL-3.0,926.0,266.0,2,1,1,1,0,0,Q2
+bottom,trueai-org/module-shop,C#,MIT,926.0,315.0,0,0,0,0,0,0,Q2
+bottom,aidenybai/bippy,TypeScript,MIT,928.0,24.0,1,1,1,0,0,0,Q2
+bottom,mtrojnar/osslsigncode,C,NOASSERTION,929.0,138.0,0,0,0,0,0,0,Q2
+bottom,Veloera/Veloera,Go,GPL-3.0,929.0,88.0,1,1,0,1,0,0,Q2
+bottom,dotnet/SqlClient,C#,MIT,930.0,312.0,2,1,1,0,0,1,Q2
+bottom,bytebot-ai/bytebot,TypeScript,Apache-2.0,931.0,72.0,0,0,0,0,0,0,Q2
+bottom,microsoft/vstest,C#,MIT,934.0,337.0,2,1,1,0,0,1,Q2
+bottom,traccar/traccar-web,JavaScript,Apache-2.0,935.0,1249.0,0,0,0,0,0,0,Q2
+bottom,PaloAltoNetworks/docusaurus-openapi-docs,TypeScript,MIT,937.0,283.0,1,1,1,0,0,0,Q2
+bottom,FarmBot/Farmbot-Web-App,TypeScript,MIT,938.0,347.0,1,1,1,0,0,0,Q2
+bottom,stack-chan/stack-chan,TypeScript,Apache-2.0,939.0,107.0,1,1,0,1,0,0,Q2
+bottom,getsentry/sentry-cocoa,Swift,MIT,939.0,362.0,2,1,1,1,0,0,Q2
+bottom,Doriandarko/make-it-heavy,Python,NOASSERTION,944.0,155.0,0,0,0,0,0,0,Q2
+bottom,getsentry/sentry-cli,Rust,BSD-3-Clause,946.0,231.0,2,1,1,1,0,0,Q2
+bottom,osmosis-labs/osmosis,Go,Apache-2.0,947.0,676.0,0,0,0,0,0,0,Q2
+bottom,strnad/CrewAI-Studio,Python,MIT,948.0,242.0,0,0,0,0,0,0,Q2
+bottom,timburgan/timburgan,Unknown,Unknown,950.0,158.0,0,0,0,0,0,0,Q2
+bottom,trycompai/comp,TypeScript,AGPL-3.0,950.0,130.0,3,1,1,1,1,0,Q2
+bottom,wandb/weave,Python,Apache-2.0,950.0,116.0,2,1,1,1,0,0,Q2
+bottom,Kotlin/dataframe,Kotlin,Apache-2.0,951.0,75.0,0,0,0,0,0,0,Q2
+bottom,apache/ozone,Java,Apache-2.0,951.0,553.0,2,1,1,1,0,0,Q2
+bottom,GlareDB/glaredb,Rust,MIT,951.0,54.0,0,0,0,0,0,0,Q2
+bottom,ibelick/zola,TypeScript,Apache-2.0,960.0,181.0,0,0,0,0,0,0,Q2
+bottom,bruin-data/bruin,Go,Apache-2.0,962.0,42.0,2,1,1,1,0,0,Q2
+bottom,recallnet/js-recall,TypeScript,Unknown,965.0,39.0,3,1,1,1,0,1,Q2
+bottom,ChaokunHong/MetaScreener,JavaScript,Unknown,966.0,45.0,0,0,0,0,0,0,Q2
+bottom,kelleyma49/PSFzf,PowerShell,MIT,967.0,45.0,0,0,0,0,0,0,Q2
+bottom,brenocq/implot3d,C++,MIT,970.0,53.0,1,1,0,0,0,1,Q2
+bottom,mega-sam/mega-sam,Python,Apache-2.0,970.0,45.0,0,0,0,0,0,0,Q2
+bottom,SakiRinn/LiveCaptions-Translator,C#,Apache-2.0,974.0,80.0,0,0,0,0,0,0,Q2
+bottom,celestiaorg/celestia-node,Go,Apache-2.0,976.0,1015.0,1,1,0,1,0,0,Q2
+bottom,ObservedObserver/streamlit-shadcn-ui,TypeScript,MIT,978.0,90.0,0,0,0,0,0,0,Q2
+bottom,quarylabs/sqruff,Rust,Apache-2.0,979.0,36.0,1,1,0,1,0,0,Q2
+bottom,devaslanphp/project-management,PHP,MIT,981.0,299.0,0,0,0,0,0,0,Q2
+bottom,oracle/vagrant-projects,Shell,UPL-1.0,982.0,480.0,0,0,0,0,0,0,Q2
+bottom,synth-inc/onit,Swift,NOASSERTION,983.0,35.0,0,0,0,0,0,0,Q2
+bottom,dartsim/dart,C++,BSD-2-Clause,985.0,289.0,2,1,1,1,0,0,Q2
+bottom,open-lambda/open-lambda,Go,Apache-2.0,990.0,128.0,0,0,0,0,0,0,Q2
+bottom,farrokhi/dnsdiag,Python,BSD-2-Clause,993.0,104.0,0,0,0,0,0,0,Q2
+bottom,Scale3-Labs/langtrace,TypeScript,AGPL-3.0,993.0,90.0,0,0,0,0,0,0,Q2
+bottom,1517005260/graph-rag-agent,Jupyter Notebook,Unknown,995.0,132.0,2,1,1,1,0,0,Q2
+bottom,formancehq/ledger,Go,MIT,997.0,120.0,1,1,0,1,0,0,Q2
+bottom,projectdiscovery/tlsx,Go,MIT,999.0,94.0,1,1,0,1,0,0,Q2
+bottom,badlogic/lemmy,HTML,Unknown,999.0,224.0,1,1,0,1,0,0,Q2
+bottom,Wei-Shaw/claude-relay-service,JavaScript,MIT,1000.0,172.0,1,1,0,1,0,0,Q2
+bottom,alexanderjeurissen/ranger_devicons,Python,GPL-3.0,1000.0,77.0,0,0,0,0,0,0,Q2
+bottom,opengisch/QField,C++,GPL-2.0,1002.0,266.0,0,0,0,0,0,0,Q2
+bottom,microsoft/HydraLab,Java,MIT,1003.0,102.0,0,0,0,0,0,0,Q2
+bottom,pnp/cli-microsoft365,TypeScript,MIT,1005.0,347.0,1,1,0,0,0,1,Q2
+bottom,lostintangent/gistpad,TypeScript,MIT,1009.0,72.0,0,0,0,0,0,0,Q2
+bottom,wolfi-dev/os,Shell,NOASSERTION,1009.0,371.0,1,1,0,1,0,0,Q2
+bottom,JessicaTegner/pypandoc,Python,MIT,1020.0,120.0,0,0,0,0,0,0,Q2
+bottom,polterguy/magic,C#,MIT,1023.0,144.0,0,0,0,0,0,0,Q2
+bottom,microsoft/vs-threading,C#,NOASSERTION,1024.0,153.0,1,1,0,0,0,1,Q2
+bottom,rishikanthc/Scriberr,Svelte,MIT,1030.0,63.0,0,0,0,0,0,0,Q2
+bottom,mixpanel/mixpanel-android,Java,Apache-2.0,1031.0,370.0,3,1,1,1,0,1,Q2
+bottom,DragonJAR/n8n-workflows-es,Unknown,Unknown,1033.0,368.0,0,0,0,0,0,0,Q2
+bottom,basetenlabs/truss,Python,MIT,1035.0,88.0,2,1,1,1,0,0,Q2
+bottom,andrewlock/NetEscapades.EnumGenerators,C#,MIT,1036.0,50.0,2,1,1,1,0,0,Q2
+bottom,Kotlin-Android-Open-Source/MVI-Coroutines-Flow,Kotlin,MIT,1036.0,111.0,1,1,0,0,0,1,Q2
+bottom,Azure/azure-mcp,C#,MIT,1038.0,292.0,1,1,0,0,0,1,Q2
+bottom,vgmtrans/vgmtrans,C++,NOASSERTION,1038.0,90.0,0,0,0,0,0,0,Q2
+bottom,leonardsellem/n8n-mcp-server,TypeScript,MIT,1041.0,164.0,2,1,1,1,0,0,Q2
+bottom,superlinear-ai/raglite,Python,MPL-2.0,1041.0,95.0,1,1,1,0,0,0,Q2
+bottom,laravel-workflow/laravel-workflow,PHP,MIT,1043.0,52.0,2,1,1,0,0,1,Q2
+bottom,kiwix/kiwix-android,Kotlin,GPL-3.0,1048.0,488.0,0,0,0,0,0,0,Q2
+bottom,yytypescript/book,TypeScript,CC-BY-SA-4.0,1048.0,110.0,0,0,0,0,0,0,Q2
+bottom,livingbio/typed-ffmpeg,Python,MIT,1050.0,20.0,2,1,0,1,0,1,Q2
+bottom,lacymorrow/crossover,JavaScript,NOASSERTION,1053.0,115.0,1,1,0,1,0,0,Q2
+bottom,benbalter/wordpress-to-jekyll-exporter,PHP,GPL-3.0,1053.0,131.0,1,1,0,0,0,1,Q2
+bottom,schemahero/schemahero,Go,Apache-2.0,1054.0,82.0,1,1,1,0,0,0,Q2
+bottom,ZeyueT/AudioX,Python,NOASSERTION,1054.0,113.0,0,0,0,0,0,0,Q2
+bottom,spotify-web-api-java/spotify-web-api-java,HTML,MIT,1058.0,287.0,0,0,0,0,0,0,Q2
+bottom,robertpenner/as3-signals,ActionScript,MIT,1060.0,200.0,0,0,0,0,0,0,Q2
+bottom,awaescher/OllamaSharp,C#,MIT,1060.0,150.0,1,1,1,0,0,0,Q2
+bottom,Blair2004/NexoPOS,PHP,GPL-3.0,1061.0,452.0,2,1,1,0,0,1,Q2
+bottom,vinceglb/FileKit,Kotlin,MIT,1064.0,39.0,2,1,1,1,0,0,Q2
+bottom,f/mcptools,Go,MIT,1068.0,71.0,0,0,0,0,0,0,Q2
+bottom,Voxelum/x-minecraft-launcher,TypeScript,MIT,1070.0,132.0,2,1,1,0,0,1,Q2
+bottom,roblox-ts/roblox-ts,TypeScript,MIT,1071.0,148.0,0,0,0,0,0,0,Q2
+bottom,razimantv/mazegenerator,C++,MIT,1072.0,103.0,0,0,0,0,0,0,Q2
+bottom,savoirfairelinux/opendht,C++,GPL-3.0,1073.0,173.0,1,1,1,0,0,0,Q2
+bottom,bradymholt/cron-expression-descriptor,C#,MIT,1073.0,194.0,0,0,0,0,0,0,Q2
+bottom,sergix44/XBackBone,PHP,AGPL-3.0,1077.0,90.0,0,0,0,0,0,0,Q2
+bottom,analogdotnow/Analog,TypeScript,MIT,1079.0,137.0,0,0,0,0,0,0,Q2
+bottom,Azure-Samples/chat-with-your-data-solution-accelerator,Python,MIT,1080.0,561.0,0,0,0,0,0,0,Q2
+bottom,callstackincubator/react-native-bottom-tabs,TypeScript,MIT,1083.0,57.0,1,1,1,0,0,0,Q2
+bottom,langchain-ai/agents-from-scratch,Jupyter Notebook,Unknown,1083.0,199.0,2,1,1,1,0,0,Q2
+bottom,dnnsoftware/Dnn.Platform,C#,MIT,1085.0,763.0,0,0,0,0,0,0,Q2
+bottom,Lumiwealth/lumibot,Python,GPL-3.0,1087.0,223.0,3,1,1,1,0,1,Q2
+bottom,commons-app/apps-android-commons,Kotlin,Apache-2.0,1089.0,1277.0,0,0,0,0,0,0,Q2
+bottom,intellij-solidity/intellij-solidity,Kotlin,MIT,1092.0,97.0,1,1,1,0,0,0,Q2
+bottom,monosans/proxy-scraper-checker,Rust,MIT,1094.0,254.0,0,0,0,0,0,0,Q2
+bottom,zwave-js/zwave-js-ui,Vue,MIT,1094.0,221.0,3,1,1,1,0,1,Q2
+bottom,DaveSkender/Stock.Indicators,C#,Apache-2.0,1096.0,259.0,2,1,1,0,0,1,Q2
+bottom,openfoodfacts/smooth-app,Dart,Apache-2.0,1096.0,381.0,2,1,1,0,0,1,Q2
+bottom,fgmacedo/python-statemachine,Python,MIT,1096.0,98.0,2,1,1,1,0,0,Q2
+bottom,open-telemetry/opentelemetry-cpp,C++,Apache-2.0,1100.0,493.0,1,1,0,0,0,1,Q2
+bottom,ReactiveCircus/android-emulator-runner,JavaScript,Apache-2.0,1102.0,217.0,0,0,0,0,0,0,Q2
+bottom,cloudposse/atmos,Go,Apache-2.0,1108.0,127.0,2,1,1,1,0,0,Q2
+bottom,AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet,C#,MIT,1113.0,431.0,2,1,1,0,0,1,Q2
+bottom,aws-samples/generative-ai-use-cases,TypeScript,MIT-0,1117.0,302.0,0,0,0,0,0,0,Q2
+bottom,Azure/data-api-builder,C#,MIT,1121.0,259.0,1,1,0,0,0,1,Q2
+bottom,irihitech/Ursa.Avalonia,C#,MIT,1124.0,101.0,1,1,0,0,0,1,Q2
+bottom,samayo/country-json,JavaScript,MIT,1129.0,802.0,0,0,0,0,0,0,Q2
+bottom,syntaxfm/website,Svelte,MIT,1135.0,504.0,3,1,0,1,1,1,Q2
+bottom,EdwinVW/pitstop,JavaScript,Apache-2.0,1135.0,483.0,0,0,0,0,0,0,Q2
+bottom,johnwalley/allotment,TypeScript,MIT,1138.0,65.0,0,0,0,0,0,0,Q2
+bottom,robusta-dev/holmesgpt,Python,MIT,1142.0,132.0,2,1,1,1,0,0,Q2
+bottom,kubernetes-sigs/sig-storage-local-static-provisioner,Go,Apache-2.0,1147.0,344.0,0,0,0,0,0,0,Q2
+bottom,grafbase/grafbase,Rust,MPL-2.0,1151.0,56.0,1,1,0,1,0,0,Q2
+bottom,strapi/documentation,JavaScript,NOASSERTION,1151.0,1224.0,3,1,1,1,0,1,Q2
+bottom,dotnet/csharp-notebooks,Jupyter Notebook,MIT,1161.0,385.0,0,0,0,0,0,0,Q2
+bottom,sakaiproject/sakai,Java,ECL-2.0,1161.0,987.0,1,1,1,0,0,0,Q2
+bottom,dust-tt/dust,TypeScript,MIT,1171.0,149.0,2,1,1,1,0,0,Q2
+bottom,Afilmory/afilmory,TypeScript,Unknown,1175.0,135.0,2,1,1,1,0,0,Q2
+bottom,yysun/apprun,TypeScript,MIT,1177.0,57.0,0,0,0,0,0,0,Q2
+bottom,crewAIInc/crewAI-tools,Python,MIT,1177.0,424.0,0,0,0,0,0,0,Q2
+bottom,robherley/snips.sh,Go,MIT,1179.0,50.0,0,0,0,0,0,0,Q2
+bottom,yosebyte/nodepass,Go,BSD-3-Clause,1181.0,132.0,0,0,0,0,0,0,Q2
+bottom,secretlint/secretlint,TypeScript,MIT,1182.0,45.0,2,1,1,1,0,0,Q2
+bottom,yoshiko-pg/difit,TypeScript,MIT,1183.0,39.0,1,1,1,0,0,0,Q2
+bottom,NikolayS/postgres_dba,PLpgSQL,BSD-3-Clause,1188.0,134.0,1,1,0,1,0,0,Q2
+bottom,ColorlibHQ/email-templates,HTML,MIT,1193.0,2757.0,1,1,0,1,0,0,Q2
+bottom,AnswerOverflow/AnswerOverflow,TypeScript,NOASSERTION,1195.0,64.0,0,0,0,0,0,0,Q2
+bottom,saucepleez/taskt,C#,Apache-2.0,1204.0,383.0,0,0,0,0,0,0,Q2
+bottom,wieslawsoltes/Dock,C#,MIT,1204.0,124.0,1,1,1,0,0,0,Q2
+bottom,reatom/reatom,TypeScript,MIT,1207.0,122.0,1,1,1,0,0,0,Q2
+bottom,metacraft-labs/codetracer,Nim,AGPL-3.0,1208.0,27.0,2,1,1,1,0,0,Q2
+bottom,stravu/crystal,TypeScript,MIT,1209.0,82.0,2,1,1,1,0,0,Q2
+bottom,bitfoundation/bitplatform,C#,MIT,1213.0,245.0,2,1,1,0,0,1,Q2
+bottom,moinulmoin/chadnext,TypeScript,MIT,1214.0,122.0,0,0,0,0,0,0,Q2
+bottom,JMBeresford/retrom,TypeScript,GPL-3.0,1216.0,19.0,2,1,1,1,0,0,Q2

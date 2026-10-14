@@ -1,0 +1,99 @@
+# Rust Development Guidelines
+
+## Code Organization
+
+- Follow existing module structure in `src/commands/` for new commands
+- Use `anyhow::Result` for error handling patterns
+- Consider cross-platform compatibility
+- Ensure backward compatibility for CLI interface
+
+## Common Patterns
+
+- Use existing error types and handling patterns
+- Follow established CLI argument parsing patterns using `clap`
+- Reuse utility functions from `src/utils/`
+- Match existing code style and naming conventions
+- Add appropriate logging using `log` crate patterns
+
+## Type Annotations and Inference
+
+- Prefer compiler type inference across the codebase
+- Do not add explicit type annotations in `let` bindings or turbofish syntax (e.g., `::<T>`) unless required for the code to compile or to disambiguate an API that inference cannot resolve
+- If the code compiles without explicit annotations, omit them
+
+## Development Commands
+
+Always run `cargo fmt --all`, prior to committing any Rust code, to ensure consistent formatting and to avoid CI failures.
+
+Some other commands you may find useful:
+
+```bash
+# Essential Rust workflow - run against the whole workspace
+cargo build --workspace
+cargo test --workspace
+cargo clippy --workspace
+
+# Local testing
+cargo run -- --help
+```
+
+## Error Handling Patterns
+
+- Use `anyhow::Result` for application-level errors
+- Use `thiserror` for library-level error types (see `src/utils/auth_token/error.rs`)
+- Chain errors with `.context()` for better error messages
+- Custom error types in `src/api/errors/` and `src/utils/dif_upload/error.rs`
+
+## Swift/Apple Integration
+
+- Swift code in `apple-catalog-parsing/` is used for parsing xarchive files
+- Used by the `build upload` command for iOS app processing
+- Built as a separate crate with FFI bindings to Rust
+- Only compiled on macOS targets
+- Tests run via `swift-test.yml` workflow in CI
+
+# Rust Testing Guidelines
+
+## Unit Tests
+
+- Colocate with source code
+- Use `#[cfg(test)]` modules
+- Mock external dependencies
+
+## Integration Tests
+
+- Use `trycmd` for CLI interface testing when asserting output
+- Use `assert_cmd` for testing behavior rather than just output
+- Structure: `tests/integration/_cases/<command>/<test>.trycmd`
+- Fixtures: `tests/integration/_fixtures/`
+- Expected outputs: `tests/integration/_expected_outputs/`
+- API mocks: `tests/integration/_responses/`
+
+## Snapshot Management
+
+```bash
+# Update snapshots
+TRYCMD=overwrite cargo test
+
+# Debug test output
+TRYCMD=dump cargo test
+```
+
+## Test Utilities
+
+- `TestManager`: Sets up test environment with mock server
+- `MockEndpointBuilder`: Creates API endpoint mocks
+- `copy_recursively`: Helper for fixture setup
+- Environment setup via `test_utils::env`
+
+## Platform-Specific Testing
+
+- Use `#[cfg(windows)]` for Windows-specific tests
+- Separate `.trycmd` files when behavior differs
+- Test on CI matrix: Linux, macOS, Windows
+
+## Assert Command vs Trycmd
+
+- `trycmd`: Best for testing exact CLI output, supports snapshot testing
+- `assert_cmd`: Better for testing behavior, exit codes, and when you need programmatic assertions
+- Example of `assert_cmd` usage can be found in `TestManager::run_and_assert()`

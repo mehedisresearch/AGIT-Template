@@ -1,0 +1,13 @@
+category,heading_adds,heading_dels,survive_rate,total_edits
+Ownership,3,0,1.0,3
+Git / PR,311,56,0.847,367
+Security,161,30,0.843,191
+Build / run / install,547,108,0.835,655
+Test / CI,1131,226,0.833,1357
+Do / Don't rules,596,124,0.828,720
+Code style,371,81,0.821,452
+Architecture,405,93,0.813,498
+Performance,105,26,0.802,131
+Maintenance,23,6,0.793,29
+Overview,185,50,0.787,235
+Tooling / agent,425,134,0.76,559

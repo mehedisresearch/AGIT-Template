@@ -1,0 +1,60 @@
+{
+  "benchmark": "AGIT-Instruct",
+  "seed": 42,
+  "k_per_category": 25,
+  "val_fraction": 0.15,
+  "holdout": "repo-level (train/val/test repository-disjoint)",
+  "test_definition": "official eval set of 62 four-format files (former test_eval_62; origin mixed-format fulltest n=77 minus SKILL/GEMINI)",
+  "n_agit_instruct_pairs": 2853,
+  "n_agit_instruct_repos": 552,
+  "per_format_rq2": {
+    "AGENTS": 1565,
+    "CLAUDE": 819,
+    "Copilot": 447,
+    "Cursor": 22
+  },
+  "n_eligible_pairs": 2568,
+  "n_eligible_repos": 534,
+  "n_dropped_holdout_files": 740,
+  "splits": {
+    "train": {
+      "n_files": 1432,
+      "n_repos": 404,
+      "n_category_instances": 4178
+    },
+    "val": {
+      "n_files": 321,
+      "n_repos": 66,
+      "n_category_instances": 1006
+    },
+    "test": {
+      "n_files": 62,
+      "n_repos": 52,
+      "n_category_instances": 556
+    }
+  },
+  "files": [
+    "train.json",
+    "val.json",
+    "test.json"
+  ],
+  "verified_repo_disjoint": true,
+  "test_category_instance_counts": {
+    "Project overview / purpose": 43,
+    "Repository structure": 43,
+    "Build / run / install": 57,
+    "Test / CI commands": 50,
+    "Architecture / design constraints": 38,
+    "Domain models / key abstractions": 30,
+    "API / interface contracts": 33,
+    "Tooling-specific agent config": 36,
+    "Performance": 25,
+    "Code style / formatting": 48,
+    "Do / Don't rules": 43,
+    "Git / PR / commit conventions": 32,
+    "Examples / few-shot snippets": 24,
+    "Maintenance / when to update": 18,
+    "Security / secrets": 30,
+    "Ownership / contacts": 6
+  }
+}

@@ -1,0 +1,922 @@
+[
+  {
+    "repo": "Arize-ai_openinference",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pip', 'pnpm', 'uv'] vs ['gradle', 'pip', 'pnpm', 'uv']",
+    "embedding_similarity": 0.3578,
+    "text_a_preview": "pip install -r python/dev-requirements.txt\n\ntox run -e add_symlinks\n\npip install -e python/openinference-instrumentation\n```\n\n**Testing and Quality:**\n```bash\n\ntox run-parallel\n\ntox run -e mypy-openai\n\ntox run -e ruff-mypy-test-openai\n```\n\n**Key Tools:**\n- tox for automation\n- ruff for formatting and linting\n- mypy for type checking\n\npnpm run -r build\n\npnpm run -r prebuild\n```\n\n**Testing and Quali",
+    "text_b_preview": "This file is a discovery stub, not the usage guide. Before running any\n`agent-browser` command, load the actual workflow content from the CLI:\n\n```bash\nagent-browser skills get core             # start here \u2014 workflows, common patterns, troubleshooting\nagent-browser skills get core --full      # include full command reference and templates\n```\n\nThe CLI serves skill content that always matches the "
+  },
+  {
+    "repo": "Arize-ai_openinference",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['gradle', 'maven', 'npm', 'pip']",
+    "embedding_similarity": 0.4643,
+    "text_a_preview": "pip install tox-uv==1.11.2\n\ntox run -e test-openai\n\n**See `js/CLAUDE.md` for detailed JavaScript-specific guidance.**\n\n**Package Management:**\n```bash\n\npnpm run -r test\n\n./gradlew test\n\n1. Explore the codebase to understand existing patterns\n2. Check language-specific guides (`js/CLAUDE.md`, `python/DEVELOPMENT.md`)\n3. Run tests using the appropriate command for your language\n4. Ensure code passes",
+    "text_b_preview": "Load a specialized skill when the task falls outside browser web pages:\n\n```bash\nagent-browser skills get electron          # Electron desktop apps (VS Code, Slack, Discord, Figma, ...)\nagent-browser skills get slack             # Slack workspace automation\nagent-browser skills get dogfood           # Exploratory testing / QA / bug hunts\nagent-browser skills get vercel-sandbox    # agent-browser i"
+  },
+  {
+    "repo": "Arize-ai_openinference",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pip', 'pnpm', 'uv'] vs ['gradle', 'pip', 'pnpm', 'uv']",
+    "embedding_similarity": 0.3578,
+    "text_a_preview": "pip install -r python/dev-requirements.txt\n\ntox run -e add_symlinks\n\npip install -e python/openinference-instrumentation\n```\n\n**Testing and Quality:**\n```bash\n\ntox run-parallel\n\ntox run -e mypy-openai\n\ntox run -e ruff-mypy-test-openai\n```\n\n**Key Tools:**\n- tox for automation\n- ruff for formatting and linting\n- mypy for type checking\n\npnpm run -r build\n\npnpm run -r prebuild\n```\n\n**Testing and Quali",
+    "text_b_preview": "This file is a discovery stub, not the usage guide. Before running any\n`agent-browser` command, load the actual workflow content from the CLI:\n\n```bash\nagent-browser skills get core             # start here \u2014 workflows, common patterns, troubleshooting\nagent-browser skills get core --full      # include full command reference and templates\n```\n\nThe CLI serves skill content that always matches the "
+  },
+  {
+    "repo": "Arize-ai_openinference",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['gradle', 'maven', 'npm', 'pip']",
+    "embedding_similarity": 0.4643,
+    "text_a_preview": "pip install tox-uv==1.11.2\n\ntox run -e test-openai\n\n**See `js/CLAUDE.md` for detailed JavaScript-specific guidance.**\n\n**Package Management:**\n```bash\n\npnpm run -r test\n\n./gradlew test\n\n1. Explore the codebase to understand existing patterns\n2. Check language-specific guides (`js/CLAUDE.md`, `python/DEVELOPMENT.md`)\n3. Run tests using the appropriate command for your language\n4. Ensure code passes",
+    "text_b_preview": "Load a specialized skill when the task falls outside browser web pages:\n\n```bash\nagent-browser skills get electron          # Electron desktop apps (VS Code, Slack, Discord, Figma, ...)\nagent-browser skills get slack             # Slack workspace automation\nagent-browser skills get dogfood           # Exploratory testing / QA / bug hunts\nagent-browser skills get vercel-sandbox    # agent-browser i"
+  },
+  {
+    "repo": "Arize-ai_phoenix",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm', 'uv'] vs ['npm', 'pnpm', 'uv']",
+    "embedding_similarity": 0.2052,
+    "text_a_preview": "1. [Eliminating Waterfalls](#1-eliminating-waterfalls) \u2014 **CRITICAL**\n   - 1.1 [Defer Await Until Needed](#11-defer-await-until-needed)\n   - 1.2 [Dependency-Based Parallelization](#12-dependency-based-parallelization)\n   - 1.3 [Prevent Waterfall Chains in API Routes](#13-prevent-waterfall-chains-in-api-routes)\n   - 1.4 [Promise.all() for Independent Operations](#14-promiseall-for-independent-opera",
+    "text_b_preview": "This file is a discovery stub, not the usage guide. Before running any\n`agent-browser` command, load the actual workflow content from the CLI:\n\n```bash\nagent-browser skills get core             # start here \u2014 workflows, common patterns, troubleshooting\nagent-browser skills get core --full      # include full command reference and templates\n```\n\nThe CLI serves skill content that always matches the "
+  },
+  {
+    "repo": "Arize-ai_phoenix",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm', 'uv'] vs ['npm', 'pnpm', 'uv']",
+    "embedding_similarity": 0.2912,
+    "text_a_preview": "This repo uses a **Makefile** for all build, test, lint, and dev commands. Run `make help` to see all available targets.\n\n- Python packages are managed with `uv`\n- TypeScript packages are managed with `pnpm`\n\n**Never add pre-release versions to production dependencies in `pyproject.toml` files.** Pre-release suffixes (`aN`, `bN`, `rcN`, `.devN` per [PEP 440](https://peps.python.org/pep-0440/)) are",
+    "text_b_preview": "This file is a discovery stub, not the usage guide. Before running any\n`agent-browser` command, load the actual workflow content from the CLI:\n\n```bash\nagent-browser skills get core             # start here \u2014 workflows, common patterns, troubleshooting\nagent-browser skills get core --full      # include full command reference and templates\n```\n\nThe CLI serves skill content that always matches the "
+  },
+  {
+    "repo": "Chainlit_chainlit",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm', 'uv'] vs ['npm', 'pip', 'pnpm', 'uv']",
+    "embedding_similarity": 0.5364,
+    "text_a_preview": "|          | Command                | Directory  |\n| -------- | ---------------------- | ---------- |\n| Backend  | `uv sync --all-extras` | `backend/` |\n| Frontend | `pnpm install`         | repo root  |\n\n|                   | Command                                      | Directory  | What it does                                                                              |\n| ----------------- |",
+    "text_b_preview": "**CRITICAL**: All commands must complete - NEVER CANCEL any build or test operations. Use appropriate timeouts.\n\n1. **Install Dependencies (Required first)**:\n\n   ```bash\n   # Install uv (if not available)\n   python3 -m pip install pipx\n   python3 -m pipx install uv\n   export PATH=\"$HOME/.local/bin:$PATH\"\n\n   # Install pnpm (if not available)\n   npm install -g pnpm\n\n   # Install Python dependencie"
+  },
+  {
+    "repo": "Chainlit_chainlit",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm', 'uv'] vs ['pnpm']",
+    "embedding_similarity": 0.538,
+    "text_a_preview": "|                       | Command                            | Directory   |\n| --------------------- | ---------------------------------- | ----------- |\n| Backend (all)         | `uv run pytest --cov=chainlit/`    | `backend/`  |\n| Backend (single file) | `uv run pytest tests/test_file.py` | `backend/`  |\n| Frontend unit         | `pnpm test`                        | `frontend/` |\n| E2E (Cypress)",
+    "text_b_preview": "- **ALWAYS** run `pnpm lint` and `pnpm format-check` before committing or the CI (.github/workflows/ci.yaml) will fail.\n- The CI runs: pytest, lint-backend, lint-ui, and e2e-tests.\n- **NEVER CANCEL** any CI commands - they take time but must complete.\n\n- **Technology**: Python 3.10+ with uv, FastAPI, SocketIO\n- **Entry point**: `backend/chainlit/`\n- **Tests**: `backend/tests/`\n- **Dependencies**: "
+  },
+  {
+    "repo": "ComposioHQ_composio",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['bun', 'pnpm', 'uv'] vs ['bun', 'pnpm']",
+    "embedding_similarity": 0.5216,
+    "text_a_preview": "Do not hand-edit these. They are regenerated or vendored, and edits will be overwritten. They are also marked `linguist-generated`/`linguist-vendored` in `.gitattributes`.\n\n- `ts/vendor/**` \u2014 vendored read-only snapshots of Effect and Clack (git submodules); reference only.\n- `ts/packages/cli-local-tools/vendor/**` \u2014 vendored local-tool sources (git submodules).\n- `ts/packages/core/generated/**`, ",
+    "text_b_preview": "When you touch CLI code (anything under `ts/packages/cli/src/`), run `pnpm typecheck` from the repo root before pushing. Fix all type errors. Build/lint failures block CI.\n\nPipeline for `composio generate {ts,py}`:\n\n1. **Fetch** \u2014 Toolkits, tools, trigger types (filterable via `--toolkits`)\n2. **Index** \u2014 Groups by toolkit prefix into `ToolkitIndex`\n3. **Generate** \u2014 Builds TS/Python source using "
+  },
+  {
+    "repo": "EricLBuehler_mistral.rs",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'npm'] vs ['cargo']",
+    "embedding_similarity": 0.6921,
+    "text_a_preview": "1. Install Rust via rustup (Rust 2021 edition).\n2. Choose optional features (e.g., `cuda`, `flash-attn`, `cudnn`, `metal`, `mkl`, `accelerate`).\n3. Build the entire workspace:\n   ```bash\n   cargo build --workspace --release --features \"<features>\"\n   ```\n4. Or build/install only the CLI binary:\n   ```bash\n   cargo build --release --package mistralrs-cli --features \"<features>\"\n   cargo install --p",
+    "text_b_preview": "```bash\n\ncargo build --release\n\ncargo install --path mistralrs-cli --features <features>\n```\n\ncargo clippy --workspace --tests --examples -- -D warnings\n```\n\n```bash\n\nmistralrs run -m <model_id>\n\nmistralrs run --format gguf -m <repo> -f <file>\n\nmistralrs serve -p 1234 -m <model_id>\n\nmistralrs serve -m <model_id>\n\nmistralrs bench -m <model_id>\n```\n\n- `mistralrs-core/` - Core inference engine, model"
+  },
+  {
+    "repo": "PostHog_posthog",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['cargo', 'gradle', 'pnpm', 'uv']",
+    "embedding_similarity": 0.0984,
+    "text_a_preview": "- Environment:\n  - Use flox when available \u2014 prefer `flox activate -- bash -c \"<command>\"` if commands fail\n    - Never use `flox activate` in interactive sessions (it hangs if you try)\n- Tests:\n  - Universal: `hogli test <file_or_directory>` \u2014 auto-detects test type (Python, Jest, Playwright, Rust, Go)\n  - Single test: `hogli test path/to/test.py::TestClass::test_method`\n  - Watch mode: `hogli te",
+    "text_b_preview": "Personhog serves person, distinct ID, group, group type mapping, cohort membership, and feature flag hash key override data.\nIf the data being accessed doesn't live in one of these tables, this RPC doesn't belong in personhog:\n\n| Table                                | Data category | Routing                                                      |\n| ------------------------------------ | -----------"
+  },
+  {
+    "repo": "PostHog_posthog",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.349,
+    "text_a_preview": "- Key entry points: `posthog/api/__init__.py` (API URL routing skeleton; products register their own routes in `products/<name>/backend/routes.py` via `register_routes(routers)`), `posthog/settings/web.py` (Django settings, INSTALLED_APPS), `products/` (product apps)\n- [Monorepo layout](docs/internal/monorepo-layout.md) - high-level directory structure (products, services, common, tools)\n- [Produc",
+    "text_b_preview": "```bash\nbin/generate_personhog_proto.sh\n```\n\nThen update three files:\n\n- `posthog/personhog_client/proto/__init__.py` \u2014 add re-exports for new request/response message types\n- `posthog/personhog_client/client.py` \u2014 add a wrapper method matching the pattern of existing methods\n- `posthog/personhog_client/fake_client.py` \u2014 implement the method for test use\n\n```bash\ncd nodejs && pnpm run generate:per"
+  },
+  {
+    "repo": "PostHog_posthog",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['cargo', 'gradle', 'pnpm', 'uv']",
+    "embedding_similarity": 0.0984,
+    "text_a_preview": "- Environment:\n  - Use flox when available \u2014 prefer `flox activate -- bash -c \"<command>\"` if commands fail\n    - Never use `flox activate` in interactive sessions (it hangs if you try)\n- Tests:\n  - Universal: `hogli test <file_or_directory>` \u2014 auto-detects test type (Python, Jest, Playwright, Rust, Go)\n  - Single test: `hogli test path/to/test.py::TestClass::test_method`\n  - Watch mode: `hogli te",
+    "text_b_preview": "Personhog serves person, distinct ID, group, group type mapping, cohort membership, and feature flag hash key override data.\nIf the data being accessed doesn't live in one of these tables, this RPC doesn't belong in personhog:\n\n| Table                                | Data category | Routing                                                      |\n| ------------------------------------ | -----------"
+  },
+  {
+    "repo": "PostHog_posthog",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.349,
+    "text_a_preview": "- Key entry points: `posthog/api/__init__.py` (API URL routing skeleton; products register their own routes in `products/<name>/backend/routes.py` via `register_routes(routers)`), `posthog/settings/web.py` (Django settings, INSTALLED_APPS), `products/` (product apps)\n- [Monorepo layout](docs/internal/monorepo-layout.md) - high-level directory structure (products, services, common, tools)\n- [Produc",
+    "text_b_preview": "```bash\nbin/generate_personhog_proto.sh\n```\n\nThen update three files:\n\n- `posthog/personhog_client/proto/__init__.py` \u2014 add re-exports for new request/response message types\n- `posthog/personhog_client/client.py` \u2014 add a wrapper method matching the pattern of existing methods\n- `posthog/personhog_client/fake_client.py` \u2014 implement the method for test use\n\n```bash\ncd nodejs && pnpm run generate:per"
+  },
+  {
+    "repo": "Significant-Gravitas_AutoGPT",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm', 'poetry'] vs ['poetry']",
+    "embedding_similarity": 0.0924,
+    "text_a_preview": "**Impact: HIGH (faster initial paint)**\n\nInstead of awaiting data in async components before returning JSX, use Suspense boundaries to show the wrapper UI faster while data loads.\n\n**Incorrect: wrapper blocked by data fetching**\n\n```tsx\nasync function Page() {\n  const data = await fetchData() // Blocks entire page\n  \n  return (\n    <div>\n      <div>Sidebar</div>\n      <div>Header</div>\n      <div>",
+    "text_b_preview": "poetry run direct-benchmark run --tests ReadFile\n\n```bash\npoetry run pytest                              # All tests\npoetry run pytest forge/tests/                 # Forge tests only\npoetry run pytest original_autogpt/tests/      # AutoGPT tests only\npoetry run pytest -k test_name                 # Single test by name\npoetry run pytest path/to/test.py              # Specific test file\npoetry run p"
+  },
+  {
+    "repo": "Significant-Gravitas_AutoGPT",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['poetry'] vs ['pnpm', 'poetry']",
+    "embedding_similarity": 0.2543,
+    "text_a_preview": "1. [Eliminating Waterfalls](#1-eliminating-waterfalls) \u2014 **CRITICAL**\n   - 1.1 [Defer Await Until Needed](#11-defer-await-until-needed)\n   - 1.2 [Dependency-Based Parallelization](#12-dependency-based-parallelization)\n   - 1.3 [Prevent Waterfall Chains in API Routes](#13-prevent-waterfall-chains-in-api-routes)\n   - 1.4 [Promise.all() for Independent Operations](#14-promiseall-for-independent-opera",
+    "text_b_preview": "**Always run these commands in the correct directory and in this order:**\n\n1. **Initial Setup** (required once):\n\n   ```bash\n   # Clone and enter repository\n   git clone <repo> && cd AutoGPT\n\n   # Start all services (database, redis, rabbitmq, clamav)\n   cd autogpt_platform && docker compose --profile local up deps --build --detach\n   ```\n\n2. **Backend Setup** (always run before backend developmen"
+  },
+  {
+    "repo": "Significant-Gravitas_AutoGPT",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['poetry'] vs ['pnpm', 'poetry']",
+    "embedding_similarity": 0.5966,
+    "text_a_preview": "```bash\n\ncd classic\npoetry install\n```\n\npoetry run python -m forge\n\npoetry run serve --debug\n\npoetry run autogpt\n```\n\nAgents run on `http://localhost:8000` by default.\n\npoetry run direct-benchmark run\n\npoetry run direct-benchmark run \\\n    --strategies one_shot,rewoo \\\n    --models claude \\\n    --parallel 4\n\npoetry run direct-benchmark --help\n```\n\npoetry run pyright       # Type checking (some err",
+    "text_b_preview": "**Always run these commands in the correct directory and in this order:**\n\n1. **Initial Setup** (required once):\n\n   ```bash\n   # Clone and enter repository\n   git clone <repo> && cd AutoGPT\n\n   # Start all services (database, redis, rabbitmq, clamav)\n   cd autogpt_platform && docker compose --profile local up deps --build --detach\n   ```\n\n2. **Backend Setup** (always run before backend developmen"
+  },
+  {
+    "repo": "Significant-Gravitas_AutoGPT",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['poetry'] vs ['pnpm', 'poetry']",
+    "embedding_similarity": 0.6408,
+    "text_a_preview": "poetry run direct-benchmark run --tests ReadFile\n\n```bash\npoetry run pytest                              # All tests\npoetry run pytest forge/tests/                 # Forge tests only\npoetry run pytest original_autogpt/tests/      # AutoGPT tests only\npoetry run pytest -k test_name                 # Single test by name\npoetry run pytest path/to/test.py              # Specific test file\npoetry run p",
+    "text_b_preview": "**Backend Tests:**\n\n- **Block Tests**: `poetry run pytest backend/blocks/test/test_block.py -xvs` (validates all blocks)\n- **Specific Block**: `poetry run pytest 'backend/blocks/test/test_block.py::test_available_blocks[BlockName]' -xvs`\n- **Snapshot Tests**: Use `--snapshot-update` when output changes, always review with `git diff`\n\n**Frontend Tests:**\n\n- **E2E Tests**: Always run `pnpm dev` befo"
+  },
+  {
+    "repo": "Uniswap_interface",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['bun'] vs ['bun', 'gradle', 'npm', 'yarn']",
+    "embedding_similarity": 0.2465,
+    "text_a_preview": "```bash\n\nbun install\nbun local:check\nbun config:login\n```\n\n```bash\nbun web dev        # Web with Vite\nbun mobile ios          # iOS app\nbun mobile android      # Android app\nbun extension start     # Extension\n```\n\n```bash\nbun web build:production    # Web production build\nbun mobile ios:bundle            # iOS bundle\nbun mobile android:release       # Android release\nbun extension build:productio",
+    "text_b_preview": "1. **Find a ready device** \u2014 call `list-devices`. Filter for entries with `platform: \"android\"`. Ready devices (`state: \"device\"`) come first. Pick the first `serial` (e.g. `emulator-5554`) unless the user specified one.\n2. **Boot if needed** \u2014 if nothing Android is ready, call `boot-device` with `avdName: <name>` from the same call's `avds` list. The tool transparently picks hot vs cold boot: it "
+  },
+  {
+    "repo": "Uniswap_interface",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['bun'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.3303,
+    "text_a_preview": "```bash\nbun g:test                      # Run all tests\nbun g:test:changed              # Run tests for changed packages\nbun web playwright:test         # Web E2E tests\nbun mobile e2e                  # Mobile E2E tests\n```\n\n1. State declarations at top\n2. Event handlers after state\n3. Memoize properly, especially for anything that might be used in the React Native app\n4. JSX at the end\n5. Keep co",
+    "text_b_preview": "Pass the Android serial as `udid` to the unified interaction tools \u2014 `gesture-tap`, `gesture-swipe`, `describe`, `screenshot`, `launch-app`, `keyboard`, etc. Dispatch is automatic based on the id shape. See `argent-device-interact` for platform-neutral interaction tooling and the Android-specific gotchas section at the bottom of that skill.\n\nChoose the lightest strategy that fits:\n\n**Strategy 1 \u2014 "
+  },
+  {
+    "repo": "block_goose",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['pip']",
+    "embedding_similarity": 0.1077,
+    "text_a_preview": "```bash\ncargo test                   # all tests\ncargo test -p goose          # specific crate\ncargo test --package goose --test mcp_integration_test\njust record-mcp-tests        # record MCP\n```\n\nThis rule applies to:\n- All markdown files in `/docs/`\n- All blog posts in `/blog/`\n- README files\n- Configuration files with user-facing text\n- Any other documentation content\n\nWhen editing or creating ",
+    "text_b_preview": "The fastest path is to let `cmd.py task` do it for you \u2014 it already prints\nstatus, reward, duration, tokens, turns, cost, error class, and the tail of\nthe verifier stdout:\n\n```bash\n./evals/harbor/cmd.py task \"$RUN_A\" \"$TASK\"\n./evals/harbor/cmd.py task \"$RUN_B\" \"$TASK\"\n```\n\nOnly drop to raw `jq` against `result.json` if you need a field `cmd.py task`\ndoesn't print. The actual shape (harbor 0.8 `Tri"
+  },
+  {
+    "repo": "block_goose",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.167,
+    "text_a_preview": "```bash\ncargo test                   # all tests\ncargo test -p goose          # specific crate\ncargo test --package goose --test mcp_integration_test\njust record-mcp-tests        # record MCP\n```\n\nThis rule applies to:\n- All markdown files in `/docs/`\n- All blog posts in `/blog/`\n- README files\n- Configuration files with user-facing text\n- Any other documentation content\n\nWhen editing or creating ",
+    "text_b_preview": "**Important**: You review PRs immediately, before CI completes. Do not flag issues that CI will catch.\n\n**Rust checks:**\n- `cargo fmt --check` - Code formatting (rustfmt)\n- `cargo test --jobs 2` - All tests\n- `cargo clippy --all-targets -- -D warnings` - Linting (clippy)\n\n**Desktop app checks:**\n- `pnpm install --frozen-lockfile` - Fresh dependency install (in `ui/desktop/`)\n- `pnpm run lint:check"
+  },
+  {
+    "repo": "block_goose",
+    "format_a": "SKILL.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pip'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.2555,
+    "text_a_preview": "The fastest path is to let `cmd.py task` do it for you \u2014 it already prints\nstatus, reward, duration, tokens, turns, cost, error class, and the tail of\nthe verifier stdout:\n\n```bash\n./evals/harbor/cmd.py task \"$RUN_A\" \"$TASK\"\n./evals/harbor/cmd.py task \"$RUN_B\" \"$TASK\"\n```\n\nOnly drop to raw `jq` against `result.json` if you need a field `cmd.py task`\ndoesn't print. The actual shape (harbor 0.8 `Tri",
+    "text_b_preview": "**Important**: You review PRs immediately, before CI completes. Do not flag issues that CI will catch.\n\n**Rust checks:**\n- `cargo fmt --check` - Code formatting (rustfmt)\n- `cargo test --jobs 2` - All tests\n- `cargo clippy --all-targets -- -D warnings` - Linting (clippy)\n\n**Desktop app checks:**\n- `pnpm install --frozen-lockfile` - Fresh dependency install (in `ui/desktop/`)\n- `pnpm run lint:check"
+  },
+  {
+    "repo": "catatsuy_private-isu",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm'] vs ['npm', 'uv']",
+    "embedding_similarity": 0.6848,
+    "text_a_preview": "- `make init`: download the canonical MySQL dump and image fixtures.\n- `cd webapp/golang && make`: build the Go binary to `./app`; runtime config comes from `ISUCONP_*` env vars.\n- `cd webapp/node && npm install && npm run build`: install and transpile the TypeScript service; use `npm run dev` for hot reload.\n- `cd webapp && docker compose up`: run nginx, the app tier, MySQL, and Memcached locally",
+    "text_b_preview": "Before working with any implementation, initialize the project:\n```bash\nmake init  # Downloads initial data (dump.sql.bz2 and image files)\n```\n\nThe webapp has 5 different language implementations of the same application:\n\n- **Ruby** (default): Sinatra + Unicorn\n- **Go**: chi router + sqlx + gomemcache\n- **PHP**: Slim framework + PHP-FPM\n- **Python**: Flask + gunicorn\n- **Node.js/TypeScript**: Hono"
+  },
+  {
+    "repo": "comet-ml_opik",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pip'] vs ['npm']",
+    "embedding_similarity": 0.3284,
+    "text_a_preview": "- `./opik.sh` \u2014 run default local stack via Docker.\n- `./opik.sh --build` \u2014 rebuild images and run the full stack.\n- `./opik.sh --verify` \u2014 run stack health checks.\n- `./opik.sh --stop` \u2014 stop local services.\n- `scripts/dev-runner.sh` \u2014 fast local process mode (BE + FE).\n- `scripts/dev-runner.sh --be-only-restart` \u2014 backend-focused local development.\n- `scripts/dev-runner.sh --build-be` / `--build",
+    "text_b_preview": "- `trackEvent()` safely no-ops when Segment isn't loaded (OSS mode)\n- `opik_` prefix is enforced at runtime as a safety net\n- `OPIK_ANALYTICS_ENVIRONMENT` is injected into event properties automatically by `trackEvent()`\n- Frontend custom events flow through Segment (same pipeline as backend): Segment \u2192 PostHog\n- PostHog still handles automatic pageviews, user identification, and feature flags dir"
+  },
+  {
+    "repo": "comet-ml_opik",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['npm'] vs ['uv']",
+    "embedding_similarity": 0.4627,
+    "text_a_preview": "- This is the canonical monorepo guide for shared contribution policy.\n- Module-level `AGENTS.md` files should keep only module-specific guidance and reference this file for shared rules.\n\n- Frameworks: Vitest (frontend + TS SDK), Playwright (frontend E2E), Maven/JUnit (backend), pytest (Python SDK).\n- Naming conventions:\n  - Java: `*Test.java` in `apps/opik-backend/src/test/java`.\n  - Python: `te",
+    "text_b_preview": "- **Frontend**: UI interactions (button clicks, wizard steps, form submissions, page visits)\n- **Backend**: SDK-triggered actions (trace creation, test suite runs), server-side computations, events that happen without the user being on the page\n\n---\nname: debugging-e2e-tests\ndescription: Use when an Opik E2E test has failed and a developer wants it investigated \u2014 e.g. \"why did this e2e test fail?\""
+  },
+  {
+    "repo": "cypress-io_cypress",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['npm', 'yarn'] vs ['yarn']",
+    "embedding_similarity": 0.5543,
+    "text_a_preview": "Agent guidance for `.circleci/` \u2014 source configs under `src/` are packed into `packed/` at CI runtime. See [README.md](./README.md) for local CLI setup and the pre-commit `yarn pack-ci --validate` workflow.\n\n```bash\n\nyarn test --scope @packages/server\n\nyarn workspace @packages/config test -- <path-to-spec>\n\nyarn workspace @packages/net-stubbing test -- \"<glob-pattern>\"\n\nyarn workspace @packages/se",
+    "text_b_preview": "- Never mark a task complete without proving it works\n- Diff behavior between main and your changes when relevant\n- Ask yourself: \"Would a staff engineer approve this?\"\n- Run relevant tests only, check logs, demonstrate correctness\n\n- **Minimal Impact**: Changes should only touch what's necessary. Avoid introducing bugs.\n\n- Worktrees must use a full `yarn` install in the worktree. Do not symlink `"
+  },
+  {
+    "repo": "datahub-project_datahub",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['gradle', 'pip', 'yarn'] vs ['gradle', 'uv', 'yarn']",
+    "embedding_similarity": 0.4742,
+    "text_a_preview": "Prefer LSP tools over Grep for code navigation tasks:\n\n- Use `goToDefinition` to find where something is defined\n- Use `findReferences` to find all call sites\n- Use `workspaceSymbol` to find symbols by name\n- Use diagnostics after any edit to catch type errors immediately\n\nSee [docs/lsp-setup.md](docs/lsp-setup.md) for installation and configuration.\n\nThe docs site is a **Docusaurus 2** app in `do",
+    "text_b_preview": "```bash\n\n../gradlew yarnInstall\n```\n\n```bash\n\n../gradlew yarnServe\n\n../gradlew -x yarnInstall -x yarnGenerate yarnLintFix -Pfile=src/path/to/file.tsx\n\n../gradlew -x yarnInstall -x yarnGenerate yarnLint -Pfile=src/path/to/file.tsx\n\nyarn type-check\n\nInstall [`uv`](https://github.com/astral-sh/uv) (`curl -LsSf https://astral.sh/uv/install.sh | sh`), then:\n\n```bash\nclaude mcp add datahub \\\n  -e DATAHU"
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['yarn'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.5667,
+    "text_a_preview": "All commands must be run from the `core-web/` workspace root and prefixed with `yarn nx` (Nx is not installed globally).\n\n```bash\n\nyarn nx serve dotcms-ui                              # Dev server at :4200, proxies /api/* \u2192 :8080\nyarn nx build dotcms-ui                             # Production build \u2192 dist/apps/dotcms-ui/\nyarn nx build dotcms-ui --configuration=development  # Dev build \u2192 ../../tom",
+    "text_b_preview": "```bash\n\n./mvnw install -pl :dotcms-core --am -DskipTests          # Core + in-project deps (~2-3 min) \u2705\n./mvnw install -pl :dotcms-core -DskipTests                # \u26a0\ufe0f Can fail: missing in-project deps\n./mvnw clean install -DskipTests                            # Full rebuild (~8-15 min)\n./mvnw clean install -DskipTests -Ddocker.skip             # Full rebuild, skip Docker image\n\njust dev-run    "
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['yarn'] vs ['npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.514,
+    "text_a_preview": "All commands must be run from the `core-web/` workspace root and prefixed with `yarn nx` (Nx is not installed globally).\n\n```bash\n\nyarn nx serve dotcms-ui                              # Dev server at :4200, proxies /api/* \u2192 :8080\nyarn nx build dotcms-ui                             # Production build \u2192 dist/apps/dotcms-ui/\nyarn nx build dotcms-ui --configuration=development  # Dev build \u2192 ../../tom",
+    "text_b_preview": "---\nname: link-workspace-packages\ndescription: 'Link workspace packages in monorepos (npm, yarn, pnpm, bun). USE WHEN: (1) you just created or generated new packages and need to wire up their dependencies, (2) user imports from a sibling package and needs to add it as a dependency, (3) you get resolution errors for workspace packages (@org/*) like \"cannot find module\", \"failed to resolve import\", "
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['yarn'] vs ['maven', 'pnpm']",
+    "embedding_similarity": 0.3531,
+    "text_a_preview": "All commands must be run from the `core-web/` workspace root and prefixed with `yarn nx` (Nx is not installed globally).\n\n```bash\n\nyarn nx serve dotcms-ui                              # Dev server at :4200, proxies /api/* \u2192 :8080\nyarn nx build dotcms-ui                             # Production build \u2192 dist/apps/dotcms-ui/\nyarn nx build dotcms-ui --configuration=development  # Dev build \u2192 ../../tom",
+    "text_b_preview": "**CRITICAL: Build will fail without correct versions**\n\n| Tool | Version | Installation | Verification |\n|------|---------|--------------|--------------|\n| Java | 21.0.8+ | `sdk env install` (SDKMAN) | `java -version` |\n| Node.js | 22.15.0+ | `nvm use` (from `.nvmrc`) | `node --version` |\n| Maven | 3.9+ | Wrapper included (`./mvnw`) | `./mvnw --version` |\n| Docker | Latest | [Docker Desktop](https"
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'yarn'] vs ['npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.4527,
+    "text_a_preview": "```bash\n\n./mvnw install -pl :dotcms-core --am -DskipTests          # Core + in-project deps (~2-3 min) \u2705\n./mvnw install -pl :dotcms-core -DskipTests                # \u26a0\ufe0f Can fail: missing in-project deps\n./mvnw clean install -DskipTests                            # Full rebuild (~8-15 min)\n./mvnw clean install -DskipTests -Ddocker.skip             # Full rebuild, skip Docker image\n\njust dev-run    ",
+    "text_b_preview": "---\nname: link-workspace-packages\ndescription: 'Link workspace packages in monorepos (npm, yarn, pnpm, bun). USE WHEN: (1) you just created or generated new packages and need to wire up their dependencies, (2) user imports from a sibling package and needs to add it as a dependency, (3) you get resolution errors for workspace packages (@org/*) like \"cannot find module\", \"failed to resolve import\", "
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['npm'] vs ['bun', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.1126,
+    "text_a_preview": "./mvnw verify -pl :dotcms-integration -Dcoreit.test.skip=false -Dit.test=MyTestClass        # Specific class\n./mvnw verify -pl :dotcms-integration -Dcoreit.test.skip=false -Dit.test=MyTest#testMethod  # Specific method\n./mvnw verify -pl :dotcms-postman -Dpostman.test.skip=false -Dpostman.collections=all       # Postman\n\njust test-integration-ide     # Start PostgreSQL + Elasticsearch + dotCMS\njust",
+    "text_b_preview": "In most cases for new apps, **prefer signal forms**. When making a forms decision, analyze the project and consider the following guidelines:\n\n- if the application is using v21 or newer and this is a new form, **prefer signal forms**.\n  -For older applications or when working with existing forms, use the appropriate form type that matches the applications current form strategy.\n\n- **Signal Forms**"
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'yarn'] vs ['maven', 'pnpm']",
+    "embedding_similarity": 0.5529,
+    "text_a_preview": "```bash\n\n./mvnw install -pl :dotcms-core --am -DskipTests          # Core + in-project deps (~2-3 min) \u2705\n./mvnw install -pl :dotcms-core -DskipTests                # \u26a0\ufe0f Can fail: missing in-project deps\n./mvnw clean install -DskipTests                            # Full rebuild (~8-15 min)\n./mvnw clean install -DskipTests -Ddocker.skip             # Full rebuild, skip Docker image\n\njust dev-run    ",
+    "text_b_preview": "**CRITICAL: Build will fail without correct versions**\n\n| Tool | Version | Installation | Verification |\n|------|---------|--------------|--------------|\n| Java | 21.0.8+ | `sdk env install` (SDKMAN) | `java -version` |\n| Node.js | 22.15.0+ | `nvm use` (from `.nvmrc`) | `node --version` |\n| Maven | 3.9+ | Wrapper included (`./mvnw`) | `./mvnw --version` |\n| Docker | Latest | [Docker Desktop](https"
+  },
+  {
+    "repo": "dotCMS_core",
+    "format_a": "SKILL.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pnpm', 'yarn'] vs ['maven', 'pnpm']",
+    "embedding_similarity": 0.3319,
+    "text_a_preview": "---\nname: link-workspace-packages\ndescription: 'Link workspace packages in monorepos (npm, yarn, pnpm, bun). USE WHEN: (1) you just created or generated new packages and need to wire up their dependencies, (2) user imports from a sibling package and needs to add it as a dependency, (3) you get resolution errors for workspace packages (@org/*) like \"cannot find module\", \"failed to resolve import\", ",
+    "text_b_preview": "**CRITICAL: Build will fail without correct versions**\n\n| Tool | Version | Installation | Verification |\n|------|---------|--------------|--------------|\n| Java | 21.0.8+ | `sdk env install` (SDKMAN) | `java -version` |\n| Node.js | 22.15.0+ | `nvm use` (from `.nvmrc`) | `node --version` |\n| Maven | 3.9+ | Wrapper included (`./mvnw`) | `./mvnw --version` |\n| Docker | Latest | [Docker Desktop](https"
+  },
+  {
+    "repo": "dust-tt_dust",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm'] vs ['bun']",
+    "embedding_similarity": 0.401,
+    "text_a_preview": "- Use `npx tsgo --noEmit` to type-check the front project.\n- Use `npm run format:changed` (from the repo root) to format and lint changed files.\n- For changes related to Temporal, LLM, MCP servers, Elasticsearch, audit events, and webhook sources, and for testing, use the corresponding skills.",
+    "text_b_preview": "- **Majority Voting**: Multiple judge runs per evaluation (default 3) for reliable scoring\n- **Configurable Scales**: binary, 0-3, 1-5, or 0-100\n- **Conversation ID Tracking**: Full traceability for debugging\n- **Smart Retries**: Exponential backoff with error classification\n- **Checkpointing**: Resume interrupted evaluations\n- **Dry Run**: Validate configuration before executing\n\nThis project use"
+  },
+  {
+    "repo": "getsentry_sentry-javascript",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm', 'yarn'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.5142,
+    "text_a_preview": "- [Volta](https://volta.sh/) for Node.js/Yarn/PNPM version management\n- Requires `VOLTA_FEATURE_PNPM=1`\n- After cloning: `yarn install && yarn build`\n- Never change Volta, Yarn, or package manager versions unless explicitly asked\n\n- `packages/{framework}/` \u2014 React, Vue, Angular, Next.js, Nuxt, SvelteKit, Remix, etc.\n- Some have client/server entry points (nextjs, nuxt, sveltekit)\n\n- `packages/core",
+    "text_b_preview": "If an AI SDK only works in one runtime, code lives exclusively in that runtime's package. Do NOT add it to `packages/core/`.\n\n- **Node.js-only** -> `packages/node/src/integrations/tracing/{provider}/`\n- **Cloudflare-only** -> `packages/cloudflare/src/integrations/tracing/{provider}.ts`\n- **Browser-only** -> `packages/browser/src/integrations/tracing/{provider}/`\n- **Multi-runtime** -> shared core "
+  },
+  {
+    "repo": "getsentry_sentry-javascript",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['yarn'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.2142,
+    "text_a_preview": "Prefer LSP over Grep/Read for code navigation \u2014 it's faster, precise, and avoids reading entire files:\n\n- `workspaceSymbol` to find where something is defined\n- `findReferences` to see all usages across the codebase\n- `goToDefinition` / `goToImplementation` to jump to source\n- `hover` for type info without reading the file\n\nUse Grep only when LSP isn't available or for text/pattern searches (comme",
+    "text_b_preview": "```\nDoes the AI SDK have native OpenTelemetry support?\n|- YES -> Does it emit OTel spans automatically?\n|   |- YES (like Vercel AI) -> Pattern 1: OTel Span Processors\n|   +- NO -> Pattern 2: OTel Instrumentation (wrap client)\n+- NO -> Does the SDK provide hooks/callbacks?\n    |- YES (like LangChain) -> Pattern 3: Callback/Hook Based\n    +- NO -> Pattern 4: Client Wrapping\n```\n\n1. **Add to `getAuto"
+  },
+  {
+    "repo": "getsentry_sentry-javascript",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm', 'yarn'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.5231,
+    "text_a_preview": "- [Volta](https://volta.sh/) for Node.js/Yarn/PNPM version management\n- Requires `VOLTA_FEATURE_PNPM=1`\n- After cloning: `yarn install && yarn build`\n- Never change Volta, Yarn, or package manager versions unless explicitly asked\n\n- `packages/{framework}/` \u2014 React, Vue, Angular, Next.js, Nuxt, SvelteKit, Remix, etc.\n- Some have client/server entry points (nextjs, nuxt, sveltekit)\n\n- `packages/core",
+    "text_b_preview": "If an AI SDK only works in one runtime, code lives exclusively in that runtime's package. Do NOT add it to `packages/core/`.\n\n- **Node.js-only** -> `packages/node/src/integrations/tracing/{provider}/`\n- **Cloudflare-only** -> `packages/cloudflare/src/integrations/tracing/{provider}.ts`\n- **Browser-only** -> `packages/browser/src/integrations/tracing/{provider}/`\n- **Multi-runtime** -> shared core "
+  },
+  {
+    "repo": "getsentry_sentry-javascript",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['yarn'] vs ['npm', 'yarn']",
+    "embedding_similarity": 0.2142,
+    "text_a_preview": "Prefer LSP over Grep/Read for code navigation \u2014 it's faster, precise, and avoids reading entire files:\n\n- `workspaceSymbol` to find where something is defined\n- `findReferences` to see all usages across the codebase\n- `goToDefinition` / `goToImplementation` to jump to source\n- `hover` for type info without reading the file\n\nUse Grep only when LSP isn't available or for text/pattern searches (comme",
+    "text_b_preview": "```\nDoes the AI SDK have native OpenTelemetry support?\n|- YES -> Does it emit OTel spans automatically?\n|   |- YES (like Vercel AI) -> Pattern 1: OTel Span Processors\n|   +- NO -> Pattern 2: OTel Instrumentation (wrap client)\n+- NO -> Does the SDK provide hooks/callbacks?\n    |- YES (like LangChain) -> Pattern 3: Callback/Hook Based\n    +- NO -> Pattern 4: Client Wrapping\n```\n\n1. **Add to `getAuto"
+  },
+  {
+    "repo": "getsentry_sentry",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['npm', 'pip', 'pnpm']",
+    "embedding_similarity": 0.2177,
+    "text_a_preview": "```bash\n\ndevenv sync\n\ndirenv allow    # activate the environment\ndevservices up  # bring up services\n```\n\nThat is all that is required to run `pytest`.\n\n`devservices serve` starts the development server.\n\nWhen the devserver is running, its full console output (all honcho-managed processes \u2014 `server`, `taskworker`, kafka consumers, webpack/watchers, etc.) is teed to `.artifacts/dev.log`, ANSI-strip",
+    "text_b_preview": "> **Dev / Monolith mode**: In local development, all data lives in a single DB and cross-cell\n> bugs are **invisible locally** \u2014 they only surface in a siloed staging or production environment.\n\nA user can belong to organizations in different cells. Any query that filters org-scoped data\nthrough a cross-cell relationship \u2014 membership, team assignment, or similar \u2014 silently returns\n**incomplete res"
+  },
+  {
+    "repo": "gronxb_hot-updater",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['bun', 'pnpm']",
+    "embedding_similarity": -0.0007,
+    "text_a_preview": "**Impact: HIGH (faster initial paint)**\n\nInstead of awaiting data in async components before returning JSX, use Suspense boundaries to show the wrapper UI faster while data loads.\n\n**Incorrect: wrapper blocked by data fetching**\n\n```tsx\nasync function Page() {\n  const data = await fetchData() // Blocks entire page\n  \n  return (\n    <div>\n      <div>Sidebar</div>\n      <div>Header</div>\n      <div>",
+    "text_b_preview": "pnpm test\n\npnpm test:type\n\npnpm release:test\n\n**IMPORTANT**: All changes must pass the GitHub Actions workflow (`.github/workflows/integraion-typescript.yml`) before being merged. This workflow runs:\n\n1. `pnpm build` - All packages and plugins must build successfully\n2. `pnpm test:type` - TypeScript type checking must pass with no errors\n3. `pnpm lint` - Code must pass OXC linting and formatting c"
+  },
+  {
+    "repo": "gronxb_hot-updater",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['bun', 'pnpm'] vs ['pnpm']",
+    "embedding_similarity": 0.2856,
+    "text_a_preview": "pnpm test\n\npnpm test:type\n\npnpm release:test\n\n**IMPORTANT**: All changes must pass the GitHub Actions workflow (`.github/workflows/integraion-typescript.yml`) before being merged. This workflow runs:\n\n1. `pnpm build` - All packages and plugins must build successfully\n2. `pnpm test:type` - TypeScript type checking must pass with no errors\n3. `pnpm lint` - Code must pass OXC linting and formatting c",
+    "text_b_preview": "- No target context yet: `devices` -> pick target -> `open`.\n- Normal UI task: `open` -> `snapshot -i` -> `press/fill` -> `diff snapshot -i` -> `close`\n- Debug/crash: `open <app>` -> `logs clear --restart` -> reproduce -> `network dump` -> `logs path` -> targeted `grep`\n- Replay drift: `replay -u <path>` -> verify updated selectors\n- Remote multi-tenant run: allocate lease -> point client at remot"
+  },
+  {
+    "repo": "joamag_boytacean",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'pip'] vs ['cargo', 'pip', 'yarn']",
+    "embedding_similarity": 0.632,
+    "text_a_preview": "Install Python packages and the Rust toolchain:\n\n```bash\npip install -r requirements.txt\nrustup default nightly\nrustup component add rustfmt\nrustup component add clippy\ncargo install cargo-vcpkg\n```\n\nTo build the SDL frontend (if required) use:\n\n```bash\ncd frontends/sdl && cargo build\n```",
+    "text_b_preview": "- **Rust**: `cargo build --release`\n- **Python**: `pip install -e .` or `python setup.py develop`\n- **Web**: `cd frontends/web && yarn install && yarn build`\n- **SDL**: `cargo build --release --bin boytacean-sdl`\n\n- Uses `wasm-pack` for WebAssembly builds\n- Supports multiple Game Boy variants (DMG, CGB, SGB)\n- Includes extensive test ROMs in `res/roms/test/`\n- Boot ROMs available in `res/boot/`\n- "
+  },
+  {
+    "repo": "joamag_boytacean",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo', 'pip'] vs ['cargo']",
+    "embedding_similarity": 0.4307,
+    "text_a_preview": "- Game Boy (DMG) and Game Boy Color (CGB) emulator written in Rust with a focus on performance and safety\n- Release builds use LTO, `opt-level = 3`, single codegen unit, and optional SIMD acceleration\n- Four frontends: Web (WASM), SDL (desktop with shader support), Libretro (RetroArch), and Console\n- Web frontend built with React/TypeScript and powered by [EmuKit](https://github.com/joamag/emukit)",
+    "text_b_preview": "- **Rust**: `cargo test`\n- **Python**: `pytest`\n- **Benchmarks**: `cargo bench`\n\n- Blargg test ROMs for CPU and sound accuracy\n- Acid2 tests for PPU accuracy\n- Custom test suite in `src/test.rs`\n- Python tests in `src/python/boytacean/test/`"
+  },
+  {
+    "repo": "kyegomez_swarms",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'uv'] vs ['pip']",
+    "embedding_similarity": 0.3847,
+    "text_a_preview": "```bash\ncargo add swarms-rs\n```\n\n!!! tip \"Compatible with Rust 1.70+\"\n    This library requires Rust 1.70 or later. Make sure your Rust toolchain is up to date.\n\nHere's a simple example to get you started with swarms-rs:\n\n```rust\nuse std::env;\nuse anyhow::Result;\nuse swarms_rs::{llm::provider::openai::OpenAI, structs::agent::Agent};\n\n#[tokio::main]\nasync fn main() -> Result<()> {\n    // Load envir",
+    "text_b_preview": "```bash\npip install swarms\n```\n\nSet your LLM API key as an environment variable before running:\n\n```bash\nexport OPENAI_API_KEY=\"sk-...\"        # OpenAI / GPT models\nexport ANTHROPIC_API_KEY=\"sk-ant-...\" # Claude models\nexport GROQ_API_KEY=\"...\"             # Groq\n\nWhen `max_loops=\"auto\"` the agent runs a plan\u2192execute\u2192reflect loop until it decides it is done. It automatically gets access to:\n- A `t"
+  },
+  {
+    "repo": "langbot-app_LangBot",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pnpm', 'uv'] vs ['pnpm', 'uv']",
+    "embedding_similarity": 1.0,
+    "text_a_preview": "- Python backend: `>=3.11,<4.0`, dependencies managed by `uv`.\n- Frontend: `web/` is Vite + React Router 7 + shadcn/ui + Tailwind, managed by `pnpm`.\n- Backend framework: Quart served by Hypercorn on `api.port`, default `5300`.\n- Frontend dev server: `web/` on `3000`, with `VITE_API_BASE_URL` pointing at the backend.\n- Plugin/Box/runtime contracts live in sibling repo `langbot-plugin-sdk`, pinned ",
+    "text_b_preview": "- Python backend: `>=3.11,<4.0`, dependencies managed by `uv`.\n- Frontend: `web/` is Vite + React Router 7 + shadcn/ui + Tailwind, managed by `pnpm`.\n- Backend framework: Quart served by Hypercorn on `api.port`, default `5300`.\n- Frontend dev server: `web/` on `3000`, with `VITE_API_BASE_URL` pointing at the backend.\n- Plugin/Box/runtime contracts live in sibling repo `langbot-plugin-sdk`, pinned "
+  },
+  {
+    "repo": "langflow-ai_langflow",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['uv'] vs ['npm']",
+    "embedding_similarity": 0.5599,
+    "text_a_preview": "```bash\nmake unit_tests                    # Backend unit tests (pytest, parallel)\nmake unit_tests async=false        # Sequential tests\nuv run pytest path/to/test.py      # Single test file\nuv run pytest path/to/test.py::test_name  # Single test\n\nmake test_frontend                 # Jest unit tests\nmake tests_frontend                # Playwright e2e tests\n```\n\nTests go in `src/backend/tests/unit/",
+    "text_b_preview": "Check for:\n- Missing test coverage for new code paths\n- Tests that don't test behavior (testing implementation details)\n- Flaky test patterns (time-dependent, order-dependent, external-service-dependent)\n- Proper use of `pytest.mark.asyncio` for async tests\n- Excessive mocking (prefer real integrations per project conventions)\n- Coverage target: 80% (minimum acceptable: 75%)\n- Test anti-patterns: "
+  },
+  {
+    "repo": "microsoft_FluidFramework",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pnpm'] vs ['pnpm']",
+    "embedding_similarity": 0.6445,
+    "text_a_preview": "```shell\n\npnpm install\n\npnpm run build\n\nnpm run start\n```\n\ndocker build -t gitrest . --build-context root=../..\n\nnpm run start:dev\n\nThis is a release group root with two packages:\n\n-   **`@fluidframework/historian`** (`packages/historian`) \u2014 Express-based HTTP server entry point (`src/www.ts`). Depends on historian-base.\n-   **`@fluidframework/historian-base`** (`packages/historian-base`) \u2014 Core l",
+    "text_b_preview": "| Package | Description | Output Dir | Module Type |\n|---------|-------------|------------|-------------|\n| `@fluid-tools/build-cli` (flub) | Main CLI for build/release operations | `lib/` | ESM |\n| `@fluidframework/build-tools` | Core build infrastructure, `fluid-build` CLI | `dist/` | CommonJS |\n| `@fluid-tools/build-infrastructure` | Workspace and release group abstractions | `lib/` (ESM), `dis"
+  },
+  {
+    "repo": "microsoft_FluidFramework",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['npm'] vs ['pnpm']",
+    "embedding_similarity": 0.7956,
+    "text_a_preview": "- **Name:** FF Internal Wiki\n- **Wiki ID:** `4b8ab5e8-1add-4e4b-bb65-d9b870a98ad4`\n- **Project:** `internal`\n- **Mapped path:** `/docs` (page paths are relative to this \u2014 e.g. the api-council page is at `/dev/resources/api council`)\n\nUse `mcp__ado__wiki_get_page_content` with `wikiIdentifier: \"4b8ab5e8-1add-4e4b-bb65-d9b870a98ad4\"` and `project: \"internal\"` to fetch pages directly by path without ",
+    "text_b_preview": "- **Name:** FF Internal Wiki\n- **Wiki ID:** `4b8ab5e8-1add-4e4b-bb65-d9b870a98ad4`\n- **Project:** `internal`\n- **Mapped path:** `/docs` (page paths are relative to this \u2014 e.g. the api-council page is at `/dev/resources/api council`)\n\nUse `mcp__ado__wiki_get_page_content` with `wikiIdentifier: \"4b8ab5e8-1add-4e4b-bb65-d9b870a98ad4\"` and `project: \"internal\"` to fetch pages directly by path without "
+  },
+  {
+    "repo": "microsoft_ai-agents-for-beginners",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pip'] vs ['pip', 'uv']",
+    "embedding_similarity": 0.5652,
+    "text_a_preview": "1. **Clone or fork the repository:**\n   ```bash\n   gh repo fork microsoft/ai-agents-for-beginners --clone\n   # OR\n   git clone https://github.com/microsoft/ai-agents-for-beginners.git\n   cd ai-agents-for-beginners\n   ```\n\n2. **Create and activate Python virtual environment:**\n   ```bash\n   python3 -m venv venv\n   source venv/bin/activate  # On Windows: venv\\Scripts\\activate\n   ```\n\n3. **Install de",
+    "text_b_preview": "---\nname: \"jupyter-notebook\"\ndescription: \"Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.\"\n---\n\n\n\nCreate clean, reproducible Jupyter notebooks for two primary modes:\n\n- Experiments and exploratory analysis\n- T"
+  },
+  {
+    "repo": "microsoft_ai-agents-for-beginners",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pip'] vs ['pip', 'uv']",
+    "embedding_similarity": 0.5339,
+    "text_a_preview": "This is an educational repository with example code rather than production code with automated tests. To verify your setup and changes:\n\n1. **Test Python environment:**\n   ```bash\n   python --version  # Should be 3.12+\n   pip list | grep -E \"(agent-framework|azure-ai|azure-identity)\"\n   ```\n\n2. **Test notebook execution:**\n   ```bash\n   # Convert notebook to script and run (tests imports)\n   jupyt",
+    "text_b_preview": "- If the request is exploratory, analytical, or hypothesis-driven, choose `experiment`.\n- If the request is instructional, step-by-step, or audience-specific, choose `tutorial`.\n- If editing an existing notebook, treat it as a refactor: preserve intent and improve structure.\n\nThe following categories live **outside** learn.microsoft.com. Use the specified tool instead.\n\nBe specific \u2014 include versi"
+  },
+  {
+    "repo": "mlflow_mlflow",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'uv'] vs ['npm', 'uv', 'yarn']",
+    "embedding_similarity": 1.0,
+    "text_a_preview": "```bash\n\nLOG=$(mktemp) && echo \"Logs: $LOG\"\nuv run dev/run_dev_server.py > \"$LOG\" 2>&1 &\n\ntail -f \"$LOG\"\n```\n\nTo run the MLflow dev server that proxies requests to a Databricks workspace:\n\n```bash\n\nLOG=$(mktemp) && echo \"Logs: $LOG\"\nuv run dev/run_dev_server.py > \"$LOG\" 2>&1 &\n\ntail -f \"$LOG\"\n```\n\n**Note**: The MLflow server acts as a proxy, forwarding API requests to your Databricks workspace whi",
+    "text_b_preview": "```bash\n\nLOG=$(mktemp) && echo \"Logs: $LOG\"\nuv run dev/run_dev_server.py > \"$LOG\" 2>&1 &\n\ntail -f \"$LOG\"\n```\n\nTo run the MLflow dev server that proxies requests to a Databricks workspace:\n\n```bash\n\nLOG=$(mktemp) && echo \"Logs: $LOG\"\nuv run dev/run_dev_server.py > \"$LOG\" 2>&1 &\n\ntail -f \"$LOG\"\n```\n\n**Note**: The MLflow server acts as a proxy, forwarding API requests to your Databricks workspace whi"
+  },
+  {
+    "repo": "mlflow_mlflow",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['uv'] vs ['uv', 'yarn']",
+    "embedding_similarity": 0.9204,
+    "text_a_preview": "```bash\n\nuv run pytest tests/\n\nuv run pytest tests/test_version.py\n\nuv run --with 'abc==1.2.3,xyz==4.5.6' pytest tests/test_version.py\n\nuv run --with transformers pytest tests/transformers\nuv run --extra gateway pytest tests/gateway\n```\n\n```bash\n\nuv run bash dev/run-python-skinny-tests.sh\n```\n\n- `pyproject.toml`: Package configuration and tool settings\n- `.python-version`: Minimum Python version (",
+    "text_b_preview": "```bash\n\nuv run pytest tests/\n\nuv run pytest tests/test_version.py\n\nuv run --with 'abc==1.2.3,xyz==4.5.6' pytest tests/test_version.py\n\nuv run --with transformers pytest tests/transformers\nuv run --extra gateway pytest tests/gateway\n```\n\n```bash\n\nuv run bash dev/run-python-skinny-tests.sh\n```\n\n- `pyproject.toml`: Package configuration and tool settings\n- `.python-version`: Minimum Python version ("
+  },
+  {
+    "repo": "novuhq_novu",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['bun', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.2628,
+    "text_a_preview": "Run `pnpm build` after changes to `packages/` or `enterprise/`. Direct changes to `apps/` do not require a rebuild.\n\n- Before creating new UI components not in `apps/dashboard/src/components/`\n- Before adding npm dependencies\n- Before modifying MongoDB models, ClickHouse table definitions, or anything in `enterprise/` or `packages/providers/`\n\nInstall `@novu/nextjs`...\n</Prompt>\n```\n\n**When to use",
+    "text_b_preview": "| Need to... | See |\n|------------|-----|\n| Set up SPF/DKIM/DMARC, fix spam issues | [Deliverability](./resources/deliverability.md) |\n| Build password reset, OTP, confirmations | [Transactional Emails](./resources/transactional-emails.md) |\n| Plan which emails your app needs | [Transactional Email Catalog](./resources/transactional-email-catalog.md) |\n| Build newsletter signup, validate emails | "
+  },
+  {
+    "repo": "nrwl_nx",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['bun', 'gradle', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.4421,
+    "text_a_preview": "To test a locally built Nx package in another repository (e.g., to verify a fix end-to-end):\n\n```bash\npnpm copy-built-package --package nx --repo ../path/to/test-repo\n```\n\nThis builds the package and copies it into the target repo's `node_modules`. It works for all packages including native Rust code.\n\nAfter code changes are made, first test the specific project where the changes were made:\n\n```ba",
+    "text_b_preview": "Uses `workspace:` protocol - symlinks only created when explicitly declared.\n\n```bash\n\n- Symlinks appear in `<consumer>/node_modules/@org/<package>`\n- **Hoisting differs by manager:**\n  - npm/bun: hoist shared deps to root `node_modules`\n  - pnpm: no hoisting (strict isolation, prevents phantom deps)\n  - yarn berry: uses Plug'n'Play by default (no `node_modules`)\n- Root `package.json` should have "
+  },
+  {
+    "repo": "nrwl_nx",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo'] vs ['gradle', 'maven', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.3952,
+    "text_a_preview": "- Documentation content: `astro-docs/src/content/docs/`\n- Use `.mdoc` (Markdoc) or `.mdx` format for documentation files\n- Run `nx serve astro-docs` to start the local dev server\n- Sidebar structure is defined in `astro-docs/sidebar.mts`\n\nUse the testing workflow from the \"Essential Commands\" section.\n\nAfter making changes to any Rust code in this directory, you must rebuild the nx package:\n\n```ba",
+    "text_b_preview": "---\nname: link-workspace-packages\ndescription: 'Link workspace packages in monorepos (npm, yarn, pnpm, bun). USE WHEN: (1) you just created or generated new packages and need to wire up their dependencies, (2) user imports from a sibling package and needs to add it as a dependency, (3) you get resolution errors for workspace packages (@org/*) like \"cannot find module\", \"failed to resolve import\", "
+  },
+  {
+    "repo": "onyx-dot-app_onyx",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['bun', 'uv'] vs ['uv']",
+    "embedding_similarity": 0.498,
+    "text_a_preview": "- Python deps live in a `uv`-managed virtualenv at `.venv` (repo root). If it doesn't exist yet, create it \\\n  with `uv sync --frozen`, then `source .venv/bin/activate`.\n- To make tests work, check the `.env` file at the root of the project to find an OpenAI key.\n- If using `playwright` to explore the frontend, log in with username `admin_user@example.com` and password\n  `TestPassword123!` (the ad",
+    "text_b_preview": "Running **inside the Onyx dev container**. These notes are additive to the root\n`/workspace/CLAUDE.md`; on conflict with a host-oriented instruction there, prefer these.\n\nDon't use `docker` / `docker exec` / `docker compose`. Onyx services run as sibling\ncontainers on the `onyx_default` network, reachable directly by hostname \u2014 so the root\nguide's `docker exec -it onyx-relational_db-1 psql ...` wo"
+  },
+  {
+    "repo": "open-metadata_OpenMetadata",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['yarn'] vs ['maven', 'npm', 'yarn']",
+    "embedding_similarity": 0.4633,
+    "text_a_preview": "```bash\nmake prerequisites              # Check system requirements\nmake install_dev_env           # Install all development dependencies\nmake yarn_install_cache        # Install UI dependencies\n```\n\n- Do not use string literals at any place. You should use useTranslation hook and use it like const {t} = useTranslation(). And for example if you want to have \"Run\" as string, you should be using { t",
+    "text_b_preview": "source env/bin/activate\n\npython --version   # Should show Python 3.10.x or 3.11.x\n```\n\n**In worktrees**: When Claude Code creates a Git worktree, the venv from the main repo is NOT copied. You need to either:\n- Create a new venv in the worktree: `python3.11 -m venv env && source env/bin/activate && cd ingestion && make install_dev`\n- Or symlink the main repo's venv: `ln -s /path/to/main-repo/env e"
+  },
+  {
+    "repo": "open-metadata_OpenMetadata",
+    "format_a": "CLAUDE.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['maven', 'npm', 'yarn'] vs ['yarn']",
+    "embedding_similarity": 0.2785,
+    "text_a_preview": "source env/bin/activate\n\npython --version   # Should show Python 3.10.x or 3.11.x\n```\n\n**In worktrees**: When Claude Code creates a Git worktree, the venv from the main repo is NOT copied. You need to either:\n- Create a new venv in the worktree: `python3.11 -m venv env && source env/bin/activate && cd ingestion && make install_dev`\n- Or symlink the main repo's venv: `ln -s /path/to/main-repo/env e",
+    "text_b_preview": "- Learn from user preferences within conversations\n- Adjust approach based on feedback\n- Remember context and decisions within sessions\n- Build on previous interactions productively\n- Recognize patterns in user needs and preferences\n\n```bash\n\nsudo apt-get install -y openjdk-21-jdk\nsudo update-alternatives --set java /usr/lib/jvm/java-21-openjdk-amd64/bin/java\nexport JAVA_HOME=/usr/lib/jvm/java-21-"
+  },
+  {
+    "repo": "openai_openai-agents-js",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['npm', 'pnpm']",
+    "embedding_similarity": 0.5962,
+    "text_a_preview": "When you change anything under `packages/` or touch `.changeset/`, use `$changeset-validation` to create and validate the changeset before you treat the code as final. Codex must ensure an appropriate changeset exists that covers every changed package, and run this skill alongside `$code-change-verification` ahead of handoff. When writing the changeset summary, use a Conventional Commit-style mess",
+    "text_b_preview": "Local (Codex-driven):\n\n1. Run:\n   ```bash\n   pnpm changeset:validate-prompt\n   ```\n2. Apply the rules from `references/validation-prompt.md` to the generated prompt.\n3. Respond with a JSON verdict containing ok/errors/warnings/required_bump (English-only strings).\n\nCI (Codex Action):\n\n1. Run:\n   ```bash\n   pnpm changeset:validate-prompt -- --ci --output .github/codex/prompts/changeset-validation.g"
+  },
+  {
+    "repo": "openai_openai-agents-js",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['npm', 'pnpm'] vs ['pnpm']",
+    "embedding_similarity": 0.4816,
+    "text_a_preview": "Run `$code-change-verification` before marking work complete when changes affect runtime code, tests, or build/test behavior.\n\nRun it when you change:\n\n- `packages/`, `examples/`, `helpers/`, `scripts/`, or `integration-tests/`\n- Root build/test config such as `package.json`, `pnpm-lock.yaml`, `pnpm-workspace.yaml`, `tsconfig*.json`, `eslint.config.*`, or `vitest*.ts`\n\nYou can skip `$code-change-v",
+    "text_b_preview": ".agents/skills/examples-auto-run/scripts/run.sh tail\n.agents/skills/examples-auto-run/scripts/run.sh tail basic__start_hello-world.log\n\n- Default to **\ud83d\udfe2 GREEN LIGHT TO SHIP** unless at least one blocking trigger below is satisfied.\n- Use **\ud83d\udd34 BLOCKED** only when you can cite concrete release-blocking evidence and provide actionable unblock steps.\n- Blocking triggers (at least one required for `BLOC"
+  },
+  {
+    "repo": "openai_openai-agents-python",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['uv'] vs ['pnpm', 'uv']",
+    "embedding_similarity": 0.6278,
+    "text_a_preview": "When `$code-change-verification` applies, run the full sequence in order (or use the skill scripts):\n\n```bash\nmake format\nmake lint\nmake typecheck\nmake tests\n```\n\n- Install or refresh development dependencies:\n  ```bash\n  make sync\n  ```\n- Run tests against the oldest supported version (Python 3.10) in an isolated environment:\n  ```bash\n  UV_PROJECT_ENVIRONMENT=.venv_310 uv sync --python 3.10 --al",
+    "text_b_preview": "---\nname: code-change-verification\ndescription: Run the mandatory verification stack when changes affect runtime code, tests, or build/test behavior in the OpenAI Agents Python repository.\n---\n\n1. Keep this skill at `./.agents/skills/code-change-verification` so it loads automatically for the repository.\n2. macOS/Linux: `bash .agents/skills/code-change-verification/scripts/run.sh`.\n3. Windows: `po"
+  },
+  {
+    "repo": "openai_openai-agents-python",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['uv'] vs ['pnpm', 'uv']",
+    "embedding_similarity": 0.6278,
+    "text_a_preview": "When `$code-change-verification` applies, run the full sequence in order (or use the skill scripts):\n\n```bash\nmake format\nmake lint\nmake typecheck\nmake tests\n```\n\n- Install or refresh development dependencies:\n  ```bash\n  make sync\n  ```\n- Run tests against the oldest supported version (Python 3.10) in an isolated environment:\n  ```bash\n  UV_PROJECT_ENVIRONMENT=.venv_310 uv sync --python 3.10 --al",
+    "text_b_preview": "---\nname: code-change-verification\ndescription: Run the mandatory verification stack when changes affect runtime code, tests, or build/test behavior in the OpenAI Agents Python repository.\n---\n\n1. Keep this skill at `./.agents/skills/code-change-verification` so it loads automatically for the repository.\n2. macOS/Linux: `bash .agents/skills/code-change-verification/scripts/run.sh`.\n3. Windows: `po"
+  },
+  {
+    "repo": "oven-sh_bun",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['bun'] vs ['bun', 'cargo', 'npm']",
+    "embedding_similarity": 0.4218,
+    "text_a_preview": "This is the Bun repository - an all-in-one JavaScript runtime & toolkit designed for speed, with a bundler, test runner, and Node.js-compatible package manager. It's written primarily in Rust with C++ for JavaScriptCore integration, powered by WebKit's JavaScriptCore engine.\n\n- **Build Bun**: `bun bd`\n  - Creates a debug build at `./build/debug/bun-debug`\n  - **CRITICAL**: do not set a timeout whe",
+    "text_b_preview": "- The pinned nightly is set via `RUSTUP_TOOLCHAIN` in the step `env:` (kept in sync with `channel` in `rust-toolchain.toml`); `cargo fmt --all` runs against the workspace at the repo root.\n- `RUSTUP_TOOLCHAIN` makes rustup ignore `rust-toolchain.toml` entirely, so the workflow installs only the host toolchain + `rustfmt` (`rustup toolchain install --profile minimal --component rustfmt`) rather tha"
+  },
+  {
+    "repo": "oven-sh_bun",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['bun', 'npm'] vs ['bun', 'cargo', 'npm']",
+    "embedding_similarity": 0.6319,
+    "text_a_preview": "- **Single test file**: `bun bd test test/js/bun/http/serve.test.ts`\n- **Fuzzy match test file**: `bun bd test http/serve.test.ts`\n- **With filter**: `bun bd test test/js/bun/http/serve.test.ts -t \"should handle\"`\n\n**Default: add your test to the existing test file for the code you're changing.** Do not create a new file. A fetch bug goes in `test/js/web/fetch/fetch.test.ts`, a `Bun.serve` bug goe",
+    "text_b_preview": "1. Edit the exclusion patterns in `scripts/run-clang-format.sh` (lines 34-39)\n2. Test locally to ensure the right files are being formatted\n\n```bash\n\n./scripts/run-clang-format.sh check\n\n./scripts/run-clang-format.sh format 2>&1 | grep -E \"(libuv|napi|deps)\"\n\n- The script defaults to **format** mode (modifies files)\n- Always test locally before pushing workflow changes\n- Keep the exclusion list up"
+  },
+  {
+    "repo": "oxc-project_oxc",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo', 'pnpm'] vs ['cargo']",
+    "embedding_similarity": 0.5433,
+    "text_a_preview": "```bash\njust fmt          # Format code (run after modifications)\njust test         # Run unit/integration tests\njust conformance  # Run conformance tests\njust ready        # Run all checks (use after commits)\ncargo lintgen     # Regenerate linter rules enum and impls after adding/modifying rules\ncargo lint-timings # Update linter timing data after changing linter rule codegen\n\nRun crate examples ",
+    "text_b_preview": "```bash\njust test           # Unit tests\njust minsize        # Size benchmarks (PRIMARY METRIC)\ncargo coverage      # Conformance tests\njust e2e           # End-to-end tests\njust ready         # Run before committing\n```\n\ncargo coverage -- --debug\n\ncargo run -p oxc_minifier --example minifier test.js\n\ncargo run -p oxc_minifier --example minifier test.js --twice\n```\n\n1. **Find optimization opportun"
+  },
+  {
+    "repo": "oxc-project_oxc",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'npm', 'pnpm'] vs ['bun', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.348,
+    "text_a_preview": "Prerequisites: Rust (MSRV: 1.95), Node.js, pnpm, just\n\n**Setup Notes:**\n\n- All tools already installed (`cargo-insta`, `typos-cli`, `cargo-shear`, `ast-grep`)\n- Rust components already installed (`clippy`, `rust-docs`, `rustfmt`)\n- Use Conventional Commits for commit messages; `.github/workflows/pr.yml` requires a scoped title like `fix(parser): handle trailing comma`\n- Run `just ready` after comm",
+    "text_b_preview": "First, decide whether the automated tool fits:\n\n- **Static root config** (JSON/YAML, or a JS/TS config that just exports a plain object): use `--migrate` below.\n- **Dynamic JS/TS config** (logic such as environment branches or computed values): `--migrate` writes only a resolved snapshot of the values \u2014 the logic does not survive. Migrate manually instead, porting the logic to `oxfmt.config.ts` wi"
+  },
+  {
+    "repo": "oxc-project_oxc",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo', 'pnpm'] vs ['cargo']",
+    "embedding_similarity": 0.6305,
+    "text_a_preview": "```bash\njust fmt          # Format code (run after modifications)\njust test         # Run unit/integration tests\njust conformance  # Run conformance tests\njust ready        # Run all checks (use after commits)\ncargo lintgen     # Regenerate linter rules enum and impls after adding/modifying rules\ncargo lint-timings # Update linter timing data after changing linter rule codegen\n\nRun crate examples ",
+    "text_b_preview": "---\nname: insta-snapshots\ndescription: Guide for working with and updating insta snapshot tests in Oxc without terminal interaction.\n---\n\nThis skill guides you through working with [insta](https://insta.rs) snapshot tests in the Oxc codebase without requiring terminal interaction.\n\n\nInsta is a snapshot testing library for Rust. Oxc uses it extensively for:\n\n- Linter rule tests (`crates/oxc_linter/"
+  },
+  {
+    "repo": "raycast_extensions",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['bun', 'npm', 'pip'] vs ['bun', 'npm', 'yarn']",
+    "embedding_similarity": 0.8373,
+    "text_a_preview": "```bash\n\nnpm install              # Install dependencies\n\nnpm run dev              # Start Raycast development mode\nnpm run build            # Build extension for production\n\nnpm run build            # Validate for distribution first\nnpm run publish          # Open or update PR to raycast/extensions (npx @raycast/api@latest publish)\n\n- `build`: Creates distribution build (`ray build -e dist`)\n- `d",
+    "text_b_preview": "- `npm run dev` - Start Raycast development mode\n- `npm run build` - Build the extension\n- `npm run lint` - Run ESLint\n- `npm run lint:fix` - Fix ESLint issues\n- `npm run typecheck` - Run TypeScript type checking\n\n```bash\nnpm run dev          # Start development mode with hot reload\nnpm run build        # Build the extension for production\nnpm run lint         # Check code style and potential issu"
+  },
+  {
+    "repo": "rochacbruno_marmite",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo'] vs ['cargo', 'pip']",
+    "embedding_similarity": 0.4702,
+    "text_a_preview": "- **Language:** Rust\n- **Templating:** [Tera](https://keats.github.io/tera/docs/) (Jinja2-like syntax)\n- **Markdown:** [Comrak](https://docs.rs/comrak/) (CommonMark + GFM extensions)\n- **CLI:** [Clap](https://docs.rs/clap/) (derive macros)\n- **Syntax Highlighting:** [Arborium](https://docs.rs/arborium/) (tree-sitter based, build-time)\n- **Dev Server:** [tiny_http](https://docs.rs/tiny_http/) with ",
+    "text_b_preview": "---\nname: marmite\ndescription: Build and manage static sites with marmite - a zero-config static site generator that turns markdown files into websites\n---\n\n\nMarmite is a static site generator written in Rust that converts a folder of markdown files into a complete website. It requires zero configuration to get started - just point it at a folder with `.md` files and it produces HTML.\n\n- Repositor"
+  },
+  {
+    "repo": "rustfs_rustfs",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'npm']",
+    "embedding_similarity": 0.4327,
+    "text_a_preview": "When changing CI-sensitive behavior, keep local validation aligned with\n`.github/workflows/ci.yml`. Read the workflow file directly for the current\ngate steps \u2014 do not rely on (or add) a copied command list here; copies go\nstale. `make pre-pr` is the local equivalent of the main gate.\n\n- Read the relevant existing code, tests, and local guidance before changing behavior.\n- State assumptions when t",
+    "text_b_preview": "- Read each modified hunk with neighboring context.\n- Trace call paths and call-site expectations.\n- Check for:\n  - invariant breaks and missing guards\n  - unchecked assumptions and null/empty/error-path handling\n  - stale tests, fixtures, and configs\n  - hidden coupling to shared helpers/constants/features\n- If a point is uncertain, mark it as an open question instead of guessing.\n\n- **unwrap/exp"
+  },
+  {
+    "repo": "ruvnet_claude-flow",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm'] vs ['npm', 'pip']",
+    "embedding_similarity": 0.3698,
+    "text_a_preview": "```bash\nnpx claude-flow swarm init --topology hierarchical\nnpx claude-flow agent spawn --type coder --name worker-1\nnpx claude-flow swarm start --objective \"Build hello world\"\n\nnpx claude-flow mcp start --test\n```\n\n```toml\n\n```bash\nnpm install\n```\n\n```bash\nnpm run build\n```",
+    "text_b_preview": "- Hierarchical goal breakdown using dependency analysis\n- Graph-based representation of goal-action relationships\n- Automatic identification of prerequisite conditions and dependencies\n- Context-aware goal prioritization and sequencing\n\n- [Good practice observed]\n```\n\n1. **Start Conservative**: Begin with known patterns\n2. **Monitor Closely**: Track automation decisions\n3. **Learn Iteratively**: I"
+  },
+  {
+    "repo": "ruvnet_claude-flow",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm'] vs ['npm', 'pip']",
+    "embedding_similarity": 0.5001,
+    "text_a_preview": "npx claude-flow-codex dual run feature --task \"Add user authentication with OAuth\"\nnpx claude-flow-codex dual run security --target \"./src\"\nnpx claude-flow-codex dual run refactor --target \"./src/legacy\"\n\n| Command | Subcommands | Description |\n|---------|-------------|-------------|\n| `init` | 4 | Project initialization with wizard, presets, skills, hooks |\n| `agent` | 8 | Agent lifecycle (spawn,",
+    "text_b_preview": "- Hierarchical goal breakdown using dependency analysis\n- Graph-based representation of goal-action relationships\n- Automatic identification of prerequisite conditions and dependencies\n- Context-aware goal prioritization and sequencing\n\n- [Good practice observed]\n```\n\n1. **Start Conservative**: Begin with known patterns\n2. **Monitor Closely**: Track automation decisions\n3. **Learn Iteratively**: I"
+  },
+  {
+    "repo": "sanity-io_sanity",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['npm']",
+    "embedding_similarity": 0.1169,
+    "text_a_preview": "**Impact: HIGH (faster initial paint)**\n\nInstead of awaiting data in async components before returning JSX, use Suspense boundaries to show the wrapper UI faster while data loads.\n\n**Incorrect: wrapper blocked by data fetching**\n\n```tsx\nasync function Page() {\n  const data = await fetchData() // Blocks entire page\n\n  return (\n    <div>\n      <div>Sidebar</div>\n      <div>Header</div>\n      <div>\n ",
+    "text_b_preview": "- Before merging any PR or change\n- After completing a feature implementation\n- When another agent or model produced code you need to evaluate\n- When refactoring existing code\n- After any bug fix (review both the fix and the regression test)\n\nDoes the code do what it claims to do?\n\n- Does it match the spec or task requirements?\n- Are edge cases handled (null, empty, boundary values)?\n- Are error p"
+  },
+  {
+    "repo": "steipete_Peekaboo",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['bun', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.4073,
+    "text_a_preview": "- Read `~/Projects/agent-scripts/{AGENTS.MD,TOOLS.MD}` before making changes (skip if missing).\n- This repo uses git submodules (`AXorcist/`, `Commander/`, `Tachikoma/`, `TauTUI/`); update them in their home repos first, then bump pointers here.\n\n- Current local baseline is macOS 26.1 on arm64. If you\u2019re on an older SDK/OS, expect menubar/accessibility flakiness; re-run with the 26 SDK before chas",
+    "text_b_preview": "Use these on debugging runs before inventing ad hoc logging:\n\n- `--preflight`: prints run context, workspace mode, SSH target, remote user/cwd,\n  and target-specific tool probes. Defaults cover `git`, `tar`, `node`, `npm`,\n  `corepack`, `pnpm`, `yarn`, `bun`, `docker`, plus POSIX\n  `sudo`/`apt`/`bubblewrap` and native Windows\n  `powershell`/`execution_policy`/`longpaths`/`temp`/`pwsh`. Add\n  `--pr"
+  },
+  {
+    "repo": "steipete_Peekaboo",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['bun', 'npm', 'pnpm', 'yarn']",
+    "embedding_similarity": 0.4073,
+    "text_a_preview": "- Read `~/Projects/agent-scripts/{AGENTS.MD,TOOLS.MD}` before making changes (skip if missing).\n- This repo uses git submodules (`AXorcist/`, `Commander/`, `Tachikoma/`, `TauTUI/`); update them in their home repos first, then bump pointers here.\n\n- Current local baseline is macOS 26.1 on arm64. If you\u2019re on an older SDK/OS, expect menubar/accessibility flakiness; re-run with the 26 SDK before chas",
+    "text_b_preview": "Use these on debugging runs before inventing ad hoc logging:\n\n- `--preflight`: prints run context, workspace mode, SSH target, remote user/cwd,\n  and target-specific tool probes. Defaults cover `git`, `tar`, `node`, `npm`,\n  `corepack`, `pnpm`, `yarn`, `bun`, `docker`, plus POSIX\n  `sudo`/`apt`/`bubblewrap` and native Windows\n  `powershell`/`execution_policy`/`longpaths`/`temp`/`pwsh`. Add\n  `--pr"
+  },
+  {
+    "repo": "swc-project_swc",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'pnpm'] vs ['cargo']",
+    "embedding_similarity": 0.4942,
+    "text_a_preview": "-   Before finishing a task, always run this baseline locally.\n    -   `cargo fmt --all`\n    -   `cargo clippy --all --all-targets -- -D warnings`\n-   For each touched Rust crate, run crate-level verification locally.\n    -   `cargo test -p <crate>`\n-   If wasm binding packages are touched, run:\n    -   `(cd bindings/binding_core_wasm && ./scripts/test.sh)`\n    -   `(cd bindings/binding_minifier_w",
+    "text_b_preview": "Run this helper from the repository root:\n\n```bash\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs\n```\n\nUseful options:\n\n```bash\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --base origin/main\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --json\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --include-private\n```\n\nTreat the "
+  },
+  {
+    "repo": "swc-project_swc",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'npm', 'pip', 'pnpm', 'uv']",
+    "embedding_similarity": 0.356,
+    "text_a_preview": "-   Do not guess behavior. Verify assumptions by reading source, fixtures, and tests.\n-   Debug with logs when behavior is unclear.\n-   Write sufficient logs for debugging and operational troubleshooting.\n-   Prefer structured logging in Rust (`tracing`) over ad-hoc plain text logs when feasible.\n\n-   Write unit tests for your code.\n-   Prefer fixture tests over inline (`#[test]`) tests.\n-   Befor",
+    "text_b_preview": "**When you find a significant improvement** (>5% on target benchmarks with no regressions), pause and tell the user:\n\n- What you changed and why\n- The before/after numbers from `compare_runs`\n- What the flamegraph showed as the bottleneck\n- What further optimizations you see as possible next steps\n\nThen ask if they want you to continue optimizing or if they're satisfied.\n\n**When a change doesn't h"
+  },
+  {
+    "repo": "swc-project_swc",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'pnpm'] vs ['cargo']",
+    "embedding_similarity": 0.4903,
+    "text_a_preview": "-   Before finishing a task, always run this baseline locally.\n    -   `cargo fmt --all`\n    -   `cargo clippy --all --all-targets -- -D warnings`\n-   For each touched Rust crate, run crate-level verification locally.\n    -   `cargo test -p <crate>`\n-   If wasm binding packages are touched, run:\n    -   `(cd bindings/binding_core_wasm && ./scripts/test.sh)`\n    -   `(cd bindings/binding_minifier_w",
+    "text_b_preview": "Run this helper from the repository root:\n\n```bash\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs\n```\n\nUseful options:\n\n```bash\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --base origin/main\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --json\nnode .codex/skills/add-changeset/scripts/changed-rust-crates.mjs --include-private\n```\n\nTreat the "
+  },
+  {
+    "repo": "swc-project_swc",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['cargo'] vs ['cargo', 'npm', 'pip', 'pnpm', 'uv']",
+    "embedding_similarity": 0.2989,
+    "text_a_preview": "-   Write unit tests for your code.\n-   Prefer fixture tests over inline (`#[test]`) tests.\n-   You can do `UPDATE=1 cargo test` to get test outputs updated for fixture tests.\n-   When instructed to fix tests, do not remove or modify existing tests.\n\n- Add new coverage by extending existing fixture suites instead of adding ad-hoc inline tests.\n- Find the exact fixture harness before adding files w",
+    "text_b_preview": "**When you find a significant improvement** (>5% on target benchmarks with no regressions), pause and tell the user:\n\n- What you changed and why\n- The before/after numbers from `compare_runs`\n- What the flamegraph showed as the bottleneck\n- What further optimizations you see as possible next steps\n\nThen ask if they want you to continue optimizing or if they're satisfied.\n\n**When a change doesn't h"
+  },
+  {
+    "repo": "valkey-io_valkey-glide",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'npm'] vs ['cargo', 'gradle', 'pip']",
+    "embedding_similarity": 0.6901,
+    "text_a_preview": "make all\n\nmake java          # Build Java client\nmake python        # Build Python async + sync clients (release mode)\nmake node          # Build Node.js client (release mode)\nmake go            # Build Go client\n\nmake clean         # Remove .build/ directory\nmake help          # List available targets\n```\n\n**Rust (glide-core):**\n\n```bash\ncd glide-core\ncargo build --release\ncargo test\ncargo bench\n",
+    "text_b_preview": "```bash\n\nmake help\n\nmake all  # TIMEOUT: Set 45+ minutes\n\nmake java      # TIMEOUT: Set 20+ minutes\nmake python    # TIMEOUT: Set 15+ minutes  \nmake node      # TIMEOUT: Set 10+ minutes\nmake go        # TIMEOUT: Set 10+ minutes\n\nmake clean\n```\n**CRITICAL**: Install ALL dependencies before attempting any builds. Missing dependencies cause build failures.\n\n```bash\n\nsudo apt-get update && sudo apt-ge"
+  },
+  {
+    "repo": "valkey-io_valkey-glide",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['maven', 'npm'] vs ['npm']",
+    "embedding_similarity": 0.5355,
+    "text_a_preview": "make java-test     # Run Java integration tests\nmake python-test   # Run Python tests\nmake node-test     # Run Node.js tests\nmake go-test       # Run Go tests\n\n./gradlew :client:test                             # Run all unit tests\n./gradlew :client:test --tests 'BatchTests'        # Run unit tests from a class\n./gradlew :client:test --tests '*.latencyHistory'  # Run unit tests with a pattern\n\n./g",
+    "text_b_preview": "**FOCUS ON SINGLE LANGUAGE**: Usually you're better off working per language, as the codebase is enormous. Unless required for similar use cases, focus only on the specific language you're working with plus the shared Glide Core when needed.\n\nmake check-valkey-server\n\nmake java-test python-test node-test go-test  # TIMEOUT: Set 90+ minutes\n\nmake install-dev-tools\n\nmake unit-test integ-test  # TIME"
+  },
+  {
+    "repo": "vercel_next.js",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pnpm'] vs ['pnpm']",
+    "embedding_similarity": 0.4743,
+    "text_a_preview": "- Use pnpm, not npm. Add the CLI to `devDependencies` (root `package.json` for CI-only tooling).\n- Use `pnpm add -D` over directly modifying `package.json`. Let pnpm figure out the latest version number.\n- `pnpm dlx` does not pin transitive deps; don't rely on it.\n- Bootstrap pnpm via corepack so it picks up `packageManager` from the root `package.json`.\n\n`${{ ... }}` is interpolated into the scri",
+    "text_b_preview": "- `<command that passed>`\n- Not run: `<command>` (`<reason>`)\n\n<!-- NEXT_JS_LLM -->\n```\n\nThe \"what\" should be explained from the end-user perspective or developer perspective. Only include implementation changes if they're not obvious from the diff.\n\nA \"why\" should be included if the change isn't self-explanatory, or if the motivation is not clear from the diff.\nOmitting the \"why\" should be used s"
+  },
+  {
+    "repo": "vercel_next.js",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.4668,
+    "text_a_preview": "For iterative development, default to watch mode plus the explicit test script that matches the mode and bundler being verified.\n\n**Default agent rule:** If you are changing Next.js source or integration tests, start `pnpm --filter=next dev` in a separate terminal session before making edits (unless it is already running). If you skip this, explicitly state why (for example: docs-only, read-only i",
+    "text_b_preview": "description: >\n  How to add or modify Next.js experimental feature flags end-to-end.\n  Use when editing config-shared.ts, config-schema.ts, define-env-plugin.ts.\n```\n\ngh stack push --remote upstream\n```\n\n| Flag              | Description                                       |\n| ----------------- | ------------------------------------------------- |\n| `--remote <name>` | Remote to push to (use if "
+  },
+  {
+    "repo": "vercel_next.js",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm', 'pnpm'] vs ['pnpm']",
+    "embedding_similarity": 0.4743,
+    "text_a_preview": "- Use pnpm, not npm. Add the CLI to `devDependencies` (root `package.json` for CI-only tooling).\n- Use `pnpm add -D` over directly modifying `package.json`. Let pnpm figure out the latest version number.\n- `pnpm dlx` does not pin transitive deps; don't rely on it.\n- Bootstrap pnpm via corepack so it picks up `packageManager` from the root `package.json`.\n\n`${{ ... }}` is interpolated into the scri",
+    "text_b_preview": "- `<command that passed>`\n- Not run: `<command>` (`<reason>`)\n\n<!-- NEXT_JS_LLM -->\n```\n\nThe \"what\" should be explained from the end-user perspective or developer perspective. Only include implementation changes if they're not obvious from the diff.\n\nA \"why\" should be included if the change isn't self-explanatory, or if the motivation is not clear from the diff.\nOmitting the \"why\" should be used s"
+  },
+  {
+    "repo": "vercel_next.js",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Test / CI commands",
+    "conflict_detail": "['pnpm'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.4668,
+    "text_a_preview": "For iterative development, default to watch mode plus the explicit test script that matches the mode and bundler being verified.\n\n**Default agent rule:** If you are changing Next.js source or integration tests, start `pnpm --filter=next dev` in a separate terminal session before making edits (unless it is already running). If you skip this, explicitly state why (for example: docs-only, read-only i",
+    "text_b_preview": "description: >\n  How to add or modify Next.js experimental feature flags end-to-end.\n  Use when editing config-shared.ts, config-schema.ts, define-env-plugin.ts.\n```\n\ngh stack push --remote upstream\n```\n\n| Flag              | Description                                       |\n| ----------------- | ------------------------------------------------- |\n| `--remote <name>` | Remote to push to (use if "
+  },
+  {
+    "repo": "web-infra-dev_rspack",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['pnpm'] vs ['cargo', 'pnpm']",
+    "embedding_similarity": 0.2395,
+    "text_a_preview": "- **Rust**: Latest stable (via [rustup](https://rustup.rs/))\n- **Node.js**: Latest LTS\n- **pnpm**: Version in `package.json`\n- Run `pnpm run setup` to install and build\n\n- `pnpm run build:js` - Build JavaScript/TypeScript packages\n- `pnpm run build:binding:dev` - Build Rust crates (dev)\n- `pnpm run build:cli:dev` - Full build (dev)\n- `pnpm run build:binding:debug` - Debug build\n- `pnpm run build:b",
+    "text_b_preview": "1. Identify the target feature, file, or compilation stage and the dominant data structures it touches.\n2. Estimate whether the hot path scales with dependencies, exports, modules, chunks, chunk groups, entries, or runtimes.\n3. Look for repeated CPU work and repeated allocation before designing a larger refactor.\n4. Prefer small, measurable changes that preserve observable output.\n5. If adding par"
+  },
+  {
+    "repo": "windmill-labs_windmill",
+    "format_a": "AGENTS.md",
+    "format_b": "CLAUDE.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'npm'] vs ['cargo']",
+    "embedding_similarity": 0.7964,
+    "text_a_preview": "- **Backend**: `cargo run` from `backend/` (API at http://localhost:8000)\n- **DuckDB local jobs**: before running DuckDB scripts locally, build the FFI shared library with `cd backend/windmill-duckdb-ffi-internal && ./build_dev.sh`. Re-run it after clean builds or when `backend/target/debug/libwindmill_duckdb_ffi_internal.*` is missing. The bundled DuckDB compile (~2min) is cached in a per-user di",
+    "text_b_preview": "- **Coding patterns**: MUST use the `rust-backend` skill when writing Rust code\n- **Validation**: `docs/validation.md` \u2014 which `cargo check` flags to use\n- **Enterprise**: `docs/enterprise.md` \u2014 EE file conventions and PR workflow\n- **DB schema**: `backend/summarized_schema.txt`\n- **API routes entry point**: `windmill-api/src/lib.rs`\n- **OpenAPI spec**: `windmill-api/openapi.yaml`\n- **DuckDB local"
+  },
+  {
+    "repo": "windmill-labs_windmill",
+    "format_a": "AGENTS.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo', 'npm'] vs ['bun', 'cargo', 'npm']",
+    "embedding_similarity": 0.3988,
+    "text_a_preview": "- **Backend**: `cargo run` from `backend/` (API at http://localhost:8000)\n- **DuckDB local jobs**: before running DuckDB scripts locally, build the FFI shared library with `cd backend/windmill-duckdb-ffi-internal && ./build_dev.sh`. Re-run it after clean builds or when `backend/target/debug/libwindmill_duckdb_ffi_internal.*` is missing. The bundled DuckDB compile (~2min) is cached in a per-user di",
+    "text_b_preview": "**`backend/windmill-api-workspaces/src/workspaces.rs`** \u2014 add `{kind}_used: bool` to the `UsedTriggers` struct and add an `EXISTS(SELECT 1 FROM {kind}_trigger \u2026)` to the `get_used_triggers` query.\n\n**`backend/windmill-api/src/workspaces_export.rs`** \u2014 add export block mirroring gcp's (export lists all triggers, serializes them to YAML/JSON). The block re-uses the `trigger_ignore_keys` variable so "
+  },
+  {
+    "repo": "windmill-labs_windmill",
+    "format_a": "CLAUDE.md",
+    "format_b": "SKILL.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['cargo'] vs ['bun', 'cargo', 'npm']",
+    "embedding_similarity": 0.4716,
+    "text_a_preview": "- **Coding patterns**: MUST use the `rust-backend` skill when writing Rust code\n- **Validation**: `docs/validation.md` \u2014 which `cargo check` flags to use\n- **Enterprise**: `docs/enterprise.md` \u2014 EE file conventions and PR workflow\n- **DB schema**: `backend/summarized_schema.txt`\n- **API routes entry point**: `windmill-api/src/lib.rs`\n- **OpenAPI spec**: `windmill-api/openapi.yaml`\n- **DuckDB local",
+    "text_b_preview": "**`backend/windmill-api-workspaces/src/workspaces.rs`** \u2014 add `{kind}_used: bool` to the `UsedTriggers` struct and add an `EXISTS(SELECT 1 FROM {kind}_trigger \u2026)` to the `get_used_triggers` query.\n\n**`backend/windmill-api/src/workspaces_export.rs`** \u2014 add export block mirroring gcp's (export lists all triggers, serializes them to YAML/JSON). The block re-uses the `trigger_ignore_keys` variable so "
+  },
+  {
+    "repo": "wled_WLED",
+    "format_a": "AGENTS.md",
+    "format_b": "copilot-instructions.md",
+    "category": "Build / run / install",
+    "conflict_detail": "['npm'] vs ['npm', 'pip']",
+    "embedding_similarity": 0.8738,
+    "text_a_preview": "| Command | Purpose | Timeout |\n|---|---|---|\n| `npm ci` | Install Node.js deps (required first) | 30s |\n| `npm run build` | Build web UI into `wled00/html_*.h` / `wled00/js_*.h` | 30s |\n| `npm test` | Run test suite (Node.js built-in `node --test`) | 2 min |\n| `npm run dev` | Watch mode \u2014 auto-rebuilds web UI on changes | continuous |\n| `pio run -e esp32dev` | Build firmware (ESP32, most common t",
+    "text_b_preview": "- Node.js 20+ (see `.nvmrc`)\n- Install dependencies: `npm ci`\n- PlatformIO (required only for firmware compilation): `pip install -r requirements.txt`\n\n<!-- HUMAN_ONLY_START -->\n\n| Command | Purpose | Typical Time |\n|---|---|---|\n| `npm run build` | Build web UI \u2192 generates `wled00/html_*.h` and `wled00/js_*.h` headers | ~3 s |\n| `npm test` | Run test suite | ~40 s |\n| `npm run dev` | Watch mode \u2014"
+  }
+]

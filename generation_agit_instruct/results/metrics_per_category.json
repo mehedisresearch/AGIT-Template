@@ -1,0 +1,515 @@
+{
+  "description": "Per-category section-pair metrics. For each AGIT category, mean ROUGE-1/L F and MiniLM emb cosine over filtered files where the category appears in both gold and prediction. n_gold / n_pred / n_intersection count files with that category present.",
+  "n_test": 62,
+  "categories": [
+    "Project overview / purpose",
+    "Repository structure",
+    "Build / run / install",
+    "Test / CI commands",
+    "Code style / formatting",
+    "Architecture / design constraints",
+    "Domain models / key abstractions",
+    "API / interface contracts",
+    "Do / Don't rules",
+    "Git / PR / commit conventions",
+    "Tooling-specific agent config",
+    "Examples / few-shot snippets",
+    "Security / secrets",
+    "Performance",
+    "Ownership / contacts",
+    "Maintenance / when to update"
+  ],
+  "embed_model": "all-MiniLM-L6-v2",
+  "by_approach": {
+    "zero_shot": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 62,
+        "n_intersection": 43,
+        "n_scored": 43,
+        "rouge1_f": 0.4084,
+        "rougeL_f": 0.3015,
+        "embedding_cosine": 0.6426,
+        "rouge1_f_std": 0.0987,
+        "rougeL_f_std": 0.0819,
+        "embedding_cosine_std": 0.1494
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 34,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.2408,
+        "rougeL_f": 0.1741,
+        "embedding_cosine": 0.5926,
+        "rouge1_f_std": 0.0767,
+        "rougeL_f_std": 0.0464,
+        "embedding_cosine_std": 0.1462
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 56,
+        "n_intersection": 53,
+        "n_scored": 53,
+        "rouge1_f": 0.3303,
+        "rougeL_f": 0.2071,
+        "embedding_cosine": 0.5861,
+        "rouge1_f_std": 0.0891,
+        "rougeL_f_std": 0.0441,
+        "embedding_cosine_std": 0.1414
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 59,
+        "n_intersection": 50,
+        "n_scored": 50,
+        "rouge1_f": 0.2686,
+        "rougeL_f": 0.1839,
+        "embedding_cosine": 0.5838,
+        "rouge1_f_std": 0.0813,
+        "rougeL_f_std": 0.0538,
+        "embedding_cosine_std": 0.1131
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 51,
+        "n_intersection": 45,
+        "n_scored": 45,
+        "rouge1_f": 0.2346,
+        "rougeL_f": 0.1532,
+        "embedding_cosine": 0.526,
+        "rouge1_f_std": 0.0907,
+        "rougeL_f_std": 0.0503,
+        "embedding_cosine_std": 0.1511
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 48,
+        "n_intersection": 37,
+        "n_scored": 37,
+        "rouge1_f": 0.1436,
+        "rougeL_f": 0.1035,
+        "embedding_cosine": 0.4656,
+        "rouge1_f_std": 0.0575,
+        "rougeL_f_std": 0.039,
+        "embedding_cosine_std": 0.1356
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 19,
+        "n_intersection": 12,
+        "n_scored": 12,
+        "rouge1_f": 0.2477,
+        "rougeL_f": 0.1824,
+        "embedding_cosine": 0.4927,
+        "rouge1_f_std": 0.0972,
+        "rougeL_f_std": 0.08,
+        "embedding_cosine_std": 0.1437
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 48,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.2289,
+        "rougeL_f": 0.1672,
+        "embedding_cosine": 0.5203,
+        "rouge1_f_std": 0.0891,
+        "rougeL_f_std": 0.065,
+        "embedding_cosine_std": 0.117
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 53,
+        "n_intersection": 40,
+        "n_scored": 40,
+        "rouge1_f": 0.1611,
+        "rougeL_f": 0.105,
+        "embedding_cosine": 0.4346,
+        "rouge1_f_std": 0.079,
+        "rougeL_f_std": 0.0452,
+        "embedding_cosine_std": 0.1224
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 59,
+        "n_intersection": 31,
+        "n_scored": 31,
+        "rouge1_f": 0.2224,
+        "rougeL_f": 0.1555,
+        "embedding_cosine": 0.5857,
+        "rouge1_f_std": 0.0757,
+        "rougeL_f_std": 0.0581,
+        "embedding_cosine_std": 0.1104
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 52,
+        "n_intersection": 36,
+        "n_scored": 36,
+        "rouge1_f": 0.2406,
+        "rougeL_f": 0.1608,
+        "embedding_cosine": 0.4836,
+        "rouge1_f_std": 0.0888,
+        "rougeL_f_std": 0.056,
+        "embedding_cosine_std": 0.1253
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 38,
+        "n_intersection": 21,
+        "n_scored": 21,
+        "rouge1_f": 0.2697,
+        "rougeL_f": 0.1909,
+        "embedding_cosine": 0.5113,
+        "rouge1_f_std": 0.0975,
+        "rougeL_f_std": 0.0592,
+        "embedding_cosine_std": 0.1335
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 61,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.2154,
+        "rougeL_f": 0.1531,
+        "embedding_cosine": 0.5374,
+        "rouge1_f_std": 0.0798,
+        "rougeL_f_std": 0.0464,
+        "embedding_cosine_std": 0.147
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 61,
+        "n_intersection": 24,
+        "n_scored": 24,
+        "rouge1_f": 0.166,
+        "rougeL_f": 0.1318,
+        "embedding_cosine": 0.5234,
+        "rouge1_f_std": 0.0681,
+        "rougeL_f_std": 0.0477,
+        "embedding_cosine_std": 0.113
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "rougeL_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 61,
+        "n_intersection": 18,
+        "n_scored": 18,
+        "rouge1_f": 0.205,
+        "rougeL_f": 0.1432,
+        "embedding_cosine": 0.414,
+        "rouge1_f_std": 0.0516,
+        "rougeL_f_std": 0.0369,
+        "embedding_cosine_std": 0.1734
+      }
+    },
+    "rag": {
+      "Project overview / purpose": {
+        "n_gold": 43,
+        "n_pred": 60,
+        "n_intersection": 41,
+        "n_scored": 41,
+        "rouge1_f": 0.4675,
+        "rougeL_f": 0.3502,
+        "embedding_cosine": 0.6487,
+        "rouge1_f_std": 0.1324,
+        "rougeL_f_std": 0.117,
+        "embedding_cosine_std": 0.1623
+      },
+      "Repository structure": {
+        "n_gold": 43,
+        "n_pred": 34,
+        "n_intersection": 32,
+        "n_scored": 32,
+        "rouge1_f": 0.3372,
+        "rougeL_f": 0.2338,
+        "embedding_cosine": 0.6474,
+        "rouge1_f_std": 0.1267,
+        "rougeL_f_std": 0.1028,
+        "embedding_cosine_std": 0.1523
+      },
+      "Build / run / install": {
+        "n_gold": 57,
+        "n_pred": 51,
+        "n_intersection": 48,
+        "n_scored": 48,
+        "rouge1_f": 0.3605,
+        "rougeL_f": 0.2215,
+        "embedding_cosine": 0.5611,
+        "rouge1_f_std": 0.0862,
+        "rougeL_f_std": 0.0539,
+        "embedding_cosine_std": 0.1222
+      },
+      "Test / CI commands": {
+        "n_gold": 50,
+        "n_pred": 56,
+        "n_intersection": 47,
+        "n_scored": 47,
+        "rouge1_f": 0.3096,
+        "rougeL_f": 0.2091,
+        "embedding_cosine": 0.5854,
+        "rouge1_f_std": 0.0697,
+        "rougeL_f_std": 0.0465,
+        "embedding_cosine_std": 0.1122
+      },
+      "Code style / formatting": {
+        "n_gold": 48,
+        "n_pred": 49,
+        "n_intersection": 43,
+        "n_scored": 43,
+        "rouge1_f": 0.2842,
+        "rougeL_f": 0.1733,
+        "embedding_cosine": 0.5449,
+        "rouge1_f_std": 0.0915,
+        "rougeL_f_std": 0.0474,
+        "embedding_cosine_std": 0.1562
+      },
+      "Architecture / design constraints": {
+        "n_gold": 38,
+        "n_pred": 42,
+        "n_intersection": 33,
+        "n_scored": 33,
+        "rouge1_f": 0.1691,
+        "rougeL_f": 0.119,
+        "embedding_cosine": 0.4493,
+        "rouge1_f_std": 0.0644,
+        "rougeL_f_std": 0.0536,
+        "embedding_cosine_std": 0.132
+      },
+      "Domain models / key abstractions": {
+        "n_gold": 30,
+        "n_pred": 19,
+        "n_intersection": 12,
+        "n_scored": 12,
+        "rouge1_f": 0.25,
+        "rougeL_f": 0.1846,
+        "embedding_cosine": 0.4969,
+        "rouge1_f_std": 0.0973,
+        "rougeL_f_std": 0.0697,
+        "embedding_cosine_std": 0.1603
+      },
+      "API / interface contracts": {
+        "n_gold": 33,
+        "n_pred": 45,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.262,
+        "rougeL_f": 0.1805,
+        "embedding_cosine": 0.5224,
+        "rouge1_f_std": 0.0958,
+        "rougeL_f_std": 0.0568,
+        "embedding_cosine_std": 0.1169
+      },
+      "Do / Don't rules": {
+        "n_gold": 43,
+        "n_pred": 51,
+        "n_intersection": 39,
+        "n_scored": 39,
+        "rouge1_f": 0.168,
+        "rougeL_f": 0.1062,
+        "embedding_cosine": 0.4301,
+        "rouge1_f_std": 0.072,
+        "rougeL_f_std": 0.043,
+        "embedding_cosine_std": 0.1318
+      },
+      "Git / PR / commit conventions": {
+        "n_gold": 32,
+        "n_pred": 56,
+        "n_intersection": 30,
+        "n_scored": 30,
+        "rouge1_f": 0.2696,
+        "rougeL_f": 0.1762,
+        "embedding_cosine": 0.5943,
+        "rouge1_f_std": 0.073,
+        "rougeL_f_std": 0.0475,
+        "embedding_cosine_std": 0.104
+      },
+      "Tooling-specific agent config": {
+        "n_gold": 36,
+        "n_pred": 44,
+        "n_intersection": 29,
+        "n_scored": 29,
+        "rouge1_f": 0.274,
+        "rougeL_f": 0.1778,
+        "embedding_cosine": 0.5425,
+        "rouge1_f_std": 0.0963,
+        "rougeL_f_std": 0.0623,
+        "embedding_cosine_std": 0.1129
+      },
+      "Examples / few-shot snippets": {
+        "n_gold": 24,
+        "n_pred": 38,
+        "n_intersection": 21,
+        "n_scored": 21,
+        "rouge1_f": 0.328,
+        "rougeL_f": 0.2252,
+        "embedding_cosine": 0.5115,
+        "rouge1_f_std": 0.1338,
+        "rougeL_f_std": 0.0855,
+        "embedding_cosine_std": 0.1465
+      },
+      "Security / secrets": {
+        "n_gold": 30,
+        "n_pred": 60,
+        "n_intersection": 28,
+        "n_scored": 28,
+        "rouge1_f": 0.2333,
+        "rougeL_f": 0.1528,
+        "embedding_cosine": 0.5512,
+        "rouge1_f_std": 0.0787,
+        "rougeL_f_std": 0.0382,
+        "embedding_cosine_std": 0.1239
+      },
+      "Performance": {
+        "n_gold": 25,
+        "n_pred": 60,
+        "n_intersection": 23,
+        "n_scored": 23,
+        "rouge1_f": 0.1828,
+        "rougeL_f": 0.1313,
+        "embedding_cosine": 0.5258,
+        "rouge1_f_std": 0.0621,
+        "rougeL_f_std": 0.0343,
+        "embedding_cosine_std": 0.1037
+      },
+      "Ownership / contacts": {
+        "n_gold": 6,
+        "n_pred": 0,
+        "n_intersection": 0,
+        "n_scored": 0,
+        "rouge1_f": null,
+        "rougeL_f": null,
+        "embedding_cosine": null
+      },
+      "Maintenance / when to update": {
+        "n_gold": 18,
+        "n_pred": 53,
+        "n_intersection": 17,
+        "n_scored": 17,
+        "rouge1_f": 0.2412,
+        "rougeL_f": 0.16,
+        "embedding_cosine": 0.4458,
+        "rouge1_f_std": 0.0581,
+        "rougeL_f_std": 0.0456,
+        "embedding_cosine_std": 0.2002
+      }
+    }
+  },
+  "rag_ranking_by_rougeL_f": [
+    {
+      "category": "Project overview / purpose",
+      "rougeL_f": 0.3502,
+      "rouge1_f": 0.4675,
+      "embedding_cosine": 0.6487,
+      "n_intersection": 41
+    },
+    {
+      "category": "Repository structure",
+      "rougeL_f": 0.2338,
+      "rouge1_f": 0.3372,
+      "embedding_cosine": 0.6474,
+      "n_intersection": 32
+    },
+    {
+      "category": "Examples / few-shot snippets",
+      "rougeL_f": 0.2252,
+      "rouge1_f": 0.328,
+      "embedding_cosine": 0.5115,
+      "n_intersection": 21
+    },
+    {
+      "category": "Build / run / install",
+      "rougeL_f": 0.2215,
+      "rouge1_f": 0.3605,
+      "embedding_cosine": 0.5611,
+      "n_intersection": 48
+    },
+    {
+      "category": "Test / CI commands",
+      "rougeL_f": 0.2091,
+      "rouge1_f": 0.3096,
+      "embedding_cosine": 0.5854,
+      "n_intersection": 47
+    },
+    {
+      "category": "Domain models / key abstractions",
+      "rougeL_f": 0.1846,
+      "rouge1_f": 0.25,
+      "embedding_cosine": 0.4969,
+      "n_intersection": 12
+    },
+    {
+      "category": "API / interface contracts",
+      "rougeL_f": 0.1805,
+      "rouge1_f": 0.262,
+      "embedding_cosine": 0.5224,
+      "n_intersection": 29
+    },
+    {
+      "category": "Tooling-specific agent config",
+      "rougeL_f": 0.1778,
+      "rouge1_f": 0.274,
+      "embedding_cosine": 0.5425,
+      "n_intersection": 29
+    },
+    {
+      "category": "Git / PR / commit conventions",
+      "rougeL_f": 0.1762,
+      "rouge1_f": 0.2696,
+      "embedding_cosine": 0.5943,
+      "n_intersection": 30
+    },
+    {
+      "category": "Code style / formatting",
+      "rougeL_f": 0.1733,
+      "rouge1_f": 0.2842,
+      "embedding_cosine": 0.5449,
+      "n_intersection": 43
+    },
+    {
+      "category": "Maintenance / when to update",
+      "rougeL_f": 0.16,
+      "rouge1_f": 0.2412,
+      "embedding_cosine": 0.4458,
+      "n_intersection": 17
+    },
+    {
+      "category": "Security / secrets",
+      "rougeL_f": 0.1528,
+      "rouge1_f": 0.2333,
+      "embedding_cosine": 0.5512,
+      "n_intersection": 28
+    },
+    {
+      "category": "Performance",
+      "rougeL_f": 0.1313,
+      "rouge1_f": 0.1828,
+      "embedding_cosine": 0.5258,
+      "n_intersection": 23
+    },
+    {
+      "category": "Architecture / design constraints",
+      "rougeL_f": 0.119,
+      "rouge1_f": 0.1691,
+      "embedding_cosine": 0.4493,
+      "n_intersection": 33
+    },
+    {
+      "category": "Do / Don't rules",
+      "rougeL_f": 0.1062,
+      "rouge1_f": 0.168,
+      "embedding_cosine": 0.4301,
+      "n_intersection": 39
+    }
+  ],
+  "elapsed_sec": 70.8
+}

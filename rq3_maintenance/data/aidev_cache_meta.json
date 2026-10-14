@@ -1,0 +1,18 @@
+{
+  "included": [
+    "repository.parquet",
+    "pull_request.parquet",
+    "pr_task_type.parquet",
+    "pr_reviews.parquet",
+    "pr_commits.parquet",
+    "pr_commit_details_instruction_rows.parquet"
+  ],
+  "omitted": {
+    "pr_commit_details.parquet": {
+      "bytes": 485214032,
+      "reason": "Full AIDev-pop commit-file table (~463MB); needed for co-change stats in analyze_rq3_maintenance.py. Use scripts/fetch_aidev_cache.sh."
+    }
+  },
+  "n_instruction_detail_rows": 2146,
+  "shipped_events_csv": "rq3_instruction_events.csv (n=2146) is the primary derived input."
+}

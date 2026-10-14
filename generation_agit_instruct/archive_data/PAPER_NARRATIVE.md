@@ -1,0 +1,11 @@
+# AGIT-Instruct construction (paper narrative)
+
+We construct **AGIT-Instruct** from agent instruction files in the same four formats studied in RQ2—**AGENTS.md**, **CLAUDE.md**, **GitHub Copilot instructions** (`copilot-instructions.md` and other `*.instructions.md`), and **Cursor rules** (`.cursorrules` / `.cursor/rules/`)—consistent with RQ2’s labeling of **3,387** files under a shared **16-category** taxonomy. We exclude other instruction-like artifacts (e.g., SKILL, GEMINI, and README-style files) so the generation benchmark stays aligned with RQ2’s four-format scope.
+
+Because section-level supervision and template-category coverage require meaningful internal structure, we retain only files with **at least two sections**. After this filter, AGIT-Instruct contains **552 repositories** and **2,853 instruction files** (AGENTS: 1,565; CLAUDE: 819; Copilot: 447; Cursor: 22).
+
+For each retained file we convert gold sections into **generic intents** under the same **16 taxonomy categories**, stripping repository-specific commands, paths, and stack details while preserving instructional meaning. Model inputs include a short repository summary plus the requested section categories; targets are the generic-intent Markdown files.
+
+We then form train/validation/test splits with **repository-level holdout** (no repository appears in more than one split). The **test set** is selected first via **category-stratified quotas** (up to **k = 25** high-coverage files per AGIT category; union of selections), so evaluation covers the full template section inventory as far as the corpus allows. Remaining repositories are split into train/validation (approximately 85%/15%). In the four-format release this yields **1,432 / 321 / 75** files (train/val/test) from **404 / 66 / 64** repositories (**4,178 / 1,006 / 642** category sections). This **1,432 / 321 / 75** split is the established AGIT-Instruct benchmark.
+
+**Evaluation subset note.** Multi-system scores in the packaged results use **`test_eval_62`** (62 files): predictions were originally produced on a mixed-format fulltest of 77 files, then restricted to RQ2 four-format basenames by dropping SKILL/GEMINI. Prefer citing **test = 75** as the benchmark test set and **n = 62** only as the reported four-system evaluation subset.

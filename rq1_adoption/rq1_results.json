@@ -1,0 +1,568 @@
+{
+  "n_total": 1000,
+  "prevalence": [
+    {
+      "cohort": "bottom",
+      "n": 500,
+      "any_n": 251,
+      "any_pct": 50.2,
+      "AGENTS.md_n": 158,
+      "AGENTS.md_pct": 31.6,
+      "CLAUDE.md_n": 123,
+      "CLAUDE.md_pct": 24.6,
+      "Cursor rules_n": 14,
+      "Cursor rules_pct": 2.8,
+      "Copilot instructions_n": 88,
+      "Copilot instructions_pct": 17.6
+    },
+    {
+      "cohort": "top",
+      "n": 500,
+      "any_n": 331,
+      "any_pct": 66.2,
+      "AGENTS.md_n": 250,
+      "AGENTS.md_pct": 50.0,
+      "CLAUDE.md_n": 202,
+      "CLAUDE.md_pct": 40.4,
+      "Cursor rules_n": 23,
+      "Cursor rules_pct": 4.6,
+      "Copilot instructions_n": 116,
+      "Copilot instructions_pct": 23.2
+    }
+  ],
+  "multi_counts": {
+    "top": {
+      "0": 169,
+      "1": 120,
+      "2": 166,
+      "3": 41,
+      "4": 4
+    },
+    "bottom": {
+      "0": 249,
+      "1": 143,
+      "2": 86,
+      "3": 20,
+      "4": 2
+    }
+  },
+  "multi_pct": {
+    "bottom": 21.6,
+    "top": 42.2
+  },
+  "pairs": [
+    {
+      "a": "AGENTS.md",
+      "b": "CLAUDE.md",
+      "n": 231
+    },
+    {
+      "a": "AGENTS.md",
+      "b": "Copilot instructions",
+      "n": 109
+    },
+    {
+      "a": "CLAUDE.md",
+      "b": "Copilot instructions",
+      "n": 72
+    },
+    {
+      "a": "CLAUDE.md",
+      "b": "Cursor rules",
+      "n": 27
+    },
+    {
+      "a": "AGENTS.md",
+      "b": "Cursor rules",
+      "n": 24
+    },
+    {
+      "a": "Copilot instructions",
+      "b": "Cursor rules",
+      "n": 8
+    }
+  ],
+  "languages": [
+    {
+      "language": "TypeScript",
+      "n": 258,
+      "any_pct": 65.9,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 51.9,
+      "CLAUDE.md": 43.8,
+      "Cursor rules": 6.6,
+      "Copilot instructions": 15.1
+    },
+    {
+      "language": "Python",
+      "n": 192,
+      "any_pct": 49.5,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 39.1,
+      "CLAUDE.md": 32.3,
+      "Cursor rules": 3.6,
+      "Copilot instructions": 14.1
+    },
+    {
+      "language": "C#",
+      "n": 88,
+      "any_pct": 69.3,
+      "dominant": "Copilot instructions",
+      "AGENTS.md": 40.9,
+      "CLAUDE.md": 10.2,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 53.4
+    },
+    {
+      "language": "Go",
+      "n": 86,
+      "any_pct": 53.5,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 30.2,
+      "CLAUDE.md": 29.1,
+      "Cursor rules": 4.7,
+      "Copilot instructions": 16.3
+    },
+    {
+      "language": "Rust",
+      "n": 55,
+      "any_pct": 67.3,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 47.3,
+      "CLAUDE.md": 45.5,
+      "Cursor rules": 1.8,
+      "Copilot instructions": 12.7
+    },
+    {
+      "language": "JavaScript",
+      "n": 53,
+      "any_pct": 39.6,
+      "dominant": "CLAUDE.md",
+      "AGENTS.md": 20.8,
+      "CLAUDE.md": 22.6,
+      "Cursor rules": 1.9,
+      "Copilot instructions": 15.1
+    },
+    {
+      "language": "C++",
+      "n": 48,
+      "any_pct": 60.4,
+      "dominant": "Copilot instructions",
+      "AGENTS.md": 27.1,
+      "CLAUDE.md": 25.0,
+      "Cursor rules": 4.2,
+      "Copilot instructions": 39.6
+    },
+    {
+      "language": "Java",
+      "n": 34,
+      "any_pct": 70.6,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 61.8,
+      "CLAUDE.md": 44.1,
+      "Cursor rules": 2.9,
+      "Copilot instructions": 26.5
+    },
+    {
+      "language": "C",
+      "n": 21,
+      "any_pct": 61.9,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 47.6,
+      "CLAUDE.md": 19.0,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 14.3
+    },
+    {
+      "language": "PHP",
+      "n": 17,
+      "any_pct": 52.9,
+      "dominant": "AGENTS.md",
+      "AGENTS.md": 47.1,
+      "CLAUDE.md": 23.5,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 35.3
+    }
+  ],
+  "lang_cohort": [
+    {
+      "language": "TypeScript",
+      "cohort": "top",
+      "n": 141,
+      "any_pct": 70.9,
+      "AGENTS.md": 59.6,
+      "CLAUDE.md": 51.1,
+      "Cursor rules": 7.1,
+      "Copilot instructions": 17.7
+    },
+    {
+      "language": "TypeScript",
+      "cohort": "bottom",
+      "n": 117,
+      "any_pct": 59.8,
+      "AGENTS.md": 42.7,
+      "CLAUDE.md": 35.0,
+      "Cursor rules": 6.0,
+      "Copilot instructions": 12.0
+    },
+    {
+      "language": "Python",
+      "cohort": "top",
+      "n": 107,
+      "any_pct": 64.5,
+      "AGENTS.md": 50.5,
+      "CLAUDE.md": 44.9,
+      "Cursor rules": 6.5,
+      "Copilot instructions": 19.6
+    },
+    {
+      "language": "Python",
+      "cohort": "bottom",
+      "n": 85,
+      "any_pct": 30.6,
+      "AGENTS.md": 24.7,
+      "CLAUDE.md": 16.5,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 7.1
+    },
+    {
+      "language": "C#",
+      "cohort": "top",
+      "n": 32,
+      "any_pct": 75.0,
+      "AGENTS.md": 59.4,
+      "CLAUDE.md": 12.5,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 53.1
+    },
+    {
+      "language": "C#",
+      "cohort": "bottom",
+      "n": 56,
+      "any_pct": 66.1,
+      "AGENTS.md": 30.4,
+      "CLAUDE.md": 8.9,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 53.6
+    },
+    {
+      "language": "Go",
+      "cohort": "top",
+      "n": 40,
+      "any_pct": 60.0,
+      "AGENTS.md": 42.5,
+      "CLAUDE.md": 30.0,
+      "Cursor rules": 2.5,
+      "Copilot instructions": 22.5
+    },
+    {
+      "language": "Go",
+      "cohort": "bottom",
+      "n": 46,
+      "any_pct": 47.8,
+      "AGENTS.md": 19.6,
+      "CLAUDE.md": 28.3,
+      "Cursor rules": 6.5,
+      "Copilot instructions": 10.9
+    },
+    {
+      "language": "Rust",
+      "cohort": "top",
+      "n": 30,
+      "any_pct": 80.0,
+      "AGENTS.md": 63.3,
+      "CLAUDE.md": 53.3,
+      "Cursor rules": 3.3,
+      "Copilot instructions": 16.7
+    },
+    {
+      "language": "Rust",
+      "cohort": "bottom",
+      "n": 25,
+      "any_pct": 52.0,
+      "AGENTS.md": 28.0,
+      "CLAUDE.md": 36.0,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 8.0
+    },
+    {
+      "language": "JavaScript",
+      "cohort": "top",
+      "n": 25,
+      "any_pct": 48.0,
+      "AGENTS.md": 28.0,
+      "CLAUDE.md": 24.0,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 16.0
+    },
+    {
+      "language": "JavaScript",
+      "cohort": "bottom",
+      "n": 28,
+      "any_pct": 32.1,
+      "AGENTS.md": 14.3,
+      "CLAUDE.md": 21.4,
+      "Cursor rules": 3.6,
+      "Copilot instructions": 14.3
+    },
+    {
+      "language": "C++",
+      "cohort": "top",
+      "n": 34,
+      "any_pct": 64.7,
+      "AGENTS.md": 29.4,
+      "CLAUDE.md": 32.4,
+      "Cursor rules": 5.9,
+      "Copilot instructions": 41.2
+    },
+    {
+      "language": "C++",
+      "cohort": "bottom",
+      "n": 14,
+      "any_pct": 50.0,
+      "AGENTS.md": 21.4,
+      "CLAUDE.md": 7.1,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 35.7
+    },
+    {
+      "language": "Java",
+      "cohort": "top",
+      "n": 17,
+      "any_pct": 70.6,
+      "AGENTS.md": 58.8,
+      "CLAUDE.md": 47.1,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 35.3
+    },
+    {
+      "language": "Java",
+      "cohort": "bottom",
+      "n": 17,
+      "any_pct": 70.6,
+      "AGENTS.md": 64.7,
+      "CLAUDE.md": 41.2,
+      "Cursor rules": 5.9,
+      "Copilot instructions": 17.6
+    },
+    {
+      "language": "C",
+      "cohort": "top",
+      "n": 13,
+      "any_pct": 69.2,
+      "AGENTS.md": 53.8,
+      "CLAUDE.md": 30.8,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 15.4
+    },
+    {
+      "language": "C",
+      "cohort": "bottom",
+      "n": 8,
+      "any_pct": 50.0,
+      "AGENTS.md": 37.5,
+      "CLAUDE.md": 0.0,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 12.5
+    },
+    {
+      "language": "PHP",
+      "cohort": "bottom",
+      "n": 13,
+      "any_pct": 53.8,
+      "AGENTS.md": 46.2,
+      "CLAUDE.md": 15.4,
+      "Cursor rules": 0.0,
+      "Copilot instructions": 38.5
+    }
+  ],
+  "star_bins": [
+    {
+      "star_bin": "Q1 low",
+      "n": 250,
+      "median_stars": 618,
+      "any_pct": 50.4,
+      "AGENTS.md": 31.2,
+      "CLAUDE.md": 25.2,
+      "Cursor rules": 4.0,
+      "Copilot instructions": 15.6
+    },
+    {
+      "star_bin": "Q2",
+      "n": 250,
+      "median_stars": 936,
+      "any_pct": 50.0,
+      "AGENTS.md": 32.0,
+      "CLAUDE.md": 24.0,
+      "Cursor rules": 1.6,
+      "Copilot instructions": 19.6
+    },
+    {
+      "star_bin": "Q3",
+      "n": 250,
+      "median_stars": 6730,
+      "any_pct": 62.8,
+      "AGENTS.md": 45.2,
+      "CLAUDE.md": 39.2,
+      "Cursor rules": 4.4,
+      "Copilot instructions": 21.6
+    },
+    {
+      "star_bin": "Q4 high",
+      "n": 250,
+      "median_stars": 22954,
+      "any_pct": 69.6,
+      "AGENTS.md": 54.8,
+      "CLAUDE.md": 41.6,
+      "Cursor rules": 4.8,
+      "Copilot instructions": 24.8
+    }
+  ],
+  "logit": {
+    "has_any": {
+      "odds_ratios": {
+        "log_stars": 1.171,
+        "log_forks": 1.089,
+        "is_top": 1.012,
+        "lang_C++": 0.65,
+        "lang_Go": 0.593,
+        "lang_Java": 1.108,
+        "lang_JavaScript": 0.337,
+        "lang_Other": 0.593,
+        "lang_Python": 0.462,
+        "lang_Rust": 1.03,
+        "lang_TypeScript": 0.925
+      },
+      "accuracy": 0.629,
+      "base_rate": 0.582,
+      "key_ors": {
+        "log_stars": 1.171,
+        "log_forks": 1.089,
+        "is_top": 1.012,
+        "lang_C++": 0.65,
+        "lang_Go": 0.593,
+        "lang_JavaScript": 0.337,
+        "lang_Other": 0.593,
+        "lang_Python": 0.462
+      }
+    },
+    "has_AGENTS.md": {
+      "odds_ratios": {
+        "log_stars": 1.293,
+        "log_forks": 1.042,
+        "is_top": 0.946,
+        "lang_C++": 0.449,
+        "lang_Go": 0.63,
+        "lang_Java": 2.039,
+        "lang_JavaScript": 0.381,
+        "lang_Other": 0.825,
+        "lang_Python": 0.85,
+        "lang_Rust": 1.21,
+        "lang_TypeScript": 1.452
+      },
+      "accuracy": 0.629,
+      "base_rate": 0.408,
+      "key_ors": {
+        "log_stars": 1.293,
+        "log_forks": 1.042,
+        "is_top": 0.946,
+        "lang_C++": 0.449,
+        "lang_Go": 0.63,
+        "lang_Java": 2.039,
+        "lang_JavaScript": 0.381,
+        "lang_TypeScript": 1.452
+      }
+    },
+    "has_CLAUDE.md": {
+      "odds_ratios": {
+        "log_stars": 1.326,
+        "log_forks": 0.908,
+        "is_top": 1.153,
+        "lang_C++": 1.239,
+        "lang_Go": 1.762,
+        "lang_Java": 3.215,
+        "lang_JavaScript": 1.241,
+        "lang_Other": 1.852,
+        "lang_Python": 1.988,
+        "lang_Rust": 3.129,
+        "lang_TypeScript": 3.253
+      },
+      "accuracy": 0.683,
+      "base_rate": 0.325,
+      "key_ors": {
+        "log_stars": 1.326,
+        "log_forks": 0.908,
+        "is_top": 1.153,
+        "lang_Go": 1.762,
+        "lang_Java": 3.215,
+        "lang_Other": 1.852,
+        "lang_Python": 1.988,
+        "lang_Rust": 3.129,
+        "lang_TypeScript": 3.253
+      }
+    },
+    "has_Cursor rules": {
+      "odds_ratios": {
+        "log_stars": 1.045,
+        "log_forks": 0.908,
+        "is_top": 1.686,
+        "lang_C++": 1.38,
+        "lang_Go": 1.741,
+        "lang_Java": 1.174,
+        "lang_JavaScript": 0.928,
+        "lang_Other": 0.968,
+        "lang_Python": 1.464,
+        "lang_Rust": 0.869,
+        "lang_TypeScript": 2.65
+      },
+      "accuracy": 0.963,
+      "base_rate": 0.037,
+      "key_ors": {
+        "log_stars": 1.045,
+        "log_forks": 0.908,
+        "is_top": 1.686,
+        "lang_C++": 1.38,
+        "lang_Go": 1.741,
+        "lang_Python": 1.464,
+        "lang_TypeScript": 2.65
+      }
+    },
+    "has_Copilot instructions": {
+      "odds_ratios": {
+        "log_stars": 0.72,
+        "log_forks": 1.692,
+        "is_top": 1.017,
+        "lang_C++": 0.774,
+        "lang_Go": 0.322,
+        "lang_Java": 0.419,
+        "lang_JavaScript": 0.275,
+        "lang_Other": 0.294,
+        "lang_Python": 0.232,
+        "lang_Rust": 0.32,
+        "lang_TypeScript": 0.255
+      },
+      "accuracy": 0.801,
+      "base_rate": 0.204,
+      "key_ors": {
+        "log_stars": 0.72,
+        "log_forks": 1.692,
+        "is_top": 1.017,
+        "lang_Go": 0.322,
+        "lang_Java": 0.419,
+        "lang_JavaScript": 0.275,
+        "lang_Other": 0.294,
+        "lang_Python": 0.232,
+        "lang_Rust": 0.32,
+        "lang_TypeScript": 0.255
+      }
+    }
+  },
+  "single_format_dist": {
+    "AGENTS.md": 116,
+    "Copilot instructions": 76,
+    "CLAUDE.md": 68,
+    "Cursor rules": 3
+  },
+  "n_single": 263,
+  "n_multi": 319
+}

@@ -1,0 +1,313 @@
+{
+  "description": "Three-tier template metrics on generic_intent_fulltest_4fmt (n=62). Required (10) unchanged from REQUIRED10. Gap (4) = Security / secrets, Git / PR / commit conventions, Ownership / contacts, Maintenance / when to update. Recommended (2) = Project overview / purpose + Performance. R1-F/cosine: overlap-concat within bucket (gold∩pred∩bucket), MiniLM cosine, macro over files with ≥1 intersection. Coverage = |pred∩bucket|/|bucket|; mean count = mean |pred∩bucket|; ref.recall = |gold∩bucket∩pred|/|gold∩bucket|.",
+  "tier_definitions": {
+    "REQUIRED": [
+      "Do / Don't rules",
+      "Build / run / install",
+      "Repository structure",
+      "Test / CI commands",
+      "Code style / formatting",
+      "Architecture / design constraints",
+      "Domain models / key abstractions",
+      "API / interface contracts",
+      "Examples / few-shot snippets",
+      "Tooling-specific agent config"
+    ],
+    "GAP": [
+      "Security / secrets",
+      "Git / PR / commit conventions",
+      "Ownership / contacts",
+      "Maintenance / when to update"
+    ],
+    "RECOMMENDED": [
+      "Project overview / purpose",
+      "Performance"
+    ],
+    "rationale": {
+      "REQUIRED": "build_generic_instruction_template.REQUIRED10 / instruction_linter.REQUIRED_CATEGORIES (unchanged)",
+      "GAP": "Corrected Gap(4): Security / secrets, Git / PR / commit conventions, Ownership / contacts, Maintenance / when to update (Performance moved to Recommended; Git/PR into Gap)",
+      "RECOMMENDED": "Project overview / purpose + Performance; with Required+Gap covers all 16 taxonomy categories"
+    },
+    "covers_all_16": true,
+    "former_GAP5": [
+      "Security / secrets",
+      "Performance",
+      "Maintenance / when to update",
+      "Project overview / purpose",
+      "Ownership / contacts"
+    ]
+  },
+  "n_test": 62,
+  "openai_model": "gpt-4o-mini",
+  "embed_model": "all-MiniLM-L6-v2",
+  "embed_normalize": true,
+  "required_confirmation": {
+    "zero_shot": {
+      "expected": {
+        "rouge1_f": 0.359,
+        "embedding_cosine": 0.687,
+        "coverage": 0.739,
+        "mean_count": 7.39,
+        "ref_recall": 0.875
+      },
+      "got": {
+        "rouge1_f": 0.359,
+        "embedding_cosine": 0.687,
+        "coverage": 0.739,
+        "mean_count": 7.39,
+        "ref_recall": 0.875
+      },
+      "match": true
+    },
+    "rag": {
+      "expected": {
+        "rouge1_f": 0.396,
+        "embedding_cosine": 0.692,
+        "coverage": 0.692,
+        "mean_count": 6.92,
+        "ref_recall": 0.839
+      },
+      "got": {
+        "rouge1_f": 0.396,
+        "embedding_cosine": 0.692,
+        "coverage": 0.692,
+        "mean_count": 6.92,
+        "ref_recall": 0.839
+      },
+      "match": true
+    }
+  },
+  "table_rows": [
+    {
+      "tier": "Required (10)",
+      "approach": "Zero-shot",
+      "rouge1_f": 0.359,
+      "embedding_cosine": 0.687,
+      "coverage": 0.739,
+      "mean_count": 7.39,
+      "ref_recall": 0.875,
+      "rouge1_f_raw": 0.3585,
+      "embedding_cosine_raw": 0.6871,
+      "coverage_raw": 0.7387,
+      "mean_count_raw": 7.3871,
+      "ref_recall_raw": 0.8748,
+      "n_scored_overlap": 61,
+      "n_skipped_empty_intersection": 1
+    },
+    {
+      "tier": "Required (10)",
+      "approach": "RAG",
+      "rouge1_f": 0.396,
+      "embedding_cosine": 0.692,
+      "coverage": 0.692,
+      "mean_count": 6.92,
+      "ref_recall": 0.839,
+      "rouge1_f_raw": 0.3963,
+      "embedding_cosine_raw": 0.6922,
+      "coverage_raw": 0.6919,
+      "mean_count_raw": 6.9194,
+      "ref_recall_raw": 0.8385,
+      "n_scored_overlap": 62,
+      "n_skipped_empty_intersection": 0
+    },
+    {
+      "tier": "Gap (4)",
+      "approach": "Zero-shot",
+      "rouge1_f": 0.242,
+      "embedding_cosine": 0.571,
+      "coverage": 0.73,
+      "mean_count": 2.92,
+      "ref_recall": 0.87,
+      "rouge1_f_raw": 0.2416,
+      "embedding_cosine_raw": 0.5706,
+      "coverage_raw": 0.7298,
+      "mean_count_raw": 2.9194,
+      "ref_recall_raw": 0.8704,
+      "n_scored_overlap": 48,
+      "n_skipped_empty_intersection": 14
+    },
+    {
+      "tier": "Gap (4)",
+      "approach": "RAG",
+      "rouge1_f": 0.283,
+      "embedding_cosine": 0.589,
+      "coverage": 0.682,
+      "mean_count": 2.73,
+      "ref_recall": 0.827,
+      "rouge1_f_raw": 0.2829,
+      "embedding_cosine_raw": 0.5889,
+      "coverage_raw": 0.6815,
+      "mean_count_raw": 2.7258,
+      "ref_recall_raw": 0.8272,
+      "n_scored_overlap": 46,
+      "n_skipped_empty_intersection": 16
+    },
+    {
+      "tier": "Recommended (2)",
+      "approach": "Zero-shot",
+      "rouge1_f": 0.358,
+      "embedding_cosine": 0.635,
+      "coverage": 0.992,
+      "mean_count": 1.98,
+      "ref_recall": 0.98,
+      "rouge1_f_raw": 0.3575,
+      "embedding_cosine_raw": 0.6345,
+      "coverage_raw": 0.9919,
+      "mean_count_raw": 1.9839,
+      "ref_recall_raw": 0.9796,
+      "n_scored_overlap": 48,
+      "n_skipped_empty_intersection": 14
+    },
+    {
+      "tier": "Recommended (2)",
+      "approach": "RAG",
+      "rouge1_f": 0.399,
+      "embedding_cosine": 0.624,
+      "coverage": 0.968,
+      "mean_count": 1.94,
+      "ref_recall": 0.959,
+      "rouge1_f_raw": 0.3987,
+      "embedding_cosine_raw": 0.6241,
+      "coverage_raw": 0.9677,
+      "mean_count_raw": 1.9355,
+      "ref_recall_raw": 0.9592,
+      "n_scored_overlap": 47,
+      "n_skipped_empty_intersection": 15
+    }
+  ],
+  "latex_rows": [
+    "Required (10) & Zero-shot & 0.359 & 0.687 & 0.739 & 7.39 & 0.875 \\\\",
+    "Required (10) & RAG & 0.396 & 0.692 & 0.692 & 6.92 & 0.839 \\\\",
+    "Gap (4) & Zero-shot & 0.242 & 0.571 & 0.730 & 2.92 & 0.870 \\\\",
+    "Gap (4) & RAG & 0.283 & 0.589 & 0.682 & 2.73 & 0.827 \\\\",
+    "Recommended (2) & Zero-shot & 0.358 & 0.635 & 0.992 & 1.98 & 0.980 \\\\",
+    "Recommended (2) & RAG & 0.399 & 0.624 & 0.968 & 1.94 & 0.959 \\\\"
+  ],
+  "overlap_by_approach": {
+    "zero_shot": {
+      "REQUIRED": {
+        "n_scored": 61,
+        "n_skipped_empty_intersection": 1,
+        "n_total": 62,
+        "mean_n_intersection": 5.8689,
+        "rouge1_f": 0.3585,
+        "rouge1_f_std": 0.0584,
+        "rougeL_f": 0.1703,
+        "rougeL_f_std": 0.027,
+        "embedding_cosine": 0.6871,
+        "embedding_cosine_std": 0.1011
+      },
+      "GAP": {
+        "n_scored": 48,
+        "n_skipped_empty_intersection": 14,
+        "n_total": 62,
+        "mean_n_intersection": 1.625,
+        "rouge1_f": 0.2416,
+        "rouge1_f_std": 0.0639,
+        "rougeL_f": 0.1542,
+        "rougeL_f_std": 0.0444,
+        "embedding_cosine": 0.5706,
+        "embedding_cosine_std": 0.1255
+      },
+      "RECOMMENDED": {
+        "n_scored": 48,
+        "n_skipped_empty_intersection": 14,
+        "n_total": 62,
+        "mean_n_intersection": 1.3958,
+        "rouge1_f": 0.3575,
+        "rouge1_f_std": 0.1004,
+        "rougeL_f": 0.2543,
+        "rougeL_f_std": 0.0868,
+        "embedding_cosine": 0.6345,
+        "embedding_cosine_std": 0.1337
+      }
+    },
+    "rag": {
+      "REQUIRED": {
+        "n_scored": 62,
+        "n_skipped_empty_intersection": 0,
+        "n_total": 62,
+        "mean_n_intersection": 5.371,
+        "rouge1_f": 0.3963,
+        "rouge1_f_std": 0.0891,
+        "rougeL_f": 0.1855,
+        "rougeL_f_std": 0.0404,
+        "embedding_cosine": 0.6922,
+        "embedding_cosine_std": 0.1027
+      },
+      "GAP": {
+        "n_scored": 46,
+        "n_skipped_empty_intersection": 16,
+        "n_total": 62,
+        "mean_n_intersection": 1.6304,
+        "rouge1_f": 0.2829,
+        "rouge1_f_std": 0.056,
+        "rougeL_f": 0.1672,
+        "rougeL_f_std": 0.0389,
+        "embedding_cosine": 0.5889,
+        "embedding_cosine_std": 0.1105
+      },
+      "RECOMMENDED": {
+        "n_scored": 47,
+        "n_skipped_empty_intersection": 15,
+        "n_total": 62,
+        "mean_n_intersection": 1.3617,
+        "rouge1_f": 0.3987,
+        "rouge1_f_std": 0.1401,
+        "rougeL_f": 0.2868,
+        "rougeL_f_std": 0.118,
+        "embedding_cosine": 0.6241,
+        "embedding_cosine_std": 0.1297
+      }
+    }
+  },
+  "compliance_by_approach": {
+    "zero_shot": {
+      "REQUIRED": {
+        "coverage_mean": 0.7387,
+        "mean_count": 7.3871,
+        "ref_recall_mean": 0.8748,
+        "n_files": 62,
+        "n_files_with_gold": 62
+      },
+      "GAP": {
+        "coverage_mean": 0.7298,
+        "mean_count": 2.9194,
+        "ref_recall_mean": 0.8704,
+        "n_files": 62,
+        "n_files_with_gold": 54
+      },
+      "RECOMMENDED": {
+        "coverage_mean": 0.9919,
+        "mean_count": 1.9839,
+        "ref_recall_mean": 0.9796,
+        "n_files": 62,
+        "n_files_with_gold": 49
+      }
+    },
+    "rag": {
+      "REQUIRED": {
+        "coverage_mean": 0.6919,
+        "mean_count": 6.9194,
+        "ref_recall_mean": 0.8385,
+        "n_files": 62,
+        "n_files_with_gold": 62
+      },
+      "GAP": {
+        "coverage_mean": 0.6815,
+        "mean_count": 2.7258,
+        "ref_recall_mean": 0.8272,
+        "n_files": 62,
+        "n_files_with_gold": 54
+      },
+      "RECOMMENDED": {
+        "coverage_mean": 0.9677,
+        "mean_count": 1.9355,
+        "ref_recall_mean": 0.9592,
+        "n_files": 62,
+        "n_files_with_gold": 49
+      }
+    }
+  },
+  "elapsed_sec": 20.4
+}

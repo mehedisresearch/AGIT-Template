@@ -1,0 +1,220 @@
+{
+  "criteria": {
+    "formats": "RQ2 four formats only (AGENTS, CLAUDE, Copilot, Cursor)",
+    "format_rules": {
+      "AGENTS": "basename agents.md / AGENTS.md",
+      "CLAUDE": "basename claude.md / CLAUDE.md",
+      "Copilot": "copilot-instructions.md OR *.instructions.md OR path under /.github/instructions/",
+      "Cursor": ".cursorrules OR path under /.cursor/rules/"
+    },
+    "min_sections": 2,
+    "min_sections_reason": "enough structure for section-level supervision / template categories",
+    "excluded": [
+      "SKILL.md",
+      "GEMINI.md",
+      "README.md",
+      "other non-RQ2 formats"
+    ],
+    "alignment": "pairs matched to RQ2 path-classified files in the labeled corpus via (repo, source_format, n_sections)"
+  },
+  "rq2_reference": {
+    "n_files_labeled": 3387,
+    "files_per_type": {
+      "AGENTS.md": 1677,
+      "CLAUDE.md": 1107,
+      "Copilot instructions": 538,
+      "Cursor rules": 65
+    },
+    "note": "RQ2 labeled 3387 instruction files across the four formats (16-category coding). Cursor listed-path count is 65; 22 Cursor files with \u22652 parseable sections appear in AGIT-Instruct."
+  },
+  "counts": {
+    "before_format_filter": {
+      "pairs": 3889,
+      "repos": 557,
+      "min_n_sections": 2,
+      "note": "combined agit_instruct_with_summary (already \u22652 sections)"
+    },
+    "processed_corpus_4fmt": {
+      "files": 3372,
+      "repos": 577,
+      "by_type": {
+        "Cursor": 25,
+        "CLAUDE": 1114,
+        "Copilot": 538,
+        "AGENTS": 1695
+      }
+    },
+    "after_format_filter": {
+      "pairs": 2853,
+      "repos": 552,
+      "by_rq2_type": {
+        "AGENTS": 1565,
+        "Cursor": 22,
+        "CLAUDE": 819,
+        "Copilot": 447
+      },
+      "by_source_format_top": [
+        [
+          "AGENTS.md",
+          1522
+        ],
+        [
+          "CLAUDE.md",
+          813
+        ],
+        [
+          "copilot-instructions.md",
+          169
+        ],
+        [
+          "agents.md",
+          43
+        ],
+        [
+          "RULE.md",
+          12
+        ],
+        [
+          "claude.md",
+          6
+        ],
+        [
+          "code-review.instructions.md",
+          5
+        ],
+        [
+          "README.md",
+          3
+        ],
+        [
+          "testing.instructions.md",
+          3
+        ],
+        [
+          "frontend.instructions.md",
+          3
+        ],
+        [
+          "buildcheck.instructions.md",
+          2
+        ],
+        [
+          "utils.instructions.md",
+          2
+        ],
+        [
+          "general.instructions.md",
+          2
+        ],
+        [
+          "refactor.instructions.md",
+          2
+        ],
+        [
+          "targets.instructions.md",
+          2
+        ],
+        [
+          "logging.instructions.md",
+          2
+        ],
+        [
+          "python.instructions.md",
+          2
+        ],
+        [
+          "tasks.instructions.md",
+          2
+        ],
+        [
+          "framework.instructions.md",
+          2
+        ],
+        [
+          "api.instructions.md",
+          2
+        ],
+        [
+          "integration-tests.instructions.md",
+          2
+        ],
+        [
+          "backend-execution.instructions.md",
+          2
+        ],
+        [
+          "prompt-tsx.instructions.md",
+          2
+        ],
+        [
+          "model-prompts.instructions.md",
+          2
+        ],
+        [
+          "shared-code.instructions.md",
+          2
+        ],
+        [
+          "evaluation.instructions.md",
+          2
+        ],
+        [
+          "tests.instructions.md",
+          2
+        ],
+        [
+          "agents.instructions.md",
+          2
+        ],
+        [
+          "documentation.instructions.md",
+          2
+        ],
+        [
+          "cli.instructions.md",
+          2
+        ]
+      ]
+    },
+    "after_ge2_sections": {
+      "pairs": 2853,
+      "repos": 552,
+      "by_rq2_type": {
+        "AGENTS": 1565,
+        "Cursor": 22,
+        "CLAUDE": 819,
+        "Copilot": 447
+      },
+      "note": "instruct pairs already required \u22652 sections; no further drop"
+    },
+    "processed_4fmt_ge2": {
+      "files": 2853,
+      "repos": 552,
+      "by_type": {
+        "Cursor": 22,
+        "CLAUDE": 819,
+        "Copilot": 447,
+        "AGENTS": 1565
+      }
+    },
+    "agit_instruct": {
+      "repos": 552,
+      "files": 2853
+    }
+  },
+  "split_summary": {
+    "n_train": 1432,
+    "n_val": 321,
+    "n_test": 75,
+    "n_train_repos": 404,
+    "n_val_repos": 66,
+    "n_test_repos": 64,
+    "n_eligible_pairs": 2568,
+    "n_eligible_repos": 534
+  },
+  "sources": {
+    "pairs_file": "/gpuhome/shanto1/agit_model/exports/agit_instruct_with_summary.json",
+    "generic_files": "/gpuhome/shanto1/agit_model/exports/generic_intent_full/generic_files.json",
+    "processed_corpus": "/gpuhome/shanto1/Agents Instruction/ai_agent_instruction_files/parsedAndProcessedDatasetForRQ3"
+  }
+}

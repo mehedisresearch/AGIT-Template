@@ -1,0 +1,25 @@
+metric,a,b,delta,n_a,n_b
+n_touches,AGENTS.md,CLAUDE.md,-0.081,157,122
+n_touches,AGENTS.md,Copilot instructions,0.098,157,149
+n_touches,CLAUDE.md,Copilot instructions,0.17,122,149
+n_touches,AGENTS.md,Cursor rules,0.119,157,20
+n_authors,AGENTS.md,CLAUDE.md,-0.086,157,122
+n_authors,AGENTS.md,Copilot instructions,-0.16,157,149
+n_authors,CLAUDE.md,Copilot instructions,-0.069,122,149
+n_authors,AGENTS.md,Cursor rules,-0.082,157,20
+owner_top_share,AGENTS.md,CLAUDE.md,0.089,157,122
+owner_top_share,AGENTS.md,Copilot instructions,0.167,157,149
+owner_top_share,CLAUDE.md,Copilot instructions,0.069,122,149
+owner_top_share,AGENTS.md,Cursor rules,0.088,157,20
+churn_ratio,AGENTS.md,CLAUDE.md,-0.272,157,122
+churn_ratio,AGENTS.md,Copilot instructions,-0.087,157,149
+churn_ratio,CLAUDE.md,Copilot instructions,0.189,122,149
+churn_ratio,AGENTS.md,Cursor rules,-0.519,157,20
+span_days,AGENTS.md,CLAUDE.md,0.032,157,122
+span_days,AGENTS.md,Copilot instructions,0.073,157,149
+span_days,CLAUDE.md,Copilot instructions,0.029,122,149
+span_days,AGENTS.md,Cursor rules,0.125,157,20
+n_modified,AGENTS.md,CLAUDE.md,-0.113,157,122
+n_modified,AGENTS.md,Copilot instructions,-0.014,157,149
+n_modified,CLAUDE.md,Copilot instructions,0.105,122,149
+n_modified,AGENTS.md,Cursor rules,-0.196,157,20

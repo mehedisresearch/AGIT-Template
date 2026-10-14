@@ -1,0 +1,19 @@
+{
+  "n_files": 3387,
+  "n_errors": 0,
+  "files_per_type": {
+    "CLAUDE.md": 1107,
+    "Cursor rules": 65,
+    "Copilot instructions": 538,
+    "AGENTS.md": 1677
+  },
+  "paper_n_files": 3387,
+  "paper_files_per_type": {
+    "AGENTS.md": 1677,
+    "CLAUDE.md": 1107,
+    "Copilot instructions": 538,
+    "Cursor rules": 65
+  },
+  "note": "Re-extracted from packaged instruction_extracts using the same path classifier + keyword category pilot as analyze_rq2_taxonomy.py.",
+  "coding": "Automated keyword pilot (same as analysis script)."
+}

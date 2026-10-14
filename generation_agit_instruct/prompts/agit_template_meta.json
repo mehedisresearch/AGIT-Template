@@ -1,0 +1,281 @@
+{
+  "n_source_files_coverage_ge_12": 75,
+  "sections": {
+    "Project overview / purpose": 416,
+    "Repository structure": 69,
+    "Build / run / install": 527,
+    "Test / CI commands": 622,
+    "Code style / formatting": 237,
+    "Architecture / design constraints": 193,
+    "Domain models / key abstractions": 42,
+    "API / interface contracts": 192,
+    "Do / Don't rules": 175,
+    "Git / PR / commit conventions": 626,
+    "Tooling-specific agent config": 257,
+    "Examples / few-shot snippets": 87,
+    "Security / secrets": 138,
+    "Performance": 127,
+    "Ownership / contacts": 58,
+    "Maintenance / when to update": 82
+  },
+  "exemplars": [
+    {
+      "category": "Project overview / purpose",
+      "n_available": 416,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Project Overview"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Common shellcheck Directives in nvm"
+        }
+      ]
+    },
+    {
+      "category": "Repository structure",
+      "n_available": 69,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Monorepo Structure"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "`install.sh`"
+        }
+      ]
+    },
+    {
+      "category": "Build / run / install",
+      "n_available": 527,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Common Issues"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Common Gotchas"
+        }
+      ]
+    },
+    {
+      "category": "Test / CI commands",
+      "n_available": 622,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Related Resources"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Individual Test Execution"
+        }
+      ]
+    },
+    {
+      "category": "Code style / formatting",
+      "n_available": 237,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Required Checks"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Linting and Docs Checks"
+        }
+      ]
+    },
+    {
+      "category": "Architecture / design constraints",
+      "n_available": 193,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Key Components"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Core Architecture"
+        }
+      ]
+    },
+    {
+      "category": "Domain models / key abstractions",
+      "n_available": 42,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Common Issues"
+        },
+        {
+          "repo": "Stirling-Tools_Stirling-PDF",
+          "format": "AGENTS.md",
+          "heading": "Python Typing and Models"
+        }
+      ]
+    },
+    {
+      "category": "API / interface contracts",
+      "n_available": 192,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Bank Project API (Node.js + Express)"
+        },
+        {
+          "repo": "netdata_netdata",
+          "format": "SKILL.md",
+          "heading": "8. Canonical documentation pointers"
+        }
+      ]
+    },
+    {
+      "category": "Do / Don't rules",
+      "n_available": 175,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Contribution Requirements"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Fixing shellcheck Issues"
+        }
+      ]
+    },
+    {
+      "category": "Git / PR / commit conventions",
+      "n_available": 626,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Working with Specific Projects"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Git Bash (MSYS2)"
+        }
+      ]
+    },
+    {
+      "category": "Tooling-specific agent config",
+      "n_available": 257,
+      "exemplars": [
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "WSL2 (Windows Subsystem for Linux)"
+        },
+        {
+          "repo": "netdata_netdata",
+          "format": "SKILL.md",
+          "heading": "AI Fast Path"
+        }
+      ]
+    },
+    {
+      "category": "Examples / few-shot snippets",
+      "n_available": 87,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "For Learners"
+        },
+        {
+          "repo": "netdata_netdata",
+          "format": "SKILL.md",
+          "heading": "3.4 OTEL mappings \u2014 per-metric YAML routing"
+        }
+      ]
+    },
+    {
+      "category": "Security / secrets",
+      "n_available": 138,
+      "exemplars": [
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Utility Functions"
+        },
+        {
+          "repo": "netdata_netdata",
+          "format": "SKILL.md",
+          "heading": "5.2 Routing by task"
+        }
+      ]
+    },
+    {
+      "category": "Performance",
+      "n_available": 127,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Performance Considerations"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Performance"
+        }
+      ]
+    },
+    {
+      "category": "Ownership / contacts",
+      "n_available": 58,
+      "exemplars": [
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "`nvm ls-remote [pattern]`"
+        },
+        {
+          "repo": "netdata_netdata",
+          "format": "SKILL.md",
+          "heading": "What this skill is"
+        }
+      ]
+    },
+    {
+      "category": "Maintenance / when to update",
+      "n_available": 82,
+      "exemplars": [
+        {
+          "repo": "microsoft_Web-Dev-For-Beginners",
+          "format": "AGENTS.md",
+          "heading": "Repository Maintenance"
+        },
+        {
+          "repo": "nvm-sh_nvm",
+          "format": "AGENTS.md",
+          "heading": "Path Management"
+        }
+      ]
+    }
+  ],
+  "generic_full": "/gpuhome/shanto1/agit_model/exports/generic_agit_instruction_template.md",
+  "generic_slim": "/gpuhome/shanto1/agit_model/exports/generic_agit_instruction_template_slim.md"
+}

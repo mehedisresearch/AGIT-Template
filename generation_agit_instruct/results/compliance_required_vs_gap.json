@@ -1,0 +1,5553 @@
+{
+  "description": "Compliance scores for REQUIRED vs GAP AGIT categories on the 4-format fulltest (n=62). The project does not define a literal field named 'compliance score'; closest documented notions are template section coverage (instruction_linter / n_required/n_gap) and metrics.py coverage/has_gap. Primary compliance here = template compliance: fraction of the canonical REQUIRED10 / GAP5 lists present as detected ## sections in the prediction (sections_from_markdown heading probes). Secondary = gold recall compliance: of gold categories in each bucket, fraction also present in pred. Also includes ROUGE/emb from metrics_required_vs_gap.json (parallel job) and legacy keyword coverage.",
+  "definition_used": {
+    "primary": "template_compliance = |pred \u2229 bucket| / |bucket| (REQUIRED: /10, GAP: /5), macro-averaged over files",
+    "secondary": "gold_recall_compliance = |gold\u2229bucket \u2229 pred| / |gold\u2229bucket|, macro over files with \u22651 gold cat in bucket",
+    "detection": "build_manual_section_study.sections_from_markdown (## heading \u2192 AGIT category probes)",
+    "not_used_as_primary": [
+      "metrics.py coverage/has_gap (keyword bags; has_gap is binary any-gap)",
+      "gold\u2229pred ROUGE (quality, not presence compliance) \u2014 included separately from metrics_required_vs_gap.json"
+    ]
+  },
+  "REQUIRED": [
+    "Do / Don't rules",
+    "Build / run / install",
+    "Repository structure",
+    "Test / CI commands",
+    "Code style / formatting",
+    "Architecture / design constraints",
+    "Domain models / key abstractions",
+    "API / interface contracts",
+    "Examples / few-shot snippets",
+    "Tooling-specific agent config"
+  ],
+  "GAP": [
+    "Security / secrets",
+    "Performance",
+    "Maintenance / when to update",
+    "Project overview / purpose",
+    "Ownership / contacts"
+  ],
+  "sources": {
+    "REQUIRED": [
+      "build_generic_instruction_template.REQUIRED10",
+      "instruction_linter.REQUIRED_CATEGORIES",
+      "score_required_vs_gap_4fmt.REQUIRED"
+    ],
+    "GAP": [
+      "build_generic_instruction_template.GAP5",
+      "instruction_linter.GAP_CATEGORIES",
+      "score_required_vs_gap_4fmt.GAP"
+    ]
+  },
+  "n_test": 62,
+  "approaches": [
+    "zero_shot",
+    "rag"
+  ],
+  "compliance_by_approach": {
+    "zero_shot": {
+      "n": 62,
+      "template_compliance": {
+        "REQUIRED": {
+          "definition": "mean(|pred \u2229 REQUIRED| / 10)",
+          "mean": 0.7387,
+          "mean_n_present": 7.3871,
+          "std": 0.16
+        },
+        "GAP": {
+          "definition": "mean(|pred \u2229 GAP| / 5)",
+          "mean": 0.7903,
+          "mean_n_present": 3.9516,
+          "std": 0.0429,
+          "gap_all_five_rate": 0.0,
+          "gap_any_rate": 1.0
+        }
+      },
+      "gold_recall_compliance": {
+        "REQUIRED": {
+          "definition": "mean(|gold\u2229REQUIRED \u2229 pred| / |gold\u2229REQUIRED|) over files with \u22651 gold REQUIRED",
+          "mean": 0.8748,
+          "n_files_with_gold": 62,
+          "mean_n_gold": 6.4839
+        },
+        "GAP": {
+          "definition": "mean(|gold\u2229GAP \u2229 pred| / |gold\u2229GAP|) over files with \u22651 gold GAP",
+          "mean": 0.8898,
+          "n_files_with_gold": 59,
+          "mean_n_gold": 1.9677
+        }
+      },
+      "per_category_pred_presence_rate": {
+        "REQUIRED": {
+          "Do / Don't rules": 0.8548,
+          "Build / run / install": 0.9032,
+          "Repository structure": 0.5484,
+          "Test / CI commands": 0.9516,
+          "Code style / formatting": 0.8226,
+          "Architecture / design constraints": 0.7742,
+          "Domain models / key abstractions": 0.3065,
+          "API / interface contracts": 0.7742,
+          "Examples / few-shot snippets": 0.6129,
+          "Tooling-specific agent config": 0.8387
+        },
+        "GAP": {
+          "Security / secrets": 0.9839,
+          "Performance": 0.9839,
+          "Maintenance / when to update": 0.9839,
+          "Project overview / purpose": 1.0,
+          "Ownership / contacts": 0.0
+        }
+      },
+      "per_category_gold_recall": {
+        "Do / Don't rules": 0.9302,
+        "Build / run / install": 0.9298,
+        "Repository structure": 0.7442,
+        "Test / CI commands": 1.0,
+        "Code style / formatting": 0.9375,
+        "Architecture / design constraints": 0.9737,
+        "Domain models / key abstractions": 0.4,
+        "API / interface contracts": 0.9697,
+        "Examples / few-shot snippets": 0.875,
+        "Tooling-specific agent config": 1.0,
+        "Security / secrets": 0.9667,
+        "Performance": 0.96,
+        "Maintenance / when to update": 1.0,
+        "Project overview / purpose": 1.0,
+        "Ownership / contacts": 0.0
+      }
+    },
+    "rag": {
+      "n": 62,
+      "template_compliance": {
+        "REQUIRED": {
+          "definition": "mean(|pred \u2229 REQUIRED| / 10)",
+          "mean": 0.6919,
+          "mean_n_present": 6.9194,
+          "std": 0.1886
+        },
+        "GAP": {
+          "definition": "mean(|pred \u2229 GAP| / 5)",
+          "mean": 0.7516,
+          "mean_n_present": 3.7581,
+          "std": 0.1511,
+          "gap_all_five_rate": 0.0,
+          "gap_any_rate": 0.9677
+        }
+      },
+      "gold_recall_compliance": {
+        "REQUIRED": {
+          "definition": "mean(|gold\u2229REQUIRED \u2229 pred| / |gold\u2229REQUIRED|) over files with \u22651 gold REQUIRED",
+          "mean": 0.8385,
+          "n_files_with_gold": 62,
+          "mean_n_gold": 6.4839
+        },
+        "GAP": {
+          "definition": "mean(|gold\u2229GAP \u2229 pred| / |gold\u2229GAP|) over files with \u22651 gold GAP",
+          "mean": 0.8672,
+          "n_files_with_gold": 59,
+          "mean_n_gold": 1.9677
+        }
+      },
+      "per_category_pred_presence_rate": {
+        "REQUIRED": {
+          "Do / Don't rules": 0.8226,
+          "Build / run / install": 0.8226,
+          "Repository structure": 0.5484,
+          "Test / CI commands": 0.9032,
+          "Code style / formatting": 0.7903,
+          "Architecture / design constraints": 0.6774,
+          "Domain models / key abstractions": 0.3065,
+          "API / interface contracts": 0.7258,
+          "Examples / few-shot snippets": 0.6129,
+          "Tooling-specific agent config": 0.7097
+        },
+        "GAP": {
+          "Security / secrets": 0.9677,
+          "Performance": 0.9677,
+          "Maintenance / when to update": 0.8548,
+          "Project overview / purpose": 0.9677,
+          "Ownership / contacts": 0.0
+        }
+      },
+      "per_category_gold_recall": {
+        "Do / Don't rules": 0.907,
+        "Build / run / install": 0.8421,
+        "Repository structure": 0.7442,
+        "Test / CI commands": 0.94,
+        "Code style / formatting": 0.8958,
+        "Architecture / design constraints": 0.8684,
+        "Domain models / key abstractions": 0.4,
+        "API / interface contracts": 0.8788,
+        "Examples / few-shot snippets": 0.875,
+        "Tooling-specific agent config": 0.8056,
+        "Security / secrets": 0.9333,
+        "Performance": 0.92,
+        "Maintenance / when to update": 0.9444,
+        "Project overview / purpose": 0.9535,
+        "Ownership / contacts": 0.0
+      }
+    }
+  },
+  "legacy_keyword_metrics": {
+    "zero_shot": {
+      "keyword_required_coverage_mean": 0.8387,
+      "keyword_has_gap_rate": 1,
+      "note": "legacy metrics.py: coverage=#/10 REQUIRED keyword buckets; has_gap=any GAP keyword (not per-category)"
+    },
+    "rag": {
+      "keyword_required_coverage_mean": 0.8435,
+      "keyword_has_gap_rate": 1,
+      "note": "legacy metrics.py: coverage=#/10 REQUIRED keyword buckets; has_gap=any GAP keyword (not per-category)"
+    }
+  },
+  "rouge_from_metrics_required_vs_gap": {
+    "zero_shot": {
+      "REQUIRED": {
+        "overlap_concat": {
+          "n_scored": 61,
+          "mean_n_intersection": 5.8689,
+          "rouge1_f": 0.3585,
+          "rougeL_f": 0.1703,
+          "embedding_cosine": 0.6871
+        },
+        "section_pair_micro": {
+          "rouge1_f": 0.239,
+          "rougeL_f": 0.162,
+          "embedding_cosine": 0.5257
+        },
+        "section_pair_macro": {
+          "rouge1_f": 0.2366,
+          "rougeL_f": 0.1628,
+          "embedding_cosine": 0.5197
+        },
+        "n_section_pairs": 358
+      },
+      "GAP": {
+        "overlap_concat": {
+          "n_scored": 54,
+          "mean_n_intersection": 2.1111,
+          "rouge1_f": 0.3341,
+          "rougeL_f": 0.2141,
+          "embedding_cosine": 0.6307
+        },
+        "section_pair_micro": {
+          "rouge1_f": 0.2762,
+          "rougeL_f": 0.203,
+          "embedding_cosine": 0.5546
+        },
+        "section_pair_macro": {
+          "rouge1_f": 0.2487,
+          "rougeL_f": 0.1824,
+          "embedding_cosine": 0.5293
+        },
+        "n_section_pairs": 114
+      }
+    },
+    "rag": {
+      "REQUIRED": {
+        "overlap_concat": {
+          "n_scored": 62,
+          "mean_n_intersection": 5.371,
+          "rouge1_f": 0.3963,
+          "rougeL_f": 0.1855,
+          "embedding_cosine": 0.6922
+        },
+        "section_pair_micro": {
+          "rouge1_f": 0.2776,
+          "rougeL_f": 0.1826,
+          "embedding_cosine": 0.5339
+        },
+        "section_pair_macro": {
+          "rouge1_f": 0.2743,
+          "rougeL_f": 0.1831,
+          "embedding_cosine": 0.5292
+        },
+        "n_section_pairs": 333
+      },
+      "GAP": {
+        "overlap_concat": {
+          "n_scored": 52,
+          "mean_n_intersection": 2.0962,
+          "rouge1_f": 0.3838,
+          "rougeL_f": 0.2497,
+          "embedding_cosine": 0.6476
+        },
+        "section_pair_micro": {
+          "rouge1_f": 0.312,
+          "rougeL_f": 0.2236,
+          "embedding_cosine": 0.5661
+        },
+        "section_pair_macro": {
+          "rouge1_f": 0.2812,
+          "rougeL_f": 0.1986,
+          "embedding_cosine": 0.5429
+        },
+        "n_section_pairs": 109
+      }
+    }
+  },
+  "per_file": {
+    "zero_shot": [
+      {
+        "idx": 0,
+        "repo": "1517005260_graph-rag-agent",
+        "format": "CLAUDE.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 1,
+        "repo": "567-labs_instructor",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": []
+      },
+      {
+        "idx": 3,
+        "repo": "Azure_Azure-Sentinel",
+        "format": "packaging.instructions.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 4,
+        "repo": "Azure_azure-sdk-for-net",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 5,
+        "repo": "Azure_data-api-builder",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 6,
+        "repo": "Lumiwealth_lumibot",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 4,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 7,
+        "repo": "MervinPraison_PraisonAI",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 10,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance"
+        ]
+      },
+      {
+        "idx": 8,
+        "repo": "MetaMask_metamask-extension",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 3,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.5,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 10,
+        "repo": "OrchardCMS_OrchardCore",
+        "format": "AGENTS.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 12,
+        "repo": "SolidInvoice_SolidInvoice",
+        "format": "AGENTS.md",
+        "n_pred_required": 10,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 1.0,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 13,
+        "repo": "SolidInvoice_SolidInvoice",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 10,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 1.0,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 14,
+        "repo": "StarRocks_starrocks",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 15,
+        "repo": "StarRocks_starrocks",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 16,
+        "repo": "SuperClaude-Org_SuperClaude_Framework",
+        "format": "agents.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance"
+        ]
+      },
+      {
+        "idx": 17,
+        "repo": "actualbudget_actual",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 18,
+        "repo": "browser-use_browser-use",
+        "format": "AGENTS.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 4,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 19,
+        "repo": "chrxh_alien",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.6667,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 20,
+        "repo": "cloudposse_atmos",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8333,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 21,
+        "repo": "coleam00_context-engineering-intro",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 9,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 22,
+        "repo": "crewAIInc_crewAI",
+        "format": "AGENTS.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 23,
+        "repo": "dartsim_dart",
+        "format": "AGENTS.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 1,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.5,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules"
+        ],
+        "gold_gap": [
+          "Project overview / purpose",
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 24,
+        "repo": "datahub-project_datahub",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 25,
+        "repo": "dotCMS_core",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 26,
+        "repo": "dotnet_SqlClient",
+        "format": "testing.instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": []
+      },
+      {
+        "idx": 28,
+        "repo": "dotnet_dotnet",
+        "format": "AGENTS.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 29,
+        "repo": "dotnet_maui",
+        "format": "sandbox.instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 30,
+        "repo": "elizaOS_eliza",
+        "format": "AGENTS.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.75,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 31,
+        "repo": "elizaOS_eliza",
+        "format": "CLAUDE.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.75,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 32,
+        "repo": "eyaltoledano_claude-task-master",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 33,
+        "repo": "fgmacedo_python-statemachine",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 34,
+        "repo": "fgmacedo_python-statemachine",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 35,
+        "repo": "ggml-org_whisper.cpp",
+        "format": "AGENTS.md",
+        "n_pred_required": 2,
+        "n_pred_gap": 4,
+        "n_gold_required": 1,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.2,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.0,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 36,
+        "repo": "gronxb_hot-updater",
+        "format": "CLAUDE.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Code style / formatting",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 37,
+        "repo": "labring_laf",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 38,
+        "repo": "langchain-ai_langchain",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 39,
+        "repo": "langchain-ai_langchain",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 40,
+        "repo": "mastra-ai_mastra",
+        "format": "agents.md",
+        "n_pred_required": 3,
+        "n_pred_gap": 4,
+        "n_gold_required": 3,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.3,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.6667,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 41,
+        "repo": "maybe-finance_maybe",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 42,
+        "repo": "meshtastic_firmware",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 44,
+        "repo": "microsoft_ApplicationInsights-JS",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 45,
+        "repo": "microsoft_PowerToys",
+        "format": "agents.instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 48,
+        "repo": "microsoft_garnet",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance"
+        ]
+      },
+      {
+        "idx": 49,
+        "repo": "microsoft_mcp-for-beginners",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 50,
+        "repo": "microsoft_mcp-for-beginners",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 51,
+        "repo": "microsoft_presidio",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 52,
+        "repo": "modular_modular",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 55,
+        "repo": "nuxeo_nuxeo",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 56,
+        "repo": "open-metadata_OpenMetadata",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 57,
+        "repo": "open-metadata_OpenMetadata",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 58,
+        "repo": "open-telemetry_opentelemetry-cpp",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 61,
+        "repo": "paradigmxyz_reth",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 62,
+        "repo": "robusta-dev_holmesgpt",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 63,
+        "repo": "robusta-dev_holmesgpt",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 65,
+        "repo": "sam-goodwin_alchemy",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 3,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 0.5,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 66,
+        "repo": "sam-goodwin_alchemy",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 3,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 67,
+        "repo": "scalar_scalar",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 68,
+        "repo": "skypilot-org_skypilot",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 69,
+        "repo": "skypilot-org_skypilot",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 70,
+        "repo": "syncfusion_maui-toolkit",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8333,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 71,
+        "repo": "thorsten_phpMyFAQ",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 72,
+        "repo": "tinyplex_tinybase",
+        "format": "agents.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 76,
+        "repo": "zenml-io_zenml",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": []
+      }
+    ],
+    "rag": [
+      {
+        "idx": 0,
+        "repo": "1517005260_graph-rag-agent",
+        "format": "CLAUDE.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 3,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.4286,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 1,
+        "repo": "567-labs_instructor",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": []
+      },
+      {
+        "idx": 3,
+        "repo": "Azure_Azure-Sentinel",
+        "format": "packaging.instructions.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 4,
+        "repo": "Azure_azure-sdk-for-net",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 5,
+        "repo": "Azure_data-api-builder",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 6,
+        "repo": "Lumiwealth_lumibot",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 4,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 7,
+        "repo": "MervinPraison_PraisonAI",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 10,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance"
+        ]
+      },
+      {
+        "idx": 8,
+        "repo": "MetaMask_metamask-extension",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 10,
+        "repo": "OrchardCMS_OrchardCore",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 12,
+        "repo": "SolidInvoice_SolidInvoice",
+        "format": "AGENTS.md",
+        "n_pred_required": 10,
+        "n_pred_gap": 3,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 1.0,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 13,
+        "repo": "SolidInvoice_SolidInvoice",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 10,
+        "n_pred_gap": 3,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 1.0,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 14,
+        "repo": "StarRocks_starrocks",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 15,
+        "repo": "StarRocks_starrocks",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 16,
+        "repo": "SuperClaude-Org_SuperClaude_Framework",
+        "format": "agents.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance"
+        ]
+      },
+      {
+        "idx": 17,
+        "repo": "actualbudget_actual",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 18,
+        "repo": "browser-use_browser-use",
+        "format": "AGENTS.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 4,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 19,
+        "repo": "chrxh_alien",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8333,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 20,
+        "repo": "cloudposse_atmos",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8333,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 21,
+        "repo": "coleam00_context-engineering-intro",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 9,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 22,
+        "repo": "crewAIInc_crewAI",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.625,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 23,
+        "repo": "dartsim_dart",
+        "format": "AGENTS.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 1,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.5,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules"
+        ],
+        "gold_gap": [
+          "Project overview / purpose",
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 24,
+        "repo": "datahub-project_datahub",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 25,
+        "repo": "dotCMS_core",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 26,
+        "repo": "dotnet_SqlClient",
+        "format": "testing.instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": []
+      },
+      {
+        "idx": 28,
+        "repo": "dotnet_dotnet",
+        "format": "AGENTS.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 29,
+        "repo": "dotnet_maui",
+        "format": "sandbox.instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 30,
+        "repo": "elizaOS_eliza",
+        "format": "AGENTS.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.75,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 31,
+        "repo": "elizaOS_eliza",
+        "format": "CLAUDE.md",
+        "n_pred_required": 4,
+        "n_pred_gap": 4,
+        "n_gold_required": 4,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.4,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.75,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 32,
+        "repo": "eyaltoledano_claude-task-master",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 33,
+        "repo": "fgmacedo_python-statemachine",
+        "format": "AGENTS.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 34,
+        "repo": "fgmacedo_python-statemachine",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 35,
+        "repo": "ggml-org_whisper.cpp",
+        "format": "AGENTS.md",
+        "n_pred_required": 3,
+        "n_pred_gap": 3,
+        "n_gold_required": 1,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.3,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 36,
+        "repo": "gronxb_hot-updater",
+        "format": "CLAUDE.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Code style / formatting",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 37,
+        "repo": "labring_laf",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.75,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 38,
+        "repo": "langchain-ai_langchain",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 39,
+        "repo": "langchain-ai_langchain",
+        "format": "AGENTS.md",
+        "n_pred_required": 5,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.5,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.6,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 40,
+        "repo": "mastra-ai_mastra",
+        "format": "agents.md",
+        "n_pred_required": 3,
+        "n_pred_gap": 4,
+        "n_gold_required": 3,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.3,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.6667,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 41,
+        "repo": "maybe-finance_maybe",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 42,
+        "repo": "meshtastic_firmware",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 3,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.8889,
+        "gold_recall_gap": 0.6667,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 44,
+        "repo": "microsoft_ApplicationInsights-JS",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 45,
+        "repo": "microsoft_PowerToys",
+        "format": "agents.instructions.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.5714,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 48,
+        "repo": "microsoft_garnet",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance"
+        ]
+      },
+      {
+        "idx": 49,
+        "repo": "microsoft_mcp-for-beginners",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 50,
+        "repo": "microsoft_mcp-for-beginners",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 51,
+        "repo": "microsoft_presidio",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update"
+        ]
+      },
+      {
+        "idx": 52,
+        "repo": "modular_modular",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 55,
+        "repo": "nuxeo_nuxeo",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 56,
+        "repo": "open-metadata_OpenMetadata",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 57,
+        "repo": "open-metadata_OpenMetadata",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.5714,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 58,
+        "repo": "open-telemetry_opentelemetry-cpp",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 6,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.6,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting"
+        ],
+        "gold_gap": [
+          "Ownership / contacts"
+        ]
+      },
+      {
+        "idx": 61,
+        "repo": "paradigmxyz_reth",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 62,
+        "repo": "robusta-dev_holmesgpt",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 3,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 63,
+        "repo": "robusta-dev_holmesgpt",
+        "format": "CLAUDE.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 8,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.875,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 65,
+        "repo": "sam-goodwin_alchemy",
+        "format": "AGENTS.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 66,
+        "repo": "sam-goodwin_alchemy",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 3,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.6,
+        "gold_recall_required": 0.7143,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 67,
+        "repo": "scalar_scalar",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 68,
+        "repo": "skypilot-org_skypilot",
+        "format": "AGENTS.md",
+        "n_pred_required": 1,
+        "n_pred_gap": 0,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.1,
+        "template_compliance_gap": 0.0,
+        "gold_recall_required": 0.1111,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 0,
+        "pred_required": [
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 69,
+        "repo": "skypilot-org_skypilot",
+        "format": "CLAUDE.md",
+        "n_pred_required": 1,
+        "n_pred_gap": 0,
+        "n_gold_required": 9,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.1,
+        "template_compliance_gap": 0.0,
+        "gold_recall_required": 0.1111,
+        "gold_recall_gap": 0.0,
+        "gap_all_five": 0,
+        "gap_any": 0,
+        "pred_required": [
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Security / secrets",
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 70,
+        "repo": "syncfusion_maui-toolkit",
+        "format": "copilot-instructions.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 6,
+        "n_gold_gap": 1,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8333,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Test / CI commands",
+          "Code style / formatting",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 71,
+        "repo": "thorsten_phpMyFAQ",
+        "format": "CLAUDE.md",
+        "n_pred_required": 7,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 2,
+        "template_compliance_required": 0.7,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 72,
+        "repo": "tinyplex_tinybase",
+        "format": "agents.md",
+        "n_pred_required": 8,
+        "n_pred_gap": 4,
+        "n_gold_required": 5,
+        "n_gold_gap": 3,
+        "template_compliance_required": 0.8,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 1.0,
+        "gold_recall_gap": 1.0,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Build / run / install",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "Examples / few-shot snippets"
+        ],
+        "gold_gap": [
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ]
+      },
+      {
+        "idx": 76,
+        "repo": "zenml-io_zenml",
+        "format": "CLAUDE.md",
+        "n_pred_required": 9,
+        "n_pred_gap": 4,
+        "n_gold_required": 7,
+        "n_gold_gap": 0,
+        "template_compliance_required": 0.9,
+        "template_compliance_gap": 0.8,
+        "gold_recall_required": 0.8571,
+        "gold_recall_gap": null,
+        "gap_all_five": 0,
+        "gap_any": 1,
+        "pred_required": [
+          "Do / Don't rules",
+          "Build / run / install",
+          "Repository structure",
+          "Test / CI commands",
+          "Code style / formatting",
+          "Domain models / key abstractions",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "pred_gap": [
+          "Security / secrets",
+          "Performance",
+          "Maintenance / when to update",
+          "Project overview / purpose"
+        ],
+        "gold_required": [
+          "Do / Don't rules",
+          "Repository structure",
+          "Code style / formatting",
+          "Architecture / design constraints",
+          "API / interface contracts",
+          "Examples / few-shot snippets",
+          "Tooling-specific agent config"
+        ],
+        "gold_gap": []
+      }
+    ]
+  }
+}

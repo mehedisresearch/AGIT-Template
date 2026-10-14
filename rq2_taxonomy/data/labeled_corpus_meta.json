@@ -1,0 +1,8 @@
+{
+  "source": "agit_model/unified_files (= study parsedAndProcessedDatasetForRQ3)",
+  "n_repos": 595,
+  "n_repos_with_4fmt": 577,
+  "n_files_all_formats": 4468,
+  "n_files_4fmt_path_classified": 3372,
+  "note": "Full labeled corpus (incl. SKILL/GEMINI/README) is labeled_unified_files.tar.gz; 4fmt subset is labeled_files_4fmt.jsonl."
+}

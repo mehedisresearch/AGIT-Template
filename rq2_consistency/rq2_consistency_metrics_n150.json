@@ -1,0 +1,146 @@
+{
+  "model": "gpt-4o",
+  "n_sample": 150,
+  "n_valid_llm": 150,
+  "n_invalid_or_error": 0,
+  "llm_label_counts": {
+    "Divergent": 23,
+    "Complementary": 79,
+    "Equivalent": 48
+  },
+  "auto_label_counts": {
+    "Contradictory": 7,
+    "Complementary": 30,
+    "Equivalent": 49,
+    "Divergent": 64
+  },
+  "agreement_count": 88,
+  "agreement_rate": 0.5867,
+  "accuracy_auto_vs_llm": 0.5867,
+  "cohen_kappa_auto_vs_llm": 0.4297,
+  "classification_report": {
+    "Equivalent": {
+      "precision": 0.9183673469387755,
+      "recall": 0.9375,
+      "f1-score": 0.9278350515463918,
+      "support": 48.0
+    },
+    "Complementary": {
+      "precision": 0.9,
+      "recall": 0.34177215189873417,
+      "f1-score": 0.4954128440366973,
+      "support": 79.0
+    },
+    "Divergent": {
+      "precision": 0.25,
+      "recall": 0.6956521739130435,
+      "f1-score": 0.367816091954023,
+      "support": 23.0
+    },
+    "Contradictory": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.5866666666666667,
+    "macro avg": {
+      "precision": 0.5170918367346939,
+      "recall": 0.4937310814529444,
+      "f1-score": 0.447765996884278,
+      "support": 150.0
+    },
+    "weighted avg": {
+      "precision": 0.8062108843537416,
+      "recall": 0.5866666666666667,
+      "f1-score": 0.6142231151204561,
+      "support": 150.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Equivalent",
+    "Complementary",
+    "Divergent",
+    "Contradictory"
+  ],
+  "confusion_matrix_llm_rows_auto_cols": [
+    [
+      45,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      27,
+      47,
+      3
+    ],
+    [
+      2,
+      2,
+      16,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "by_similarity_bin": {
+    "high_>=0.85": {
+      "n": 50,
+      "agreement": 0.9,
+      "llm_dist": {
+        "Complementary": 2,
+        "Equivalent": 46,
+        "Divergent": 2
+      },
+      "auto_dist": {
+        "Equivalent": 49,
+        "Contradictory": 1
+      }
+    },
+    "low_<0.5": {
+      "n": 50,
+      "agreement": 0.3,
+      "llm_dist": {
+        "Divergent": 17,
+        "Complementary": 33
+      },
+      "auto_dist": {
+        "Contradictory": 4,
+        "Divergent": 46
+      }
+    },
+    "mid_0.5-0.85": {
+      "n": 50,
+      "agreement": 0.56,
+      "llm_dist": {
+        "Complementary": 44,
+        "Equivalent": 2,
+        "Divergent": 4
+      },
+      "auto_dist": {
+        "Complementary": 30,
+        "Divergent": 18,
+        "Contradictory": 2
+      }
+    }
+  },
+  "contradictory_detection": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 7,
+    "fn": 0
+  },
+  "elapsed_sec": 40.5,
+  "outputs": {
+    "csv": "/gpuhome/shanto1/agit_model/interchangeability/manual_coding_sample_llm_judge.csv",
+    "raw": "/gpuhome/shanto1/agit_model/interchangeability/llm_judge_raw.jsonl"
+  }
+}

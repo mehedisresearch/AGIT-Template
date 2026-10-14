@@ -1,0 +1,501 @@
+id,url,full_name,language,license,stars,forks,cohort,n_instruction_files,has_any,has_AGENTS.md,has_CLAUDE.md,has_Cursor rules,has_Copilot instructions,files
+676683893,https://api.github.com/repos/resonatehq/resonate,resonatehq/resonate,Go,Apache-2.0,501.0,39.0,bottom,0,0,0,0,0,0,[]
+958239663,https://api.github.com/repos/microsoft/Foundry-Local,microsoft/Foundry-Local,C#,NOASSERTION,502.0,58.0,bottom,14,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/cpp-build.instructions.md"", "".github/instructions/cpp-ci-test-policy.instructions.md"", "".github/instructions/cpp-coverage.instructions.md"", "".github/instructions/cpp-download.instructions.md"", "".github/instructions/cpp-embeddings.instructions.md"", "".github/instructions/cpp-formatting.instructions.md"", "".github/instructions/cpp-memory-validation.instructions.md"", "".github/instructions/cpp-testing.instructions.md"", "".github/instructions/cs-debug-binding.instructions.md"", "".github/instructions/js-sdk-v2-items.instructions.md"", "".github/instructions/js-sdk-v2.instructions.md"", "".github/instructions/ort-loading-contract.instructions.md"", "".github/instructions/python-cffi-pointer-types.instructions.md""]"
+580974564,https://api.github.com/repos/dense-analysis/neural,dense-analysis/neural,Vim Script,MIT,503.0,21.0,bottom,0,0,0,0,0,0,[]
+899766976,https://api.github.com/repos/gensx-inc/gensx,gensx-inc/gensx,TypeScript,Apache-2.0,504.0,23.0,bottom,3,1,0,1,0,0,"[""CLAUDE.md"", ""examples/genie-extension/CLAUDE.md"", ""packages/gensx-claude-md/templates/CLAUDE.md""]"
+746026727,https://api.github.com/repos/luccahuguet/yazelix,luccahuguet/yazelix,Nushell,Apache-2.0,504.0,27.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+815634288,https://api.github.com/repos/tambo-ai/tambo,tambo-ai/tambo,TypeScript,MIT,505.0,35.0,bottom,23,1,1,1,1,0,"["".github/AGENTS.md"", ""AGENTS.md"", ""CLAUDE.md"", ""apps/api/.cursorrules"", ""apps/api/AGENTS.md"", ""apps/api/CLAUDE.md"", ""apps/web/AGENTS.md"", ""apps/web/CLAUDE.md"", ""cli/AGENTS.md"", ""cli/CLAUDE.md"", ""create-tambo-app/AGENTS.md"", ""create-tambo-app/CLAUDE.md"", ""docs/AGENTS.md"", ""docs/CLAUDE.md"", ""packages/client/AGENTS.md"", ""packages/client/CLAUDE.md"", ""packages/ui-registry/AGENTS.md"", ""react-sdk/AGENTS.md"", ""react-sdk/CLAUDE.md"", ""showcase/AGENTS.md"", ""showcase/CLAUDE.md"", ""showcase/src/app/components/AGENTS.md"", ""showcase/src/app/components/CLAUDE.md""]"
+988488798,https://api.github.com/repos/steipete/Peekaboo,steipete/Peekaboo,Swift,MIT,505.0,19.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+732798198,https://api.github.com/repos/github-copilot-resources/copilot-metrics-viewer,github-copilot-resources/copilot-metrics-viewer,TypeScript,MIT,508.0,264.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+55775973,https://api.github.com/repos/EvilBeaver/OneScript,EvilBeaver/OneScript,C#,MPL-2.0,508.0,111.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+984142834,https://api.github.com/repos/microsoft/azure-devops-mcp,microsoft/azure-devops-mcp,TypeScript,MIT,509.0,150.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+808266543,https://api.github.com/repos/lambdaclass/ethrex,lambdaclass/ethrex,Rust,Apache-2.0,510.0,86.0,bottom,0,0,0,0,0,0,[]
+117767116,https://api.github.com/repos/microsoft/pxt-arcade,microsoft/pxt-arcade,TypeScript,MIT,511.0,234.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+208897838,https://api.github.com/repos/microsoft/react-native-windows-samples,microsoft/react-native-windows-samples,C#,MIT,511.0,207.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+57002284,https://api.github.com/repos/Albeoris/Memoria,Albeoris/Memoria,C#,MIT,514.0,69.0,bottom,0,0,0,0,0,0,[]
+703998226,https://api.github.com/repos/JonasKruckenberg/k23,JonasKruckenberg/k23,Rust,Apache-2.0,515.0,32.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+20128178,https://api.github.com/repos/voku/portable-utf8,voku/portable-utf8,PHP,Apache-2.0,515.0,88.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+463116412,https://api.github.com/repos/seasonedcc/remix-forms,seasonedcc/remix-forms,TypeScript,MIT,517.0,27.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+796633002,https://api.github.com/repos/erpc/erpc,erpc/erpc,Go,Apache-2.0,518.0,51.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+680849474,https://api.github.com/repos/aorwall/moatless-tools,aorwall/moatless-tools,Python,MIT,519.0,49.0,bottom,0,0,0,0,0,0,[]
+296986095,https://api.github.com/repos/januschung/math-worksheet-generator,januschung/math-worksheet-generator,Python,GPL-2.0,519.0,92.0,bottom,0,0,0,0,0,0,[]
+552234230,https://api.github.com/repos/gtg922r/obsidian-numerals,gtg922r/obsidian-numerals,TypeScript,NOASSERTION,520.0,14.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+735999703,https://api.github.com/repos/Arize-ai/openinference,Arize-ai/openinference,Python,Apache-2.0,522.0,117.0,bottom,6,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""js/AGENTS.md"", ""js/CLAUDE.md"", ""python/AGENTS.md"", ""python/CLAUDE.md""]"
+842905162,https://api.github.com/repos/clemlesne/scrape-it-now,clemlesne/scrape-it-now,Python,Apache-2.0,524.0,20.0,bottom,0,0,0,0,0,0,[]
+959470185,https://api.github.com/repos/boldsoftware/sketch,boldsoftware/sketch,Go,NOASSERTION,524.0,28.0,bottom,0,0,0,0,0,0,[]
+517126881,https://api.github.com/repos/lumen-notes/lumen,lumen-notes/lumen,TypeScript,MIT,525.0,31.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+301690023,https://api.github.com/repos/mondaycom/vibe,mondaycom/vibe,TypeScript,Unknown,528.0,336.0,bottom,4,1,0,1,1,0,"[""CLAUDE.md"", ""packages/icons/.cursor/rules/add-icon-from-monday-task.mdc"", ""packages/icons/.cursor/rules/icon-generation-process.mdc"", ""packages/style/.cursor/rules/color-token-management.mdc""]"
+50724711,https://api.github.com/repos/catatsuy/private-isu,catatsuy/private-isu,JavaScript,MIT,528.0,312.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+886899801,https://api.github.com/repos/vlm-run/vlmrun-hub,vlm-run/vlmrun-hub,Python,Apache-2.0,528.0,23.0,bottom,0,0,0,0,0,0,[]
+872748942,https://api.github.com/repos/adaline/gateway,adaline/gateway,TypeScript,MIT,528.0,22.0,bottom,4,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""core/providers/AGENTS.md"", ""packages/types/AGENTS.md""]"
+587512129,https://api.github.com/repos/microsoft/vscode-data-wrangler,microsoft/vscode-data-wrangler,Unknown,NOASSERTION,529.0,26.0,bottom,0,0,0,0,0,0,[]
+454171899,https://api.github.com/repos/pushpalroy/JetLime,pushpalroy/JetLime,Kotlin,MIT,531.0,29.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+221931137,https://api.github.com/repos/celestiaorg/celestia-core,celestiaorg/celestia-core,Go,Apache-2.0,531.0,330.0,bottom,2,1,0,1,0,1,"["".github/copilot-instructions.md"", ""CLAUDE.md""]"
+991787132,https://api.github.com/repos/linux-do/cdk,linux-do/cdk,TypeScript,MIT,535.0,52.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+3322218,https://api.github.com/repos/noodlehaus/dispatch,noodlehaus/dispatch,PHP,Unknown,535.0,102.0,bottom,0,0,0,0,0,0,[]
+17631024,https://api.github.com/repos/mihneadb/node-directory-tree,mihneadb/node-directory-tree,JavaScript,MIT,536.0,107.0,bottom,0,0,0,0,0,0,[]
+830613483,https://api.github.com/repos/teilomillet/gollm,teilomillet/gollm,Go,Apache-2.0,536.0,53.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+941289933,https://api.github.com/repos/antiwork/helper,antiwork/helper,TypeScript,MIT,537.0,186.0,bottom,0,0,0,0,0,0,[]
+284805743,https://api.github.com/repos/primer/view_components,primer/view_components,Ruby,MIT,537.0,127.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+529729250,https://api.github.com/repos/thirdweb-dev/js,thirdweb-dev/js,TypeScript,Apache-2.0,538.0,564.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+661663226,https://api.github.com/repos/maxnowack/signaldb,maxnowack/signaldb,TypeScript,MIT,538.0,34.0,bottom,0,0,0,0,0,0,[]
+511141524,https://api.github.com/repos/valkey-io/valkey-glide,valkey-io/valkey-glide,Java,Apache-2.0,538.0,100.0,bottom,8,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""go/AGENTS.md"", ""java/AGENTS.md"", ""java/jedis-compatibility/AGENTS.md"", ""node/AGENTS.md"", ""python/AGENTS.md""]"
+268547203,https://api.github.com/repos/dai-shi/excalidraw-claymate,dai-shi/excalidraw-claymate,TypeScript,MIT,538.0,44.0,bottom,0,0,0,0,0,0,[]
+249027166,https://api.github.com/repos/ohcnetwork/care_fe,ohcnetwork/care_fe,TypeScript,MIT,540.0,845.0,bottom,15,1,1,1,1,1,"["".cursorrules"", "".github/copilot-instructions.md"", "".github/instructions/careui.instructions.md"", "".github/instructions/common.instructions.md"", "".github/instructions/config-files.instructions.md"", "".github/instructions/context.instructions.md"", "".github/instructions/hooks.instructions.md"", "".github/instructions/lib.instructions.md"", "".github/instructions/pages.instructions.md"", "".github/instructions/providers.instructions.md"", "".github/instructions/react-components.instructions.md"", "".github/instructions/typescript-types.instructions.md"", "".github/instructions/utils.instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+394764603,https://api.github.com/repos/intility/fastapi-azure-auth,intility/fastapi-azure-auth,Python,MIT,542.0,76.0,bottom,0,0,0,0,0,0,[]
+260550412,https://api.github.com/repos/PostHog/posthog.com,PostHog/posthog.com,TypeScript,NOASSERTION,542.0,590.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+949433844,https://api.github.com/repos/MultiboxLabs/flow-browser,MultiboxLabs/flow-browser,TypeScript,GPL-3.0,543.0,29.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+250050091,https://api.github.com/repos/Azure/kubelogin,Azure/kubelogin,Go,MIT,543.0,108.0,bottom,0,0,0,0,0,0,[]
+172703996,https://api.github.com/repos/spcl/dace,spcl/dace,Python,BSD-3-Clause,544.0,137.0,bottom,0,0,0,0,0,0,[]
+297778512,https://api.github.com/repos/onflow/flow-go,onflow/flow-go,Go,AGPL-3.0,545.0,195.0,bottom,3,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""integration/localnet/AGENTS.md""]"
+352074759,https://api.github.com/repos/shabegom/buttons,shabegom/buttons,TypeScript,Unlicense,546.0,52.0,bottom,0,0,0,0,0,0,[]
+95743138,https://api.github.com/repos/box/box-ui-elements,box/box-ui-elements,JavaScript,NOASSERTION,546.0,326.0,bottom,0,0,0,0,0,0,[]
+42940997,https://api.github.com/repos/reneschulte/WriteableBitmapEx,reneschulte/WriteableBitmapEx,C#,MIT,548.0,127.0,bottom,0,0,0,0,0,0,[]
+1006104934,https://api.github.com/repos/CodeWithCJ/SparkyFitness,CodeWithCJ/SparkyFitness,TypeScript,NOASSERTION,548.0,13.0,bottom,7,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""SparkyFitnessMobile/AGENTS.md"", ""SparkyFitnessMobile/CLAUDE.md"", ""SparkyFitnessServer/AGENTS.md"", ""SparkyFitnessServer/CLAUDE.md""]"
+44983668,https://api.github.com/repos/wolfSSL/wolfMQTT,wolfSSL/wolfMQTT,C,GPL-2.0,550.0,159.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+867014724,https://api.github.com/repos/syncfusion/maui-toolkit,syncfusion/maui-toolkit,C#,MIT,550.0,86.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+880940273,https://api.github.com/repos/stair-lab/kg-gen,stair-lab/kg-gen,Python,Unknown,550.0,65.0,bottom,0,0,0,0,0,0,[]
+88074252,https://api.github.com/repos/bendichter/brokenaxes,bendichter/brokenaxes,Python,MIT,551.0,48.0,bottom,0,0,0,0,0,0,[]
+138584142,https://api.github.com/repos/maekawatoshiki/rapidus,maekawatoshiki/rapidus,Rust,MIT,552.0,21.0,bottom,0,0,0,0,0,0,[]
+324744034,https://api.github.com/repos/getAlby/lightning-browser-extension,getAlby/lightning-browser-extension,TypeScript,MIT,554.0,208.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+56319070,https://api.github.com/repos/nkdAgility/azure-devops-migration-tools,nkdAgility/azure-devops-migration-tools,C#,AGPL-3.0,554.0,362.0,bottom,6,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/docs.content.docs.list.instructions.md"", "".github/instructions/docs.content.docs.single.instructions.md"", "".github/instructions/src.instructions.md"", "".vscode/copilot-instructions.md"", ""docs/copilot-instructions.md""]"
+674842112,https://api.github.com/repos/am32-firmware/AM32,am32-firmware/AM32,C,GPL-3.0,554.0,228.0,bottom,0,0,0,0,0,0,[]
+77778527,https://api.github.com/repos/hsuanxyz/ion2-calendar,hsuanxyz/ion2-calendar,TypeScript,MIT,555.0,277.0,bottom,0,0,0,0,0,0,[]
+334475297,https://api.github.com/repos/permitio/fastapi_websocket_pubsub,permitio/fastapi_websocket_pubsub,Python,MIT,555.0,49.0,bottom,0,0,0,0,0,0,[]
+500163971,https://api.github.com/repos/PlutoLang/Pluto,PlutoLang/Pluto,C++,MIT,556.0,34.0,bottom,0,0,0,0,0,0,[]
+29301872,https://api.github.com/repos/OpenHFT/Chronicle-Wire,OpenHFT/Chronicle-Wire,Java,Apache-2.0,557.0,132.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+615684995,https://api.github.com/repos/swuecho/chat,swuecho/chat,Vue,Unknown,557.0,91.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+923332984,https://api.github.com/repos/ryokun6/ryos,ryokun6/ryos,TypeScript,AGPL-3.0,558.0,85.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+152122018,https://api.github.com/repos/Azure/azure-sdk,Azure/azure-sdk,PowerShell,MIT,558.0,331.0,bottom,5,1,0,0,0,1,"["".github/copilot-instructions.md"", ""eng/common/instructions/azsdk-tools/typespec-docs.instructions.md"", ""eng/common/instructions/azsdk-tools/typespec-to-sdk.instructions.md"", ""eng/common/instructions/azsdk-tools/validate-service-label.instructions.md"", ""eng/common/instructions/azsdk-tools/verify-setup.instructions.md""]"
+988834688,https://api.github.com/repos/Meesho/BharatMLStack,Meesho/BharatMLStack,Go,NOASSERTION,561.0,44.0,bottom,16,1,0,0,1,0,"[""cli-tools/.cursor/rules/global/golang/code-quality.mdc"", ""cli-tools/.cursor/rules/global/golang/compliance.mdc"", ""cli-tools/.cursor/rules/global/golang/data-interface-concurrency-errors.mdc"", ""cli-tools/.cursor/rules/global/golang/formatting-control.mdc"", ""cli-tools/.cursor/rules/global/golang/requirement-planning.mdc"", ""cli-tools/.cursor/rules/global/golang/unit-testing.mdc"", ""cli-tools/.cursor/rules/global/security-golang/secure-golang-rules.mdc"", ""cli-tools/.cursor/rules/global/security-golang/ssrf-prevention-rules.mdc"", ""flashring/.cursor/rules/global/golang/code-quality.mdc"", ""flashring/.cursor/rules/global/golang/compliance.mdc"", ""flashring/.cursor/rules/global/golang/data-interface-concurrency-errors.mdc"", ""flashring/.cursor/rules/global/golang/formatting-control.mdc"", ""flashring/.cursor/rules/global/golang/requirement-planning.mdc"", ""flashring/.cursor/rules/global/golang/unit-testing.mdc"", ""flashring/.cursor/rules/global/security-golang/secure-golang-rules.mdc"", ""flashring/.cursor/rules/global/security-golang/ssrf-prevention-rules.mdc""]"
+94728962,https://api.github.com/repos/livepeer/go-livepeer,livepeer/go-livepeer,Go,MIT,561.0,191.0,bottom,0,0,0,0,0,0,[]
+302982238,https://api.github.com/repos/Giorgi/DuckDB.NET,Giorgi/DuckDB.NET,C#,MIT,561.0,85.0,bottom,0,0,0,0,0,0,[]
+698998233,https://api.github.com/repos/Anush008/fastembed-rs,Anush008/fastembed-rs,Rust,Apache-2.0,562.0,74.0,bottom,0,0,0,0,0,0,[]
+159564733,https://api.github.com/repos/dotnet/razor,dotnet/razor,C#,MIT,562.0,209.0,bottom,0,0,0,0,0,0,[]
+445037897,https://api.github.com/repos/Cogmasters/concord,Cogmasters/concord,C,MIT,563.0,30.0,bottom,0,0,0,0,0,0,[]
+984809295,https://api.github.com/repos/VirtualBox/virtualbox,VirtualBox/virtualbox,C,GPL-3.0,564.0,45.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+148820496,https://api.github.com/repos/johnsusek/praeco,johnsusek/praeco,Vue,GPL-3.0,564.0,90.0,bottom,0,0,0,0,0,0,[]
+767894250,https://api.github.com/repos/noneback/go-taskflow,noneback/go-taskflow,Go,Apache-2.0,564.0,26.0,bottom,0,0,0,0,0,0,[]
+737647437,https://api.github.com/repos/0x4D31/galah,0x4D31/galah,Go,Apache-2.0,564.0,52.0,bottom,0,0,0,0,0,0,[]
+908415894,https://api.github.com/repos/GongRzhe/Gmail-MCP-Server,GongRzhe/Gmail-MCP-Server,JavaScript,MIT,568.0,152.0,bottom,0,0,0,0,0,0,[]
+957716837,https://api.github.com/repos/disler/just-prompt,disler/just-prompt,Python,Unknown,569.0,109.0,bottom,0,0,0,0,0,0,[]
+245286427,https://api.github.com/repos/minio/sidekick,minio/sidekick,Go,AGPL-3.0,569.0,87.0,bottom,0,0,0,0,0,0,[]
+744656234,https://api.github.com/repos/trylinky/linky,trylinky/linky,TypeScript,MIT,569.0,49.0,bottom,0,0,0,0,0,0,[]
+975086883,https://api.github.com/repos/NousResearch/atropos,NousResearch/atropos,Python,MIT,570.0,131.0,bottom,0,0,0,0,0,0,[]
+943088234,https://api.github.com/repos/confident-ai/deepteam,confident-ai/deepteam,Python,Apache-2.0,571.0,81.0,bottom,0,0,0,0,0,0,[]
+955665884,https://api.github.com/repos/StephenDev0/StikDebug,StephenDev0/StikDebug,Swift,AGPL-3.0,571.0,81.0,bottom,0,0,0,0,0,0,[]
+28653716,https://api.github.com/repos/marcio/react-skylight,marcio/react-skylight,JavaScript,MIT,571.0,95.0,bottom,0,0,0,0,0,0,[]
+166018537,https://api.github.com/repos/elixir-lsp/vscode-elixir-ls,elixir-lsp/vscode-elixir-ls,TypeScript,MIT,571.0,110.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+649025519,https://api.github.com/repos/davidmigloz/langchain_dart,davidmigloz/langchain_dart,Dart,MIT,572.0,131.0,bottom,1,1,1,0,0,0,"[""docs/modules/agents/agents.md""]"
+625141753,https://api.github.com/repos/Xinrea/bili-shadowreplay,Xinrea/bili-shadowreplay,JavaScript,MIT,572.0,40.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+915610024,https://api.github.com/repos/lucasjinreal/Kokoros,lucasjinreal/Kokoros,Rust,Unknown,572.0,59.0,bottom,0,0,0,0,0,0,[]
+122837644,https://api.github.com/repos/lordmauve/pgzero,lordmauve/pgzero,Python,LGPL-3.0,575.0,201.0,bottom,0,0,0,0,0,0,[]
+233464042,https://api.github.com/repos/arthurhenrique/cookiecutter-fastapi,arthurhenrique/cookiecutter-fastapi,Python,MIT,575.0,70.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+1003079687,https://api.github.com/repos/mizchi/similarity,mizchi/similarity,Rust,MIT,576.0,11.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+696950657,https://api.github.com/repos/codestoryai/sidecar,codestoryai/sidecar,Rust,AGPL-3.0,579.0,94.0,bottom,0,0,0,0,0,0,[]
+891226379,https://api.github.com/repos/Felix3322/PotPlayer_ChatGPT_Translate,Felix3322/PotPlayer_ChatGPT_Translate,AngelScript,GPL-3.0,582.0,36.0,bottom,0,0,0,0,0,0,[]
+958026130,https://api.github.com/repos/featureform/enrichmcp,featureform/enrichmcp,Python,Apache-2.0,583.0,25.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+104835801,https://api.github.com/repos/markuplint/markuplint,markuplint/markuplint,TypeScript,MIT,584.0,57.0,bottom,3,1,0,1,0,0,"[""CLAUDE.md"", ""packages/@markuplint/rules/CLAUDE.md"", ""tests/external/CLAUDE.md""]"
+939393745,https://api.github.com/repos/lynx-family/lynx-stack,lynx-family/lynx-stack,TypeScript,Apache-2.0,585.0,118.0,bottom,64,1,1,0,0,1,"["".github/a2ui-bench.instructions.md"", "".github/a2ui-catalog.instructions.md"", "".github/a2ui-resolve-dynamic.instructions.md"", "".github/a2ui-server-agent.instructions.md"", "".github/a2ui-snapshot.instructions.md"", "".github/autolink-library.instructions.md"", "".github/changeset-ci.instructions.md"", "".github/create-rspeedy-pack.instructions.md"", "".github/css-source-map-diagnostics.instructions.md"", "".github/debug-metadata.instructions.md"", "".github/externals-loading-webpack-plugin.instructions.md"", "".github/genui-api-docs.instructions.md"", "".github/genui-cli.instructions.md"", "".github/genui-docs.instructions.md"", "".github/genui-playground-website.instructions.md"", "".github/genui-playground.instructions.md"", "".github/genui-tsconfig.instructions.md"", "".github/genui-website.instructions.md"", "".github/i18n.instructions.md"", "".github/kitten-lynx.instructions.md"", "".github/lynx-bundle-rslib-config.instructions.md"", "".github/lynx-stack.instructions.md"", "".github/manual-release-cleanup.instructions.md"", "".github/npm-publish.instructions.md"", "".github/openui-v05.instructions.md"", "".github/package-metadata.instructions.md"", "".github/playwright-flaky.instructions.md"", "".github/playwright-snapshots.instructions.md"", "".github/plugin-external-bundle.instructions.md"", "".github/plugin-react-css-minify.instructions.md"", "".github/pnpm-11-ci.instructions.md"", "".github/pnpm-11.instructions.md"", "".github/pr-ci-watch-subagent.instructions.md"", "".github/react-runtime.instructions.md"", "".github/react-transform.instructions.md"", "".github/rsbuild-polyfill.instructions.md"", "".github/rsbuild-rspack-v2.instructions.md"", "".github/rspeedy-config-docs.instructions.md"", "".github/rspeedy-core-stats.instructions.md"", "".github/rspeedy-core.instructions.md"", "".github/template-webpack-fiberelement.instructions.md"", "".github/turbo-cache.instructions.md"", "".github/ui-judge-ci.instructions.md"", "".github/ui-judge.instructions.md"", "".github/web-core-e2e.instructions.md"", "".github/web-core-profiling.instructions.md"", "".github/web-elements-decorators.instructions.md"", "".github/web-elements-scroll-view.instructions.md"", "".github/web-platform-rstest.instructions.md"", "".github/webpack-node-index.instructions.md"", "".github/webpack-rstest-migration.instructions.md"", "".github/website-changelog.instructions.md"", "".github/workflow-cache.instructions.md"", ""AGENTS.md"", ""packages/genui/a2ui-catalog-extractor/AGENTS.md"", ""packages/genui/a2ui-prompt/AGENTS.md"", ""packages/genui/a2ui/AGENTS.md"", ""packages/genui/cli/AGENTS.md"", ""packages/genui/playground/AGENTS.md"", ""packages/genui/server/AGENTS.md"", ""packages/rspeedy/create-rspeedy/template-common/AGENTS.md"", ""packages/testing-library/kitten-lynx/AGENTS.md"", ""packages/web-platform/web-core/AGENTS.md"", ""packages/web-platform/web-elements/AGENTS.md""]"
+675293325,https://api.github.com/repos/ben-sb/obfuscator-io-deobfuscator,ben-sb/obfuscator-io-deobfuscator,TypeScript,Apache-2.0,585.0,126.0,bottom,0,0,0,0,0,0,[]
+853402951,https://api.github.com/repos/inline-chat/inline,inline-chat/inline,Swift,AGPL-3.0,586.0,23.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""packages/openclaw/AGENTS.md""]"
+704703338,https://api.github.com/repos/patrickrchao/JailbreakingLLMs,patrickrchao/JailbreakingLLMs,Python,MIT,586.0,92.0,bottom,0,0,0,0,0,0,[]
+892165167,https://api.github.com/repos/blorm-network/ZerePy,blorm-network/ZerePy,Python,MIT,587.0,245.0,bottom,0,0,0,0,0,0,[]
+932825524,https://api.github.com/repos/rcourtman/Pulse,rcourtman/Pulse,JavaScript,MIT,588.0,19.0,bottom,0,0,0,0,0,0,[]
+66709443,https://api.github.com/repos/wangkanai/wangkanai,wangkanai/wangkanai,C#,Apache-2.0,589.0,86.0,bottom,2,1,0,1,0,1,"["".github/copilot-instructions.md"", ""CLAUDE.md""]"
+676901255,https://api.github.com/repos/rezaakb/pinns-torch,rezaakb/pinns-torch,Python,BSD-3-Clause,592.0,87.0,bottom,0,0,0,0,0,0,[]
+2030681,https://api.github.com/repos/hpcc-systems/HPCC-Platform,hpcc-systems/HPCC-Platform,C++,NOASSERTION,594.0,306.0,bottom,7,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/code-review.instructions.md"", "".github/instructions/cpp.instructions.md"", "".github/instructions/esp-service-interface.instructions.md"", "".github/instructions/esp-services.instructions.md"", ""esp/src/.github/instructions/general.instructions.md"", ""esp/src/.github/instructions/react-coding.instructions.md""]"
+769440884,https://api.github.com/repos/typstyle-rs/typstyle,typstyle-rs/typstyle,Rust,Apache-2.0,595.0,20.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+385653134,https://api.github.com/repos/oekazuma/svelte-meta-tags,oekazuma/svelte-meta-tags,TypeScript,MIT,596.0,27.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+28829926,https://api.github.com/repos/igraph/rigraph,igraph/rigraph,R,Unknown,596.0,207.0,bottom,3,1,1,0,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""tools/AGENTS.md""]"
+576719801,https://api.github.com/repos/expressobits/inventory-system,expressobits/inventory-system,C++,MIT,600.0,47.0,bottom,0,0,0,0,0,0,[]
+269027,https://api.github.com/repos/thorsten/phpMyFAQ,thorsten/phpMyFAQ,PHP,MPL-2.0,600.0,255.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+216883277,https://api.github.com/repos/wieslawsoltes/Svg.Skia,wieslawsoltes/Svg.Skia,C#,MIT,601.0,76.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+734105072,https://api.github.com/repos/unxsist/jet-pilot,unxsist/jet-pilot,Vue,MIT,602.0,26.0,bottom,0,0,0,0,0,0,[]
+647427819,https://api.github.com/repos/langchain-ai/langsmith-sdk,langchain-ai/langsmith-sdk,Python,MIT,606.0,132.0,bottom,2,1,1,0,0,0,"[""js/AGENTS.md"", ""python/AGENTS.md""]"
+989134268,https://api.github.com/repos/MCPJam/inspector,MCPJam/inspector,TypeScript,Unknown,607.0,49.0,bottom,1,1,1,0,0,0,"[""mcpjam-inspector/AGENTS.md""]"
+598249096,https://api.github.com/repos/microsoft/teams-ai,microsoft/teams-ai,C#,MIT,607.0,243.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""packages/cli/AGENTS.md""]"
+66466789,https://api.github.com/repos/python-cachier/cachier,python-cachier/cachier,Python,MIT,608.0,72.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+592352399,https://api.github.com/repos/tolwi/hassio-ecoflow-cloud,tolwi/hassio-ecoflow-cloud,Python,Unknown,608.0,125.0,bottom,0,0,0,0,0,0,[]
+31261793,https://api.github.com/repos/OpenHFT/Chronicle-Core,OpenHFT/Chronicle-Core,Java,Apache-2.0,609.0,134.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+27819787,https://api.github.com/repos/siteorigin/siteorigin-panels,siteorigin/siteorigin-panels,PHP,GPL-3.0,611.0,182.0,bottom,0,0,0,0,0,0,[]
+54585666,https://api.github.com/repos/devitocodes/devito,devitocodes/devito,Python,MIT,612.0,238.0,bottom,0,0,0,0,0,0,[]
+1614137,https://api.github.com/repos/SparkDevNetwork/Rock,SparkDevNetwork/Rock,C#,Unknown,614.0,388.0,bottom,2,1,0,1,0,1,"["".github/copilot-instructions.md"", ""CLAUDE.md""]"
+19128760,https://api.github.com/repos/leonteale/pentestpackage,leonteale/pentestpackage,Python,Unknown,615.0,252.0,bottom,0,0,0,0,0,0,[]
+290028276,https://api.github.com/repos/jenkinsci/helm-charts,jenkinsci/helm-charts,Mustache,Apache-2.0,616.0,904.0,bottom,0,0,0,0,0,0,[]
+46737100,https://api.github.com/repos/OrkoHunter/keep,OrkoHunter/keep,Python,MIT,618.0,54.0,bottom,0,0,0,0,0,0,[]
+22887404,https://api.github.com/repos/artsy/force,artsy/force,TypeScript,MIT,619.0,150.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+583528771,https://api.github.com/repos/safedep/vet,safedep/vet,Go,Apache-2.0,619.0,60.0,bottom,3,1,0,1,1,0,"[""pkg/aitool/fixtures/cursor-project/.cursor/rules/rule1.md"", ""pkg/aitool/fixtures/cursor-project/.cursorrules"", ""pkg/aitool/fixtures/project/CLAUDE.md""]"
+617269166,https://api.github.com/repos/dropseed/plain,dropseed/plain,Python,Unknown,619.0,12.0,bottom,2,1,0,1,0,0,"[""CLAUDE.md"", ""plain-postgres/CLAUDE.md""]"
+923109265,https://api.github.com/repos/tavily-ai/tavily-mcp,tavily-ai/tavily-mcp,JavaScript,MIT,620.0,113.0,bottom,0,0,0,0,0,0,[]
+130741783,https://api.github.com/repos/netket/netket,netket/netket,Python,Apache-2.0,620.0,202.0,bottom,0,0,0,0,0,0,[]
+598401026,https://api.github.com/repos/RimSort/RimSort,RimSort/RimSort,Python,GPL-3.0,620.0,62.0,bottom,0,0,0,0,0,0,[]
+735090310,https://api.github.com/repos/allenai/reward-bench,allenai/reward-bench,Python,Apache-2.0,620.0,88.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+888701643,https://api.github.com/repos/test-zeus-ai/testzeus-hercules,test-zeus-ai/testzeus-hercules,Python,AGPL-3.0,620.0,96.0,bottom,0,0,0,0,0,0,[]
+939030910,https://api.github.com/repos/jolovicdev/shandu,jolovicdev/shandu,Python,MIT,621.0,69.0,bottom,0,0,0,0,0,0,[]
+368236463,https://api.github.com/repos/syntasso/kratix,syntasso/kratix,Go,Apache-2.0,623.0,41.0,bottom,0,0,0,0,0,0,[]
+320097835,https://api.github.com/repos/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions,MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions,Unknown,MIT,626.0,1114.0,bottom,0,0,0,0,0,0,[]
+496005961,https://api.github.com/repos/stanford-crfm/levanter,stanford-crfm/levanter,Python,Apache-2.0,628.0,104.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+965900067,https://api.github.com/repos/hyperbrowserai/HyperAgent,hyperbrowserai/HyperAgent,TypeScript,NOASSERTION,632.0,70.0,bottom,18,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""assets/AGENTS.md"", ""docs/AGENTS.md"", ""evals/AGENTS.md"", ""examples/AGENTS.md"", ""scripts/AGENTS.md"", ""src/AGENTS.md"", ""src/agent/AGENTS.md"", ""src/browser-providers/AGENTS.md"", ""src/cdp/AGENTS.md"", ""src/cli/AGENTS.md"", ""src/context-providers/AGENTS.md"", ""src/custom-actions/AGENTS.md"", ""src/debug/AGENTS.md"", ""src/llm/AGENTS.md"", ""src/types/AGENTS.md"", ""src/utils/AGENTS.md""]"
+995908906,https://api.github.com/repos/PDFMathTranslate/PDFMathTranslate-next,PDFMathTranslate/PDFMathTranslate-next,Python,AGPL-3.0,632.0,23.0,bottom,0,0,0,0,0,0,[]
+602987603,https://api.github.com/repos/tact-lang/tact,tact-lang/tact,TypeScript,MIT,633.0,195.0,bottom,0,0,0,0,0,0,[]
+447791597,https://api.github.com/repos/Azure/bicep-registry-modules,Azure/bicep-registry-modules,Bicep,MIT,634.0,473.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+686434145,https://api.github.com/repos/igorm84/spotify-astro-transitions,igorm84/spotify-astro-transitions,Astro,Unknown,635.0,86.0,bottom,0,0,0,0,0,0,[]
+82341193,https://api.github.com/repos/JuliaLang/Pkg.jl,JuliaLang/Pkg.jl,Julia,NOASSERTION,636.0,275.0,bottom,0,0,0,0,0,0,[]
+240394317,https://api.github.com/repos/gbrayhan/microservices-go,gbrayhan/microservices-go,Go,MIT,636.0,74.0,bottom,0,0,0,0,0,0,[]
+54928587,https://api.github.com/repos/uxlfoundation/oneDAL,uxlfoundation/oneDAL,C++,Apache-2.0,637.0,224.0,bottom,15,1,1,0,0,1,"["".ci/AGENTS.md"", "".github/instructions/build-systems.instructions.md"", "".github/instructions/cpp-coding-guidelines.instructions.md"", "".github/instructions/documentation.instructions.md"", "".github/instructions/examples.instructions.md"", "".github/instructions/general.instructions.md"", ""AGENTS.md"", ""cpp/AGENTS.md"", ""cpp/daal/AGENTS.md"", ""cpp/oneapi/AGENTS.md"", ""deploy/AGENTS.md"", ""dev/AGENTS.md"", ""dev/bazel/AGENTS.md"", ""docs/AGENTS.md"", ""examples/AGENTS.md""]"
+634017085,https://api.github.com/repos/github/brasil,github/brasil,Ruby,MIT,641.0,87.0,bottom,0,0,0,0,0,0,[]
+552832415,https://api.github.com/repos/Azure/azqr,Azure/azqr,Go,MIT,644.0,115.0,bottom,1,1,0,0,0,1,"["".github/instructions/go.instructions.md""]"
+602344007,https://api.github.com/repos/BretFisher/awesome-swarm,BretFisher/awesome-swarm,Unknown,CC0-1.0,644.0,38.0,bottom,0,0,0,0,0,0,[]
+891166919,https://api.github.com/repos/generaltranslation/gt,generaltranslation/gt,TypeScript,NOASSERTION,645.0,16.0,bottom,4,1,1,1,0,0,"["".claude/CLAUDE.md"", ""AGENTS.md"", ""packages/compiler/.claude/CLAUDE.md"", ""packages/compiler/AGENTS.md""]"
+1020305299,https://api.github.com/repos/chiphuyen/sniffly,chiphuyen/sniffly,Python,Unknown,645.0,53.0,bottom,0,0,0,0,0,0,[]
+1008837384,https://api.github.com/repos/Iamshankhadeep/ccseva,Iamshankhadeep/ccseva,TypeScript,MIT,647.0,31.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+114798676,https://api.github.com/repos/Azure/azure-storage-azcopy,Azure/azure-storage-azcopy,Go,MIT,647.0,241.0,bottom,0,0,0,0,0,0,[]
+77873947,https://api.github.com/repos/ForumMagnum/ForumMagnum,ForumMagnum/ForumMagnum,TypeScript,GPL-3.0,648.0,131.0,bottom,2,1,0,1,0,0,"[""CLAUDE.md"", ""packages/lesswrong/components/editor/CLAUDE.md""]"
+124290023,https://api.github.com/repos/weecology/DeepForest,weecology/DeepForest,Python,MIT,648.0,214.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""tests/AGENTS.md""]"
+565750987,https://api.github.com/repos/joamag/boytacean,joamag/boytacean,Rust,Apache-2.0,648.0,36.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+76094257,https://api.github.com/repos/github/rubocop-github,github/rubocop-github,Ruby,MIT,649.0,161.0,bottom,0,0,0,0,0,0,[]
+285721510,https://api.github.com/repos/exo-lang/exo,exo-lang/exo,Python,MIT,650.0,46.0,bottom,0,0,0,0,0,0,[]
+991993003,https://api.github.com/repos/possibilities/claude-composer,possibilities/claude-composer,TypeScript,Unlicense,654.0,22.0,bottom,0,0,0,0,0,0,[]
+89221572,https://api.github.com/repos/DataDog/dd-trace-java,DataDog/dd-trace-java,Java,Apache-2.0,654.0,311.0,bottom,2,1,1,1,0,0,"["".claude/CLAUDE.md"", ""AGENTS.md""]"
+412759104,https://api.github.com/repos/mikepenz/multiplatform-markdown-renderer,mikepenz/multiplatform-markdown-renderer,Kotlin,Apache-2.0,657.0,49.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+637253688,https://api.github.com/repos/pgalko/BambooAI,pgalko/BambooAI,Python,MIT,657.0,65.0,bottom,0,0,0,0,0,0,[]
+65654242,https://api.github.com/repos/wvlet/airframe,wvlet/airframe,Scala,Apache-2.0,657.0,70.0,bottom,3,1,0,1,0,1,"["".github/copilot-instructions.md"", "".github/instructions/airspec.instructions.md"", ""CLAUDE.md""]"
+913540439,https://api.github.com/repos/hotovo/aider-desk,hotovo/aider-desk,TypeScript,Apache-2.0,658.0,42.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+618961414,https://api.github.com/repos/candlefinance/faster-image,candlefinance/faster-image,Swift,MIT,660.0,32.0,bottom,0,0,0,0,0,0,[]
+955904085,https://api.github.com/repos/antiwork/flexile,antiwork/flexile,Ruby,MIT,665.0,236.0,bottom,0,0,0,0,0,0,[]
+62234930,https://api.github.com/repos/hypothesis/client,hypothesis/client,Mustache,NOASSERTION,666.0,208.0,bottom,0,0,0,0,0,0,[]
+2988101,https://api.github.com/repos/nuxeo/nuxeo,nuxeo/nuxeo,Java,Apache-2.0,670.0,388.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+33373292,https://api.github.com/repos/microsoft/ApplicationInsights-JS,microsoft/ApplicationInsights-JS,TypeScript,MIT,671.0,250.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+240583093,https://api.github.com/repos/buildbuddy-io/buildbuddy,buildbuddy-io/buildbuddy,Go,NOASSERTION,671.0,111.0,bottom,0,0,0,0,0,0,[]
+1608922,https://api.github.com/repos/milkshakesoftware/PreMailer.Net,milkshakesoftware/PreMailer.Net,C#,MIT,671.0,119.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+131909766,https://api.github.com/repos/sccn/eeglab,sccn/eeglab,MATLAB,NOASSERTION,673.0,257.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+729046251,https://api.github.com/repos/LayerZero-Labs/LayerZero-v2,LayerZero-Labs/LayerZero-v2,Move,NOASSERTION,675.0,421.0,bottom,0,0,0,0,0,0,[]
+550902717,https://api.github.com/repos/dotnet/dotnet,dotnet/dotnet,C#,MIT,676.0,180.0,bottom,40,1,1,0,0,1,"[""AGENTS.md"", ""eng/common/AGENTS.md"", ""src/arcade/AGENTS.md"", ""src/arcade/eng/common/AGENTS.md"", ""src/aspnetcore/.github/copilot-instructions.md"", ""src/aspnetcore/.github/instructions/components.instructions.md"", ""src/aspnetcore/eng/common/AGENTS.md"", ""src/aspnetcore/src/Components/AGENTS.md"", ""src/diagnostics/AGENTS.md"", ""src/efcore/.github/copilot-instructions.md"", ""src/efcore/eng/common/AGENTS.md"", ""src/emsdk/eng/common/AGENTS.md"", ""src/fsharp/.github/copilot-instructions.md"", ""src/fsharp/.github/instructions/CcrOptout.instructions.md"", ""src/fsharp/.github/instructions/CodeGen.instructions.md"", ""src/fsharp/.github/instructions/ComponentTests.instructions.md"", ""src/fsharp/.github/instructions/DebugEmit.instructions.md"", ""src/fsharp/.github/instructions/ExpertReview.instructions.md"", ""src/fsharp/.github/instructions/FSComp.instructions.md"", ""src/fsharp/.github/instructions/FSharpCore.instructions.md"", ""src/fsharp/.github/instructions/LSP.instructions.md"", ""src/fsharp/.github/instructions/NoBloat.instructions.md"", ""src/fsharp/.github/instructions/Optimizer.instructions.md"", ""src/fsharp/.github/instructions/SyntaxTree.instructions.md"", ""src/fsharp/.github/instructions/TypedTreePickle.instructions.md"", ""src/msbuild/.github/copilot-instructions.md"", ""src/msbuild/.github/instructions/backend-execution.instructions.md"", ""src/msbuild/.github/instructions/buildcheck.instructions.md"", ""src/msbuild/.github/instructions/cli.instructions.md"", ""src/msbuild/.github/instructions/evaluation.instructions.md"", ""src/msbuild/.github/instructions/framework.instructions.md"", ""src/msbuild/.github/instructions/globbing.instructions.md"", ""src/msbuild/.github/instructions/logging.instructions.md"", ""src/msbuild/.github/instructions/shared-code.instructions.md"", ""src/msbuild/.github/instructions/targets.instructions.md"", ""src/msbuild/.github/instructions/tasks.instructions.md"", ""src/msbuild/.github/instructions/tests.instructions.md"", ""src/msbuild/AGENTS.md"", ""src/msbuild/src/MSBuildTaskHost/AGENTS.md"", ""src/nuget-client/.github/copilot-instructions.md""]"
+898960457,https://api.github.com/repos/Sanjeet990/Astroluma,Sanjeet990/Astroluma,JavaScript,GPL-3.0,677.0,20.0,bottom,0,0,0,0,0,0,[]
+823533826,https://api.github.com/repos/trueai-org/midjourney-proxy,trueai-org/midjourney-proxy,C#,GPL-3.0,678.0,109.0,bottom,0,0,0,0,0,0,[]
+159601233,https://api.github.com/repos/JuliaDebug/Cthulhu.jl,JuliaDebug/Cthulhu.jl,Julia,MIT,684.0,42.0,bottom,0,0,0,0,0,0,[]
+208918651,https://api.github.com/repos/microsoft/etl2pcapng,microsoft/etl2pcapng,C,MIT,685.0,120.0,bottom,0,0,0,0,0,0,[]
+997442488,https://api.github.com/repos/mendableai/fire-enrich,mendableai/fire-enrich,TypeScript,MIT,686.0,163.0,bottom,2,1,0,0,1,0,"[""styles/components/.cursor/rules/component-styles.md"", ""styles/design-system/.cursor/rules/design-system.md""]"
+534755927,https://api.github.com/repos/dotnet/dev-proxy,dotnet/dev-proxy,C#,MIT,687.0,75.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+215838955,https://api.github.com/repos/temporalio/sdk-go,temporalio/sdk-go,Go,MIT,687.0,251.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+639079153,https://api.github.com/repos/pixeltable/pixeltable,pixeltable/pixeltable,Python,Apache-2.0,687.0,95.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+952463457,https://api.github.com/repos/pathintegral-institute/mcpm.sh,pathintegral-institute/mcpm.sh,Python,MIT,687.0,71.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+108979839,https://api.github.com/repos/grafana/jsonnet-libs,grafana/jsonnet-libs,Jsonnet,NOASSERTION,689.0,173.0,bottom,0,0,0,0,0,0,[]
+121444325,https://api.github.com/repos/dotnet/arcade,dotnet/arcade,C#,MIT,690.0,375.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""eng/common/AGENTS.md""]"
+13050340,https://api.github.com/repos/OpenHFT/Java-Runtime-Compiler,OpenHFT/Java-Runtime-Compiler,Java,NOASSERTION,690.0,148.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+35266839,https://api.github.com/repos/leighmcculloch/vagrant-docker-compose,leighmcculloch/vagrant-docker-compose,Ruby,ISC,690.0,71.0,bottom,0,0,0,0,0,0,[]
+517492055,https://api.github.com/repos/replugged-org/replugged,replugged-org/replugged,TypeScript,MIT,691.0,71.0,bottom,0,0,0,0,0,0,[]
+669466632,https://api.github.com/repos/selfxyz/self,selfxyz/self,Circom,NOASSERTION,691.0,116.0,bottom,7,1,1,1,1,0,"["".cursorrules"", ""AGENTS.md"", ""CLAUDE.md"", ""app/AGENTS.md"", ""noir/AGENTS.md"", ""packages/mobile-sdk-alpha/AGENTS.md"", ""packages/webview-app/AGENTS.md""]"
+620004347,https://api.github.com/repos/Layr-Labs/eigenlayer-contracts,Layr-Labs/eigenlayer-contracts,Solidity,NOASSERTION,693.0,435.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+255075959,https://api.github.com/repos/AhmedElywa/prisma-tools,AhmedElywa/prisma-tools,TypeScript,MIT,693.0,57.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+3181088,https://api.github.com/repos/cmer/socialization,cmer/socialization,Ruby,MIT,695.0,129.0,bottom,0,0,0,0,0,0,[]
+36031537,https://api.github.com/repos/PowerShell/PowerShellEditorServices,PowerShell/PowerShellEditorServices,C#,MIT,695.0,237.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+215525713,https://api.github.com/repos/pu2clr/SI4735,pu2clr/SI4735,HTML,MIT,695.0,196.0,bottom,0,0,0,0,0,0,[]
+7239495,https://api.github.com/repos/SolidInvoice/SolidInvoice,SolidInvoice/SolidInvoice,PHP,MIT,695.0,196.0,bottom,4,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""docs/CLAUDE.md""]"
+689765175,https://api.github.com/repos/different-ai/note-companion,different-ai/note-companion,TypeScript,MIT,696.0,117.0,bottom,3,1,1,0,1,0,"["".cursorrules"", ""AGENTS.MD"", ""packages/landing/.cursorrules""]"
+318049537,https://api.github.com/repos/sblom/RegExtract,sblom/RegExtract,C#,MIT,697.0,19.0,bottom,0,0,0,0,0,0,[]
+705022737,https://api.github.com/repos/tegnike/aituber-kit,tegnike/aituber-kit,TypeScript,NOASSERTION,698.0,120.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+872582333,https://api.github.com/repos/rochacbruno/marmite,rochacbruno/marmite,Rust,AGPL-3.0,699.0,43.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+34809191,https://api.github.com/repos/vaadin/flow,vaadin/flow,Java,Apache-2.0,699.0,182.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+220852673,https://api.github.com/repos/esthor/react-native-swipeable-list,esthor/react-native-swipeable-list,JavaScript,MIT,699.0,32.0,bottom,0,0,0,0,0,0,[]
+378459401,https://api.github.com/repos/btwld/mix,btwld/mix,Dart,BSD-3-Clause,703.0,43.0,bottom,5,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""packages/mix_tailwinds/AGENTS.md"", ""packages/mix_tailwinds/CLAUDE.md""]"
+857694796,https://api.github.com/repos/Raival-e/Prism-File-Explorer,Raival-e/Prism-File-Explorer,Kotlin,GPL-3.0,703.0,46.0,bottom,0,0,0,0,0,0,[]
+133374092,https://api.github.com/repos/getsentry/sentry-dotnet,getsentry/sentry-dotnet,C#,MIT,705.0,221.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+314230339,https://api.github.com/repos/golang-design/clipboard,golang-design/clipboard,Go,MIT,708.0,76.0,bottom,0,0,0,0,0,0,[]
+939984036,https://api.github.com/repos/syedazharmbnr1/claude-chatgpt-mcp,syedazharmbnr1/claude-chatgpt-mcp,JavaScript,Unknown,709.0,81.0,bottom,0,0,0,0,0,0,[]
+285297257,https://api.github.com/repos/ministryofjustice/modernisation-platform,ministryofjustice/modernisation-platform,HCL,MIT,709.0,293.0,bottom,0,0,0,0,0,0,[]
+209376972,https://api.github.com/repos/jilleb/mib2-toolbox,jilleb/mib2-toolbox,Python,MIT,711.0,152.0,bottom,0,0,0,0,0,0,[]
+854340390,https://api.github.com/repos/chainstacklabs/pump-fun-bot,chainstacklabs/pump-fun-bot,Python,Apache-2.0,711.0,257.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+130896044,https://api.github.com/repos/bazel-contrib/rules_foreign_cc,bazel-contrib/rules_foreign_cc,Starlark,Apache-2.0,711.0,256.0,bottom,0,0,0,0,0,0,[]
+2169744,https://api.github.com/repos/Datawalke/Coordino,Datawalke/Coordino,PHP,MIT,712.0,168.0,bottom,0,0,0,0,0,0,[]
+155915287,https://api.github.com/repos/thefrontside/effection,thefrontside/effection,TypeScript,MIT,716.0,34.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""www/AGENTS.md""]"
+174731004,https://api.github.com/repos/ikamensh/flynt,ikamensh/flynt,Python,MIT,718.0,38.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+469882687,https://api.github.com/repos/seasonedcc/composable-functions,seasonedcc/composable-functions,TypeScript,MIT,718.0,18.0,bottom,0,0,0,0,0,0,[]
+2197977,https://api.github.com/repos/pazz/alot,pazz/alot,Python,GPL-3.0,719.0,168.0,bottom,0,0,0,0,0,0,[]
+664174485,https://api.github.com/repos/prosekit/prosekit,prosekit/prosekit,TypeScript,MIT,720.0,24.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+217775615,https://api.github.com/repos/tech-systems/panes,tech-systems/panes,TypeScript,MIT,720.0,41.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+77898934,https://api.github.com/repos/graniet/operative-framework,graniet/operative-framework,Rust,Unknown,720.0,170.0,bottom,0,0,0,0,0,0,[]
+219046009,https://api.github.com/repos/wait4x/wait4x,wait4x/wait4x,Go,Apache-2.0,720.0,37.0,bottom,0,0,0,0,0,0,[]
+761694194,https://api.github.com/repos/oss-apps/split-pro,oss-apps/split-pro,TypeScript,MIT,721.0,76.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md""]"
+843830054,https://api.github.com/repos/TTPlanetPig/Comfyui_TTP_Toolset,TTPlanetPig/Comfyui_TTP_Toolset,Python,MIT,724.0,22.0,bottom,0,0,0,0,0,0,[]
+153501774,https://api.github.com/repos/daohoangson/flutter_widget_from_html,daohoangson/flutter_widget_from_html,Dart,MIT,725.0,274.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+985096937,https://api.github.com/repos/basementstudio/xmcp,basementstudio/xmcp,TypeScript,MIT,730.0,33.0,bottom,5,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""apps/website/AGENTS.md"", ""examples/AGENTS.md"", ""packages/AGENTS.md""]"
+197642503,https://api.github.com/repos/celo-org/celo-monorepo,celo-org/celo-monorepo,Solidity,Apache-2.0,733.0,390.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+454149532,https://api.github.com/repos/tszhong0411/nelsonlai.me,tszhong0411/nelsonlai.me,TypeScript,MIT,736.0,118.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+413741832,https://api.github.com/repos/brentyi/tyro,brentyi/tyro,Python,MIT,736.0,33.0,bottom,0,0,0,0,0,0,[]
+124948838,https://api.github.com/repos/dotnet/performance,dotnet/performance,F#,MIT,737.0,280.0,bottom,1,1,1,0,0,0,"[""eng/common/AGENTS.md""]"
+593773927,https://api.github.com/repos/microsoft/qsharp,microsoft/qsharp,Rust,MIT,739.0,134.0,bottom,3,1,0,0,0,1,"["".github/copilot-instructions.md"", ""source/vscode/resources/chat-instructions/openqasm.instructions.md"", ""source/vscode/resources/chat-instructions/qsharp.instructions.md""]"
+117790528,https://api.github.com/repos/timkindberg/jest-when,timkindberg/jest-when,JavaScript,MIT,739.0,37.0,bottom,0,0,0,0,0,0,[]
+389754521,https://api.github.com/repos/midudev/codi.link,midudev/codi.link,JavaScript,NOASSERTION,741.0,176.0,bottom,0,0,0,0,0,0,[]
+970578570,https://api.github.com/repos/liyupi/yu-ai-agent,liyupi/yu-ai-agent,Java,Unknown,741.0,163.0,bottom,0,0,0,0,0,0,[]
+197336679,https://api.github.com/repos/3rdIteration/btcrecover,3rdIteration/btcrecover,Python,GPL-2.0,742.0,237.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+241248985,https://api.github.com/repos/AzureAD/microsoft-identity-web,AzureAD/microsoft-identity-web,C#,MIT,743.0,235.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""agents.md""]"
+806198346,https://api.github.com/repos/thomasxm/BOAZ_beta,thomasxm/BOAZ_beta,C++,GPL-3.0,744.0,121.0,bottom,0,0,0,0,0,0,[]
+95178985,https://api.github.com/repos/apolloconfig/agollo,apolloconfig/agollo,Go,Apache-2.0,745.0,192.0,bottom,0,0,0,0,0,0,[]
+644499668,https://api.github.com/repos/SimonHalvdansson/Harmonic-HN,SimonHalvdansson/Harmonic-HN,Java,Apache-2.0,746.0,52.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+430564278,https://api.github.com/repos/silvery107/rl-mpc-locomotion,silvery107/rl-mpc-locomotion,Python,MIT,748.0,81.0,bottom,0,0,0,0,0,0,[]
+679565720,https://api.github.com/repos/FidelusAleksander/ghcertified,FidelusAleksander/ghcertified,HTML,MIT,750.0,266.0,bottom,4,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/next-js.instructions.md"", "".github/instructions/questions.instructions.md"", "".github/instructions/ui-components.instructions.md""]"
+917974798,https://api.github.com/repos/sam-goodwin/alchemy,sam-goodwin/alchemy,TypeScript,Apache-2.0,750.0,57.0,bottom,8,1,1,1,1,0,"["".cursorrules"", ""AGENTS.md"", ""CLAUDE.md"", ""alchemy/templates/rwsdk/.cursor/rules/alchemy_cloudflare.mdc"", ""alchemy/templates/rwsdk/.cursor/rules/rwsdk_rwsdk-interruptors.mdc"", ""alchemy/templates/rwsdk/.cursor/rules/rwsdk_rwsdk-middleware.mdc"", ""alchemy/templates/rwsdk/.cursor/rules/rwsdk_rwsdk-react.mdc"", ""alchemy/templates/rwsdk/.cursor/rules/rwsdk_rwsdk-request-response.mdc""]"
+816390466,https://api.github.com/repos/wcandillon/react-native-webgpu,wcandillon/react-native-webgpu,TypeScript,MIT,751.0,29.0,bottom,0,0,0,0,0,0,[]
+963547829,https://api.github.com/repos/Shopify/roast,Shopify/roast,Ruby,MIT,754.0,36.0,bottom,0,0,0,0,0,0,[]
+92192594,https://api.github.com/repos/yegor256/cactoos,yegor256/cactoos,Java,MIT,755.0,172.0,bottom,0,0,0,0,0,0,[]
+969089225,https://api.github.com/repos/unibeck/solstatus,unibeck/solstatus,TypeScript,AGPL-3.0,756.0,69.0,bottom,0,0,0,0,0,0,[]
+964314175,https://api.github.com/repos/mediar-ai/terminator,mediar-ai/terminator,Rust,NOASSERTION,757.0,109.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+752940677,https://api.github.com/repos/supabase/etl,supabase/etl,Rust,Apache-2.0,757.0,42.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+982917344,https://api.github.com/repos/rinadelph/Agent-MCP,rinadelph/Agent-MCP,Python,NOASSERTION,759.0,90.0,bottom,0,0,0,0,0,0,[]
+822144221,https://api.github.com/repos/sebastianwessel/quickjs,sebastianwessel/quickjs,TypeScript,MIT,760.0,25.0,bottom,0,0,0,0,0,0,[]
+853101072,https://api.github.com/repos/satmihir/fair,satmihir/fair,Go,MIT,761.0,17.0,bottom,2,1,1,0,1,0,"[""AGENTS.md"", ""pkg/.cursor/rules/testing.mdc""]"
+863717537,https://api.github.com/repos/kavishdevar/librepods,kavishdevar/librepods,Kotlin,AGPL-3.0,761.0,35.0,bottom,0,0,0,0,0,0,[]
+156971837,https://api.github.com/repos/wundergraph/graphql-go-tools,wundergraph/graphql-go-tools,Go,MIT,761.0,153.0,bottom,0,0,0,0,0,0,[]
+32741498,https://api.github.com/repos/PrismarineJS/minecraft-data,PrismarineJS/minecraft-data,JavaScript,Unknown,762.0,224.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+1010478967,https://api.github.com/repos/jamubc/gemini-mcp-tool,jamubc/gemini-mcp-tool,TypeScript,NOASSERTION,762.0,46.0,bottom,0,0,0,0,0,0,[]
+103307180,https://api.github.com/repos/Azure/azure-storage-fuse,Azure/azure-storage-fuse,Go,NOASSERTION,763.0,232.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+318798304,https://api.github.com/repos/ThatOpen/engine_web-ifc,ThatOpen/engine_web-ifc,TypeScript,MPL-2.0,765.0,227.0,bottom,0,0,0,0,0,0,[]
+53611065,https://api.github.com/repos/microsoft/pxt-microbit,microsoft/pxt-microbit,TypeScript,NOASSERTION,766.0,664.0,bottom,0,0,0,0,0,0,[]
+102102105,https://api.github.com/repos/DonDebonair/slack-machine,DonDebonair/slack-machine,Python,MIT,766.0,57.0,bottom,0,0,0,0,0,0,[]
+748613975,https://api.github.com/repos/codemod-com/codemod,codemod-com/codemod,TypeScript,Apache-2.0,767.0,53.0,bottom,11,1,1,0,0,0,"[""AGENTS.md"", ""crates/AGENTS.md"", ""crates/cli/AGENTS.md"", ""crates/codemod-sandbox/AGENTS.md"", ""crates/core/AGENTS.md"", ""crates/language-core/AGENTS.md"", ""crates/language-javascript/AGENTS.md"", ""crates/language-python/AGENTS.md"", ""crates/semantic-factory/AGENTS.md"", ""docs/AGENTS.md"", ""packages/AGENTS.md""]"
+26230481,https://api.github.com/repos/riganti/dotvvm,riganti/dotvvm,C#,Apache-2.0,768.0,97.0,bottom,0,0,0,0,0,0,[]
+956023956,https://api.github.com/repos/doggy8088/github-copilot-configs,doggy8088/github-copilot-configs,Unknown,Unknown,769.0,97.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+296298081,https://api.github.com/repos/pnp/powershell,pnp/powershell,C#,MIT,770.0,380.0,bottom,2,1,0,0,0,1,"["".github/copilot-instructions.md"", ""src/.github/copilot-instructions.md""]"
+786756993,https://api.github.com/repos/mistralai/mistral-common,mistralai/mistral-common,Python,Apache-2.0,771.0,96.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+71483874,https://api.github.com/repos/DhanushNehru/Python-Scripts,DhanushNehru/Python-Scripts,Python,MIT,772.0,349.0,bottom,0,0,0,0,0,0,[]
+718314761,https://api.github.com/repos/microsoft/onnxruntime-genai,microsoft/onnxruntime-genai,C++,MIT,772.0,201.0,bottom,2,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/python-model-builder.instructions.md""]"
+998658053,https://api.github.com/repos/MicrosoftDocs/mcp,MicrosoftDocs/mcp,Unknown,CC-BY-4.0,772.0,80.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+472313202,https://api.github.com/repos/cornerstonejs/cornerstone3D,cornerstonejs/cornerstone3D,TypeScript,MIT,773.0,398.0,bottom,0,0,0,0,0,0,[]
+597109271,https://api.github.com/repos/sandrohanea/whisper.net,sandrohanea/whisper.net,C#,MIT,773.0,111.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+156260788,https://api.github.com/repos/Azure/azure-cosmos-dotnet-v3,Azure/azure-cosmos-dotnet-v3,C#,MIT,774.0,512.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+267563398,https://api.github.com/repos/bennycode/trading-signals,bennycode/trading-signals,TypeScript,MIT,776.0,107.0,bottom,5,1,0,1,0,0,"[""CLAUDE.md"", ""packages/exchange/CLAUDE.md"", ""packages/messaging/CLAUDE.md"", ""packages/trading-signals-docs/CLAUDE.md"", ""packages/trading-signals/CLAUDE.md""]"
+624102171,https://api.github.com/repos/Azure-Samples/azure-search-openai-demo-csharp,Azure-Samples/azure-search-openai-demo-csharp,C#,MIT,776.0,594.0,bottom,0,0,0,0,0,0,[]
+1003047863,https://api.github.com/repos/iannuttall/claude-sessions,iannuttall/claude-sessions,Unknown,MIT,777.0,105.0,bottom,0,0,0,0,0,0,[]
+1322770,https://api.github.com/repos/aaronpowell/httpstatus,aaronpowell/httpstatus,C#,MIT,777.0,83.0,bottom,0,0,0,0,0,0,[]
+67680905,https://api.github.com/repos/DataDog/dd-trace-go,DataDog/dd-trace-go,Go,NOASSERTION,778.0,473.0,bottom,7,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""contrib/AGENTS.md"", ""ddtrace/tracer/AGENTS.md"", ""internal/AGENTS.md"", ""orchestrion/AGENTS.md"", ""profiler/AGENTS.md""]"
+388547709,https://api.github.com/repos/microsoft/Nova,microsoft/Nova,Rust,MIT,778.0,217.0,bottom,0,0,0,0,0,0,[]
+27509416,https://api.github.com/repos/AFASSoftware/maquette,AFASSoftware/maquette,TypeScript,MIT,781.0,63.0,bottom,0,0,0,0,0,0,[]
+85005919,https://api.github.com/repos/umasteeringgroup/UMA,umasteeringgroup/UMA,C#,MIT,782.0,176.0,bottom,2,1,0,0,0,1,"["".github/copilot-instructions.md"", ""UMAProject/.github/copilot-instructions.md""]"
+605635573,https://api.github.com/repos/frenck/spook,frenck/spook,Python,MIT,784.0,48.0,bottom,0,0,0,0,0,0,[]
+304553152,https://api.github.com/repos/mikepenz/release-changelog-builder-action,mikepenz/release-changelog-builder-action,TypeScript,Apache-2.0,786.0,110.0,bottom,0,0,0,0,0,0,[]
+822033113,https://api.github.com/repos/Panchovix/stable-diffusion-webui-reForge,Panchovix/stable-diffusion-webui-reForge,Python,AGPL-3.0,788.0,74.0,bottom,0,0,0,0,0,0,[]
+946676136,https://api.github.com/repos/PrunaAI/pruna,PrunaAI/pruna,Python,Apache-2.0,793.0,39.0,bottom,0,0,0,0,0,0,[]
+169659078,https://api.github.com/repos/reactjs/ko.react.dev,reactjs/ko.react.dev,TypeScript,CC-BY-4.0,793.0,484.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+626117554,https://api.github.com/repos/mrwadams/stride-gpt,mrwadams/stride-gpt,Python,MIT,794.0,226.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+19330736,https://api.github.com/repos/NuGet/NuGet.Client,NuGet/NuGet.Client,C#,NOASSERTION,798.0,723.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+894659403,https://api.github.com/repos/goat-sdk/goat,goat-sdk/goat,TypeScript,MIT,798.0,255.0,bottom,0,0,0,0,0,0,[]
+80874333,https://api.github.com/repos/MikePopoloski/slang,MikePopoloski/slang,C++,MIT,799.0,166.0,bottom,0,0,0,0,0,0,[]
+252506212,https://api.github.com/repos/HumanSignal/label-studio-ml-backend,HumanSignal/label-studio-ml-backend,Python,Apache-2.0,799.0,359.0,bottom,0,0,0,0,0,0,[]
+18987413,https://api.github.com/repos/wso2/product-is,wso2/product-is,Java,Apache-2.0,799.0,820.0,bottom,0,0,0,0,0,0,[]
+290790298,https://api.github.com/repos/copper-project/copper-rs,copper-project/copper-rs,Rust,Apache-2.0,808.0,52.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+694848632,https://api.github.com/repos/joshyattridge/smart-money-concepts,joshyattridge/smart-money-concepts,Python,MIT,810.0,443.0,bottom,0,0,0,0,0,0,[]
+385344359,https://api.github.com/repos/djlint/djLint,djlint/djLint,Python,GPL-3.0,810.0,99.0,bottom,0,0,0,0,0,0,[]
+13683952,https://api.github.com/repos/herbie-fp/herbie,herbie-fp/herbie,HTML,NOASSERTION,811.0,42.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+505964914,https://api.github.com/repos/ACEsuit/mace,ACEsuit/mace,Python,NOASSERTION,811.0,307.0,bottom,0,0,0,0,0,0,[]
+561389689,https://api.github.com/repos/deepnoodle-ai/risor,deepnoodle-ai/risor,Go,Apache-2.0,815.0,35.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+753664908,https://api.github.com/repos/Azure-Samples/serverless-chat-langchainjs,Azure-Samples/serverless-chat-langchainjs,Bicep,MIT,820.0,455.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+573411360,https://api.github.com/repos/vitejs/vite-plugin-react,vitejs/vite-plugin-react,TypeScript,MIT,821.0,165.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""packages/plugin-rsc/AGENTS.md""]"
+134316219,https://api.github.com/repos/rxaviers/async-pool,rxaviers/async-pool,JavaScript,MIT,822.0,52.0,bottom,0,0,0,0,0,0,[]
+910477350,https://api.github.com/repos/kohya-ss/musubi-tuner,kohya-ss/musubi-tuner,Python,Unknown,822.0,88.0,bottom,0,0,0,0,0,0,[]
+410897288,https://api.github.com/repos/OffchainLabs/nitro,OffchainLabs/nitro,Go,NOASSERTION,822.0,595.0,bottom,0,0,0,0,0,0,[]
+117169328,https://api.github.com/repos/Azure/terraform,Azure/terraform,HCL,MIT,824.0,879.0,bottom,0,0,0,0,0,0,[]
+375991819,https://api.github.com/repos/JacobLinCool/LeetCode-Stats-Card,JacobLinCool/LeetCode-Stats-Card,TypeScript,MIT,825.0,115.0,bottom,0,0,0,0,0,0,[]
+126682032,https://api.github.com/repos/zwave-js/zwave-js,zwave-js/zwave-js,TypeScript,MIT,826.0,674.0,bottom,4,1,1,1,0,1,"["".github/copilot-instructions.md"", "".github/instructions/config-files.instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+349830960,https://api.github.com/repos/makiisthenes/TiktokAutoUploader,makiisthenes/TiktokAutoUploader,JavaScript,GPL-3.0,826.0,178.0,bottom,0,0,0,0,0,0,[]
+98913726,https://api.github.com/repos/getsentry/sentry-dart,getsentry/sentry-dart,Dart,MIT,827.0,268.0,bottom,6,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""packages/dart/AGENTS.md"", ""packages/dart/CLAUDE.md"", ""packages/flutter/AGENTS.md"", ""packages/flutter/CLAUDE.md""]"
+948148972,https://api.github.com/repos/CoderGamester/mcp-unity,CoderGamester/mcp-unity,C#,MIT,828.0,105.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+697362239,https://api.github.com/repos/br-g/openf1,br-g/openf1,Python,NOASSERTION,829.0,68.0,bottom,0,0,0,0,0,0,[]
+305047199,https://api.github.com/repos/easyops-cn/docusaurus-search-local,easyops-cn/docusaurus-search-local,TypeScript,MIT,829.0,102.0,bottom,0,0,0,0,0,0,[]
+765572754,https://api.github.com/repos/hyperion-mc/hyperion,hyperion-mc/hyperion,Rust,Apache-2.0,830.0,30.0,bottom,0,0,0,0,0,0,[]
+111599187,https://api.github.com/repos/kanisterio/kanister,kanisterio/kanister,Go,Apache-2.0,831.0,167.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+642661495,https://api.github.com/repos/PythonNest/PyNest,PythonNest/PyNest,Python,MIT,831.0,56.0,bottom,0,0,0,0,0,0,[]
+258840419,https://api.github.com/repos/ismail9k/vue3-carousel,ismail9k/vue3-carousel,TypeScript,MIT,833.0,209.0,bottom,0,0,0,0,0,0,[]
+36405087,https://api.github.com/repos/microsoft/MIEngine,microsoft/MIEngine,C#,MIT,834.0,222.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+295810364,https://api.github.com/repos/Azure/azure-sdk-for-rust,Azure/azure-sdk-for-rust,Rust,MIT,834.0,297.0,bottom,13,1,1,0,0,1,"["".github/instructions/changelog.instructions.md"", "".github/instructions/cosmos.instructions.md"", "".github/instructions/git-commit.instructions.md"", "".github/instructions/github-pullrequest.instructions.md"", "".github/instructions/pwsh.instructions.md"", "".github/instructions/resourcemanager.instructions.md"", ""AGENTS.md"", ""eng/common/instructions/azsdk-tools/typespec-docs.instructions.md"", ""eng/common/instructions/azsdk-tools/typespec-to-sdk.instructions.md"", ""eng/common/instructions/azsdk-tools/validate-service-label.instructions.md"", ""eng/common/instructions/azsdk-tools/verify-setup.instructions.md"", ""sdk/cosmos/.github/instructions/cosmos.changelog.instructions.md"", ""sdk/cosmos/AGENTS.md""]"
+132325183,https://api.github.com/repos/messense/jieba-rs,messense/jieba-rs,Rust,MIT,835.0,54.0,bottom,0,0,0,0,0,0,[]
+280296762,https://api.github.com/repos/joshuafuller/ATAK-Maps,joshuafuller/ATAK-Maps,Unknown,MIT,835.0,111.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+19358112,https://api.github.com/repos/fatih/dotfiles,fatih/dotfiles,Lua,Unknown,837.0,140.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+832180352,https://api.github.com/repos/microsoft/generative-ai-with-javascript,microsoft/generative-ai-with-javascript,JavaScript,MIT,839.0,543.0,bottom,2,1,1,0,0,1,"["".github/instructions/genaiscript.instructions.md"", ""AGENTS.md""]"
+482225540,https://api.github.com/repos/busser/tfautomv,busser/tfautomv,Go,Apache-2.0,839.0,23.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+25216233,https://api.github.com/repos/humanlogio/humanlog,humanlogio/humanlog,Go,Apache-2.0,840.0,54.0,bottom,0,0,0,0,0,0,[]
+973758361,https://api.github.com/repos/DumbWareio/DumbAssets,DumbWareio/DumbAssets,JavaScript,GPL-3.0,841.0,29.0,bottom,2,1,0,0,1,1,"["".cursorrules"", "".github/copilot-instructions.md""]"
+397611595,https://api.github.com/repos/tommyxchow/frosty,tommyxchow/frosty,Dart,AGPL-3.0,842.0,48.0,bottom,4,1,1,1,0,0,"["".claude/CLAUDE.md"", ""AGENTS.md"", ""web/.claude/CLAUDE.md"", ""web/AGENTS.md""]"
+1007555070,https://api.github.com/repos/fabriziosalmi/certmate,fabriziosalmi/certmate,Python,MIT,844.0,41.0,bottom,0,0,0,0,0,0,[]
+111510915,https://api.github.com/repos/dotnet/dotnet-api-docs,dotnet/dotnet-api-docs,C#,NOASSERTION,846.0,1618.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+23022377,https://api.github.com/repos/licensee/licensee,licensee/licensee,Ruby,MIT,848.0,299.0,bottom,0,0,0,0,0,0,[]
+347268387,https://api.github.com/repos/mosecorg/mosec,mosecorg/mosec,Python,Apache-2.0,849.0,61.0,bottom,0,0,0,0,0,0,[]
+69087664,https://api.github.com/repos/MUnique/OpenMU,MUnique/OpenMU,C#,MIT,851.0,381.0,bottom,0,0,0,0,0,0,[]
+79856983,https://api.github.com/repos/microsoft/git,microsoft/git,C,NOASSERTION,852.0,101.0,bottom,2,1,1,0,0,0,"[""AGENTS.md"", ""po/AGENTS.md""]"
+438296603,https://api.github.com/repos/Tencent/tdesign-vue-next-starter,Tencent/tdesign-vue-next-starter,Vue,MIT,852.0,219.0,bottom,0,0,0,0,0,0,[]
+939311749,https://api.github.com/repos/alexpfau/calendar-card-pro,alexpfau/calendar-card-pro,TypeScript,NOASSERTION,855.0,56.0,bottom,0,0,0,0,0,0,[]
+197483319,https://api.github.com/repos/Azure/azure-service-operator,Azure/azure-service-operator,Go,MIT,860.0,220.0,bottom,4,1,0,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/code-review.instructions.md"", "".github/instructions/copilot-instructions.md"", "".github/instructions/new-resource.instructions.md""]"
+671596531,https://api.github.com/repos/UIforFreedom/UIF,UIforFreedom/UIF,Vue,MIT,865.0,93.0,bottom,0,0,0,0,0,0,[]
+144754986,https://api.github.com/repos/mixcore/mix.core,mixcore/mix.core,C#,NOASSERTION,866.0,216.0,bottom,0,0,0,0,0,0,[]
+586749482,https://api.github.com/repos/wuba/react-native-echarts,wuba/react-native-echarts,TypeScript,Apache-2.0,868.0,31.0,bottom,0,0,0,0,0,0,[]
+11362272,https://api.github.com/repos/nemtsov/json-mask,nemtsov/json-mask,JavaScript,MIT,869.0,42.0,bottom,0,0,0,0,0,0,[]
+790450897,https://api.github.com/repos/damien-schneider/cuicui,damien-schneider/cuicui,TypeScript,MIT,869.0,54.0,bottom,0,0,0,0,0,0,[]
+1022209076,https://api.github.com/repos/Pimzino/claude-code-spec-workflow,Pimzino/claude-code-spec-workflow,TypeScript,MIT,869.0,83.0,bottom,0,0,0,0,0,0,[]
+655060914,https://api.github.com/repos/GodsScion/Auto_job_applier_linkedIn,GodsScion/Auto_job_applier_linkedIn,Python,AGPL-3.0,872.0,243.0,bottom,0,0,0,0,0,0,[]
+2081118,https://api.github.com/repos/openmc-dev/openmc,openmc-dev/openmc,Python,NOASSERTION,876.0,552.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+974086497,https://api.github.com/repos/regenrek/deepwiki-mcp,regenrek/deepwiki-mcp,TypeScript,MIT,877.0,48.0,bottom,0,0,0,0,0,0,[]
+722740195,https://api.github.com/repos/sdorra/content-collections,sdorra/content-collections,TypeScript,MIT,877.0,38.0,bottom,0,0,0,0,0,0,[]
+779431605,https://api.github.com/repos/simonw/tools,simonw/tools,HTML,Apache-2.0,880.0,91.0,bottom,0,0,0,0,0,0,[]
+233403603,https://api.github.com/repos/jonhadfield/awesome-standard-notes,jonhadfield/awesome-standard-notes,Unknown,CC0-1.0,880.0,38.0,bottom,0,0,0,0,0,0,[]
+679889516,https://api.github.com/repos/fireproof-storage/fireproof,fireproof-storage/fireproof,TypeScript,NOASSERTION,884.0,45.0,bottom,0,0,0,0,0,0,[]
+38333430,https://api.github.com/repos/fusionpbx/fusionpbx,fusionpbx/fusionpbx,PHP,Unknown,886.0,702.0,bottom,0,0,0,0,0,0,[]
+13908616,https://api.github.com/repos/FirelyTeam/firely-net-sdk,FirelyTeam/firely-net-sdk,C#,NOASSERTION,887.0,352.0,bottom,0,0,0,0,0,0,[]
+840078948,https://api.github.com/repos/nexus-xyz/nexus-cli,nexus-xyz/nexus-cli,Rust,Apache-2.0,887.0,462.0,bottom,0,0,0,0,0,0,[]
+983757718,https://api.github.com/repos/superagent-ai/vibekit,superagent-ai/vibekit,TypeScript,MIT,888.0,115.0,bottom,0,0,0,0,0,0,[]
+292357613,https://api.github.com/repos/streamich/json-joy,streamich/json-joy,TypeScript,Apache-2.0,891.0,18.0,bottom,1,1,1,0,0,0,"[""packages/json-path/src/AGENTS.md""]"
+3084583,https://api.github.com/repos/mattiasw/ExifReader,mattiasw/ExifReader,JavaScript,MPL-2.0,892.0,96.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+261054873,https://api.github.com/repos/vinijmoura/Azure-DevOps,vinijmoura/Azure-DevOps,PowerShell,MIT,893.0,256.0,bottom,0,0,0,0,0,0,[]
+631752113,https://api.github.com/repos/Kuingsmile/word-GPT-Plus,Kuingsmile/word-GPT-Plus,TypeScript,MIT,898.0,159.0,bottom,0,0,0,0,0,0,[]
+101914862,https://api.github.com/repos/MicrosoftDocs/azure-devops-docs,MicrosoftDocs/azure-devops-docs,Shell,CC-BY-4.0,898.0,2559.0,bottom,3,1,1,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/azure-devops-product.instructions.md"", ""docs/pipelines/agents/agents.md""]"
+440485399,https://api.github.com/repos/Igalia/wolvic,Igalia/wolvic,Java,MPL-2.0,898.0,118.0,bottom,0,0,0,0,0,0,[]
+708452754,https://api.github.com/repos/gronxb/hot-updater,gronxb/hot-updater,TypeScript,MIT,899.0,73.0,bottom,6,1,1,1,0,0,"["".agents/skills/vercel-react-best-practices/AGENTS.md"", ""AGENTS.md"", ""CLAUDE.md"", ""docs/CLAUDE.md"", ""packages/server/AGENTS.md"", ""plugins/plugin-core/CLAUDE.md""]"
+42490910,https://api.github.com/repos/iovisor/ubpf,iovisor/ubpf,C,Apache-2.0,902.0,152.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+830335824,https://api.github.com/repos/tonybaloney/CSnakes,tonybaloney/CSnakes,C#,MIT,904.0,53.0,bottom,0,0,0,0,0,0,[]
+65080725,https://api.github.com/repos/microsoft/testfx,microsoft/testfx,C#,MIT,908.0,280.0,bottom,4,1,1,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/copilot-curate.instructions.md"", ""AGENTS.md"", ""eng/common/AGENTS.md""]"
+945671748,https://api.github.com/repos/openops-cloud/openops,openops-cloud/openops,TypeScript,NOASSERTION,908.0,148.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+845380264,https://api.github.com/repos/bugsink/bugsink,bugsink/bugsink,Python,NOASSERTION,908.0,43.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+42926209,https://api.github.com/repos/microsoft/vscode-vsce,microsoft/vscode-vsce,TypeScript,NOASSERTION,909.0,223.0,bottom,0,0,0,0,0,0,[]
+25814103,https://api.github.com/repos/netz98/n98-magerun2,netz98/n98-magerun2,PHP,NOASSERTION,909.0,227.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md""]"
+3729629,https://api.github.com/repos/dotCMS/core,dotCMS/core,Java,NOASSERTION,912.0,477.0,bottom,22,1,1,1,1,1,"["".github/copilot-instructions.md"", "".github/instructions/frontend.instructions.md"", ""CLAUDE.md"", ""core-web/AGENTS.md"", ""core-web/CLAUDE.md"", ""core-web/apps/dotcms-ui-e2e/AGENTS.md"", ""core-web/apps/dotcms-ui-e2e/CLAUDE.md"", ""core-web/apps/dotcms-ui/AGENTS.md"", ""core-web/apps/mcp-server/CLAUDE.md"", ""core-web/libs/block-editor/CLAUDE.md"", ""core-web/libs/new-block-editor/CLAUDE.md"", ""core-web/libs/portlets/CLAUDE.md"", ""core-web/libs/portlets/edit-ema/portlet/src/lib/store/CLAUDE.md"", ""core-web/libs/sdk/client/CLAUDE.md"", ""core-web/libs/sdk/react/CLAUDE.md"", ""dotCMS/src/main/java/com/dotcms/rest/CLAUDE.md"", ""examples/angular-ssr/CLAUDE.md"", ""examples/nextjs-analytics-experiments/AGENTS.md"", ""examples/nextjs-analytics-experiments/CLAUDE.md"", ""examples/nextjs/.cursor/rules/nextjs.mdc"", ""examples/nextjs/CLAUDE.md"", ""test-jmeter/CLAUDE.md""]"
+587937846,https://api.github.com/repos/KittyCAD/modeling-app,KittyCAD/modeling-app,TypeScript,MIT,913.0,84.0,bottom,4,1,1,1,0,0,"[""packages/registry/AGENTS.md"", ""rust/AGENTS.md"", ""rust/CLAUDE.md"", ""src/AGENTS.md""]"
+26052435,https://api.github.com/repos/neutronX/django-markdownx,neutronX/django-markdownx,Python,NOASSERTION,914.0,157.0,bottom,0,0,0,0,0,0,[]
+577492459,https://api.github.com/repos/a16z/halmos,a16z/halmos,Python,AGPL-3.0,917.0,88.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+57047271,https://api.github.com/repos/zoidsh/meru,zoidsh/meru,TypeScript,AGPL-3.0,919.0,100.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+749681472,https://api.github.com/repos/moonbitlang/core,moonbitlang/core,MoonBit,Apache-2.0,923.0,127.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+993521808,https://api.github.com/repos/openai/openai-agents-js,openai/openai-agents-js,TypeScript,MIT,925.0,183.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+304836585,https://api.github.com/repos/mayswind/ezbookkeeping,mayswind/ezbookkeeping,Go,MIT,926.0,108.0,bottom,0,0,0,0,0,0,[]
+283728680,https://api.github.com/repos/dailydotdev/apps,dailydotdev/apps,TypeScript,AGPL-3.0,926.0,266.0,bottom,14,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""packages/extension/AGENTS.md"", ""packages/playwright/AGENTS.md"", ""packages/playwright/CLAUDE.md"", ""packages/shared/AGENTS.md"", ""packages/shared/src/components/AGENTS.md"", ""packages/shared/src/contexts/AGENTS.md"", ""packages/shared/src/features/AGENTS.md"", ""packages/shared/src/graphql/AGENTS.md"", ""packages/shared/src/hooks/AGENTS.md"", ""packages/shared/tailwind/AGENTS.md"", ""packages/storybook/AGENTS.md"", ""packages/webapp/AGENTS.md""]"
+183598471,https://api.github.com/repos/trueai-org/module-shop,trueai-org/module-shop,C#,MIT,926.0,315.0,bottom,0,0,0,0,0,0,[]
+897892563,https://api.github.com/repos/aidenybai/bippy,aidenybai/bippy,TypeScript,MIT,928.0,24.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+158653995,https://api.github.com/repos/mtrojnar/osslsigncode,mtrojnar/osslsigncode,C,NOASSERTION,929.0,138.0,bottom,0,0,0,0,0,0,[]
+967377293,https://api.github.com/repos/Veloera/Veloera,Veloera/Veloera,Go,GPL-3.0,929.0,88.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+173170791,https://api.github.com/repos/dotnet/SqlClient,dotnet/SqlClient,C#,MIT,930.0,312.0,bottom,15,1,1,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/ado-pipelines.instructions.md"", "".github/instructions/ado-work-items-markdown.instructions.md"", "".github/instructions/agentic-workflows.instructions.md"", "".github/instructions/api-design.instructions.md"", "".github/instructions/architecture.instructions.md"", "".github/instructions/connection-pooling.instructions.md"", "".github/instructions/documentation.instructions.md"", "".github/instructions/external-resources.instructions.md"", "".github/instructions/features.instructions.md"", "".github/instructions/onebranch-pipeline-design.instructions.md"", "".github/instructions/package-versions.instructions.md"", "".github/instructions/tds-protocol.instructions.md"", "".github/instructions/testing.instructions.md"", ""AGENTS.md""]"
+926709003,https://api.github.com/repos/bytebot-ai/bytebot,bytebot-ai/bytebot,TypeScript,Apache-2.0,931.0,72.0,bottom,0,0,0,0,0,0,[]
+62774726,https://api.github.com/repos/microsoft/vstest,microsoft/vstest,C#,MIT,934.0,337.0,bottom,11,1,1,0,0,1,"["".github/copilot-instructions.md"", "".github/instructions/acceptance-tests.instructions.md"", "".github/instructions/blame-datacollector.instructions.md"", "".github/instructions/communicationutilities.instructions.md"", "".github/instructions/crossplatengine.instructions.md"", "".github/instructions/eng.instructions.md"", "".github/instructions/objectmodel.instructions.md"", "".github/instructions/testhost.instructions.md"", "".github/instructions/vstest-console.instructions.md"", ""AGENTS.md"", ""eng/common/AGENTS.md""]"
+6512913,https://api.github.com/repos/traccar/traccar-web,traccar/traccar-web,JavaScript,Apache-2.0,935.0,1249.0,bottom,0,0,0,0,0,0,[]
+460077424,https://api.github.com/repos/PaloAltoNetworks/docusaurus-openapi-docs,PaloAltoNetworks/docusaurus-openapi-docs,TypeScript,MIT,937.0,283.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+17652873,https://api.github.com/repos/FarmBot/Farmbot-Web-App,FarmBot/Farmbot-Web-App,TypeScript,MIT,938.0,347.0,bottom,3,1,1,0,0,0,"[""AGENTS.md"", ""frontend/AGENTS.md"", ""spec/AGENTS.md""]"
+374381865,https://api.github.com/repos/stack-chan/stack-chan,stack-chan/stack-chan,TypeScript,Apache-2.0,939.0,107.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+55534429,https://api.github.com/repos/getsentry/sentry-cocoa,getsentry/sentry-cocoa,Swift,MIT,939.0,362.0,bottom,8,1,1,1,0,0,"["".github/AGENTS.md"", ""AGENTS.md"", ""CLAUDE.md"", ""Samples/AGENTS.md"", ""Sources/AGENTS.md"", ""Tests/AGENTS.md"", ""develop-docs/AGENTS.md"", ""scripts/AGENTS.md""]"
+1020430400,https://api.github.com/repos/Doriandarko/make-it-heavy,Doriandarko/make-it-heavy,Python,NOASSERTION,944.0,155.0,bottom,0,0,0,0,0,0,[]
+51176043,https://api.github.com/repos/getsentry/sentry-cli,getsentry/sentry-cli,Rust,BSD-3-Clause,946.0,231.0,bottom,14,1,1,1,0,0,"["".github/workflows/AGENTS.md"", "".github/workflows/CLAUDE.md"", ""AGENTS.md"", ""CLAUDE.md"", ""apple-catalog-parsing/AGENTS.md"", ""apple-catalog-parsing/CLAUDE.md"", ""docs/AGENTS.md"", ""docs/snapshots/AGENTS.md"", ""lib/AGENTS.md"", ""lib/CLAUDE.md"", ""scripts/AGENTS.md"", ""scripts/CLAUDE.md"", ""src/AGENTS.md"", ""src/CLAUDE.md""]"
+304841810,https://api.github.com/repos/osmosis-labs/osmosis,osmosis-labs/osmosis,Go,Apache-2.0,947.0,676.0,bottom,0,0,0,0,0,0,[]
+808019331,https://api.github.com/repos/strnad/CrewAI-Studio,strnad/CrewAI-Studio,Python,MIT,948.0,242.0,bottom,0,0,0,0,0,0,[]
+272328835,https://api.github.com/repos/timburgan/timburgan,timburgan/timburgan,Unknown,Unknown,950.0,158.0,bottom,0,0,0,0,0,0,[]
+917358773,https://api.github.com/repos/trycompai/comp,trycompai/comp,TypeScript,AGPL-3.0,950.0,130.0,bottom,6,1,1,1,1,0,"["".cursorrules"", ""AGENTS.md"", ""CLAUDE.md"", ""apps/api/.cursorrules"", ""apps/api/CLAUDE.md"", ""apps/app/agents.md""]"
+650377372,https://api.github.com/repos/wandb/weave,wandb/weave,Python,Apache-2.0,950.0,116.0,bottom,3,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""tests/integrations/claude_agent_sdk/cassettes/CLAUDE.md""]"
+259256617,https://api.github.com/repos/Kotlin/dataframe,Kotlin/dataframe,Kotlin,Apache-2.0,951.0,75.0,bottom,0,0,0,0,0,0,[]
+212382406,https://api.github.com/repos/apache/ozone,apache/ozone,Java,Apache-2.0,951.0,553.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+496817075,https://api.github.com/repos/GlareDB/glaredb,GlareDB/glaredb,Rust,MIT,951.0,54.0,bottom,0,0,0,0,0,0,[]
+959063625,https://api.github.com/repos/ibelick/zola,ibelick/zola,TypeScript,Apache-2.0,960.0,181.0,bottom,0,0,0,0,0,0,[]
+674225653,https://api.github.com/repos/bruin-data/bruin,bruin-data/bruin,Go,Apache-2.0,962.0,42.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+914048456,https://api.github.com/repos/recallnet/js-recall,recallnet/js-recall,TypeScript,Unknown,965.0,39.0,bottom,29,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""apps/api/AGENTS.md"", ""apps/api/CLAUDE.md"", ""apps/comps/AGENTS.md"", ""apps/comps/CLAUDE.md"", ""packages/conversions/AGENTS.md"", ""packages/conversions/CLAUDE.md"", ""packages/db/AGENTS.md"", ""packages/db/CLAUDE.md"", ""packages/eslint-config/AGENTS.md"", ""packages/eslint-config/CLAUDE.md"", ""packages/fonts/AGENTS.md"", ""packages/fonts/CLAUDE.md"", ""packages/load-test/AGENTS.md"", ""packages/load-test/CLAUDE.md"", ""packages/rewards/AGENTS.md"", ""packages/rewards/CLAUDE.md"", ""packages/services/AGENTS.md"", ""packages/services/CLAUDE.md"", ""packages/staking-contracts/AGENTS.md"", ""packages/staking-contracts/CLAUDE.md"", ""packages/test-utils/AGENTS.md"", ""packages/test-utils/CLAUDE.md"", ""packages/typescript-config/AGENTS.md"", ""packages/typescript-config/CLAUDE.md"", ""packages/ui2/AGENTS.md"", ""packages/ui2/CLAUDE.md""]"
+979901440,https://api.github.com/repos/ChaokunHong/MetaScreener,ChaokunHong/MetaScreener,JavaScript,Unknown,966.0,45.0,bottom,0,0,0,0,0,0,[]
+72041948,https://api.github.com/repos/kelleyma49/PSFzf,kelleyma49/PSFzf,PowerShell,MIT,967.0,45.0,bottom,0,0,0,0,0,0,[]
+889569488,https://api.github.com/repos/brenocq/implot3d,brenocq/implot3d,C++,MIT,970.0,53.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+899315170,https://api.github.com/repos/mega-sam/mega-sam,mega-sam/mega-sam,Python,Apache-2.0,970.0,45.0,bottom,0,0,0,0,0,0,[]
+856760782,https://api.github.com/repos/SakiRinn/LiveCaptions-Translator,SakiRinn/LiveCaptions-Translator,C#,Apache-2.0,974.0,80.0,bottom,0,0,0,0,0,0,[]
+396780483,https://api.github.com/repos/celestiaorg/celestia-node,celestiaorg/celestia-node,Go,Apache-2.0,976.0,1015.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+698517452,https://api.github.com/repos/ObservedObserver/streamlit-shadcn-ui,ObservedObserver/streamlit-shadcn-ui,TypeScript,MIT,978.0,90.0,bottom,0,0,0,0,0,0,[]
+601303277,https://api.github.com/repos/quarylabs/sqruff,quarylabs/sqruff,Rust,Apache-2.0,979.0,36.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+560826851,https://api.github.com/repos/devaslanphp/project-management,devaslanphp/project-management,PHP,MIT,981.0,299.0,bottom,0,0,0,0,0,0,[]
+114830018,https://api.github.com/repos/oracle/vagrant-projects,oracle/vagrant-projects,Shell,UPL-1.0,982.0,480.0,bottom,0,0,0,0,0,0,[]
+860671682,https://api.github.com/repos/synth-inc/onit,synth-inc/onit,Swift,NOASSERTION,983.0,35.0,bottom,0,0,0,0,0,0,[]
+2418592,https://api.github.com/repos/dartsim/dart,dartsim/dart,C++,BSD-2-Clause,985.0,289.0,bottom,15,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""dart/collision/AGENTS.md"", ""dart/common/AGENTS.md"", ""dart/constraint/AGENTS.md"", ""dart/dynamics/AGENTS.md"", ""dart/gui/AGENTS.md"", ""dart/io/AGENTS.md"", ""dart/simulation/AGENTS.md"", ""docs/AGENTS.md"", ""docs/background/AGENTS.md"", ""docs/design/AGENTS.md"", ""docs/plans/AGENTS.md"", ""python/AGENTS.md"", ""tests/AGENTS.md""]"
+61392620,https://api.github.com/repos/open-lambda/open-lambda,open-lambda/open-lambda,Go,Apache-2.0,990.0,128.0,bottom,0,0,0,0,0,0,[]
+50982412,https://api.github.com/repos/farrokhi/dnsdiag,farrokhi/dnsdiag,Python,BSD-2-Clause,993.0,104.0,bottom,0,0,0,0,0,0,[]
+779843396,https://api.github.com/repos/Scale3-Labs/langtrace,Scale3-Labs/langtrace,TypeScript,AGPL-3.0,993.0,90.0,bottom,0,0,0,0,0,0,[]
+931611027,https://api.github.com/repos/1517005260/graph-rag-agent,1517005260/graph-rag-agent,Jupyter Notebook,Unknown,995.0,132.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+371644903,https://api.github.com/repos/formancehq/ledger,formancehq/ledger,Go,MIT,997.0,120.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+496628504,https://api.github.com/repos/projectdiscovery/tlsx,projectdiscovery/tlsx,Go,MIT,999.0,94.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+989087242,https://api.github.com/repos/badlogic/lemmy,badlogic/lemmy,HTML,Unknown,999.0,224.0,bottom,2,1,0,1,0,0,"[""CLAUDE.md"", ""apps/claude-trace/CLAUDE.md""]"
+1019432584,https://api.github.com/repos/Wei-Shaw/claude-relay-service,Wei-Shaw/claude-relay-service,JavaScript,MIT,1000.0,172.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+84483314,https://api.github.com/repos/alexanderjeurissen/ranger_devicons,alexanderjeurissen/ranger_devicons,Python,GPL-3.0,1000.0,77.0,bottom,0,0,0,0,0,0,[]
+27185284,https://api.github.com/repos/opengisch/QField,opengisch/QField,C++,GPL-2.0,1002.0,266.0,bottom,0,0,0,0,0,0,[]
+486525050,https://api.github.com/repos/microsoft/HydraLab,microsoft/HydraLab,Java,MIT,1003.0,102.0,bottom,0,0,0,0,0,0,[]
+106723305,https://api.github.com/repos/pnp/cli-microsoft365,pnp/cli-microsoft365,TypeScript,MIT,1005.0,347.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+223700078,https://api.github.com/repos/lostintangent/gistpad,lostintangent/gistpad,TypeScript,MIT,1009.0,72.0,bottom,0,0,0,0,0,0,[]
+533917104,https://api.github.com/repos/wolfi-dev/os,wolfi-dev/os,Shell,NOASSERTION,1009.0,371.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+2786727,https://api.github.com/repos/JessicaTegner/pypandoc,JessicaTegner/pypandoc,Python,MIT,1020.0,120.0,bottom,0,0,0,0,0,0,[]
+175928083,https://api.github.com/repos/polterguy/magic,polterguy/magic,C#,MIT,1023.0,144.0,bottom,0,0,0,0,0,0,[]
+70068171,https://api.github.com/repos/microsoft/vs-threading,microsoft/vs-threading,C#,NOASSERTION,1024.0,153.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+867812115,https://api.github.com/repos/rishikanthc/Scriberr,rishikanthc/Scriberr,Svelte,MIT,1030.0,63.0,bottom,0,0,0,0,0,0,[]
+818509,https://api.github.com/repos/mixpanel/mixpanel-android,mixpanel/mixpanel-android,Java,Apache-2.0,1031.0,370.0,bottom,10,1,1,1,0,1,"["".github/copilot-instructions.md"", "".github/instructions/code-generation.instructions.md"", "".github/instructions/code-review.instructions.md"", "".github/instructions/test-generation.instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""analytics/src/androidTest/AGENTS.md"", ""analytics/src/androidTest/CLAUDE.md"", ""analytics/src/main/java/com/mixpanel/android/mpmetrics/AGENTS.md"", ""analytics/src/main/java/com/mixpanel/android/mpmetrics/CLAUDE.md""]"
+993296708,https://api.github.com/repos/DragonJAR/n8n-workflows-es,DragonJAR/n8n-workflows-es,Unknown,Unknown,1033.0,368.0,bottom,0,0,0,0,0,0,[]
+511003180,https://api.github.com/repos/basetenlabs/truss,basetenlabs/truss,Python,MIT,1035.0,88.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+429221032,https://api.github.com/repos/andrewlock/NetEscapades.EnumGenerators,andrewlock/NetEscapades.EnumGenerators,C#,MIT,1036.0,50.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+220780121,https://api.github.com/repos/Kotlin-Android-Open-Source/MVI-Coroutines-Flow,Kotlin-Android-Open-Source/MVI-Coroutines-Flow,Kotlin,MIT,1036.0,111.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+967503541,https://api.github.com/repos/Azure/azure-mcp,Azure/azure-mcp,C#,MIT,1038.0,292.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+11415199,https://api.github.com/repos/vgmtrans/vgmtrans,vgmtrans/vgmtrans,C++,NOASSERTION,1038.0,90.0,bottom,0,0,0,0,0,0,[]
+947387660,https://api.github.com/repos/leonardsellem/n8n-mcp-server,leonardsellem/n8n-mcp-server,TypeScript,MIT,1041.0,164.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+812973394,https://api.github.com/repos/superlinear-ai/raglite,superlinear-ai/raglite,Python,MPL-2.0,1041.0,95.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+463354076,https://api.github.com/repos/laravel-workflow/laravel-workflow,laravel-workflow/laravel-workflow,PHP,MIT,1043.0,52.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md""]"
+79377628,https://api.github.com/repos/kiwix/kiwix-android,kiwix/kiwix-android,Kotlin,GPL-3.0,1048.0,488.0,bottom,0,0,0,0,0,0,[]
+228538361,https://api.github.com/repos/yytypescript/book,yytypescript/book,TypeScript,CC-BY-SA-4.0,1048.0,110.0,bottom,0,0,0,0,0,0,[]
+722865845,https://api.github.com/repos/livingbio/typed-ffmpeg,livingbio/typed-ffmpeg,Python,MIT,1050.0,20.0,bottom,2,1,0,1,0,1,"["".github/copilot-instructions.md"", ""CLAUDE.md""]"
+212880382,https://api.github.com/repos/lacymorrow/crossover,lacymorrow/crossover,JavaScript,NOASSERTION,1053.0,115.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+5458422,https://api.github.com/repos/benbalter/wordpress-to-jekyll-exporter,benbalter/wordpress-to-jekyll-exporter,PHP,GPL-3.0,1053.0,131.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+183834521,https://api.github.com/repos/schemahero/schemahero,schemahero/schemahero,Go,Apache-2.0,1054.0,82.0,bottom,1,1,1,0,0,0,"["".elasticclaw/templates/schemahero-developer/AGENTS.md""]"
+947834112,https://api.github.com/repos/ZeyueT/AudioX,ZeyueT/AudioX,Python,NOASSERTION,1054.0,113.0,bottom,0,0,0,0,0,0,[]
+18928344,https://api.github.com/repos/spotify-web-api-java/spotify-web-api-java,spotify-web-api-java/spotify-web-api-java,HTML,MIT,1058.0,287.0,bottom,0,0,0,0,0,0,[]
+302662,https://api.github.com/repos/robertpenner/as3-signals,robertpenner/as3-signals,ActionScript,MIT,1060.0,200.0,bottom,0,0,0,0,0,0,[]
+705358800,https://api.github.com/repos/awaescher/OllamaSharp,awaescher/OllamaSharp,C#,MIT,1060.0,150.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+274940489,https://api.github.com/repos/Blair2004/NexoPOS,Blair2004/NexoPOS,PHP,GPL-3.0,1061.0,452.0,bottom,23,1,1,0,0,1,"["".github/instructions/nexopos-asidemenu.instructions.md"", "".github/instructions/nexopos-blade-layouts.instructions.md"", "".github/instructions/nexopos-colors.instructions.md"", "".github/instructions/nexopos-crud-accurate.instructions.md"", "".github/instructions/nexopos-crud.instructions.md"", "".github/instructions/nexopos-forminput.instructions.md"", "".github/instructions/nexopos-frontend-api.instructions.md"", "".github/instructions/nexopos-httpclient.instructions.md"", "".github/instructions/nexopos-localization.instructions.md"", "".github/instructions/nexopos-middleware.instructions.md"", "".github/instructions/nexopos-migrations.instructions.md"", "".github/instructions/nexopos-models.instructions.md"", "".github/instructions/nexopos-module-quick-reference.instructions.md"", "".github/instructions/nexopos-modules.instructions.md"", "".github/instructions/nexopos-options.instructions.md"", "".github/instructions/nexopos-permissions.instructions.md"", "".github/instructions/nexopos-popup.instructions.md"", "".github/instructions/nexopos-roles-permissions.instructions.md"", "".github/instructions/nexopos-tabs.instructions.md"", "".github/instructions/nexopos-view-injection.instructions.md"", "".github/instructions/nexopos-widgets.instructions.md"", "".github/instructions/nexopos.instructions.md"", ""AGENTS.md""]"
+782211616,https://api.github.com/repos/vinceglb/FileKit,vinceglb/FileKit,Kotlin,MIT,1064.0,39.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+954858451,https://api.github.com/repos/f/mcptools,f/mcptools,Go,MIT,1068.0,71.0,bottom,0,0,0,0,0,0,[]
+95660324,https://api.github.com/repos/Voxelum/x-minecraft-launcher,Voxelum/x-minecraft-launcher,TypeScript,MIT,1070.0,132.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md""]"
+147587500,https://api.github.com/repos/roblox-ts/roblox-ts,roblox-ts/roblox-ts,TypeScript,MIT,1071.0,148.0,bottom,0,0,0,0,0,0,[]
+10286641,https://api.github.com/repos/razimantv/mazegenerator,razimantv/mazegenerator,C++,MIT,1072.0,103.0,bottom,0,0,0,0,0,0,[]
+28151108,https://api.github.com/repos/savoirfairelinux/opendht,savoirfairelinux/opendht,C++,GPL-3.0,1073.0,173.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+3457099,https://api.github.com/repos/bradymholt/cron-expression-descriptor,bradymholt/cron-expression-descriptor,C#,MIT,1073.0,194.0,bottom,0,0,0,0,0,0,[]
+131406827,https://api.github.com/repos/sergix44/XBackBone,sergix44/XBackBone,PHP,AGPL-3.0,1077.0,90.0,bottom,0,0,0,0,0,0,[]
+984965707,https://api.github.com/repos/analogdotnow/Analog,analogdotnow/Analog,TypeScript,MIT,1079.0,137.0,bottom,0,0,0,0,0,0,[]
+649943230,https://api.github.com/repos/Azure-Samples/chat-with-your-data-solution-accelerator,Azure-Samples/chat-with-your-data-solution-accelerator,Python,MIT,1080.0,561.0,bottom,0,0,0,0,0,0,[]
+864077408,https://api.github.com/repos/callstackincubator/react-native-bottom-tabs,callstackincubator/react-native-bottom-tabs,TypeScript,MIT,1083.0,57.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+958189434,https://api.github.com/repos/langchain-ai/agents-from-scratch,langchain-ai/agents-from-scratch,Jupyter Notebook,Unknown,1083.0,199.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+12095044,https://api.github.com/repos/dnnsoftware/Dnn.Platform,dnnsoftware/Dnn.Platform,C#,MIT,1085.0,763.0,bottom,0,0,0,0,0,0,[]
+294371636,https://api.github.com/repos/Lumiwealth/lumibot,Lumiwealth/lumibot,Python,GPL-3.0,1087.0,223.0,bottom,4,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md"", ""tests/AGENTS.md""]"
+42032884,https://api.github.com/repos/commons-app/apps-android-commons,commons-app/apps-android-commons,Kotlin,Apache-2.0,1089.0,1277.0,bottom,0,0,0,0,0,0,[]
+82682728,https://api.github.com/repos/intellij-solidity/intellij-solidity,intellij-solidity/intellij-solidity,Kotlin,MIT,1092.0,97.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+362934123,https://api.github.com/repos/monosans/proxy-scraper-checker,monosans/proxy-scraper-checker,Rust,MIT,1094.0,254.0,bottom,0,0,0,0,0,0,[]
+305933027,https://api.github.com/repos/zwave-js/zwave-js-ui,zwave-js/zwave-js-ui,Vue,MIT,1094.0,221.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+230706417,https://api.github.com/repos/DaveSkender/Stock.Indicators,DaveSkender/Stock.Indicators,C#,Apache-2.0,1096.0,259.0,bottom,8,1,1,0,0,1,"["".agents/skills/AGENTS.md"", "".github/AGENTS.md"", "".github/instructions/markdown.instructions.md"", ""AGENTS.md"", ""docs/AGENTS.md"", ""src/AGENTS.md"", ""src/_common/AGENTS.md"", ""tests/AGENTS.md""]"
+258191576,https://api.github.com/repos/openfoodfacts/smooth-app,openfoodfacts/smooth-app,Dart,Apache-2.0,1096.0,381.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""packages/smooth_app/lib/l10n/AGENTS.md""]"
+85780522,https://api.github.com/repos/fgmacedo/python-statemachine,fgmacedo/python-statemachine,Python,MIT,1096.0,98.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+193156399,https://api.github.com/repos/open-telemetry/opentelemetry-cpp,open-telemetry/opentelemetry-cpp,C++,Apache-2.0,1100.0,493.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+219782401,https://api.github.com/repos/ReactiveCircus/android-emulator-runner,ReactiveCircus/android-emulator-runner,JavaScript,Apache-2.0,1102.0,217.0,bottom,0,0,0,0,0,0,[]
+292427680,https://api.github.com/repos/cloudposse/atmos,cloudposse/atmos,Go,Apache-2.0,1108.0,127.0,bottom,2,1,1,1,0,0,"[""CLAUDE.md"", ""agent-skills/AGENTS.md""]"
+17496194,https://api.github.com/repos/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet,AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet,C#,MIT,1113.0,431.0,bottom,2,1,1,0,0,1,"["".github/copilot-instructions.md"", ""agents.md""]"
+679504479,https://api.github.com/repos/aws-samples/generative-ai-use-cases,aws-samples/generative-ai-use-cases,TypeScript,MIT-0,1117.0,302.0,bottom,0,0,0,0,0,0,[]
+401807767,https://api.github.com/repos/Azure/data-api-builder,Azure/data-api-builder,C#,MIT,1121.0,259.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+595221457,https://api.github.com/repos/irihitech/Ursa.Avalonia,irihitech/Ursa.Avalonia,C#,MIT,1124.0,101.0,bottom,1,1,0,0,0,1,"["".github/copilot-instructions.md""]"
+36635066,https://api.github.com/repos/samayo/country-json,samayo/country-json,JavaScript,MIT,1129.0,802.0,bottom,0,0,0,0,0,0,[]
+94822475,https://api.github.com/repos/syntaxfm/website,syntaxfm/website,Svelte,MIT,1135.0,504.0,bottom,3,1,0,1,1,1,"["".cursorrules"", "".github/copilot-instructions.md"", ""CLAUDE.md""]"
+104884613,https://api.github.com/repos/EdwinVW/pitstop,EdwinVW/pitstop,JavaScript,Apache-2.0,1135.0,483.0,bottom,0,0,0,0,0,0,[]
+400759551,https://api.github.com/repos/johnwalley/allotment,johnwalley/allotment,TypeScript,MIT,1138.0,65.0,bottom,0,0,0,0,0,0,[]
+808146034,https://api.github.com/repos/robusta-dev/holmesgpt,robusta-dev/holmesgpt,Python,MIT,1142.0,132.0,bottom,3,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""holmes/plugins/skills/CLAUDE.md""]"
+162053596,https://api.github.com/repos/kubernetes-sigs/sig-storage-local-static-provisioner,kubernetes-sigs/sig-storage-local-static-provisioner,Go,Apache-2.0,1147.0,344.0,bottom,0,0,0,0,0,0,[]
+370342171,https://api.github.com/repos/grafbase/grafbase,grafbase/grafbase,Rust,MPL-2.0,1151.0,56.0,bottom,2,1,0,1,0,0,"[""CLAUDE.md"", ""crates/engine/query-solver/CLAUDE.md""]"
+306091505,https://api.github.com/repos/strapi/documentation,strapi/documentation,JavaScript,NOASSERTION,1151.0,1224.0,bottom,3,1,1,1,0,1,"["".github/copilot-instructions.md"", ""AGENTS.md"", ""CLAUDE.md""]"
+390149963,https://api.github.com/repos/dotnet/csharp-notebooks,dotnet/csharp-notebooks,Jupyter Notebook,MIT,1161.0,385.0,bottom,0,0,0,0,0,0,[]
+28589709,https://api.github.com/repos/sakaiproject/sakai,sakaiproject/sakai,Java,ECL-2.0,1161.0,987.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+526514610,https://api.github.com/repos/dust-tt/dust,dust-tt/dust,TypeScript,MIT,1171.0,149.0,bottom,6,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""front/AGENTS.md"", ""front/CLAUDE.md"", ""x/henry/dust-evals/claude.md"", ""x/henry/dust-hive/CLAUDE.md""]"
+996540721,https://api.github.com/repos/Afilmory/afilmory,Afilmory/afilmory,TypeScript,Unknown,1175.0,135.0,bottom,6,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""apps/web/AGENTS.md"", ""be/AGENTS.md"", ""be/apps/core/AGENTS.md"", ""be/apps/dashboard/agents.md""]"
+70208212,https://api.github.com/repos/yysun/apprun,yysun/apprun,TypeScript,MIT,1177.0,57.0,bottom,0,0,0,0,0,0,[]
+742063678,https://api.github.com/repos/crewAIInc/crewAI-tools,crewAIInc/crewAI-tools,Python,MIT,1177.0,424.0,bottom,0,0,0,0,0,0,[]
+591554483,https://api.github.com/repos/robherley/snips.sh,robherley/snips.sh,Go,MIT,1179.0,50.0,bottom,0,0,0,0,0,0,[]
+905638090,https://api.github.com/repos/yosebyte/nodepass,yosebyte/nodepass,Go,BSD-3-Clause,1181.0,132.0,bottom,0,0,0,0,0,0,[]
+239106765,https://api.github.com/repos/secretlint/secretlint,secretlint/secretlint,TypeScript,MIT,1182.0,45.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+1010618519,https://api.github.com/repos/yoshiko-pg/difit,yoshiko-pg/difit,TypeScript,MIT,1183.0,39.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+90880856,https://api.github.com/repos/NikolayS/postgres_dba,NikolayS/postgres_dba,PLpgSQL,BSD-3-Clause,1188.0,134.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+175222504,https://api.github.com/repos/ColorlibHQ/email-templates,ColorlibHQ/email-templates,HTML,MIT,1193.0,2757.0,bottom,1,1,0,1,0,0,"[""CLAUDE.md""]"
+533537084,https://api.github.com/repos/AnswerOverflow/AnswerOverflow,AnswerOverflow/AnswerOverflow,TypeScript,NOASSERTION,1195.0,64.0,bottom,0,0,0,0,0,0,[]
+135941897,https://api.github.com/repos/saucepleez/taskt,saucepleez/taskt,C#,Apache-2.0,1204.0,383.0,bottom,0,0,0,0,0,0,[]
+134182879,https://api.github.com/repos/wieslawsoltes/Dock,wieslawsoltes/Dock,C#,MIT,1204.0,124.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+184860203,https://api.github.com/repos/reatom/reatom,reatom/reatom,TypeScript,MIT,1207.0,122.0,bottom,1,1,1,0,0,0,"[""AGENTS.md""]"
+921671178,https://api.github.com/repos/metacraft-labs/codetracer,metacraft-labs/codetracer,Nim,AGPL-3.0,1208.0,27.0,bottom,5,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md"", ""src/backend-manager/CLAUDE.md"", ""src/db-backend/AGENTS.md"", ""src/tui/AGENTS.md""]"
+997085842,https://api.github.com/repos/stravu/crystal,stravu/crystal,TypeScript,MIT,1209.0,82.0,bottom,2,1,1,1,0,0,"[""AGENTS.md"", ""CLAUDE.md""]"
+71365344,https://api.github.com/repos/bitfoundation/bitplatform,bitfoundation/bitplatform,C#,MIT,1213.0,245.0,bottom,4,1,1,0,0,1,"["".github/copilot-instructions.md"", ""src/Templates/BlazorEmpty/Bit.BlazorEmpty/.github/copilot-instructions.md"", ""src/Templates/Boilerplate/Bit.Boilerplate/.github/copilot-instructions.md"", ""src/Templates/Boilerplate/Bit.Boilerplate/AGENTS.md""]"
+644861240,https://api.github.com/repos/moinulmoin/chadnext,moinulmoin/chadnext,TypeScript,MIT,1214.0,122.0,bottom,0,0,0,0,0,0,[]
+788715163,https://api.github.com/repos/JMBeresford/retrom,JMBeresford/retrom,TypeScript,GPL-3.0,1216.0,19.0,bottom,5,1,1,1,0,0,"["".agents/AGENTS.md"", "".agents/skills/vercel-composition-patterns/AGENTS.md"", "".agents/skills/vercel-react-best-practices/AGENTS.md"", ""AGENTS.md"", ""CLAUDE.md""]"

@@ -1,0 +1,609 @@
+{
+  "description": "Category-level presence (Coverage) and tier structural coverage for with-template generation on generic_intent_fulltest_4fmt n=62. Presence(c) = fraction of files where category c is detected in generated markdown via sections_from_markdown (fixed Ownership probes). Tier coverage = mean over files of |pred \u2229 tier| / |tier|.",
+  "n_test": 62,
+  "idxs": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    44,
+    45,
+    48,
+    49,
+    50,
+    51,
+    52,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62,
+    63,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    76
+  ],
+  "ownership_probe_fix": {
+    "file": "replication_package/generation_agit_instruct/scripts/agit_categories.py",
+    "ownership_probes": [
+      "\\bownership\\b",
+      "\\bowners?\\b",
+      "\\bcontacts?\\b",
+      "\\bmaintainers?\\b",
+      "\\bcode[\\s_-]*owners?\\b"
+    ],
+    "maintenance_probes": [
+      "\\bmaintenance\\b",
+      "\\bstale\\b",
+      "\\bwhen to update\\b",
+      "\\bsync\\b"
+    ],
+    "note": "Broadened Ownership to match ownership/owners/contacts/maintainers/codeowners. Replaced Maintenance \\bmaintain with \\bmaintenance\\b so Maintainers maps to Ownership.",
+    "legacy_ownership_probes": [
+      "\\bowner\\b",
+      "\\bcontact\\b",
+      "\\bmaintainer\\b",
+      "\\bcodeowner"
+    ],
+    "legacy_maintenance_probes": [
+      "\\bmaintain",
+      "\\bstale\\b",
+      "\\bwhen to update\\b",
+      "\\bsync\\b"
+    ]
+  },
+  "tier_definitions": {
+    "Required (10)": [
+      "Do / Don't rules",
+      "Build / run / install",
+      "Repository structure",
+      "Test / CI commands",
+      "Code style / formatting",
+      "Architecture / design constraints",
+      "Domain models / key abstractions",
+      "API / interface contracts",
+      "Examples / few-shot snippets",
+      "Tooling-specific agent config"
+    ],
+    "Gap (4)": [
+      "Security / secrets",
+      "Git / PR / commit conventions",
+      "Ownership / contacts",
+      "Maintenance / when to update"
+    ],
+    "Recommended (2)": [
+      "Project overview / purpose",
+      "Performance"
+    ],
+    "All-16": [
+      "Project overview / purpose",
+      "Repository structure",
+      "Build / run / install",
+      "Test / CI commands",
+      "Code style / formatting",
+      "Architecture / design constraints",
+      "Domain models / key abstractions",
+      "API / interface contracts",
+      "Do / Don't rules",
+      "Git / PR / commit conventions",
+      "Tooling-specific agent config",
+      "Examples / few-shot snippets",
+      "Security / secrets",
+      "Performance",
+      "Ownership / contacts",
+      "Maintenance / when to update"
+    ]
+  },
+  "systems": {
+    "gpt4o_mini_zero_shot": {
+      "label": "gpt-4o-mini zero_shot",
+      "prediction_path": "/gpuhome/shanto1/agit_model/replication_package/generation_agit_instruct/results/filtered_predictions/zero_shot.json",
+      "n": 62,
+      "presence": {
+        "Project overview / purpose": 1.0,
+        "Repository structure": 0.5484,
+        "Build / run / install": 0.9032,
+        "Test / CI commands": 0.9516,
+        "Code style / formatting": 0.8226,
+        "Architecture / design constraints": 0.7742,
+        "Domain models / key abstractions": 0.3065,
+        "API / interface contracts": 0.7742,
+        "Do / Don't rules": 0.8548,
+        "Git / PR / commit conventions": 0.9516,
+        "Tooling-specific agent config": 0.8387,
+        "Examples / few-shot snippets": 0.6129,
+        "Security / secrets": 0.9839,
+        "Performance": 0.9839,
+        "Ownership / contacts": 1.0,
+        "Maintenance / when to update": 0.9839
+      },
+      "presence_n": {
+        "Project overview / purpose": 62,
+        "Repository structure": 34,
+        "Build / run / install": 56,
+        "Test / CI commands": 59,
+        "Code style / formatting": 51,
+        "Architecture / design constraints": 48,
+        "Domain models / key abstractions": 19,
+        "API / interface contracts": 48,
+        "Do / Don't rules": 53,
+        "Git / PR / commit conventions": 59,
+        "Tooling-specific agent config": 52,
+        "Examples / few-shot snippets": 38,
+        "Security / secrets": 61,
+        "Performance": 61,
+        "Ownership / contacts": 62,
+        "Maintenance / when to update": 61
+      },
+      "tiers": {
+        "Required (10)": {
+          "n_categories": 10,
+          "coverage_mean": 0.7387,
+          "mean_count": 7.3871,
+          "coverage_std": 0.1613,
+          "mean_count_std": 1.613
+        },
+        "Gap (4)": {
+          "n_categories": 4,
+          "coverage_mean": 0.9798,
+          "mean_count": 3.9194,
+          "coverage_std": 0.0686,
+          "mean_count_std": 0.2745
+        },
+        "Recommended (2)": {
+          "n_categories": 2,
+          "coverage_mean": 0.9919,
+          "mean_count": 1.9839,
+          "coverage_std": 0.0635,
+          "mean_count_std": 0.127
+        },
+        "All-16": {
+          "n_categories": 16,
+          "coverage_mean": 0.8306,
+          "mean_count": 13.2903,
+          "coverage_std": 0.104,
+          "mean_count_std": 1.6634
+        }
+      },
+      "ownership_before_after": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 1.0,
+        "n_before": 0,
+        "n_after": 62,
+        "delta": 1.0
+      }
+    },
+    "gpt4o_mini_rag": {
+      "label": "gpt-4o-mini RAG",
+      "prediction_path": "/gpuhome/shanto1/agit_model/replication_package/generation_agit_instruct/results/filtered_predictions/rag.json",
+      "n": 62,
+      "presence": {
+        "Project overview / purpose": 0.9677,
+        "Repository structure": 0.5484,
+        "Build / run / install": 0.8226,
+        "Test / CI commands": 0.9032,
+        "Code style / formatting": 0.7903,
+        "Architecture / design constraints": 0.6774,
+        "Domain models / key abstractions": 0.3065,
+        "API / interface contracts": 0.7258,
+        "Do / Don't rules": 0.8226,
+        "Git / PR / commit conventions": 0.9032,
+        "Tooling-specific agent config": 0.7097,
+        "Examples / few-shot snippets": 0.6129,
+        "Security / secrets": 0.9677,
+        "Performance": 0.9677,
+        "Ownership / contacts": 0.9677,
+        "Maintenance / when to update": 0.8871
+      },
+      "presence_n": {
+        "Project overview / purpose": 60,
+        "Repository structure": 34,
+        "Build / run / install": 51,
+        "Test / CI commands": 56,
+        "Code style / formatting": 49,
+        "Architecture / design constraints": 42,
+        "Domain models / key abstractions": 19,
+        "API / interface contracts": 45,
+        "Do / Don't rules": 51,
+        "Git / PR / commit conventions": 56,
+        "Tooling-specific agent config": 44,
+        "Examples / few-shot snippets": 38,
+        "Security / secrets": 60,
+        "Performance": 60,
+        "Ownership / contacts": 60,
+        "Maintenance / when to update": 55
+      },
+      "tiers": {
+        "Required (10)": {
+          "n_categories": 10,
+          "coverage_mean": 0.6919,
+          "mean_count": 6.9194,
+          "coverage_std": 0.1902,
+          "mean_count_std": 1.9017
+        },
+        "Gap (4)": {
+          "n_categories": 4,
+          "coverage_mean": 0.9315,
+          "mean_count": 3.7258,
+          "coverage_std": 0.1982,
+          "mean_count_std": 0.7928
+        },
+        "Recommended (2)": {
+          "n_categories": 2,
+          "coverage_mean": 0.9677,
+          "mean_count": 1.9355,
+          "coverage_std": 0.1781,
+          "mean_count_std": 0.3563
+        },
+        "All-16": {
+          "n_categories": 16,
+          "coverage_mean": 0.7863,
+          "mean_count": 12.5806,
+          "coverage_std": 0.1673,
+          "mean_count_std": 2.6768
+        }
+      },
+      "ownership_before_after": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.9677,
+        "n_before": 0,
+        "n_after": 60,
+        "delta": 0.9677
+      }
+    },
+    "codellama13b_base": {
+      "label": "CodeLlama-13B base",
+      "prediction_path": "/gpuhome/shanto1/agit_model/replication_package/generation_agit_instruct/results/filtered_predictions/codellama13b_base.json",
+      "n": 62,
+      "presence": {
+        "Project overview / purpose": 0.7903,
+        "Repository structure": 0.4516,
+        "Build / run / install": 0.7258,
+        "Test / CI commands": 0.7903,
+        "Code style / formatting": 0.6452,
+        "Architecture / design constraints": 0.5484,
+        "Domain models / key abstractions": 0.2097,
+        "API / interface contracts": 0.6129,
+        "Do / Don't rules": 0.6452,
+        "Git / PR / commit conventions": 0.8387,
+        "Tooling-specific agent config": 0.7097,
+        "Examples / few-shot snippets": 0.4516,
+        "Security / secrets": 0.7419,
+        "Performance": 0.7258,
+        "Ownership / contacts": 0.7258,
+        "Maintenance / when to update": 0.7097
+      },
+      "presence_n": {
+        "Project overview / purpose": 49,
+        "Repository structure": 28,
+        "Build / run / install": 45,
+        "Test / CI commands": 49,
+        "Code style / formatting": 40,
+        "Architecture / design constraints": 34,
+        "Domain models / key abstractions": 13,
+        "API / interface contracts": 38,
+        "Do / Don't rules": 40,
+        "Git / PR / commit conventions": 52,
+        "Tooling-specific agent config": 44,
+        "Examples / few-shot snippets": 28,
+        "Security / secrets": 46,
+        "Performance": 45,
+        "Ownership / contacts": 45,
+        "Maintenance / when to update": 44
+      },
+      "tiers": {
+        "Required (10)": {
+          "n_categories": 10,
+          "coverage_mean": 0.579,
+          "mean_count": 5.7903,
+          "coverage_std": 0.3095,
+          "mean_count_std": 3.0949
+        },
+        "Gap (4)": {
+          "n_categories": 4,
+          "coverage_mean": 0.754,
+          "mean_count": 3.0161,
+          "coverage_std": 0.3746,
+          "mean_count_std": 1.4985
+        },
+        "Recommended (2)": {
+          "n_categories": 2,
+          "coverage_mean": 0.7581,
+          "mean_count": 1.5161,
+          "coverage_std": 0.4123,
+          "mean_count_std": 0.8247
+        },
+        "All-16": {
+          "n_categories": 16,
+          "coverage_mean": 0.6452,
+          "mean_count": 10.3226,
+          "coverage_std": 0.3234,
+          "mean_count_std": 5.1749
+        }
+      },
+      "ownership_before_after": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.7258,
+        "n_before": 0,
+        "n_after": 45,
+        "delta": 0.7258
+      }
+    },
+    "codellama13b_qlora": {
+      "label": "CodeLlama-13B QLoRA",
+      "prediction_path": "/gpuhome/shanto1/agit_model/replication_package/generation_agit_instruct/results/filtered_predictions/codellama13b_qlora.json",
+      "n": 62,
+      "presence": {
+        "Project overview / purpose": 0.371,
+        "Repository structure": 0.1613,
+        "Build / run / install": 0.3065,
+        "Test / CI commands": 0.0161,
+        "Code style / formatting": 0.3065,
+        "Architecture / design constraints": 0.4516,
+        "Domain models / key abstractions": 0.0645,
+        "API / interface contracts": 0.129,
+        "Do / Don't rules": 0.2419,
+        "Git / PR / commit conventions": 0.0323,
+        "Tooling-specific agent config": 0.2903,
+        "Examples / few-shot snippets": 0.0484,
+        "Security / secrets": 0.129,
+        "Performance": 0.0968,
+        "Ownership / contacts": 0.0161,
+        "Maintenance / when to update": 0.0
+      },
+      "presence_n": {
+        "Project overview / purpose": 23,
+        "Repository structure": 10,
+        "Build / run / install": 19,
+        "Test / CI commands": 1,
+        "Code style / formatting": 19,
+        "Architecture / design constraints": 28,
+        "Domain models / key abstractions": 4,
+        "API / interface contracts": 8,
+        "Do / Don't rules": 15,
+        "Git / PR / commit conventions": 2,
+        "Tooling-specific agent config": 18,
+        "Examples / few-shot snippets": 3,
+        "Security / secrets": 8,
+        "Performance": 6,
+        "Ownership / contacts": 1,
+        "Maintenance / when to update": 0
+      },
+      "tiers": {
+        "Required (10)": {
+          "n_categories": 10,
+          "coverage_mean": 0.2016,
+          "mean_count": 2.0161,
+          "coverage_std": 0.1194,
+          "mean_count_std": 1.1941
+        },
+        "Gap (4)": {
+          "n_categories": 4,
+          "coverage_mean": 0.0444,
+          "mean_count": 0.1774,
+          "coverage_std": 0.0963,
+          "mean_count_std": 0.3851
+        },
+        "Recommended (2)": {
+          "n_categories": 2,
+          "coverage_mean": 0.2339,
+          "mean_count": 0.4677,
+          "coverage_std": 0.3099,
+          "mean_count_std": 0.6198
+        },
+        "All-16": {
+          "n_categories": 16,
+          "coverage_mean": 0.1663,
+          "mean_count": 2.6613,
+          "coverage_std": 0.1037,
+          "mean_count_std": 1.659
+        }
+      },
+      "ownership_before_after": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.0161,
+        "n_before": 0,
+        "n_after": 1,
+        "delta": 0.0161
+      }
+    }
+  },
+  "tables": {
+    "presence_16x4": {
+      "Project overview / purpose": {
+        "gpt-4o-mini zero_shot": 1.0,
+        "gpt-4o-mini RAG": 0.9677,
+        "CodeLlama-13B base": 0.7903,
+        "CodeLlama-13B QLoRA": 0.371
+      },
+      "Repository structure": {
+        "gpt-4o-mini zero_shot": 0.5484,
+        "gpt-4o-mini RAG": 0.5484,
+        "CodeLlama-13B base": 0.4516,
+        "CodeLlama-13B QLoRA": 0.1613
+      },
+      "Build / run / install": {
+        "gpt-4o-mini zero_shot": 0.9032,
+        "gpt-4o-mini RAG": 0.8226,
+        "CodeLlama-13B base": 0.7258,
+        "CodeLlama-13B QLoRA": 0.3065
+      },
+      "Test / CI commands": {
+        "gpt-4o-mini zero_shot": 0.9516,
+        "gpt-4o-mini RAG": 0.9032,
+        "CodeLlama-13B base": 0.7903,
+        "CodeLlama-13B QLoRA": 0.0161
+      },
+      "Code style / formatting": {
+        "gpt-4o-mini zero_shot": 0.8226,
+        "gpt-4o-mini RAG": 0.7903,
+        "CodeLlama-13B base": 0.6452,
+        "CodeLlama-13B QLoRA": 0.3065
+      },
+      "Architecture / design constraints": {
+        "gpt-4o-mini zero_shot": 0.7742,
+        "gpt-4o-mini RAG": 0.6774,
+        "CodeLlama-13B base": 0.5484,
+        "CodeLlama-13B QLoRA": 0.4516
+      },
+      "Domain models / key abstractions": {
+        "gpt-4o-mini zero_shot": 0.3065,
+        "gpt-4o-mini RAG": 0.3065,
+        "CodeLlama-13B base": 0.2097,
+        "CodeLlama-13B QLoRA": 0.0645
+      },
+      "API / interface contracts": {
+        "gpt-4o-mini zero_shot": 0.7742,
+        "gpt-4o-mini RAG": 0.7258,
+        "CodeLlama-13B base": 0.6129,
+        "CodeLlama-13B QLoRA": 0.129
+      },
+      "Do / Don't rules": {
+        "gpt-4o-mini zero_shot": 0.8548,
+        "gpt-4o-mini RAG": 0.8226,
+        "CodeLlama-13B base": 0.6452,
+        "CodeLlama-13B QLoRA": 0.2419
+      },
+      "Git / PR / commit conventions": {
+        "gpt-4o-mini zero_shot": 0.9516,
+        "gpt-4o-mini RAG": 0.9032,
+        "CodeLlama-13B base": 0.8387,
+        "CodeLlama-13B QLoRA": 0.0323
+      },
+      "Tooling-specific agent config": {
+        "gpt-4o-mini zero_shot": 0.8387,
+        "gpt-4o-mini RAG": 0.7097,
+        "CodeLlama-13B base": 0.7097,
+        "CodeLlama-13B QLoRA": 0.2903
+      },
+      "Examples / few-shot snippets": {
+        "gpt-4o-mini zero_shot": 0.6129,
+        "gpt-4o-mini RAG": 0.6129,
+        "CodeLlama-13B base": 0.4516,
+        "CodeLlama-13B QLoRA": 0.0484
+      },
+      "Security / secrets": {
+        "gpt-4o-mini zero_shot": 0.9839,
+        "gpt-4o-mini RAG": 0.9677,
+        "CodeLlama-13B base": 0.7419,
+        "CodeLlama-13B QLoRA": 0.129
+      },
+      "Performance": {
+        "gpt-4o-mini zero_shot": 0.9839,
+        "gpt-4o-mini RAG": 0.9677,
+        "CodeLlama-13B base": 0.7258,
+        "CodeLlama-13B QLoRA": 0.0968
+      },
+      "Ownership / contacts": {
+        "gpt-4o-mini zero_shot": 1.0,
+        "gpt-4o-mini RAG": 0.9677,
+        "CodeLlama-13B base": 0.7258,
+        "CodeLlama-13B QLoRA": 0.0161
+      },
+      "Maintenance / when to update": {
+        "gpt-4o-mini zero_shot": 0.9839,
+        "gpt-4o-mini RAG": 0.8871,
+        "CodeLlama-13B base": 0.7097,
+        "CodeLlama-13B QLoRA": 0.0
+      }
+    },
+    "tier_coverage_4": {
+      "Required (10)": {
+        "gpt-4o-mini zero_shot": 0.7387,
+        "gpt-4o-mini RAG": 0.6919,
+        "CodeLlama-13B base": 0.579,
+        "CodeLlama-13B QLoRA": 0.2016
+      },
+      "Gap (4)": {
+        "gpt-4o-mini zero_shot": 0.9798,
+        "gpt-4o-mini RAG": 0.9315,
+        "CodeLlama-13B base": 0.754,
+        "CodeLlama-13B QLoRA": 0.0444
+      },
+      "Recommended (2)": {
+        "gpt-4o-mini zero_shot": 0.9919,
+        "gpt-4o-mini RAG": 0.9677,
+        "CodeLlama-13B base": 0.7581,
+        "CodeLlama-13B QLoRA": 0.2339
+      },
+      "All-16": {
+        "gpt-4o-mini zero_shot": 0.8306,
+        "gpt-4o-mini RAG": 0.7863,
+        "CodeLlama-13B base": 0.6452,
+        "CodeLlama-13B QLoRA": 0.1663
+      }
+    },
+    "ownership_before_after": {
+      "gpt-4o-mini zero_shot": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 1.0,
+        "n_before": 0,
+        "n_after": 62,
+        "delta": 1.0
+      },
+      "gpt-4o-mini RAG": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.9677,
+        "n_before": 0,
+        "n_after": 60,
+        "delta": 0.9677
+      },
+      "CodeLlama-13B base": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.7258,
+        "n_before": 0,
+        "n_after": 45,
+        "delta": 0.7258
+      },
+      "CodeLlama-13B QLoRA": {
+        "before_legacy_probes": 0.0,
+        "after_fixed_probes": 0.0161,
+        "n_before": 0,
+        "n_after": 1,
+        "delta": 0.0161
+      }
+    }
+  }
+}

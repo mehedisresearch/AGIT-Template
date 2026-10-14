@@ -1,0 +1,12 @@
+{
+  "n": 77,
+  "model_name": "/gpuhome/shanto1/models/CodeLlama-13b-Instruct-hf",
+  "adapter": null,
+  "load_in_4bit": false,
+  "test_file": "exports/generic_intent_fulltest/codellama13b_lora/data/test.jsonl",
+  "predictions_json": "exports/generic_intent_fulltest/codellama13b_base/predictions.json",
+  "predictions_jsonl": "exports/generic_intent_fulltest/codellama13b_base/predictions.jsonl",
+  "max_new_tokens": 1536,
+  "max_prompt_tokens": 1024,
+  "elapsed_sec": 4565.6
+}

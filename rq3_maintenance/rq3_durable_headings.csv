@@ -1,0 +1,41 @@
+heading,added,deleted,survive_rate,net
+security features,25,0,1.0,25
+running tests,19,0,1.0,19
+deployment profiles,18,0,1.0,18
+code standards,18,0,1.0,18
+general guidelines,18,0,1.0,18
+build commands,18,0,1.0,18
+linting,17,0,1.0,17
+setup,15,0,1.0,15
+required before each commit,15,0,1.0,15
+development setup,14,0,1.0,14
+development tools,13,0,1.0,13
+mcp,13,0,1.0,13
+development features,12,0,1.0,12
+essential commands,12,0,1.0,12
+testing strategy,12,0,1.0,12
+secrets/,12,0,1.0,12
+operational procedures,12,0,1.0,12
+example,10,0,1.0,10
+common issues,10,0,1.0,10
+version management,10,0,1.0,10
+test organization,10,0,1.0,10
+pull request rules,10,0,1.0,10
+quick decision matrix,9,0,1.0,9
+pattern 2b typed maps require specific view classes,9,0,1.0,9
+security considerations,9,0,1.0,9
+essential reference,9,0,1.0,9
+dotcms rest api guide for claude ai,9,0,1.0,9
+building and testing,9,0,1.0,9
+pattern 3 generic utility classes when no specific class exists,9,0,1.0,9
+pattern 4 complex dynamic json rare cases,9,0,1.0,9
+adding new environment variables,9,0,1.0,9
+setting up environment variables,9,0,1.0,9
+3. ensure type safety,9,0,1.0,9
+pattern 2 methods returning unwrapped collections/maps,9,0,1.0,9
+notes,9,0,1.0,9
+pattern 1 methods returning responseentity view wrappers,9,0,1.0,9
+forbidden for ai,9,0,1.0,9
+ai description requirements,9,0,1.0,9
+ai-specific schema rules,9,0,1.0,9
+critical ai verification,9,0,1.0,9

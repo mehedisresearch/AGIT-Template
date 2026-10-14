@@ -1,0 +1,17 @@
+# Secrets / credentials — never publish
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+**/secrets/
+**/*api_key*
+**/*API_KEY*
+
+# Local / editor noise
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

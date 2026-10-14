@@ -1,0 +1,127 @@
+# AGENTS Instructions
+
+## Development Workflow
+
+```bash
+pnpm dev        # Start Vite dev server at http://localhost:5173
+pnpm build      # Type-check + production build
+pnpm nice       # Fix linting + formatting + type-check in one command
+pnpm types      # TypeScript type-check only
+```
+
+### Pre-commit Checklist
+
+- [ ] `pnpm nice` passes
+- [ ] `pnpm build` succeeds
+- [ ] Visually verify affected screens in the browser dev server
+
+## Euclid Screen Migration Checklist
+
+When importing or wrapping a screen from `@selfxyz/euclid`, complete **every** item before considering the screen done. Missing any of these causes silent runtime failures (blank animations, broken layouts, missing fonts).
+
+### 1. Assets — public directory
+
+Euclid screens reference assets by URL path (e.g., `/animations/app-tour-welcome.json`, `/backgrounds/dialogue-background.jpg`). These are **not** bundled by the package — the consuming app must serve them from its `public/` directory.
+
+- **Animations:** Check the Euclid screen source for Lottie URI constants or default props pointing to `/animations/*.json`. Copy the corresponding files from `selfxyz/euclid → packages/storybook/public/animations/` into `packages/webview-app/public/animations/`.
+- **Backgrounds:** Check for `/backgrounds/*` references. Copy from `selfxyz/euclid → packages/storybook/public/backgrounds/`.
+- **Fonts:** Verify `packages/webview-app/public/fonts/` has all typefaces used by the screen's Euclid components. Current set: Advercase-Regular, DINOT-Bold, DINOT-Medium, IBMPlexMono-Regular.
+- **Images:** Euclid components that import images from `../../assets/images/` are bundled via the build — no action needed. Only URL-path references (string literals starting with `/`) require `public/` copies.
+
+Run a quick grep to catch URL-path asset references you might miss:
+
+```bash
+grep -rE "'/[a-z].*\.(json|jpg|png|svg)'" packages/webview-app/node_modules/@selfxyz/euclid/src/screens/<screen-path>/
+```
+
+**Downloading assets from the euclid repo:** The `selfxyz/euclid` repo is private. Use `gh api` to download files. The GitHub contents API silently returns empty content for files >1 MB. For any asset that may be large (Lottie animations, images), always use the **git blob API**:
+
+```bash
+# Step 1: get the file's SHA
+sha=$(gh api repos/selfxyz/euclid/contents/<path> --jq '.sha')
+
+# Step 2: download via blob (handles files up to 100 MB)
+gh api repos/selfxyz/euclid/git/blobs/$sha --jq '.content' | base64 -d > <filename>
+```
+
+After downloading, always verify file sizes are non-zero (`wc -c <file>`). A 0-byte or 14-byte file means the download silently failed.
+
+**Sandboxed / offline environments (Codex):** If you cannot access the network, check whether the required asset already exists in `public/animations/` or `public/backgrounds/`. If it does not exist and you cannot download it, document the missing asset in your PR description so it can be added before merge.
+
+**Asset locations:**
+
+| Asset type  | Euclid source                                             | Local destination                          |
+| ----------- | --------------------------------------------------------- | ------------------------------------------ |
+| Animations  | `selfxyz/euclid → packages/storybook/public/animations/`  | `packages/webview-app/public/animations/`  |
+| Backgrounds | `selfxyz/euclid → packages/storybook/public/backgrounds/` | `packages/webview-app/public/backgrounds/` |
+| Fonts       | Already in place                                          | `packages/webview-app/public/fonts/`       |
+| Images      | Bundled via imports (no action needed)                    | N/A                                        |
+
+**Note on Prettier:** Lottie animation JSON files in `public/animations/` are excluded from Prettier formatting (see `.prettierignore`). These files should remain flat/minified — do not reformat them.
+
+### 2. Safe area insets
+
+Every Euclid screen that accepts a `SafeArea` / `insets` prop **must** receive `WEB_SAFE_AREA` (from `src/utils/insets.ts`). Missing insets cause content to render under notches or flush against edges.
+
+- Full-screen Euclid components (e.g., `LaunchTour*Screen`, `IDTypeScreen`, `CountryPickerScreen`): spread `{...WEB_SAFE_AREA}` as a prop.
+- Composite Euclid components used inside custom layouts (e.g., `StatusState`, `ProofRequestScreen`): check whether the parent layout already handles padding. If the Euclid component accepts `insets`, pass them.
+
+### 3. Validation
+
+After wiring the screen, visually verify in the browser dev server (`pnpm dev`):
+
+- Lottie animations play (not blank/black or a static dot).
+- Background images load (not a solid color fallback).
+- Text renders in the correct typeface (not system fallback).
+- Content respects safe area padding (not clipped or flush).
+
+## Architecture Notes
+
+- **Vite + React** — SPA with `react-router-dom` for routing
+- **`@selfxyz/euclid`** — external design system package providing screen components, icons, and tokens
+- **`@selfxyz/webview-bridge`** — communication layer to native shells; in standalone browser mode (no native shell), bridge requests reject immediately since there is no transport
+- **`@selfxyz/mobile-sdk-alpha`** — shared SDK logic consumed via the `/browser` entry point
+
+## Routes
+
+- **Dev-only routes register under `/dev/*`** and are gated on `import.meta.env.DEV` at the registration site. Production builds never include them. `DevRouteMenu` is the only allowed entry point.
+- The nav-hygiene workstream owns the routing contract — see [specs/projects/sdk/workstreams/nav-hygiene/SPEC.html](../../specs/projects/sdk/workstreams/nav-hygiene/SPEC.html).
+
+## Navigation state
+
+- Every `navigate(path, { state })` call passes a value typed as `Partial<NavState>` (see `src/types/navState.ts`). Do not invent one-off local interfaces for `location.state` — extend `NavState` if you need a new well-typed slot.
+- Forward target is `state.nextPath`. The legacy `returnTo` slot was renamed in NAV-09; the `?returnTo=` URL query param was dropped (state-only).
+- Back target is `state.backPath` when overriding `navigate(-1)`'s default.
+
+## Replace semantics (`navigate(path, { replace: true })`)
+
+Use `{ replace: true }` when the user must not be able to back into the screen they just left:
+
+1. **Terminal outcomes** — success, failure, kyc-pending, register-success. Pressing back from `/` should not return the user to a success/failure screen they already dismissed.
+2. **Invalid-state redirects** — e.g. `HomeScreen` sending no-document users to onboarding, or `BootDecision` redirecting cross-mode access.
+3. **Cluster-internal forward progressions** where the prior step is no longer meaningful (e.g. KYC success → proof generation).
+
+Default `replace: false` is correct for ordinary forward navigation inside a multi-step wizard where back-tracking IS expected.
+
+NAV-07 swept every terminal `navigate('/')` and the 5 named violations; future PRs are responsible for matching the convention in new code.
+
+## Cluster close
+
+- Terminal screens close their cluster via `useClusterClose()` (see `src/utils/clusterClose.ts`), never by hardcoding `navigate('/')` or inlining `lifecycle.setResult + dismiss`.
+- The hook is mode-aware: self-app users land on the cluster's entry path (with `state.nextPath` override); embed users get a `setResult({success:false, error:'user_cancelled'})` (when the cluster is mid-flow) then `dismiss({reason:'user_cancel'})`.
+- Cluster is inferred from `useLocation().pathname`'s first segment. After NAV-08, the live clusters are `tour`, `pick-country`, `pick-id-type`, `pick-provider`, `capture`, `register`, `disclose`, `receipts`, `history`, `notify`, `backup-phrase`, `recover`, `docs`, `settings`, `points`, `account`, `embed`, `onboarding` (NAV-11-deferred only), `dev`, `coming-soon`, and `home` (fallback). To add a new cluster, extend the `Cluster` union + `CLUSTER_CLOSE` registry in `src/utils/clusterCloseRegistry.ts`.
+
+## Handler naming
+
+Local handler declarations in `src/screens/**/*.tsx` use one of four canonical names so a reader can tell intent from the wire-up alone. The ESLint rule [`self-handlers/handler-names`](./eslint-rules/handler-names.js) enforces the ban list at lint time.
+
+| Canonical name   | Intent                               | Body shape                                                                                                                             |
+| ---------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `handleClose`    | Exit this cluster                    | `useClusterClose()` (preferred), or `navigate('/', { replace: true })` / `lifecycle.dismiss(...)`                                      |
+| `handleBack`     | Walk one step back                   | `navigate(-1)` or `navigate(state.backPath ?? -1)`                                                                                     |
+| `handleRetry`    | Re-attempt the current step in place | `navigate(currentStepPath, { replace: true })`                                                                                         |
+| `handleContinue` | Advance to a forward target          | `navigate(nextStepPath)` — a more descriptive name is fine when the target is fixed (e.g. `handleStartProving`, `handleGenerateProof`) |
+
+**Banned local names** (lint error): `onDismiss`, `handleDismiss`, `onCancel`, `handleCancel`, `onEscape`. They overload meaning and hide whether the action closes the cluster, walks back, or skips.
+
+**Important — Euclid props are unaffected.** The ban applies to **local declarations only**. Euclid component props keep their existing names; the wire-up reads `<EuclidScreen onDismiss={handleClose}>`, which makes the intent clear at the call site.

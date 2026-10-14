@@ -1,0 +1,449 @@
+file_key,file_type,repo,language,stars,n_touches,n_prs,n_authors,owner_top_share,additions,deletions,churn_ratio,n_added,n_modified,n_removed,span_days,mean_gap_days,early_frac,pattern,first_at,last_at
+0x80/isolate-package::AGENTS.md,AGENTS.md,0x80/isolate-package,TypeScript,161,2,1,1,1.0,21.0,1.0,0.048,0,2,0,0.0,0.0,1.0,sparse,2025-07-13 22:03:19+00:00,2025-07-13 22:03:19+00:00
+2006-Scape/2006Scape::AGENTS.md,AGENTS.md,2006-Scape/2006Scape,Java,204,9,1,1,1.0,377.0,134.0,0.355,1,8,0,0.0,0.0,1.0,burst-taper,2025-06-30 07:55:22+00:00,2025-06-30 07:55:22+00:00
+514-labs/moose::AGENTS.md,AGENTS.md,514-labs/moose,Rust,275,1,1,1,1.0,36.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-27 19:49:02+00:00,2025-07-27 19:49:02+00:00
+567-labs/instructor::CLAUDE.md,CLAUDE.md,567-labs/instructor,Python,11095,1,1,1,1.0,238.0,11.0,0.046,0,1,0,0.0,,1.0,abandoned,2025-07-02 16:43:11+00:00,2025-07-02 16:43:11+00:00
+567-labs/kura::CLAUDE.md,CLAUDE.md,567-labs/kura,Python,259,3,3,3,0.333,57.0,11.0,0.193,0,3,0,3.9,2.0,0.333,continuous,2025-05-26 08:46:01+00:00,2025-05-30 06:59:35+00:00
+567-labs/kura::kura/explorer/CLAUDE.md,CLAUDE.md,567-labs/kura,Python,259,5,3,1,1.0,434.0,434.0,1.0,2,1,2,2.1,0.5,0.6,continuous,2025-05-24 06:48:29+00:00,2025-05-26 08:46:01+00:00
+AMICI-dev/AMICI::AGENTS.md,AGENTS.md,AMICI-dev/AMICI,C++,124,2,1,1,1.0,23.0,23.0,1.0,1,0,1,0.0,0.0,1.0,sparse,2025-06-18 18:31:38+00:00,2025-06-18 18:31:38+00:00
+AMICI-dev/AMICI::doc/AGENTS.md,AGENTS.md,AMICI-dev/AMICI,C++,124,4,3,1,1.0,133.0,8.0,0.06,2,2,0,2.2,0.7,0.25,continuous,2025-06-18 18:31:38+00:00,2025-06-20 22:18:59+00:00
+Akira-Papa/Claude-Code-Communication::CLAUDE.md,CLAUDE.md,Akira-Papa/Claude-Code-Communication,Shell,169,3,1,1,1.0,10.0,12.0,1.2,0,3,0,0.0,0.0,1.0,burst-taper,2025-06-22 05:31:32+00:00,2025-06-22 05:31:32+00:00
+AlexGladkov/JetHabit::AGENTS.md,AGENTS.md,AlexGladkov/JetHabit,Kotlin,286,1,1,1,1.0,20.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-21 10:47:27+00:00,2025-05-21 10:47:27+00:00
+Azure/PSRule.Rules.Azure::.github/copilot-instructions.md,Copilot instructions,Azure/PSRule.Rules.Azure,PowerShell,420,1,1,1,1.0,12.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-12 05:49:53+00:00,2025-07-12 05:49:53+00:00
+Azure/azure-dev::.github/copilot-instructions.md,Copilot instructions,Azure/azure-dev,Go,469,1,1,1,1.0,86.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-20 15:28:50+00:00,2025-06-20 15:28:50+00:00
+Azure/azure-mcp::.github/copilot-instructions.md,Copilot instructions,Azure/azure-mcp,C#,1038,2,2,2,0.5,21.0,9.0,0.429,0,2,0,0.2,0.2,0.5,sparse,2025-07-15 21:04:10+00:00,2025-07-16 02:44:50+00:00
+Azure/azure-sdk-for-java::.github/copilot-instructions.md,Copilot instructions,Azure/azure-sdk-for-java,Java,2506,6,3,2,0.833,45.0,3.0,0.067,0,6,0,49.2,9.8,0.167,continuous,2025-06-05 17:02:48+00:00,2025-07-24 22:00:13+00:00
+Azure/azure-sdk-for-js::.github/copilot-instructions.md,Copilot instructions,Azure/azure-sdk-for-js,TypeScript,2222,1,1,1,1.0,19.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-06-06 19:16:43+00:00,2025-06-06 19:16:43+00:00
+Azure/azure-sdk-for-python::.github/copilot-instructions.md,Copilot instructions,Azure/azure-sdk-for-python,Python,5011,4,4,3,0.5,753.0,127.0,0.169,0,4,0,34.2,11.4,0.25,continuous,2025-05-21 16:27:03+00:00,2025-06-24 21:22:38+00:00
+BeehiveInnovations/zen-mcp-server::CLAUDE.md,CLAUDE.md,BeehiveInnovations/zen-mcp-server,Python,5465,2,1,1,1.0,444.0,46.0,0.104,1,1,0,0.0,0.0,1.0,sparse,2025-06-17 02:02:19+00:00,2025-06-17 02:02:19+00:00
+CommunityToolkit/Aspire::.github/copilot-instructions.md,Copilot instructions,CommunityToolkit/Aspire,C#,465,1,1,1,1.0,2.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-02 03:41:00+00:00,2025-07-02 03:41:00+00:00
+CosmWasm/wasmvm::AGENTS.md,AGENTS.md,CosmWasm/wasmvm,Go,192,2,1,1,1.0,16.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-05-20 18:22:39+00:00,2025-05-20 18:22:39+00:00
+DannyMac180/meta-agent::AGENTS.md,AGENTS.md,DannyMac180/meta-agent,Python,364,1,1,1,1.0,84.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-19 13:26:49+00:00,2025-05-19 13:26:49+00:00
+DannyMac180/meta-agent::agents.md,AGENTS.md,DannyMac180/meta-agent,Python,364,2,2,1,1.0,16.0,0.0,0.0,0,2,0,0.4,0.4,0.5,sparse,2025-05-21 15:51:34+00:00,2025-05-22 00:58:22+00:00
+DaveSkender/Stock.Indicators::.github/copilot-instructions.md,Copilot instructions,DaveSkender/Stock.Indicators,C#,1096,8,5,2,0.75,814.0,187.0,0.23,6,2,0,39.0,5.6,0.875,burst-taper,2025-06-04 02:28:44+00:00,2025-07-13 02:41:21+00:00
+DaveSkender/Stock.Indicators::.github/instructions/catalog.instructions.md,Copilot instructions,DaveSkender/Stock.Indicators,C#,1096,1,1,1,1.0,152.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-17 06:54:28+00:00,2025-07-17 06:54:28+00:00
+DaveSkender/Stock.Indicators::.github/instructions/charp.instructions.md,Copilot instructions,DaveSkender/Stock.Indicators,C#,1096,2,1,1,1.0,7.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-07-17 06:54:28+00:00,2025-07-17 06:54:28+00:00
+DaveSkender/Stock.Indicators::.github/instructions/markdown.instructions.md,Copilot instructions,DaveSkender/Stock.Indicators,C#,1096,1,1,1,1.0,94.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-17 06:54:28+00:00,2025-07-17 06:54:28+00:00
+DaveSkender/Stock.Indicators::.github/instructions/nuget-packages.instructions.md,Copilot instructions,DaveSkender/Stock.Indicators,C#,1096,1,1,1,1.0,12.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-17 06:54:28+00:00,2025-07-17 06:54:28+00:00
+EduardoPires/EquinoxProject::AGENTS.md,AGENTS.md,EduardoPires/EquinoxProject,C#,6699,1,1,1,1.0,38.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-19 21:59:24+00:00,2025-05-19 21:59:24+00:00
+Effect-TS/effect-smol::CLAUDE.md,CLAUDE.md,Effect-TS/effect-smol,TypeScript,141,4,4,1,1.0,88.0,2.0,0.023,0,4,0,2.3,0.8,0.5,continuous,2025-07-05 09:09:45+00:00,2025-07-07 15:32:13+00:00
+EricLBuehler/mistral.rs::AGENTS.md,AGENTS.md,EricLBuehler/mistral.rs,Rust,5959,1,1,1,1.0,137.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-06 09:28:27+00:00,2025-06-06 09:28:27+00:00
+FinAegis/core-banking-prototype-laravel::CLAUDE.md,CLAUDE.md,FinAegis/core-banking-prototype-laravel,PHP,116,2,2,1,1.0,88.0,1.0,0.011,0,2,0,0.4,0.4,0.5,sparse,2025-06-19 11:57:01+00:00,2025-06-19 21:06:56+00:00
+FritzAndFriends/SharpSite::.github/copilot-instructions.md,Copilot instructions,FritzAndFriends/SharpSite,C#,142,2,1,2,0.5,2.0,0.0,0.0,2,0,0,0.0,0.0,1.0,sparse,2025-07-01 15:11:58+00:00,2025-07-01 15:11:58+00:00
+J-Tech-Japan/Sekiban::CLAUDE.md,CLAUDE.md,J-Tech-Japan/Sekiban,TypeScript,172,1,1,1,1.0,214.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-22 21:15:12+00:00,2025-05-22 21:15:12+00:00
+JMBeresford/retrom::.github/copilot-instructions.md,Copilot instructions,JMBeresford/retrom,TypeScript,1216,1,1,1,1.0,68.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-26 22:49:48+00:00,2025-05-26 22:49:48+00:00
+Kiln-AI/Kiln::.cursorrules,Cursor rules,Kiln-AI/Kiln,Python,4015,2,2,1,1.0,2.0,0.0,0.0,0,2,0,0.5,0.5,0.5,sparse,2025-06-09 14:57:06+00:00,2025-06-10 02:52:45+00:00
+Kiln-AI/Kiln::AGENTS.md,AGENTS.md,Kiln-AI/Kiln,Python,4015,2,2,1,1.0,64.0,0.0,0.0,2,0,0,0.5,0.5,0.5,sparse,2025-06-09 14:57:06+00:00,2025-06-10 02:52:45+00:00
+KomodoPlatform/komodo-wallet::AGENTS.md,AGENTS.md,KomodoPlatform/komodo-wallet,Dart,268,1,1,1,1.0,53.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-23 07:58:20+00:00,2025-05-23 07:58:20+00:00
+LayerZero-Labs/devtools::AGENTS.md,AGENTS.md,LayerZero-Labs/devtools,TypeScript,155,17,5,2,0.882,881.0,51.0,0.058,5,12,0,48.5,3.0,0.882,burst-taper,2025-05-29 08:38:55+00:00,2025-07-16 20:39:47+00:00
+LayerZero-Labs/devtools::examples/AGENTS.md,AGENTS.md,LayerZero-Labs/devtools,TypeScript,155,5,5,2,0.6,372.0,0.0,0.0,2,0,0,48.5,12.1,0.6,continuous,2025-05-29 08:38:55+00:00,2025-07-16 20:39:47+00:00
+LayerZero-Labs/devtools::packages/AGENTS.md,AGENTS.md,LayerZero-Labs/devtools,TypeScript,155,5,5,2,0.6,274.0,0.0,0.0,2,0,0,48.5,12.1,0.6,continuous,2025-05-29 08:38:55+00:00,2025-07-16 20:39:47+00:00
+LayerZero-Labs/devtools::tests/AGENTS.md,AGENTS.md,LayerZero-Labs/devtools,TypeScript,155,5,5,2,0.6,246.0,0.0,0.0,2,0,0,48.5,12.1,0.6,continuous,2025-05-29 08:38:55+00:00,2025-07-16 20:39:47+00:00
+MikePopoloski/slang::.github/copilot-instructions.md,Copilot instructions,MikePopoloski/slang,C++,799,1,1,1,1.0,37.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-19 17:52:18+00:00,2025-05-19 17:52:18+00:00
+MontrealAI/AGI-Alpha-Agent-v0::AGENTS.md,AGENTS.md,MontrealAI/AGI-Alpha-Agent-v0,Python,251,190,189,1,1.0,828.0,347.0,0.419,1,189,0,69.7,0.4,0.668,continuous,2025-05-21 23:19:20+00:00,2025-07-30 16:45:33+00:00
+NewFuture/DDNS::.github/copilot-instructions.md,Copilot instructions,NewFuture/DDNS,Python,4528,3,3,1,1.0,89.0,3.0,0.034,1,2,0,12.7,6.3,0.333,continuous,2025-07-09 10:33:23+00:00,2025-07-22 03:11:12+00:00
+NewFuture/DDNS::.github/instructions/python.instructions.md,Copilot instructions,NewFuture/DDNS,Python,4528,1,1,1,1.0,0.0,3.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-07-09 10:33:23+00:00,2025-07-09 10:33:23+00:00
+Nugine/s3s::.github/copilot-instructions.md,Copilot instructions,Nugine/s3s,Rust,200,3,1,1,1.0,125.0,2.0,0.016,1,2,0,0.0,0.0,1.0,burst-taper,2025-07-29 00:51:39+00:00,2025-07-29 00:51:39+00:00
+OWASP-BLT/BLT::.github/copilot-instructions.md,Copilot instructions,OWASP-BLT/BLT,HTML,194,4,4,1,1.0,76.0,0.0,0.0,4,0,0,0.0,0.0,0.5,continuous,2025-05-20 01:36:39+00:00,2025-05-20 01:51:50+00:00
+OpenAdaptAI/OpenAdapt::omnimcp/CLAUDE.md,CLAUDE.md,OpenAdaptAI/OpenAdapt,Python,1339,2,1,1,1.0,125.0,1.0,0.008,1,1,0,0.0,0.0,1.0,sparse,2025-03-16 00:52:22+00:00,2025-03-16 00:52:22+00:00
+OpenAgentsInc/openagents::CLAUDE.md,CLAUDE.md,OpenAgentsInc/openagents,TypeScript,261,2,2,1,1.0,52.0,1.0,0.019,0,2,0,3.4,3.4,0.5,sparse,2025-07-25 18:31:51+00:00,2025-07-29 04:39:44+00:00
+OpenHFT/Chronicle-Values::AGENTS.md,AGENTS.md,OpenHFT/Chronicle-Values,Java,107,4,4,1,1.0,33.0,34.0,1.03,0,4,0,0.5,0.2,0.25,continuous,2025-05-26 06:12:27+00:00,2025-05-26 19:16:37+00:00
+OpenHFT/Chronicle-Wire::AGENTS.md,AGENTS.md,OpenHFT/Chronicle-Wire,Java,557,2,2,1,1.0,38.0,5.0,0.132,0,2,0,1.8,1.8,0.5,sparse,2025-05-31 15:53:11+00:00,2025-06-02 11:50:54+00:00
+PRQL/prql::CLAUDE.md,CLAUDE.md,PRQL/prql,Rust,10371,1,1,1,1.0,81.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-17 01:37:06+00:00,2025-05-17 01:37:06+00:00
+PV-Bhat/vibe-check-mcp-server::AGENTS.md,AGENTS.md,PV-Bhat/vibe-check-mcp-server,TypeScript,117,1,1,1,1.0,44.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-23 05:56:13+00:00,2025-07-23 05:56:13+00:00
+PV-Bhat/vibe-check-mcp-server::docs/AGENTS.md,AGENTS.md,PV-Bhat/vibe-check-mcp-server,TypeScript,117,1,1,1,1.0,44.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-23 05:56:13+00:00,2025-07-23 05:56:13+00:00
+PaloAltoNetworks/docusaurus-openapi-docs::AGENTS.md,AGENTS.md,PaloAltoNetworks/docusaurus-openapi-docs,TypeScript,937,2,2,2,0.5,80.0,1.0,0.013,1,1,0,12.0,12.0,0.5,sparse,2025-06-27 21:07:03+00:00,2025-07-09 20:05:32+00:00
+PedramNavid/dbtpal::AGENTS.md,AGENTS.md,PedramNavid/dbtpal,Lua,123,1,1,1,1.0,6.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-19 05:25:46+00:00,2025-06-19 05:25:46+00:00
+PopupMaker/Popup-Maker::AGENTS.md,AGENTS.md,PopupMaker/Popup-Maker,PHP,108,1,1,1,1.0,50.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-22 13:52:18+00:00,2025-05-22 13:52:18+00:00
+PyO3/maturin::.github/copilot-instructions.md,Copilot instructions,PyO3/maturin,Rust,4749,1,1,1,1.0,12.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-11 12:50:36+00:00,2025-07-11 12:50:36+00:00
+SecurityBrewery/catalyst::AGENTS.md,AGENTS.md,SecurityBrewery/catalyst,Vue,415,1,1,1,1.0,18.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-05 16:27:10+00:00,2025-06-05 16:27:10+00:00
+ShaunLawrie/PwshSpectreConsole::.github/copilot-instructions.md,Copilot instructions,ShaunLawrie/PwshSpectreConsole,PowerShell,174,2,1,1,1.0,5.0,4.0,0.8,0,2,0,0.0,0.0,1.0,sparse,2025-05-27 11:20:43+00:00,2025-05-27 11:20:43+00:00
+Shopify/roast::CLAUDE.md,CLAUDE.md,Shopify/roast,Ruby,754,6,4,1,1.0,35.0,12.0,0.343,0,6,0,25.4,5.1,0.333,continuous,2025-05-24 17:34:31+00:00,2025-06-19 03:39:41+00:00
+Significant-Gravitas/AutoGPT::AGENTS.md,AGENTS.md,Significant-Gravitas/AutoGPT,Python,177379,11,6,5,0.455,238.0,8.0,0.034,4,6,0,56.3,5.6,0.636,continuous,2025-05-22 14:15:05+00:00,2025-07-17 20:22:51+00:00
+Significant-Gravitas/AutoGPT::autogpt_platform/AGENTS.md,AGENTS.md,Significant-Gravitas/AutoGPT,Python,177379,1,1,1,1.0,32.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-22 16:10:30+00:00,2025-05-22 16:10:30+00:00
+Significant-Gravitas/AutoGPT::autogpt_platform/CLAUDE.md,CLAUDE.md,Significant-Gravitas/AutoGPT,Python,177379,14,10,6,0.5,636.0,13.0,0.02,4,10,0,56.5,4.3,0.071,continuous,2025-05-22 14:15:05+00:00,2025-07-18 03:20:54+00:00
+SimonHalvdansson/Harmonic-HN::AGENTS.md,AGENTS.md,SimonHalvdansson/Harmonic-HN,Java,746,1,1,1,1.0,11.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-14 11:50:04+00:00,2025-06-14 11:50:04+00:00
+SmythOS/sre::docs/sdk/agents.md,AGENTS.md,SmythOS/sre,TypeScript,213,2,2,1,1.0,50.0,50.0,1.0,1,0,1,4.0,4.0,0.5,sparse,2025-06-12 12:00:20+00:00,2025-06-16 11:25:41+00:00
+StarRocks/starrocks::.cursorrules,Cursor rules,StarRocks/starrocks,Java,10390,4,1,1,1.0,262.0,104.0,0.397,1,3,0,0.0,0.0,1.0,burst-taper,2025-07-24 10:15:11+00:00,2025-07-24 10:15:11+00:00
+StarRocks/starrocks::fe/.cursorrules,Cursor rules,StarRocks/starrocks,Java,10390,2,1,1,1.0,144.0,1.0,0.007,1,1,0,0.0,0.0,1.0,sparse,2025-07-24 10:15:11+00:00,2025-07-24 10:15:11+00:00
+StarRocks/starrocks::java-extensions/.cursorrules,Cursor rules,StarRocks/starrocks,Java,10390,2,1,1,1.0,178.0,1.0,0.006,1,1,0,0.0,0.0,1.0,sparse,2025-07-24 10:15:11+00:00,2025-07-24 10:15:11+00:00
+Stirling-Tools/Stirling-PDF::AGENTS.md,AGENTS.md,Stirling-Tools/Stirling-PDF,Java,63892,3,2,1,1.0,49.0,1.0,0.02,2,1,0,0.0,0.0,0.667,continuous,2025-05-20 11:02:10+00:00,2025-05-20 11:05:18+00:00
+SuperClaude-Org/SuperClaude_Framework::CLAUDE.md,CLAUDE.md,SuperClaude-Org/SuperClaude_Framework,Python,11739,3,2,3,0.333,32.0,2.0,0.062,0,3,0,6.5,3.2,0.667,continuous,2025-06-26 06:54:08+00:00,2025-07-02 18:50:57+00:00
+WorkflowAI/WorkflowAI::AGENTS.md,AGENTS.md,WorkflowAI/WorkflowAI,Python,423,2,2,1,1.0,10.0,0.0,0.0,2,0,0,1.4,1.4,0.5,sparse,2025-06-04 20:15:24+00:00,2025-06-06 05:03:41+00:00
+a16z/halmos::.github/copilot-instructions.md,Copilot instructions,a16z/halmos,Python,917,1,1,1,1.0,113.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 16:24:24+00:00,2025-06-09 16:24:24+00:00
+airbytehq/PyAirbyte::.cursorrules,Cursor rules,airbytehq/PyAirbyte,Python,281,1,1,1,1.0,15.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-03-30 19:59:25+00:00,2025-03-30 19:59:25+00:00
+alariq/mc2::CLAUDE.md,CLAUDE.md,alariq/mc2,C++,127,2,1,1,1.0,189.0,5.0,0.026,1,1,0,0.0,0.0,1.0,sparse,2025-07-15 12:14:21+00:00,2025-07-15 12:14:21+00:00
+amantus-ai/vibetunnel::CLAUDE.md,CLAUDE.md,amantus-ai/vibetunnel,TypeScript,1691,2,2,1,1.0,3.0,0.0,0.0,0,2,0,2.6,2.6,0.5,sparse,2025-07-12 09:51:49+00:00,2025-07-15 01:24:15+00:00
+amantus-ai/vibetunnel::web/CLAUDE.md,CLAUDE.md,amantus-ai/vibetunnel,TypeScript,1691,1,1,1,1.0,9.0,1.0,0.111,0,1,0,0.0,,1.0,abandoned,2025-07-15 01:24:15+00:00,2025-07-15 01:24:15+00:00
+amplitude/Amplitude-TypeScript::AGENTS.md,AGENTS.md,amplitude/Amplitude-TypeScript,TypeScript,162,3,2,1,1.0,37.0,0.0,0.0,1,2,0,21.0,10.5,0.333,continuous,2025-05-27 17:17:33+00:00,2025-06-17 16:35:50+00:00
+andrea9293/mcp-documentation-server::.github/copilot-instructions.md,Copilot instructions,andrea9293/mcp-documentation-server,TypeScript,166,1,1,1,1.0,118.0,37.0,0.314,0,1,0,0.0,,1.0,abandoned,2025-07-19 20:08:14+00:00,2025-07-19 20:08:14+00:00
+angular-eslint/angular-eslint::AGENTS.md,AGENTS.md,angular-eslint/angular-eslint,TypeScript,1737,4,3,1,1.0,78.0,12.0,0.154,2,2,0,0.0,0.0,0.25,continuous,2025-05-24 13:10:47+00:00,2025-05-24 13:43:09+00:00
+antiwork/flexile::.cursorrules,Cursor rules,antiwork/flexile,Ruby,665,35,23,3,0.486,205.0,102.0,0.498,0,35,0,88.0,2.6,0.486,continuous,2025-05-01 19:14:42+00:00,2025-07-28 19:44:29+00:00
+antiwork/flexile::.github/copilot-instructions.md,Copilot instructions,antiwork/flexile,Ruby,665,18,12,3,0.5,406.0,58.0,0.143,7,11,0,37.9,2.2,0.167,continuous,2025-06-20 21:01:17+00:00,2025-07-28 19:44:29+00:00
+antiwork/gumroad::.cursorrules,Cursor rules,antiwork/gumroad,Ruby,6643,2,1,1,1.0,3.0,1.0,0.333,0,2,0,0.0,0.0,1.0,sparse,2025-07-03 22:58:36+00:00,2025-07-03 22:58:36+00:00
+antiwork/gumroad::.github/copilot-instructions.md,Copilot instructions,antiwork/gumroad,Ruby,6643,1,1,1,1.0,38.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-03 22:58:36+00:00,2025-07-03 22:58:36+00:00
+antiwork/helper::.cursorrules,Cursor rules,antiwork/helper,TypeScript,537,3,3,2,0.667,4.0,3.0,0.75,0,3,0,7.6,3.8,0.667,continuous,2025-07-03 22:52:58+00:00,2025-07-11 13:10:22+00:00
+antiwork/helper::.github/copilot-instructions.md,Copilot instructions,antiwork/helper,TypeScript,537,3,3,2,0.667,24.0,0.0,0.0,3,0,0,7.6,3.8,0.667,continuous,2025-07-03 22:52:58+00:00,2025-07-11 13:10:22+00:00
+anyproto/anytype-swift::CLAUDE.md,CLAUDE.md,anyproto/anytype-swift,Swift,389,1,1,1,1.0,32.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-10 08:37:29+00:00,2025-07-10 08:37:29+00:00
+appdotbuild/agent::.cursorrules,Cursor rules,appdotbuild/agent,Python,351,1,1,1,1.0,3.0,109.0,36.333,0,1,0,0.0,,1.0,abandoned,2025-04-17 11:38:19+00:00,2025-04-17 11:38:19+00:00
+appdotbuild/agent::CLAUDE.md,CLAUDE.md,appdotbuild/agent,Python,351,1,1,1,1.0,1.0,77.0,77.0,0,1,0,0.0,,1.0,abandoned,2025-04-17 11:38:19+00:00,2025-04-17 11:38:19+00:00
+ar-io/ar-io-node::AGENTS.md,AGENTS.md,ar-io/ar-io-node,TypeScript,106,1,1,1,1.0,37.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-24 16:58:58+00:00,2025-05-24 16:58:58+00:00
+arakoodev/EdgeChains::AGENTS.md,AGENTS.md,arakoodev/EdgeChains,JavaScript,396,7,5,1,1.0,147.0,15.0,0.102,1,6,0,3.8,0.6,0.286,continuous,2025-07-24 18:26:05+00:00,2025-07-28 14:06:17+00:00
+auchenberg/claude-code-mcp::examples/temp/sample-project/CLAUDE.md,CLAUDE.md,auchenberg/claude-code-mcp,JavaScript,165,1,1,1,1.0,12.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-03-07 21:48:51+00:00,2025-03-07 21:48:51+00:00
+aztfmod/terraform-provider-azurecaf::.github/copilot-instructions.md,Copilot instructions,aztfmod/terraform-provider-azurecaf,Go,179,1,1,1,1.0,4.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-01 09:26:43+00:00,2025-07-01 09:26:43+00:00
+azure-ai-foundry/foundry-samples::.github/copilot-instructions.md,Copilot instructions,azure-ai-foundry/foundry-samples,Python,119,3,2,1,1.0,36.0,0.0,0.0,3,0,0,3.1,1.5,0.333,continuous,2025-06-30 16:32:54+00:00,2025-07-03 18:43:25+00:00
+bennycode/trading-signals::.github/copilot-instructions.md,Copilot instructions,bennycode/trading-signals,TypeScript,776,2,2,1,1.0,96.0,0.0,0.0,0,2,0,27.7,27.7,0.5,sparse,2025-05-22 17:23:09+00:00,2025-06-19 09:59:57+00:00
+benwbrum/fromthepage::.github/copilot-instructions.md,Copilot instructions,benwbrum/fromthepage,Ruby,174,7,7,2,0.714,28.0,0.0,0.0,7,0,0,16.1,2.7,0.143,continuous,2025-07-14 14:43:07+00:00,2025-07-30 16:59:28+00:00
+berachain/beacon-kit::CLAUDE.md,CLAUDE.md,berachain/beacon-kit,Go,306,1,1,1,1.0,0.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-07-07 18:47:53+00:00,2025-07-07 18:47:53+00:00
+blokadaorg/blokada::AGENTS.md,AGENTS.md,blokadaorg/blokada,Dart,3133,1,1,1,1.0,3.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-06-03 11:49:07+00:00,2025-06-03 11:49:07+00:00
+bmadcode/BMAD-METHOD::CLAUDE.md,CLAUDE.md,bmadcode/BMAD-METHOD,JavaScript,6484,1,1,1,1.0,158.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-20 19:54:23+00:00,2025-07-20 19:54:23+00:00
+briangu/klongpy::AGENTS.md,AGENTS.md,briangu/klongpy,Python,307,3,3,1,1.0,43.0,7.0,0.163,1,2,0,10.9,5.5,0.667,continuous,2025-05-18 18:39:37+00:00,2025-05-29 16:38:45+00:00
+buger/probe::CLAUDE.md,CLAUDE.md,buger/probe,Rust,314,3,1,1,1.0,74.0,10.0,0.135,0,3,0,0.0,0.0,1.0,burst-taper,2025-07-28 13:49:09+00:00,2025-07-28 13:49:09+00:00
+busser/tfautomv::CLAUDE.md,CLAUDE.md,busser/tfautomv,Go,839,1,1,1,1.0,67.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-06 09:41:18+00:00,2025-06-06 09:41:18+00:00
+buster-so/buster::CLAUDE.md,CLAUDE.md,buster-so/buster,TypeScript,426,16,10,3,0.375,593.0,22.0,0.037,0,16,0,4.4,0.3,0.125,continuous,2025-07-18 17:30:22+00:00,2025-07-23 03:54:40+00:00
+buster-so/buster::apps/web/CLAUDE.md,CLAUDE.md,buster-so/buster,TypeScript,426,4,4,3,0.5,422.0,2.0,0.005,3,1,0,3.7,1.2,0.5,continuous,2025-07-21 06:01:04+00:00,2025-07-24 23:43:41+00:00
+buster-so/buster::packages/ai/CLAUDE.md,CLAUDE.md,buster-so/buster,TypeScript,426,6,6,3,0.667,96.0,20.0,0.208,0,6,0,2.3,0.5,0.667,continuous,2025-07-22 16:18:58+00:00,2025-07-24 23:43:41+00:00
+buster-so/buster::packages/ai/src/tools/file-tools/CLAUDE.md,CLAUDE.md,buster-so/buster,TypeScript,426,8,6,3,0.625,877.0,2.0,0.002,7,1,0,1.9,0.3,0.25,continuous,2025-07-21 06:01:04+00:00,2025-07-23 03:54:40+00:00
+cameroncooke/XcodeBuildMCP::.cursorrules,Cursor rules,cameroncooke/XcodeBuildMCP,TypeScript,2164,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-06-04 20:37:27+00:00,2025-06-04 20:37:27+00:00
+cartography-cncf/cartography::AGENTS.md,AGENTS.md,cartography-cncf/cartography,Python,3491,11,6,2,0.909,982.0,41.0,0.042,0,11,0,48.9,4.9,0.364,continuous,2025-06-10 00:32:49+00:00,2025-07-28 21:47:25+00:00
+celestiaorg/celestia-app::.github/copilot-instructions.md,Copilot instructions,celestiaorg/celestia-app,Go,393,9,4,2,0.556,266.0,82.0,0.308,3,6,0,7.6,1.0,0.889,burst-taper,2025-06-04 15:26:24+00:00,2025-06-12 07:01:17+00:00
+celestiaorg/celestia-core::.github/copilot-instructions.md,Copilot instructions,celestiaorg/celestia-core,Go,531,10,7,4,0.6,236.0,3.0,0.013,5,5,0,20.7,2.3,0.5,continuous,2025-06-03 18:34:54+00:00,2025-06-24 11:40:20+00:00
+cloudposse/atmos::AGENTS.md,AGENTS.md,cloudposse/atmos,Go,1108,8,5,2,0.875,82.0,5.0,0.061,4,4,0,5.0,0.7,0.75,burst-taper,2025-06-18 21:42:35+00:00,2025-06-23 20:51:17+00:00
+coleam00/context-engineering-intro::CLAUDE.md,CLAUDE.md,coleam00/context-engineering-intro,Python,7636,3,1,2,0.667,191.0,155.0,0.812,0,3,0,0.0,0.0,1.0,burst-taper,2025-07-18 15:05:51+00:00,2025-07-18 15:05:51+00:00
+coleam00/context-engineering-intro::use-cases/mcp-server/CLAUDE.md,CLAUDE.md,coleam00/context-engineering-intro,Python,7636,4,1,2,0.75,652.0,681.0,1.044,0,4,0,0.0,0.0,1.0,burst-taper,2025-07-18 15:05:51+00:00,2025-07-18 15:05:51+00:00
+collinbarrett/FilterLists::.github/copilot-instructions.md,Copilot instructions,collinbarrett/FilterLists,C#,1479,7,7,1,1.0,99.0,19.0,0.192,0,7,0,1.5,0.2,0.429,continuous,2025-07-29 02:23:29+00:00,2025-07-30 13:13:13+00:00
+creativetimofficial/notus-nextjs::AGENTS.md,AGENTS.md,creativetimofficial/notus-nextjs,JavaScript,1436,1,1,1,1.0,29.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-15 05:25:19+00:00,2025-07-15 05:25:19+00:00
+cybersemics/em::.github/copilot-instructions.md,Copilot instructions,cybersemics/em,TypeScript,337,1,1,1,1.0,27.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-02 17:06:55+00:00,2025-06-02 17:06:55+00:00
+dagster-io/dagster::docs/AGENTS.md,AGENTS.md,dagster-io/dagster,Python,13669,3,3,1,1.0,78.0,0.0,0.0,3,0,0,22.8,11.4,0.333,continuous,2025-06-10 23:56:09+00:00,2025-07-03 19:29:47+00:00
+dagster-io/mdsfest-opensource-mds::AGENTS.md,AGENTS.md,dagster-io/mdsfest-opensource-mds,Python,168,1,1,1,1.0,18.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-06-04 20:25:16+00:00,2025-06-04 20:25:16+00:00
+deeeed/expo-audio-stream::.cursorrules,Cursor rules,deeeed/expo-audio-stream,TypeScript,181,1,1,1,1.0,0.0,112.0,1.0,0,0,1,0.0,,1.0,abandoned,2025-06-02 11:11:09+00:00,2025-06-02 11:11:09+00:00
+deeeed/expo-audio-stream::CLAUDE.md,CLAUDE.md,deeeed/expo-audio-stream,TypeScript,181,2,2,1,1.0,350.0,2.0,0.006,1,1,0,1.8,1.8,0.5,sparse,2025-06-02 11:11:09+00:00,2025-06-04 06:47:49+00:00
+demergent-labs/azle::.github/copilot-instructions.md,Copilot instructions,demergent-labs/azle,TypeScript,229,6,5,1,1.0,102.0,14.0,0.137,0,6,0,0.4,0.1,0.5,continuous,2025-05-20 12:01:43+00:00,2025-05-20 22:18:51+00:00
+different-ai/zero-finance::.cursorrules,Cursor rules,different-ai/zero-finance,Solidity,116,4,3,1,1.0,290.0,8.0,0.028,0,4,0,145.4,48.5,0.75,burst-taper,2025-01-05 12:43:08+00:00,2025-05-30 22:25:55+00:00
+different-ai/zero-finance::packages/web/CLAUDE.md,CLAUDE.md,different-ai/zero-finance,Solidity,116,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-05-30 22:25:55+00:00,2025-05-30 22:25:55+00:00
+doggy8088/github-copilot-configs::instructions/angular.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,104.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/aspnet-rest-apis.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,110.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/azure-functions-typescript.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,14.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/bicep-code-best-practices.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,54.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/blazor.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,77.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/cmake-vcpkg.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,10.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/containerization-docker-best-practices.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,684.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/copilot-thought-logging.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,62.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/csharp.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,114.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/devops-core-principles.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,167.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/dotnet-maui.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,69.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/genaiscript.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,21.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/generate-modern-terraform-code-for-azure.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,82.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/github-actions-ci-cd-best-practices.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,607.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/go.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,292.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/java.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,64.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/joyride-user-project.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,45.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/joyride-workspace-automation.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,55.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/kubernetes-deployment-best-practices.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,307.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/localization.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,39.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/markdown.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,52.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/memory-bank.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,299.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/nextjs-tailwind.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,72.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/performance-optimization.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,420.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/playwright-typescript.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,86.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/powershell.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,333.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/python.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,56.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/quarkus.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,98.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/ruby-on-rails.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,124.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/security-and-owasp.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,51.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/springboot.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,58.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/sql-sp-generation.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,74.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+doggy8088/github-copilot-configs::instructions/taming-copilot.instructions.md,Copilot instructions,doggy8088/github-copilot-configs,,769,1,1,1,1.0,26.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-10 17:02:10+00:00,2025-07-10 17:02:10+00:00
+dotCMS/core::.github/CLAUDE.md,CLAUDE.md,dotCMS/core,Java,912,3,1,1,1.0,292.0,6.0,0.021,1,2,0,0.0,0.0,1.0,burst-taper,2025-07-14 15:38:38+00:00,2025-07-14 15:38:38+00:00
+dotCMS/core::CLAUDE.md,CLAUDE.md,dotCMS/core,Java,912,10,10,1,1.0,4634.0,21.0,0.005,0,10,0,10.2,1.1,0.9,burst-taper,2025-07-14 15:38:38+00:00,2025-07-24 20:47:44+00:00
+dotCMS/core::dotCMS/src/main/java/com/dotcms/rest/CLAUDE.md,CLAUDE.md,dotCMS/core,Java,912,9,9,1,1.0,531.0,0.0,0.0,9,0,0,9.4,1.2,0.889,burst-taper,2025-07-15 11:46:57+00:00,2025-07-24 20:47:44+00:00
+dotnet/android-libraries::.github/copilot-instructions.md,Copilot instructions,dotnet/android-libraries,C#,271,8,5,2,0.625,284.0,58.0,0.204,1,6,0,34.9,5.0,0.625,continuous,2025-06-12 15:42:43+00:00,2025-07-17 12:37:55+00:00
+dotnet/android-libraries::copilot-instructions.md,Copilot instructions,dotnet/android-libraries,C#,271,2,1,1,1.0,239.0,7.0,0.029,1,1,0,0.0,0.0,1.0,sparse,2025-06-12 16:34:02+00:00,2025-06-12 16:34:02+00:00
+dotnet/android::.github/copilot-instructions.md,Copilot instructions,dotnet/android,C#,2045,18,9,2,0.556,408.0,420.0,1.029,0,18,0,39.0,2.3,0.722,burst-taper,2025-06-12 15:07:32+00:00,2025-07-21 15:52:55+00:00
+dotnet/aspire::.github/copilot-instructions.md,Copilot instructions,dotnet/aspire,C#,4723,13,10,5,0.462,145.0,4.0,0.028,0,13,0,25.3,2.1,0.231,continuous,2025-05-22 21:35:13+00:00,2025-06-17 03:50:43+00:00
+dotnet/aspnetcore::.github/copilot-instructions.md,Copilot instructions,dotnet/aspnetcore,C#,36926,1,1,1,1.0,3.0,1.0,0.333,0,1,0,0.0,,1.0,abandoned,2025-05-20 23:20:02+00:00,2025-05-20 23:20:02+00:00
+dotnet/docs::.github/copilot-instructions.md,Copilot instructions,dotnet/docs,,4500,1,1,1,1.0,41.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-29 22:29:22+00:00,2025-05-29 22:29:22+00:00
+dotnet/fsharp::.github/copilot-instructions.md,Copilot instructions,dotnet/fsharp,F#,4110,6,5,1,1.0,161.0,34.0,0.211,0,6,0,68.8,13.8,0.5,continuous,2025-05-21 12:11:04+00:00,2025-07-29 06:15:39+00:00
+dotnet/java-interop::.github/copilot-instructions.md,Copilot instructions,dotnet/java-interop,C#,240,2,1,2,0.5,240.0,78.0,0.325,1,1,0,0.0,0.0,1.0,sparse,2025-06-16 14:38:35+00:00,2025-06-16 14:38:35+00:00
+dotnet/macios::.github/copilot-instructions.md,Copilot instructions,dotnet/macios,C#,2716,10,6,2,0.6,1199.0,17.0,0.014,0,10,0,33.9,3.8,0.4,continuous,2025-06-13 14:41:04+00:00,2025-07-17 12:42:31+00:00
+dotnet/maui::.github/copilot-instructions.md,Copilot instructions,dotnet/maui,C#,22821,29,10,1,1.0,549.0,260.0,0.474,1,28,0,16.4,0.6,0.448,continuous,2025-06-16 16:33:50+00:00,2025-07-03 01:19:13+00:00
+dotnet/runtime::.github/copilot-instructions.md,Copilot instructions,dotnet/runtime,C#,16688,3,2,2,0.667,342.0,0.0,0.0,2,1,0,29.6,14.8,0.667,continuous,2025-05-21 12:12:30+00:00,2025-06-20 02:03:44+00:00
+dotnet/sdk::.github/copilot-instructions.md,Copilot instructions,dotnet/sdk,C#,2940,3,3,3,0.333,12.0,3.0,0.25,0,3,0,30.0,15.0,0.667,continuous,2025-06-16 23:13:56+00:00,2025-07-16 22:02:28+00:00
+dotnet/xharness::.github/copilot-instructions.md,Copilot instructions,dotnet/xharness,C#,172,3,3,2,0.667,452.0,2.0,0.004,2,1,0,3.6,1.8,0.667,continuous,2025-06-26 21:04:09+00:00,2025-06-30 10:44:03+00:00
+dropseed/plain::AGENTS.md,AGENTS.md,dropseed/plain,Python,619,3,3,1,1.0,15.0,3.0,0.2,0,3,0,0.0,0.0,0.667,continuous,2025-05-23 15:12:02+00:00,2025-05-23 15:21:12+00:00
+dynamoose/dynamoose::.github/copilot-instructions.md,Copilot instructions,dynamoose/dynamoose,JavaScript,2223,1,1,1,1.0,19.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-20 23:19:33+00:00,2025-05-20 23:19:33+00:00
+elevenlabs/elevenlabs-docs::.cursorrules,Cursor rules,elevenlabs/elevenlabs-docs,MDX,211,2,2,2,0.5,5.0,2.0,0.4,0,2,0,0.2,0.2,0.5,sparse,2025-07-07 10:55:04+00:00,2025-07-07 15:07:09+00:00
+elevenlabs/elevenlabs-docs::CLAUDE.md,CLAUDE.md,elevenlabs/elevenlabs-docs,MDX,211,1,1,1,1.0,17.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-10 08:40:54+00:00,2025-07-10 08:40:54+00:00
+elizaOS/eliza::AGENTS.md,AGENTS.md,elizaOS/eliza,TypeScript,16507,1,1,1,1.0,4766.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-23 07:43:40+00:00,2025-05-23 07:43:40+00:00
+elizaOS/eliza::CLAUDE.md,CLAUDE.md,elizaOS/eliza,TypeScript,16507,4,2,1,1.0,99.0,2.0,0.02,0,4,0,6.4,2.1,0.25,continuous,2025-07-15 07:04:07+00:00,2025-07-21 16:11:39+00:00
+elizaOS/eliza::packages/cli/src/utils/upgrade/CLAUDE.md,CLAUDE.md,elizaOS/eliza,TypeScript,16507,1,1,1,1.0,198.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-02 11:34:00+00:00,2025-06-02 11:34:00+00:00
+elizaOS/eliza::packages/docs/docs/core/agents.md,AGENTS.md,elizaOS/eliza,TypeScript,16507,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-06-02 11:34:00+00:00,2025-06-02 11:34:00+00:00
+elizaOS/eliza::packages/docs/versioned_docs/version-0.25.9/core/agents.md,AGENTS.md,elizaOS/eliza,TypeScript,16507,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-06-02 11:34:00+00:00,2025-06-02 11:34:00+00:00
+elizaOS/eliza::packages/plugin-starter/CLAUDE.md,CLAUDE.md,elizaOS/eliza,TypeScript,16507,3,1,2,0.667,465.0,7.0,0.015,1,2,0,0.0,0.0,1.0,burst-taper,2025-07-21 16:11:39+00:00,2025-07-21 16:11:39+00:00
+elizaOS/eliza::packages/project-starter/CLAUDE.md,CLAUDE.md,elizaOS/eliza,TypeScript,16507,3,1,2,0.667,698.0,9.0,0.013,1,2,0,0.0,0.0,1.0,burst-taper,2025-07-21 16:11:39+00:00,2025-07-21 16:11:39+00:00
+erpc/erpc::AGENTS.md,AGENTS.md,erpc/erpc,Go,518,1,1,1,1.0,29.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-18 11:01:42+00:00,2025-05-18 11:01:42+00:00
+etchdroid/etchdroid::AGENTS.md,AGENTS.md,etchdroid/etchdroid,Kotlin,2417,1,1,1,1.0,38.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-06 22:05:16+00:00,2025-06-06 22:05:16+00:00
+evandempsey/fp-growth::AGENTS.md,AGENTS.md,evandempsey/fp-growth,Python,140,1,1,1,1.0,19.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-19 10:57:45+00:00,2025-05-19 10:57:45+00:00
+facebook/idb::CLAUDE.md,CLAUDE.md,facebook/idb,Objective-C,4729,6,2,1,1.0,376.0,4.0,0.011,2,4,0,0.8,0.2,0.5,continuous,2025-06-12 20:58:00+00:00,2025-06-13 15:53:50+00:00
+featureform/enrichmcp::AGENTS.md,AGENTS.md,featureform/enrichmcp,Python,583,2,2,1,1.0,18.0,0.0,0.0,0,1,0,17.9,17.9,0.5,sparse,2025-07-02 23:13:27+00:00,2025-07-20 21:15:56+00:00
+fujiapple852/trippy::AGENTS.md,AGENTS.md,fujiapple852/trippy,Rust,5815,1,1,1,1.0,31.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-04 10:39:22+00:00,2025-06-04 10:39:22+00:00
+gabber235/Typewriter::AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,1,1,1,1.0,24.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 07:56:46+00:00,2025-06-09 07:56:46+00:00
+gabber235/Typewriter::app/AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,2,2,1,1.0,35.0,0.0,0.0,1,1,0,0.0,0.0,0.5,sparse,2025-06-09 07:56:46+00:00,2025-06-09 08:50:16+00:00
+gabber235/Typewriter::documentation/AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,3,3,1,1.0,57.0,0.0,0.0,1,2,0,0.1,0.0,0.333,continuous,2025-06-09 07:56:46+00:00,2025-06-09 10:04:12+00:00
+gabber235/Typewriter::engine/AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,1,1,1,1.0,32.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 07:56:46+00:00,2025-06-09 07:56:46+00:00
+gabber235/Typewriter::extensions/AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,1,1,1,1.0,29.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 07:56:46+00:00,2025-06-09 07:56:46+00:00
+gabber235/Typewriter::module-plugin/AGENTS.md,AGENTS.md,gabber235/Typewriter,Kotlin,354,1,1,1,1.0,24.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 07:56:46+00:00,2025-06-09 07:56:46+00:00
+getsentry/sentry-javascript::CLAUDE.md,CLAUDE.md,getsentry/sentry-javascript,TypeScript,8353,1,1,1,1.0,147.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-11 17:58:38+00:00,2025-06-11 17:58:38+00:00
+getsentry/sentry-mcp::.cursorrules,Cursor rules,getsentry/sentry-mcp,TypeScript,281,1,1,1,1.0,0.0,4.0,1.0,0,0,1,0.0,,1.0,abandoned,2025-06-10 18:00:46+00:00,2025-06-10 18:00:46+00:00
+getsentry/sentry::CLAUDE.md,CLAUDE.md,getsentry/sentry,Python,41579,2,2,2,0.5,62.0,0.0,0.0,0,2,0,5.2,5.2,0.5,sparse,2025-06-27 21:04:52+00:00,2025-07-03 02:47:01+00:00
+gindemit/unity-rlottie::AGENTS.md,AGENTS.md,gindemit/unity-rlottie,C#,207,1,1,1,1.0,48.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-08 14:44:01+00:00,2025-06-08 14:44:01+00:00
+giorgosart/react-easy-edit::AGENTS.md,AGENTS.md,giorgosart/react-easy-edit,JavaScript,262,1,1,1,1.0,23.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-28 08:52:18+00:00,2025-07-28 08:52:18+00:00
+giselles-ai/giselle::AGENTS.md,AGENTS.md,giselles-ai/giselle,TypeScript,154,1,1,1,1.0,34.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-19 00:04:43+00:00,2025-05-19 00:04:43+00:00
+github/awesome-copilot::instructions/copilot-thought-logging.instructions.md,Copilot instructions,github/awesome-copilot,JavaScript,4290,1,1,1,1.0,63.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-24 01:44:35+00:00,2025-06-24 01:44:35+00:00
+github/codeql::.github/copilot-instructions.md,Copilot instructions,github/codeql,CodeQL,8574,1,1,1,1.0,7.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-23 13:33:22+00:00,2025-07-23 13:33:22+00:00
+github/gh-gei::.github/copilot-instructions.md,Copilot instructions,github/gh-gei,C#,371,3,3,2,0.667,81.0,0.0,0.0,3,0,0,40.5,20.2,0.333,continuous,2025-06-07 04:24:45+00:00,2025-07-17 15:38:54+00:00
+gluesql/glues::AGENTS.md,AGENTS.md,gluesql/glues,Rust,156,3,3,1,1.0,7.0,0.0,0.0,1,2,0,8.2,4.1,0.333,continuous,2025-06-14 05:50:59+00:00,2025-06-22 10:11:26+00:00
+gluesql/gluesql::AGENTS.md,AGENTS.md,gluesql/gluesql,Rust,2919,2,2,1,1.0,5.0,0.0,0.0,1,1,0,41.2,41.2,0.5,sparse,2025-06-16 04:25:56+00:00,2025-07-27 08:36:05+00:00
+go-vikunja/vikunja::AGENTS.md,AGENTS.md,go-vikunja/vikunja,Go,2080,5,4,1,1.0,211.0,11.0,0.052,1,4,0,22.3,5.6,0.8,burst-taper,2025-06-10 12:23:56+00:00,2025-07-02 20:41:25+00:00
+go-vikunja/vikunja::CLAUDE.md,CLAUDE.md,go-vikunja/vikunja,Go,2080,1,1,1,1.0,1.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-10 12:23:56+00:00,2025-06-10 12:23:56+00:00
+gofiber/fiber::.github/copilot-instructions.md,Copilot instructions,gofiber/fiber,Go,37269,3,3,2,0.667,42.0,0.0,0.0,3,0,0,8.1,4.1,0.333,continuous,2025-07-15 11:02:39+00:00,2025-07-23 14:28:16+00:00
+gofiber/fiber::AGENTS.md,AGENTS.md,gofiber/fiber,Go,37269,3,3,2,0.667,40.0,6.0,0.15,0,3,0,2.7,1.3,0.667,continuous,2025-05-24 19:00:24+00:00,2025-05-27 11:23:29+00:00
+grafana/loki::CLAUDE.md,CLAUDE.md,grafana/loki,Go,26100,1,1,1,1.0,35.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-03-03 18:21:22+00:00,2025-03-03 18:21:22+00:00
+graphql-python/graphql-server::AGENTS.md,AGENTS.md,graphql-python/graphql-server,Python,131,1,1,1,1.0,17.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-04 23:42:11+00:00,2025-07-04 23:42:11+00:00
+gridaco/grida::AGENTS.md,AGENTS.md,gridaco/grida,TypeScript,2138,3,2,1,1.0,47.0,7.0,0.149,0,3,0,10.1,5.0,0.333,continuous,2025-05-30 17:23:20+00:00,2025-06-09 19:11:10+00:00
+gridaco/grida::crates/cg/AGENTS.md,AGENTS.md,gridaco/grida,TypeScript,2138,1,1,1,1.0,0.0,3.0,1.0,0,0,1,0.0,,1.0,abandoned,2025-06-09 19:11:10+00:00,2025-06-09 19:11:10+00:00
+gridaco/grida::crates/grida-canvas/AGENTS.md,AGENTS.md,gridaco/grida,TypeScript,2138,2,1,1,1.0,19.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-06-09 19:11:10+00:00,2025-06-09 19:11:10+00:00
+hirosystems/explorer::AGENTS.md,AGENTS.md,hirosystems/explorer,TypeScript,149,3,3,1,1.0,109.0,5.0,0.046,2,1,0,0.1,0.0,0.333,continuous,2025-05-19 19:33:12+00:00,2025-05-19 21:16:28+00:00
+hmislk/hmis::AGENTS.md,AGENTS.md,hmislk/hmis,HTML,167,7,7,1,1.0,45.0,0.0,0.0,1,6,0,20.3,3.4,0.429,continuous,2025-06-07 17:59:20+00:00,2025-06-28 00:15:35+00:00
+hmislk/hmis::CLAUDE.md,CLAUDE.md,hmislk/hmis,HTML,167,1,1,1,1.0,85.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-24 20:59:50+00:00,2025-07-24 20:59:50+00:00
+huggingface/blog::agents.md,AGENTS.md,huggingface/blog,Jupyter Notebook,3054,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-05-23 18:39:46+00:00,2025-05-23 18:39:46+00:00
+hyperlight-dev/hyperlight::.github/copilot-instructions.md,Copilot instructions,hyperlight-dev/hyperlight,Rust,3763,2,2,2,0.5,12.0,3.0,0.25,0,2,0,14.0,14.0,0.5,sparse,2025-05-19 23:13:12+00:00,2025-06-02 23:36:34+00:00
+ikamensh/flynt::AGENTS.md,AGENTS.md,ikamensh/flynt,Python,718,6,5,1,1.0,97.0,5.0,0.052,3,3,0,0.3,0.1,0.5,continuous,2025-07-26 06:24:27+00:00,2025-07-26 13:07:07+00:00
+invokable/laravel-google-sheets::.github/copilot-instructions.md,Copilot instructions,invokable/laravel-google-sheets,PHP,430,2,2,1,1.0,60.0,0.0,0.0,1,1,0,4.1,4.1,0.5,sparse,2025-06-13 05:04:57+00:00,2025-06-17 07:48:48+00:00
+jdereg/java-util::CLAUDE.md,CLAUDE.md,jdereg/java-util,Java,428,1,1,1,1.0,16.0,40.0,2.5,0,1,0,0.0,,1.0,abandoned,2025-07-16 04:12:04+00:00,2025-07-16 04:12:04+00:00
+jdx/mise::.cursorrules,Cursor rules,jdx/mise,Rust,17960,2,1,1,1.0,211.0,211.0,1.0,1,0,1,0.0,0.0,1.0,sparse,2025-07-12 12:12:58+00:00,2025-07-12 12:12:58+00:00
+jdx/mise::CLAUDE.md,CLAUDE.md,jdx/mise,Rust,17960,1,1,1,1.0,141.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-21 01:19:48+00:00,2025-07-21 01:19:48+00:00
+jefago/tiny-markdown-editor::CLAUDE.md,CLAUDE.md,jefago/tiny-markdown-editor,TypeScript,158,1,1,1,1.0,64.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-23 14:18:25+00:00,2025-06-23 14:18:25+00:00
+jkroepke/openvpn-auth-oauth2::AGENTS.md,AGENTS.md,jkroepke/openvpn-auth-oauth2,Go,314,1,1,1,1.0,43.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-07 11:23:24+00:00,2025-06-07 11:23:24+00:00
+jlowin/fastmcp::AGENTS.md,AGENTS.md,jlowin/fastmcp,Python,15491,2,1,1,1.0,83.0,16.0,0.193,1,1,0,0.0,0.0,1.0,sparse,2025-05-18 00:10:13+00:00,2025-05-18 00:10:13+00:00
+joamag/boytacean::AGENTS.md,AGENTS.md,joamag/boytacean,Rust,648,4,3,1,1.0,49.0,36.0,0.735,0,4,0,0.6,0.2,0.75,burst-taper,2025-06-09 22:46:40+00:00,2025-06-10 13:08:04+00:00
+johnpapa/shopathome::.github/copilot-instructions.md,Copilot instructions,johnpapa/shopathome,TypeScript,135,1,1,1,1.0,160.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-30 07:53:50+00:00,2025-06-30 07:53:50+00:00
+joshukraine/dotfiles::CLAUDE.md,CLAUDE.md,joshukraine/dotfiles,Shell,379,1,1,1,1.0,17.0,1.0,0.059,0,1,0,0.0,,1.0,abandoned,2025-07-22 12:40:13+00:00,2025-07-22 12:40:13+00:00
+joshukraine/dotfiles::claude/CLAUDE.md,CLAUDE.md,joshukraine/dotfiles,Shell,379,1,1,1,1.0,2.0,2.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-07-22 12:40:13+00:00,2025-07-22 12:40:13+00:00
+jscarle/LightResults::AGENTS.md,AGENTS.md,jscarle/LightResults,C#,168,5,3,1,1.0,71.0,5.0,0.07,1,4,0,0.1,0.0,0.4,continuous,2025-07-08 16:12:10+00:00,2025-07-08 19:34:59+00:00
+julep-ai/julep::AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,3,3,1,1.0,657.0,1.0,0.002,2,1,0,3.0,1.5,0.667,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,3,1,1.0,10.0,664.0,66.4,2,2,2,3.1,0.6,0.667,continuous,2025-05-17 15:13:29+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,8,7,1,1.0,166.0,0.0,0.0,2,6,0,20.6,2.9,0.875,burst-taper,2025-05-17 17:19:31+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::agents-api/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,149.0,49.667,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/activities/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,98.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/activities/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,99.0,33.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/autogen/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,96.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/autogen/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,97.0,32.333,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/clients/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,98.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/clients/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,99.0,33.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/common/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,96.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/common/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,97.0,32.333,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/queries/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,10,8,1,1.0,189.0,0.0,0.0,2,8,0,20.6,2.3,0.9,burst-taper,2025-05-17 17:19:31+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::agents-api/agents_api/queries/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,123.0,41.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/routers/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,8,7,1,1.0,282.0,6.0,0.021,2,6,0,20.6,2.9,0.875,burst-taper,2025-05-17 17:19:31+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::agents-api/agents_api/routers/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,133.0,44.333,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/worker/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,98.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/worker/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,99.0,33.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/workflows/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,106.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::agents-api/agents_api/workflows/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,107.0,35.667,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::blob-store/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,6,6,1,1.0,522.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::blob-store/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,6,1,1.0,6.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::cli/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,248.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::cli/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,249.0,83.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::documentation/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,184.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::documentation/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,185.0,61.667,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::gateway/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,6,6,1,1.0,678.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::gateway/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,6,1,1.0,6.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::integrations-service/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,8,7,1,1.0,230.0,0.0,0.0,2,6,0,20.6,2.9,0.875,burst-taper,2025-05-17 17:19:31+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::integrations-service/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,225.0,75.0,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::llm-proxy/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,6,6,1,1.0,816.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::llm-proxy/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,6,1,1.0,6.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::memory-store/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,186.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::memory-store/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,187.0,62.333,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::monitoring/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,6,6,1,1.0,864.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::monitoring/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,6,1,1.0,6.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::scheduler/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,6,6,1,1.0,912.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::scheduler/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,6,6,1,1.0,6.0,0.0,0.0,6,0,0,20.6,4.1,0.833,burst-taper,2025-05-17 17:36:53+00:00,2025-06-07 07:25:29+00:00
+julep-ai/julep::typespec/AGENTS.md,AGENTS.md,julep-ai/julep,Python,5629,2,2,1,1.0,190.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+julep-ai/julep::typespec/CLAUDE.md,CLAUDE.md,julep-ai/julep,Python,5629,5,2,1,1.0,3.0,191.0,63.667,2,1,2,3.0,0.7,0.6,continuous,2025-05-17 17:19:31+00:00,2025-05-20 16:38:36+00:00
+kanisterio/kanister::.github/copilot-instructions.md,Copilot instructions,kanisterio/kanister,Go,831,2,1,1,1.0,4.0,1.0,0.25,1,1,0,0.0,0.0,1.0,sparse,2025-06-19 05:13:10+00:00,2025-06-19 05:13:10+00:00
+kargnas/laravel-ai-translator::AGENTS.md,AGENTS.md,kargnas/laravel-ai-translator,PHP,234,1,1,1,1.0,3.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-17 17:23:29+00:00,2025-05-17 17:23:29+00:00
+katspaugh/wavesurfer.js::AGENTS.md,AGENTS.md,katspaugh/wavesurfer.js,TypeScript,9541,3,2,1,1.0,44.0,2.0,0.045,2,1,0,0.0,0.0,0.667,continuous,2025-05-28 19:09:07+00:00,2025-05-28 20:13:56+00:00
+kyryl-opens-ml/no-ocr::AGENTS.md,AGENTS.md,kyryl-opens-ml/no-ocr,TypeScript,163,1,1,1,1.0,17.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-07 00:57:31+00:00,2025-06-07 00:57:31+00:00
+langchain-ai/langchain::.github/copilot-instructions.md,Copilot instructions,langchain-ai/langchain,Jupyter Notebook,112624,1,1,1,1.0,242.0,68.0,0.281,0,1,0,0.0,,1.0,abandoned,2025-07-28 22:31:41+00:00,2025-07-28 22:31:41+00:00
+langchain-ai/langgraph::AGENTS.md,AGENTS.md,langchain-ai/langgraph,Python,16579,1,1,1,1.0,55.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-10 17:08:55+00:00,2025-06-10 17:08:55+00:00
+langchain-ai/langsmith-sdk::python/AGENTS.md,AGENTS.md,langchain-ai/langsmith-sdk,Python,606,1,1,1,1.0,26.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-10 20:17:35+00:00,2025-06-10 20:17:35+00:00
+langfuse/langfuse-docs::AGENTS.md,AGENTS.md,langfuse/langfuse-docs,Jupyter Notebook,128,1,1,1,1.0,22.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-18 11:08:47+00:00,2025-05-18 11:08:47+00:00
+langfuse/langfuse::AGENTS.md,AGENTS.md,langfuse/langfuse,TypeScript,14483,4,4,1,1.0,47.0,0.0,0.0,3,1,0,47.1,15.7,0.75,burst-taper,2025-05-18 11:39:42+00:00,2025-07-04 13:09:55+00:00
+langfuse/langfuse::CLAUDE.md,CLAUDE.md,langfuse/langfuse,TypeScript,14483,4,4,3,0.5,12.0,0.0,0.0,0,4,0,15.6,5.2,0.25,continuous,2025-06-24 18:08:43+00:00,2025-07-10 09:38:15+00:00
+leonardsellem/n8n-mcp-server::AGENTS.md,AGENTS.md,leonardsellem/n8n-mcp-server,TypeScript,1041,6,5,1,1.0,89.0,1.0,0.011,4,2,0,0.1,0.0,0.833,burst-taper,2025-06-04 08:03:19+00:00,2025-06-04 10:50:26+00:00
+liam-hq/liam::.cursorrules,Cursor rules,liam-hq/liam,TypeScript,4194,4,4,3,0.5,85.0,1.0,0.012,0,4,0,14.9,5.0,0.75,burst-taper,2025-04-03 11:26:32+00:00,2025-04-18 08:04:01+00:00
+liam-hq/liam::CLAUDE.md,CLAUDE.md,liam-hq/liam,TypeScript,4194,9,6,3,0.444,265.0,19.0,0.072,2,7,0,29.9,3.7,0.222,continuous,2025-06-10 08:55:45+00:00,2025-07-10 05:25:59+00:00
+livestorejs/livestore::CLAUDE.md,CLAUDE.md,livestorejs/livestore,TypeScript,2705,1,1,1,1.0,5.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-25 09:48:33+00:00,2025-07-25 09:48:33+00:00
+luohy15/y-router::CLAUDE.md,CLAUDE.md,luohy15/y-router,TypeScript,167,4,1,1,1.0,61.0,10.0,0.164,1,3,0,0.0,0.0,1.0,burst-taper,2025-07-13 11:40:28+00:00,2025-07-13 11:40:28+00:00
+maplibre/maputnik::AGENTS.md,AGENTS.md,maplibre/maputnik,TypeScript,2319,2,2,1,1.0,86.0,0.0,0.0,2,0,0,0.6,0.6,0.5,sparse,2025-07-04 21:43:13+00:00,2025-07-05 12:47:04+00:00
+maybe-finance/maybe::CLAUDE.md,CLAUDE.md,maybe-finance/maybe,Ruby,52591,1,1,1,1.0,172.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-17 20:57:05+00:00,2025-06-17 20:57:05+00:00
+mckaywrigley/mckays-app-template::.cursorrules,Cursor rules,mckaywrigley/mckays-app-template,TypeScript,1861,1,1,1,1.0,0.0,655.0,1.0,0,0,1,0.0,,1.0,abandoned,2025-06-16 01:43:21+00:00,2025-06-16 01:43:21+00:00
+metacraft-labs/codetracer::src/db-backend/AGENTS.md,AGENTS.md,metacraft-labs/codetracer,Nim,1208,2,1,1,1.0,4.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-06-06 14:13:34+00:00,2025-06-06 14:13:34+00:00
+microsoft/ApplicationInsights-JS::.github/copilot-instructions.md,Copilot instructions,microsoft/ApplicationInsights-JS,TypeScript,671,1,1,1,1.0,6.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-09 00:27:50+00:00,2025-07-09 00:27:50+00:00
+microsoft/AzureTRE::.github/copilot-instructions.md,Copilot instructions,microsoft/AzureTRE,Python,210,14,10,2,0.714,876.0,20.0,0.023,4,10,0,35.1,2.7,0.286,continuous,2025-06-02 11:40:15+00:00,2025-07-07 14:01:36+00:00
+microsoft/GSL::.github/copilot-instructions.md,Copilot instructions,microsoft/GSL,C++,6462,1,1,1,1.0,84.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-22 17:52:47+00:00,2025-05-22 17:52:47+00:00
+microsoft/PSRule::.github/copilot-instructions.md,Copilot instructions,microsoft/PSRule,C#,431,4,3,1,1.0,12.0,0.0,0.0,3,1,0,3.9,1.3,0.25,continuous,2025-07-09 05:46:19+00:00,2025-07-13 03:54:05+00:00
+microsoft/TypeScript::.github/copilot-instructions.md,Copilot instructions,microsoft/TypeScript,TypeScript,105450,10,5,4,0.5,493.0,81.0,0.164,1,9,0,14.0,1.6,0.3,continuous,2025-06-18 21:43:15+00:00,2025-07-02 21:46:24+00:00
+microsoft/finops-toolkit::.github/copilot-instructions.md,Copilot instructions,microsoft/finops-toolkit,PowerShell,432,7,4,3,0.429,322.0,28.0,0.087,2,5,0,59.0,9.8,0.143,continuous,2025-05-19 17:23:14+00:00,2025-07-17 17:44:51+00:00
+microsoft/finops-toolkit::src/queries/copilot-instructions.md,Copilot instructions,microsoft/finops-toolkit,PowerShell,432,3,1,1,1.0,102.0,233.0,2.284,0,1,1,0.0,0.0,1.0,burst-taper,2025-05-19 21:05:56+00:00,2025-05-19 21:05:56+00:00
+microsoft/genaiscript::.genaiscript/instructions/genaiscript.instructions.md,Copilot instructions,microsoft/genaiscript,TypeScript,2742,5,5,2,0.8,107.0,76.0,0.71,0,1,4,7.5,1.9,0.8,burst-taper,2025-07-13 20:40:23+00:00,2025-07-21 08:34:22+00:00
+microsoft/genaiscript::.github/copilot-instructions.md,Copilot instructions,microsoft/genaiscript,TypeScript,2742,5,5,2,0.8,298.0,0.0,0.0,5,0,0,2.6,0.7,0.2,continuous,2025-07-11 10:25:21+00:00,2025-07-14 01:54:15+00:00
+microsoft/genaiscript::.github/instructions/genaiscript.instructions.md,Copilot instructions,microsoft/genaiscript,TypeScript,2742,4,4,1,1.0,80.0,0.0,0.0,4,0,0,0.2,0.1,0.75,burst-taper,2025-07-13 20:40:23+00:00,2025-07-14 01:54:15+00:00
+microsoft/genaiscript::AGENTS.md,AGENTS.md,microsoft/genaiscript,TypeScript,2742,1,1,1,1.0,37.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-13 20:42:30+00:00,2025-07-13 20:42:30+00:00
+microsoft/genaiscript::CLAUDE.md,CLAUDE.md,microsoft/genaiscript,TypeScript,2742,1,1,1,1.0,37.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-13 20:42:30+00:00,2025-07-13 20:42:30+00:00
+microsoft/genaiscript::docs/public/genaiscript.instructions.md,Copilot instructions,microsoft/genaiscript,TypeScript,2742,4,4,1,1.0,80.0,0.0,0.0,4,0,0,0.2,0.1,0.75,burst-taper,2025-07-13 20:40:23+00:00,2025-07-14 01:54:15+00:00
+microsoft/go-mssqldb::.github/copilot-instructions.md,Copilot instructions,microsoft/go-mssqldb,Go,356,2,2,2,0.5,258.0,0.0,0.0,2,0,0,12.0,12.0,0.5,sparse,2025-06-12 14:27:44+00:00,2025-06-24 14:18:49+00:00
+microsoft/lisa::.github/copilot-instructions.md,Copilot instructions,microsoft/lisa,Python,310,6,3,2,0.833,194.0,46.0,0.237,1,5,0,4.1,0.8,0.833,burst-taper,2025-06-19 16:35:14+00:00,2025-06-23 19:56:22+00:00
+microsoft/onnxscript::.github/copilot-instructions.md,Copilot instructions,microsoft/onnxscript,Python,369,2,2,2,0.5,10.0,0.0,0.0,2,0,0,15.2,15.2,0.5,sparse,2025-07-14 19:59:23+00:00,2025-07-30 00:23:58+00:00
+microsoft/promptpex::.github/instructions/implementation.instructions.md,Copilot instructions,microsoft/promptpex,TeX,110,1,1,1,1.0,81.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-20 20:27:06+00:00,2025-06-20 20:27:06+00:00
+microsoft/python-environment-tools::.github/copilot-instructions.md,Copilot instructions,microsoft/python-environment-tools,Rust,175,4,1,1,1.0,142.0,1.0,0.007,1,3,0,0.0,0.0,1.0,burst-taper,2025-07-16 00:12:51+00:00,2025-07-16 00:12:51+00:00
+microsoft/testfx::.github/copilot-instructions.md,Copilot instructions,microsoft/testfx,C#,908,8,8,3,0.75,179.0,9.0,0.05,5,3,0,33.0,4.7,0.25,continuous,2025-06-18 12:55:55+00:00,2025-07-21 12:12:37+00:00
+microsoft/typescript-go::.github/copilot-instructions.md,Copilot instructions,microsoft/typescript-go,Go,21439,7,4,2,0.714,315.0,204.0,0.648,1,6,0,53.9,9.0,0.143,continuous,2025-06-06 20:59:19+00:00,2025-07-30 17:26:31+00:00
+microsoft/typespec::.github/copilot-instructions.md,Copilot instructions,microsoft/typespec,Java,5285,6,5,3,0.5,12.0,57.0,4.75,0,6,0,60.4,12.1,0.5,continuous,2025-05-23 18:16:48+00:00,2025-07-23 03:32:26+00:00
+microsoft/typespec::packages/http-client-java/.github/copilot-instructions.md,Copilot instructions,microsoft/typespec,Java,5285,1,1,1,1.0,1.0,38.0,38.0,0,1,0,0.0,,1.0,abandoned,2025-07-23 03:32:26+00:00,2025-07-23 03:32:26+00:00
+microsoft/vscode-jupyter::.github/copilot-instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,8,2,1,1.0,476.0,326.0,0.685,1,7,0,7.9,1.1,0.75,burst-taper,2025-07-01 04:07:04+00:00,2025-07-09 01:01:19+00:00
+microsoft/vscode-jupyter::.github/instructions/interactiveWindow.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,429.0,82.0,0.191,1,1,0,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/ipywidgets.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,1,1,1,1.0,2.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-09 01:01:19+00:00,2025-07-09 01:01:19+00:00
+microsoft/vscode-jupyter::.github/instructions/kernel-jupyter.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,1,1,1,1.0,454.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/kernel.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,459.0,78.0,0.17,1,1,0,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/notebooks.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,453.0,67.0,0.148,1,1,0,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/platform.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,421.0,71.0,0.169,1,1,0,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/standalone.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,373.0,53.0,0.142,1,1,0,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-jupyter::.github/instructions/standards.instructions.md,Copilot instructions,microsoft/vscode-jupyter,TypeScript,1397,2,1,1,1.0,94.0,94.0,1.0,1,0,1,0.0,0.0,1.0,sparse,2025-07-01 04:07:04+00:00,2025-07-01 04:07:04+00:00
+microsoft/vscode-pull-request-github::.github/copilot-instructions.md,Copilot instructions,microsoft/vscode-pull-request-github,TypeScript,2421,2,2,1,1.0,2.0,0.0,0.0,0,2,0,32.9,32.9,0.5,sparse,2025-06-27 12:16:53+00:00,2025-07-30 10:45:57+00:00
+microsoft/vscode::.github/copilot-instructions.md,Copilot instructions,microsoft/vscode,TypeScript,175171,3,3,3,0.333,269.0,93.0,0.346,0,3,0,21.8,10.9,0.333,continuous,2025-06-25 20:48:05+00:00,2025-07-17 15:57:15+00:00
+microsoft/vscode::.github/instructions/typescript.instructions.md,Copilot instructions,microsoft/vscode,TypeScript,175171,3,3,3,0.333,85.0,0.0,0.0,3,0,0,21.8,10.9,0.333,continuous,2025-06-25 20:48:05+00:00,2025-07-17 15:57:15+00:00
+microsoft/vscode::.vscode/project.instructions.md,Copilot instructions,microsoft/vscode,TypeScript,175171,5,5,5,0.2,183.0,122.0,0.667,3,0,2,28.8,7.2,0.6,continuous,2025-06-12 15:20:54+00:00,2025-07-11 10:44:56+00:00
+microsoft/vstest::.github/copilot-instructions.md,Copilot instructions,microsoft/vstest,C#,934,1,1,1,1.0,30.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-29 11:20:28+00:00,2025-07-29 11:20:28+00:00
+mlco2/codecarbon::.github/copilot-instructions.md,Copilot instructions,mlco2/codecarbon,Python,1503,5,2,2,0.6,245.0,49.0,0.2,1,4,0,5.2,1.3,0.8,burst-taper,2025-07-07 12:01:25+00:00,2025-07-12 15:54:15+00:00
+mlflow/mlflow::.github/copilot-instructions.md,Copilot instructions,mlflow/mlflow,Python,21402,1,1,1,1.0,14.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-04 04:08:45+00:00,2025-06-04 04:08:45+00:00
+modelcontextprotocol/inspector::CLAUDE.md,CLAUDE.md,modelcontextprotocol/inspector,TypeScript,5353,1,1,1,1.0,33.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-03-01 00:24:19+00:00,2025-03-01 00:24:19+00:00
+modelcontextprotocol/typescript-sdk::CLAUDE.md,CLAUDE.md,modelcontextprotocol/typescript-sdk,TypeScript,8910,1,1,1,1.0,25.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-02-27 09:47:35+00:00,2025-02-27 09:47:35+00:00
+monarch-initiative/mondo::CLAUDE.md,CLAUDE.md,monarch-initiative/mondo,Jupyter Notebook,262,2,1,1,1.0,60.0,1.0,0.017,1,1,0,0.0,0.0,1.0,sparse,2025-03-17 14:22:55+00:00,2025-03-17 14:22:55+00:00
+navidrome/navidrome::.github/copilot-instructions.md,Copilot instructions,navidrome/navidrome,Go,15713,1,1,1,1.0,3.0,2.0,0.667,0,1,0,0.0,,1.0,abandoned,2025-05-22 02:04:25+00:00,2025-05-22 02:04:25+00:00
+netket/netket::AGENTS.md,AGENTS.md,netket/netket,Python,620,1,1,1,1.0,13.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-04 05:25:36+00:00,2025-06-04 05:25:36+00:00
+nextcloud/desktop::AGENTS.md,AGENTS.md,nextcloud/desktop,C++,3326,1,1,1,1.0,22.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-30 06:11:17+00:00,2025-06-30 06:11:17+00:00
+nkdAgility/azure-devops-migration-tools::.github/copilot-instructions.md,Copilot instructions,nkdAgility/azure-devops-migration-tools,C#,554,6,4,2,0.5,686.0,14.0,0.02,2,4,0,2.2,0.4,0.667,continuous,2025-06-16 09:03:18+00:00,2025-06-18 13:09:27+00:00
+nodetool-ai/nodetool::CLAUDE.md,CLAUDE.md,nodetool-ai/nodetool,TypeScript,126,1,1,1,1.0,149.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-20 20:43:48+00:00,2025-05-20 20:43:48+00:00
+nodetool-ai/nodetool::web/src/components/AGENTS.md,AGENTS.md,nodetool-ai/nodetool,TypeScript,126,2,2,1,1.0,12.0,8.0,0.667,0,2,0,1.2,1.2,0.5,sparse,2025-05-29 15:07:43+00:00,2025-05-30 18:54:21+00:00
+nrwl/nx::CLAUDE.md,CLAUDE.md,nrwl/nx,TypeScript,26524,1,1,1,1.0,157.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-30 22:14:12+00:00,2025-05-30 22:14:12+00:00
+numbagg/numbagg::CLAUDE.md,CLAUDE.md,numbagg/numbagg,Python,226,2,1,2,0.5,55.0,2.0,0.036,1,1,0,0.0,0.0,1.0,sparse,2025-07-20 20:47:58+00:00,2025-07-20 20:47:58+00:00
+nvm-sh/nvm::.github/copilot-instructions.md,Copilot instructions,nvm-sh/nvm,Shell,86116,1,1,1,1.0,427.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-03 22:16:47+00:00,2025-07-03 22:16:47+00:00
+obophenotype/cell-ontology::CLAUDE.md,CLAUDE.md,obophenotype/cell-ontology,Makefile,179,2,2,1,1.0,248.0,0.0,0.0,2,0,0,0.0,0.0,0.5,sparse,2025-07-22 15:17:20+00:00,2025-07-22 15:19:36+00:00
+obophenotype/uberon::CLAUDE.md,CLAUDE.md,obophenotype/uberon,Emacs Lisp,142,1,1,1,1.0,70.0,3.0,0.043,0,1,0,0.0,,1.0,abandoned,2025-05-27 17:27:43+00:00,2025-05-27 17:27:43+00:00
+ohcnetwork/care::.cursorrules,Cursor rules,ohcnetwork/care,Python,319,1,1,1,1.0,59.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-09 04:41:44+00:00,2025-07-09 04:41:44+00:00
+onlook-dev/onlook::AGENTS.md,AGENTS.md,onlook-dev/onlook,TypeScript,21192,4,4,1,1.0,68.0,0.0,0.0,4,0,0,0.4,0.1,0.25,continuous,2025-06-04 16:35:06+00:00,2025-06-05 01:51:24+00:00
+onnx/onnx::.github/copilot-instructions.md,Copilot instructions,onnx/onnx,Python,19360,3,3,2,0.667,51.0,0.0,0.0,3,0,0,27.2,13.6,0.333,continuous,2025-06-19 17:48:50+00:00,2025-07-16 22:37:48+00:00
+ooovenenoso/BadUSB-GPT::AGENTS.md,AGENTS.md,ooovenenoso/BadUSB-GPT,,194,2,2,1,1.0,28.0,0.0,0.0,2,0,0,0.0,0.0,0.5,sparse,2025-06-10 01:56:56+00:00,2025-06-10 02:31:30+00:00
+open-metadata/OpenMetadata::CLAUDE.md,CLAUDE.md,open-metadata/OpenMetadata,TypeScript,7201,2,2,2,0.5,46.0,2.0,0.043,0,2,0,0.0,0.0,0.5,sparse,2025-07-11 16:25:06+00:00,2025-07-11 16:32:02+00:00
+openai/codex::AGENTS.md,AGENTS.md,openai/codex,Rust,31629,6,3,1,1.0,20.0,4.0,0.2,0,6,0,4.5,0.9,0.5,continuous,2025-07-14 06:39:57+00:00,2025-07-18 19:12:39+00:00
+openworm/sibernetic::AGENTS.md,AGENTS.md,openworm/sibernetic,C,378,8,8,1,1.0,75.0,0.0,0.0,1,7,0,3.0,0.4,0.25,continuous,2025-06-29 01:26:27+00:00,2025-07-02 00:50:56+00:00
+oven-sh/bun::AGENTS.md,AGENTS.md,oven-sh/bun,Zig,79404,10,8,4,0.5,54.0,124.0,2.296,2,6,2,59.8,6.6,0.6,continuous,2025-05-19 15:39:39+00:00,2025-07-18 11:19:15+00:00
+oven-sh/bun::CLAUDE.md,CLAUDE.md,oven-sh/bun,Zig,79404,4,4,4,0.25,964.0,0.0,0.0,4,0,0,25.1,8.4,0.75,burst-taper,2025-06-23 08:30:37+00:00,2025-07-18 11:19:15+00:00
+oven-sh/bun::test/CLAUDE.md,CLAUDE.md,oven-sh/bun,Zig,79404,2,2,2,0.5,290.0,0.0,0.0,2,0,0,3.0,3.0,0.5,sparse,2025-06-25 01:48:23+00:00,2025-06-28 02:42:03+00:00
+owncast/owncast::.github/copilot-instructions.md,Copilot instructions,owncast/owncast,Go,10375,2,1,1,1.0,6.0,0.0,0.0,0,2,0,0.0,0.0,1.0,sparse,2025-07-05 05:42:40+00:00,2025-07-05 05:42:40+00:00
+pdfme/pdfme::CLAUDE.md,CLAUDE.md,pdfme/pdfme,TypeScript,3389,2,1,2,0.5,275.0,2.0,0.007,0,2,0,0.0,0.0,1.0,sparse,2025-07-02 06:27:40+00:00,2025-07-02 06:27:40+00:00
+prebid/Prebid.js::AGENTS.md,AGENTS.md,prebid/Prebid.js,JavaScript,1467,522,41,2,0.998,2779.0,1240.0,0.446,70,432,20,47.8,0.1,0.626,continuous,2025-05-23 19:56:36+00:00,2025-07-10 14:23:23+00:00
+prebid/Prebid.js::CLAUDE.md,CLAUDE.md,prebid/Prebid.js,JavaScript,1467,29,22,2,0.931,23.0,6.0,0.261,23,0,6,41.0,1.5,0.448,continuous,2025-05-30 13:50:45+00:00,2025-07-10 14:23:23+00:00
+promptfoo/promptfoo::CLAUDE.md,CLAUDE.md,promptfoo/promptfoo,TypeScript,7809,8,6,2,0.875,186.0,24.0,0.129,0,8,0,50.9,7.3,0.625,continuous,2025-05-23 04:53:53+00:00,2025-07-13 02:47:49+00:00
+promptfoo/promptfoo::site/docs/red-team/agents.md,AGENTS.md,promptfoo/promptfoo,TypeScript,7809,5,3,2,0.6,5.0,2.0,0.4,0,5,0,41.0,10.2,0.4,continuous,2025-05-29 17:04:30+00:00,2025-07-09 16:15:34+00:00
+proximafusion/vmecpp::.claude/CLAUDE.md,CLAUDE.md,proximafusion/vmecpp,C++,189,2,1,1,1.0,103.0,4.0,0.039,1,1,0,0.0,0.0,1.0,sparse,2025-07-15 16:02:35+00:00,2025-07-15 16:02:35+00:00
+public-ui/kolibri::AGENTS.md,AGENTS.md,public-ui/kolibri,HTML,225,5,4,2,0.8,62.0,25.0,0.403,1,4,0,36.8,9.2,0.8,burst-taper,2025-06-16 19:48:34+00:00,2025-07-23 13:59:40+00:00
+public-ui/kolibri::packages/components/AGENTS.md,AGENTS.md,public-ui/kolibri,HTML,225,4,3,2,0.75,113.0,1.0,0.009,2,2,0,36.2,12.1,0.75,burst-taper,2025-06-17 09:30:36+00:00,2025-07-23 13:59:40+00:00
+public-ui/kolibri::packages/samples/react/AGENTS.md,AGENTS.md,public-ui/kolibri,HTML,225,2,2,2,0.5,36.0,0.0,0.0,2,0,0,1.0,1.0,0.5,sparse,2025-06-17 09:30:36+00:00,2025-06-18 09:19:27+00:00
+puemos/hls-downloader::AGENTS.md,AGENTS.md,puemos/hls-downloader,TypeScript,2252,1,1,1,1.0,34.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-26 11:20:48+00:00,2025-07-26 11:20:48+00:00
+pwa-builder/PWABuilder::.github/copilot-instructions.md,Copilot instructions,pwa-builder/PWABuilder,TypeScript,3194,1,1,1,1.0,80.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-28 18:31:06+00:00,2025-07-28 18:31:06+00:00
+python-cachier/cachier::.github/copilot-instructions.md,Copilot instructions,python-cachier/cachier,Python,608,2,1,1,1.0,2.0,2.0,1.0,0,2,0,0.0,0.0,1.0,sparse,2025-07-17 20:21:29+00:00,2025-07-17 20:21:29+00:00
+python-cachier/cachier::AGENTS.md,AGENTS.md,python-cachier/cachier,Python,608,3,1,1,1.0,8.0,8.0,1.0,0,3,0,0.0,0.0,1.0,burst-taper,2025-07-17 20:21:29+00:00,2025-07-17 20:21:29+00:00
+python-cachier/cachier::CLAUDE.md,CLAUDE.md,python-cachier/cachier,Python,608,9,3,3,0.556,152.0,91.0,0.599,0,9,0,8.1,1.0,0.444,continuous,2025-07-10 10:57:17+00:00,2025-07-18 12:37:46+00:00
+python/python-docs-zh-tw::.github/copilot-instructions.md,Copilot instructions,python/python-docs-zh-tw,Python,267,2,1,1,1.0,995.0,59.0,0.059,1,1,0,0.0,0.0,1.0,sparse,2025-07-12 11:06:31+00:00,2025-07-12 11:06:31+00:00
+quarylabs/sqruff::CLAUDE.md,CLAUDE.md,quarylabs/sqruff,Rust,979,2,1,1,1.0,164.0,164.0,1.0,1,0,1,0.0,0.0,1.0,sparse,2025-06-23 17:22:47+00:00,2025-06-23 17:22:47+00:00
+quay/quay::CLAUDE.md,CLAUDE.md,quay/quay,Python,2651,1,1,1,1.0,329.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-29 04:05:39+00:00,2025-07-29 04:05:39+00:00
+rainbow-me/rainbowkit::AGENTS.md,AGENTS.md,rainbow-me/rainbowkit,MDX,2639,5,4,1,1.0,23.0,2.0,0.087,1,4,0,7.2,1.8,0.4,continuous,2025-06-05 00:54:10+00:00,2025-06-12 04:44:09+00:00
+remotion-dev/remotion::.github/copilot-instructions.md,Copilot instructions,remotion-dev/remotion,TypeScript,23319,5,5,2,0.8,14.0,12.0,0.857,0,5,0,10.1,2.5,0.6,continuous,2025-06-16 08:06:10+00:00,2025-06-26 10:07:38+00:00
+risingwavelabs/risingwave::.github/copilot-instructions.md,Copilot instructions,risingwavelabs/risingwave,Rust,8185,1,1,1,1.0,109.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-23 08:49:47+00:00,2025-07-23 08:49:47+00:00
+rizethereum/claude-code-requirements-builder::CLAUDE.md,CLAUDE.md,rizethereum/claude-code-requirements-builder,,1439,1,1,1,1.0,112.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-28 22:45:24+00:00,2025-06-28 22:45:24+00:00
+robertmartin8/KindleClippings::AGENTS.md,AGENTS.md,robertmartin8/KindleClippings,Python,175,2,2,1,1.0,20.0,0.0,0.0,2,0,0,0.0,0.0,0.5,sparse,2025-05-17 13:11:16+00:00,2025-05-17 13:19:47+00:00
+roboflow/inference::AGENTS.md,AGENTS.md,roboflow/inference,Python,1824,5,5,2,0.6,445.0,0.0,0.0,5,0,0,0.3,0.1,0.2,continuous,2025-05-19 01:32:08+00:00,2025-05-19 08:53:50+00:00
+rsyslog/rsyslog::AGENTS.md,AGENTS.md,rsyslog/rsyslog,C,2165,6,6,2,0.833,73.0,0.0,0.0,0,6,0,44.7,8.9,0.5,continuous,2025-06-06 15:31:39+00:00,2025-07-21 07:37:08+00:00
+ruvnet/claude-flow::alpha-50/CLAUDE.md,CLAUDE.md,ruvnet/claude-flow,TypeScript,4630,1,1,1,1.0,0.0,604.0,1.0,0,0,1,0.0,,1.0,abandoned,2025-07-15 00:16:41+00:00,2025-07-15 00:16:41+00:00
+ruvnet/ruv-FANN::CLAUDE.md,CLAUDE.md,ruvnet/ruv-FANN,Rust,205,1,1,1,1.0,101.0,539.0,5.337,0,1,0,0.0,,1.0,abandoned,2025-07-08 15:26:38+00:00,2025-07-08 15:26:38+00:00
+ruvnet/ruv-FANN::ruv-swarm/npm/CLAUDE.md,CLAUDE.md,ruvnet/ruv-FANN,Rust,205,1,1,1,1.0,559.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-03 21:28:15+00:00,2025-07-03 21:28:15+00:00
+ryokun6/ryos::AGENTS.md,AGENTS.md,ryokun6/ryos,TypeScript,558,1,1,1,1.0,40.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 01:47:16+00:00,2025-06-09 01:47:16+00:00
+sam-goodwin/alchemy::.cursorrules,Cursor rules,sam-goodwin/alchemy,TypeScript,750,2,2,1,1.0,38.0,38.0,1.0,0,2,0,10.6,10.6,0.5,sparse,2025-05-31 12:25:31+00:00,2025-06-11 03:12:09+00:00
+sam-goodwin/alchemy::CLAUDE.md,CLAUDE.md,sam-goodwin/alchemy,TypeScript,750,5,2,2,0.6,665.0,63.0,0.095,3,1,1,10.6,2.7,0.8,burst-taper,2025-05-31 12:25:31+00:00,2025-06-11 03:12:09+00:00
+seasonedcc/remix-forms::AGENTS.md,AGENTS.md,seasonedcc/remix-forms,TypeScript,517,5,5,1,1.0,70.0,0.0,0.0,1,4,0,2.9,0.7,0.8,burst-taper,2025-05-20 13:33:33+00:00,2025-05-23 11:09:24+00:00
+selfxyz/self::AGENTS.md,AGENTS.md,selfxyz/self,Circom,691,2,1,1,1.0,58.0,9.0,0.155,1,1,0,0.0,0.0,1.0,sparse,2025-07-07 00:35:18+00:00,2025-07-07 00:35:18+00:00
+sgb-io/fta::AGENTS.md,AGENTS.md,sgb-io/fta,Rust,134,1,1,1,1.0,67.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-21 15:27:58+00:00,2025-07-21 15:27:58+00:00
+shader-slang/slang::.github/copilot-instructions.md,Copilot instructions,shader-slang/slang,C++,4349,4,3,2,0.75,49.0,7.0,0.143,0,4,0,18.9,6.3,0.25,continuous,2025-07-02 20:25:53+00:00,2025-07-21 17:34:15+00:00
+shader-slang/slang::CLAUDE.md,CLAUDE.md,shader-slang/slang,C++,4349,2,2,2,0.5,238.0,181.0,0.761,0,2,0,6.2,6.2,0.5,sparse,2025-07-15 12:08:53+00:00,2025-07-21 17:34:15+00:00
+shinnku-nikaidou/shinnku-com::AGENTS.md,AGENTS.md,shinnku-nikaidou/shinnku-com,TypeScript,341,1,1,1,1.0,23.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-04 07:08:09+00:00,2025-06-04 07:08:09+00:00
+shiosyakeyakini-info/miria::.github/copilot-instructions.md,Copilot instructions,shiosyakeyakini-info/miria,Dart,187,2,2,1,1.0,2.0,0.0,0.0,2,0,0,0.1,0.1,0.5,sparse,2025-07-06 03:13:48+00:00,2025-07-06 05:48:50+00:00
+shiosyakeyakini-info/miria::AGENTS.md,AGENTS.md,shiosyakeyakini-info/miria,Dart,187,3,3,1,1.0,8.0,16.0,2.0,1,0,2,6.8,3.4,0.333,continuous,2025-06-29 09:31:19+00:00,2025-07-06 05:48:50+00:00
+shiosyakeyakini-info/miria::CLAUDE.md,CLAUDE.md,shiosyakeyakini-info/miria,Dart,187,2,2,1,1.0,236.0,0.0,0.0,2,0,0,0.0,0.0,0.5,sparse,2025-06-29 09:31:19+00:00,2025-06-29 10:42:32+00:00
+simonw/llm::AGENTS.md,AGENTS.md,simonw/llm,Python,9178,1,1,1,1.0,30.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-03 22:52:09+00:00,2025-06-03 22:52:09+00:00
+simonw/simonwillisonblog::AGENTS.md,AGENTS.md,simonw/simonwillisonblog,Python,311,1,1,1,1.0,10.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-03 23:10:32+00:00,2025-06-03 23:10:32+00:00
+siteboon/claudecodeui::CLAUDE.md,CLAUDE.md,siteboon/claudecodeui,JavaScript,2576,4,1,1,1.0,396.0,5.0,0.013,1,3,0,0.0,0.0,1.0,burst-taper,2025-07-13 20:32:14+00:00,2025-07-13 20:32:14+00:00
+smtg-ai/claude-squad::CLAUDE.md,CLAUDE.md,smtg-ai/claude-squad,Go,3822,1,1,1,1.0,13.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-17 21:07:21+00:00,2025-06-17 21:07:21+00:00
+sobester/ADRpy::ADRpy/analisis/Agents.md,AGENTS.md,sobester/ADRpy,Jupyter Notebook,120,1,1,1,1.0,121.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-06 20:03:38+00:00,2025-06-06 20:03:38+00:00
+sqlrooms/sqlrooms::AGENTS.md,AGENTS.md,sqlrooms/sqlrooms,TypeScript,215,3,1,1,1.0,53.0,14.0,0.264,1,2,0,0.0,0.0,1.0,burst-taper,2025-06-14 08:37:13+00:00,2025-06-14 08:37:13+00:00
+sst/opencode::packages/opencode/AGENTS.md,AGENTS.md,sst/opencode,Go,15712,1,1,1,1.0,1.0,2.0,2.0,0,1,0,0.0,,1.0,abandoned,2025-06-24 20:39:20+00:00,2025-06-24 20:39:20+00:00
+sst/opencode::packages/tui/AGENTS.md,AGENTS.md,sst/opencode,Go,15712,1,1,1,1.0,25.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-24 20:39:20+00:00,2025-06-24 20:39:20+00:00
+stack-auth/stack-auth::CLAUDE.md,CLAUDE.md,stack-auth/stack-auth,TypeScript,6033,4,4,2,0.75,62.0,0.0,0.0,2,2,0,11.9,4.0,0.5,continuous,2025-02-27 00:11:31+00:00,2025-03-10 21:50:12+00:00
+stanford-crfm/haliax::AGENTS.md,AGENTS.md,stanford-crfm/haliax,Python,196,11,9,1,1.0,253.0,22.0,0.087,3,8,0,22.2,2.2,0.636,continuous,2025-07-05 23:33:31+00:00,2025-07-28 04:20:14+00:00
+stanford-crfm/levanter::AGENTS.md,AGENTS.md,stanford-crfm/levanter,Python,628,9,8,2,0.889,122.0,2.0,0.016,1,8,0,20.7,2.6,0.111,continuous,2025-07-05 23:34:35+00:00,2025-07-26 17:24:07+00:00
+steipete/Peekaboo::CLAUDE.md,CLAUDE.md,steipete/Peekaboo,Swift,505,1,1,1,1.0,39.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-07-27 15:26:27+00:00,2025-07-27 15:26:27+00:00
+stevehansen/csv::AGENTS.md,AGENTS.md,stevehansen/csv,C#,207,1,1,1,1.0,12.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-21 07:31:35+00:00,2025-05-21 07:31:35+00:00
+stravu/crystal::CLAUDE.md,CLAUDE.md,stravu/crystal,TypeScript,1209,1,1,1,1.0,0.0,0.0,0.0,0,0,0,0.0,,1.0,abandoned,2025-07-20 16:31:41+00:00,2025-07-20 16:31:41+00:00
+stravu/crystal::docs/CLAUDE.md,CLAUDE.md,stravu/crystal,TypeScript,1209,1,1,1,1.0,0.0,0.0,0.0,0,0,0,0.0,,1.0,abandoned,2025-07-20 16:31:41+00:00,2025-07-20 16:31:41+00:00
+streamich/memfs::.github/copilot-instructions.md,Copilot instructions,streamich/memfs,TypeScript,1919,2,1,1,1.0,5.0,1.0,0.2,1,1,0,0.0,0.0,1.0,sparse,2025-07-30 11:45:04+00:00,2025-07-30 11:45:04+00:00
+sybrew/the-seo-framework::.github/copilot-instructions.md,Copilot instructions,sybrew/the-seo-framework,PHP,452,1,1,1,1.0,13.0,2.0,0.154,0,1,0,0.0,,1.0,abandoned,2025-06-22 23:56:46+00:00,2025-06-22 23:56:46+00:00
+syntasso/kratix::AGENTS.md,AGENTS.md,syntasso/kratix,Go,623,1,1,1,1.0,9.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-05 09:06:14+00:00,2025-06-05 09:06:14+00:00
+tech-systems/panes::CLAUDE.md,CLAUDE.md,tech-systems/panes,TypeScript,720,1,1,1,1.0,71.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-28 14:10:14+00:00,2025-05-28 14:10:14+00:00
+tegnike/aituber-kit::.cursorrules,Cursor rules,tegnike/aituber-kit,TypeScript,698,1,1,1,1.0,10.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-04-11 21:59:50+00:00,2025-04-11 21:59:50+00:00
+theepicsaxguy/homelab::AGENTS.md,AGENTS.md,theepicsaxguy/homelab,HCL,116,2,2,1,1.0,90.0,0.0,0.0,2,0,0,0.0,0.0,0.5,sparse,2025-06-04 14:34:10+00:00,2025-06-04 15:24:17+00:00
+theopenco/llmgateway::.github/copilot-instructions.md,Copilot instructions,theopenco/llmgateway,TypeScript,321,2,2,2,0.5,27.0,7.0,0.259,0,2,0,28.2,28.2,0.5,sparse,2025-06-07 20:09:45+00:00,2025-07-06 00:04:04+00:00
+theopenco/llmgateway::AGENTS.md,AGENTS.md,theopenco/llmgateway,TypeScript,321,4,4,1,1.0,86.0,2.0,0.023,2,2,0,20.0,6.7,0.5,continuous,2025-06-16 00:03:09+00:00,2025-07-06 00:04:04+00:00
+theopenco/llmgateway::CLAUDE.md,CLAUDE.md,theopenco/llmgateway,TypeScript,321,2,2,1,1.0,144.0,2.0,0.014,1,1,0,3.0,3.0,0.5,sparse,2025-07-02 23:42:13+00:00,2025-07-06 00:04:04+00:00
+theosanderson/taxonium::taxonium_component/AGENTS.MD,AGENTS.md,theosanderson/taxonium,TypeScript,112,1,1,1,1.0,2.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-20 11:53:56+00:00,2025-05-20 11:53:56+00:00
+thirdweb-dev/js::AGENTS.md,AGENTS.md,thirdweb-dev/js,TypeScript,538,1,1,1,1.0,123.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-23 04:14:30+00:00,2025-05-23 04:14:30+00:00
+thorek1/MacroModelling.jl::AGENTS.md,AGENTS.md,thorek1/MacroModelling.jl,Julia,121,3,3,1,1.0,9.0,4.0,0.444,0,3,0,13.0,6.5,0.667,continuous,2025-06-08 07:38:55+00:00,2025-06-21 07:31:42+00:00
+tokens-studio/figma-plugin::.github/copilot-instructions.md,Copilot instructions,tokens-studio/figma-plugin,TypeScript,1469,4,2,2,0.75,200.0,21.0,0.105,1,3,0,65.0,21.7,0.75,burst-taper,2025-05-20 13:43:35+00:00,2025-07-24 12:36:06+00:00
+tomhrr/cosh::.github/copilot-instructions.md,Copilot instructions,tomhrr/cosh,Rust,138,2,2,1,1.0,2.0,0.0,0.0,2,0,0,3.4,3.4,0.5,sparse,2025-06-19 02:59:59+00:00,2025-06-22 12:08:07+00:00
+tphakala/birdnet-go::CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,6,3,1,1.0,162.0,16.0,0.099,0,6,0,28.1,5.6,0.833,burst-taper,2025-06-30 15:35:07+00:00,2025-07-28 18:56:42+00:00
+tphakala/birdnet-go::frontend/CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,6,2,1,1.0,624.0,0.0,0.0,6,0,0,6.1,1.2,0.667,continuous,2025-07-22 16:40:02+00:00,2025-07-28 18:56:42+00:00
+tphakala/birdnet-go::frontend/src/lib/desktop/components/CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,7,2,1,1.0,230.0,1.0,0.004,6,1,0,6.1,1.0,0.714,burst-taper,2025-07-22 16:40:02+00:00,2025-07-28 18:56:42+00:00
+tphakala/birdnet-go::frontend/src/lib/desktop/features/settings/CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,6,2,1,1.0,2502.0,0.0,0.0,6,0,0,6.1,1.2,0.667,continuous,2025-07-22 16:40:02+00:00,2025-07-28 18:56:42+00:00
+tphakala/birdnet-go::internal/api/v2/CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,6,2,1,1.0,210.0,0.0,0.0,6,0,0,6.1,1.2,0.667,continuous,2025-07-22 16:40:02+00:00,2025-07-28 18:56:42+00:00
+tphakala/birdnet-go::internal/httpcontroller/CLAUDE.md,CLAUDE.md,tphakala/birdnet-go,Go,464,6,2,1,1.0,252.0,0.0,0.0,6,0,0,6.1,1.2,0.667,continuous,2025-07-22 16:40:02+00:00,2025-07-28 18:56:42+00:00
+tufanbarisyildirim/gonginx::AGENTS.md,AGENTS.md,tufanbarisyildirim/gonginx,Go,214,1,1,1,1.0,83.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-20 08:44:59+00:00,2025-06-20 08:44:59+00:00
+vectordotdev/vector::AGENTS.md,AGENTS.md,vectordotdev/vector,Rust,20039,2,1,1,1.0,35.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-06-18 23:32:40+00:00,2025-06-18 23:32:40+00:00
+vespa-engine/pyvespa::.github/copilot-instructions.md,Copilot instructions,vespa-engine/pyvespa,Python,132,2,2,1,1.0,22.0,6.0,0.273,0,2,0,0.8,0.8,0.5,sparse,2025-07-29 10:40:10+00:00,2025-07-30 06:20:23+00:00
+vltpkg/vltpkg::.github/copilot-instructions.md,Copilot instructions,vltpkg/vltpkg,TypeScript,414,2,1,1,1.0,128.0,6.0,0.047,1,1,0,0.0,0.0,1.0,sparse,2025-06-16 17:24:28+00:00,2025-06-16 17:24:28+00:00
+volcengine/verl::AGENTS.md,AGENTS.md,volcengine/verl,Python,11675,3,1,2,0.667,2.0,160.0,80.0,0,2,0,0.0,0.0,1.0,burst-taper,2025-05-20 01:40:31+00:00,2025-05-20 01:40:31+00:00
+wandb/weave::AGENTS.md,AGENTS.md,wandb/weave,Python,950,2,2,1,1.0,110.0,0.0,0.0,1,1,0,5.7,5.7,0.5,sparse,2025-06-04 23:23:19+00:00,2025-06-10 16:14:59+00:00
+wangkanai/wangkanai::CLAUDE.md,CLAUDE.md,wangkanai/wangkanai,C#,589,1,1,1,1.0,390.0,565.0,1.449,0,1,0,0.0,,1.0,abandoned,2025-07-19 13:06:36+00:00,2025-07-19 13:06:36+00:00
+wataru-maeda/react-native-boilerplate::CLAUDE.md,CLAUDE.md,wataru-maeda/react-native-boilerplate,TypeScript,384,2,1,1,1.0,229.0,0.0,0.0,1,1,0,0.0,0.0,1.0,sparse,2025-07-29 02:08:57+00:00,2025-07-29 02:08:57+00:00
+wheels-dev/wheels::CLAUDE.md,CLAUDE.md,wheels-dev/wheels,ColdFusion,201,1,1,1,1.0,30.0,0.0,0.0,0,1,0,0.0,,1.0,abandoned,2025-06-19 16:51:08+00:00,2025-06-19 16:51:08+00:00
+wieslawsoltes/Dock::AGENTS.md,AGENTS.md,wieslawsoltes/Dock,C#,1204,4,4,2,0.75,104.0,0.0,0.0,4,0,0,3.9,1.3,0.5,continuous,2025-07-18 12:17:43+00:00,2025-07-22 10:47:25+00:00
+wieslawsoltes/Svg.Skia::AGENTS.md,AGENTS.md,wieslawsoltes/Svg.Skia,C#,601,1,1,1,1.0,22.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-07-16 13:27:37+00:00,2025-07-16 13:27:37+00:00
+wieslawsoltes/Xaml.Behaviors::AGENTS.md,AGENTS.md,wieslawsoltes/Xaml.Behaviors,C#,171,1,1,1,1.0,42.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-21 21:03:23+00:00,2025-06-21 21:03:23+00:00
+wizarrrr/wizarr::AGENTS.md,AGENTS.md,wizarrrr/wizarr,Python,2081,1,1,1,1.0,31.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-06-09 16:05:46+00:00,2025-06-09 16:05:46+00:00
+wvlet/airframe::.github/copilot-instructions.md,Copilot instructions,wvlet/airframe,Scala,657,1,1,1,1.0,1.0,1.0,1.0,0,1,0,0.0,,1.0,abandoned,2025-05-31 06:26:15+00:00,2025-05-31 06:26:15+00:00
+wvlet/wvlet::CLAUDE.md,CLAUDE.md,wvlet/wvlet,Scala,143,2,1,1,1.0,229.0,227.0,0.991,0,2,0,0.0,0.0,1.0,sparse,2025-06-08 05:16:17+00:00,2025-06-08 05:16:17+00:00
+yamadashy/repomix::.github/instructions/website.instructions.md,Copilot instructions,yamadashy/repomix,TypeScript,18206,2,2,1,1.0,2.0,0.0,0.0,0,2,0,0.4,0.4,0.5,sparse,2025-05-26 16:38:44+00:00,2025-05-27 01:15:52+00:00
+yurkinh/Plugin.Maui.Calendar::.github/copilot-instructions.md,Copilot instructions,yurkinh/Plugin.Maui.Calendar,C#,174,1,1,1,1.0,144.0,0.0,0.0,1,0,0,0.0,,1.0,abandoned,2025-05-23 20:26:41+00:00,2025-05-23 20:26:41+00:00
+zenml-io/zenml::.claude/CLAUDE.md,CLAUDE.md,zenml-io/zenml,Python,4768,3,2,1,1.0,512.0,256.0,0.5,2,0,1,4.9,2.5,0.333,continuous,2025-05-18 09:13:43+00:00,2025-05-23 07:16:00+00:00
+zenml-io/zenml::AGENTS.md,AGENTS.md,zenml-io/zenml,Python,4768,9,2,1,1.0,342.0,91.0,0.266,1,8,0,4.9,0.6,0.111,continuous,2025-05-18 09:13:43+00:00,2025-05-23 07:16:00+00:00
+zenml-io/zenml::CLAUDE.md,CLAUDE.md,zenml-io/zenml,Python,4768,10,2,1,1.0,319.0,68.0,0.213,1,9,0,4.9,0.5,0.1,continuous,2025-05-18 09:13:43+00:00,2025-05-23 07:16:00+00:00
