@@ -128,14 +128,3 @@ python3 rq2_taxonomy/analysis/analyze_rq2_taxonomy.py
 python3 rq3_maintenance/analysis/analyze_rq3_maintenance.py
 ```
 
-## Excluded on purpose
-
-| Artifact | Reason |
-|---|---|
-| Full-tree inventories (~228 MB) | Superseded by slim instruction-path CSVs |
-| Full `.git` clones of 1000 repos | Multi-GB; instruction extracts suffice |
-| Full `pr_commit_details.parquet` (~463 MB) | Fetch script; derived events CSV shipped |
-| SKILL / GEMINI / README non-RQ2 formats in generation | Out of AGIT-Instruct 4fmt scope |
-| Old mixed corpus (3,889 pairs / 557 repos) | Superseded by 2853/552 |
-| CodeLlama QLoRA adapter weights | Large binaries |
-| `.env` / API keys | None included |
