@@ -112,19 +112,5 @@ Paths are relative to this repository root:
 
 See `DATA_MANIFEST.md` for every included file, role, size, and count.
 
-## Re-run analysis
 
-```bash
-# Package-only summaries (no external data):
-python3 rq1_adoption/analysis/summarize_rq1.py
-python3 rq2_taxonomy/analysis/summarize_rq2.py
-python3 rq3_maintenance/analysis/summarize_rq3.py
-
-# Full re-derivation from packaged data/:
-python3 rq1_adoption/analysis/analyze_rq1_adoption.py
-python3 rq2_taxonomy/analysis/analyze_rq2_taxonomy.py
-# RQ3 full re-derive needs full pr_commit_details (~463MB):
-./scripts/fetch_aidev_cache.sh
-python3 rq3_maintenance/analysis/analyze_rq3_maintenance.py
-```
 
